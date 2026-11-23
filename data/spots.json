@@ -126,5 +126,229 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "sakariba-rechao",
+    "category": "local_food",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "沙卡里巴",
+      "ja": "沙卡里巴（サカリバ）",
+      "en": "Sakariba",
+      "ko": "사카리바 (沙卡里巴)"
+    },
+    "owner_note": {
+      "ja": "昔の台湾の雰囲気を味わえる、はむ家からタクシーで約15分の人気熱炒（台湾式居酒屋）です。料理の提供が早く、濃厚な「金沙豆腐」や「沙茶牛肉」、しっとり柔らかい「葱油鶏」などビールに合う絶品メニューがリーズナブルに楽しめます。チャーハンなどの炭水化物は最初に運ばれてくることが多いので、締めに食べたい場合は後から追加注文するのがおすすめです。",
+      "zh": "從哈木家搭計程車約15分鐘即可抵達的復古風熱炒店，能體驗道地的老台灣氛圍。上菜速度快又平價，推薦必點濃郁下酒的「金沙豆腐」、香氣十足的「沙茶牛肉」與鮮嫩的「蔥油雞」。炒飯等主食通常會最先上桌，如果想留到最後收尾再吃，建議晚一點再加點喔！",
+      "en": "A lively Taiwanese stir-fry tavern (rechao) with a retro local vibe, about a 15-minute taxi ride from Hamuya. Dishes arrive fast and prices are very reasonable—don't miss the rich salted-egg yolk tofu (Jinsha Tofu), shacha beef, and tender scallion oil chicken with cold beer. Since carbs like fried rice usually come out first, order them later if you want to save them for the end.",
+      "ko": "하무야에서 택시로 약 15분 거리에 있는 레트로한 대만 분위기의 인기 러차오(대만식 술집)입니다. 음식이 빠르게 나오고 가격도 합리적이며, 맥주와 찰떡궁합인 진한 '진사두부(금사두부)', '사차소고기볶음', 부드러운 '파기름닭고기(총유계)'가 특히 맛있습니다. 볶음밥 같은 탄수화물 메뉴는 보통 가장 먼저 나오니, 마무리로 드시고 싶다면 나중에 추가 주문하는 것을 추천합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我們要點金沙豆腐、沙茶牛肉和蔥油雞，再來一瓶台灣啤酒。炒飯請最後再上，謝謝！",
+      "ja": "こんにちは。金沙豆腐、沙茶牛肉、葱油鶏と、台湾ビールを1本ください。チャーハンは最後に出してください。ありがとうございます！",
+      "en": "Hello, we'd like to order the salted egg yolk tofu, shacha beef, scallion oil chicken, and a bottle of Taiwan Beer. Please bring the fried rice last. Thank you!",
+      "ko": "안녕하세요, 금사두부, 사차소고기볶음, 파기름닭고기 그리고 대만 맥주 한 병 주세요. 볶음밥은 마지막에 내어주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJpSbBOHB2bjQR1iMPVATu1Q4",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/8816/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "xiao-jia-ren-steakhouse",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "小佳人猪牛排館",
+      "ja": "小佳人猪牛排館（シャオジャーレンジューニョウパイグァン）",
+      "en": "Xiao Jia Ren Steakhouse",
+      "ko": "샤오자런 스테이크 (小佳人猪牛排館)"
+    },
+    "owner_note": {
+      "ja": "はむ家から歩いて5分ほど、レトロな雰囲気が魅力のオーナー推し台湾式ステーキ店です。おすすめは280元の「招牌特製牛排（厚切）」一択（フィレも絶品）で、しっかりお肉本来の食感が楽しめます。スープ・サラダ・パン・甘い紅茶に締めのフルーツまで付いて大満足ですが、売り切れることもあるのでお早めに！",
+      "zh": "距離哈木家步行約5分鐘的老派台式牛排館，是老闆私心大推的愛店！首推280元的「招牌特製牛排（厚切）」（菲力也很讚），吃得到紮實的原肉口感。從濃湯、沙拉、餐包、古早味紅茶到飯後水果一應俱全，不過熱門品項有時會提早賣完，建議早點去喔！",
+      "en": "A retro Taiwanese-style steakhouse just a 5-minute walk from Hamuya and a personal favorite of the owner. Go straight for the thick-cut Signature Special Steak (NT$280; the filet is also great), offering real, hearty meat texture. It comes as a full set with soup, salad, bread, sweet black tea, and fruit—just go early as it can sell out!",
+      "ko": "하무야에서 도보 약 5분 거리에 있는 레트로 감성의 대만식 스테이크 맛집으로, 사장님이 강력 추천하는 곳입니다. 280위안의 '시그니처 특제 스테이크(두꺼운 컷)'가 단연 추천 메뉴(안심도 맛있음)이며, 고기 본연의 탄탄한 식감을 즐길 수 있습니다. 수프, 샐러드, 빵, 달콤한 홍차, 후식 과일까지 알차게 나오지만 품절될 때도 있으니 일찍 방문해 보세요!"
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份招牌特製牛排（厚切），謝謝！",
+      "ja": "こんにちは。招牌特製牛排（厚切りステーキ）を1つください。ありがとうございます！",
+      "en": "Hello, I'd like one thick-cut Signature Special Steak, please. Thank you!",
+      "ko": "안녕하세요, 시그니처 특제 스테이크(두꺼운 컷) 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJ83Q9PYp2bjQRr6Vo2KRSIyA",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/hamusan-diary/7889/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "xiao-chuan-wu-seafood-rechao",
+    "category": "local_food",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "小船屋平價海鮮熱炒",
+      "ja": "小船屋平價海鮮熱炒（シャオチュアンウー・ピンジャーハイシェンラーチャオ）",
+      "en": "Xiao Chuan Wu Seafood Rechao",
+      "ko": "샤오촨우 해산물 러차오 (小船屋平價海鮮熱炒)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩15分ほど、常連さんやスタッフも通うリーズナブルな台湾式居酒屋（熱炒）です。ぷりぷりの「月亮蝦餅」やホルモンと生姜の炒め物、焼き魚や鍋まで何を食べても美味しく、一人500元ほどでお腹いっぱい飲めます。注文は伝票に数字を記入し、飲み物は冷蔵庫からセルフで取って空き瓶を足元のケースに置くスタイルです（月曜定休）。",
+      "zh": "從哈木家步行約15分鐘即可抵達的平價海鮮熱炒店，連熟客和工作人員都很愛來！必點香酥的「月亮蝦餅」和薑絲炒大腸，烤魚與鍋物也都很美味，每人約500元就能吃飽喝足。點餐方式為畫單，飲料從冰箱自取並將空瓶放桌下籃子結帳（週一公休）。",
+      "en": "A budget-friendly Taiwanese stir-fry tavern (rechao) about a 15-minute walk from Hamuya, loved by regulars and staff alike. Enjoy dishes like crispy Moon Shrimp Cake (Yueliang Xiabing), stir-fried intestines with ginger, grilled fish, and hot pots for around NT$500 per person including drinks. Mark your order on the paper menu and grab cold beers directly from the fridge (closed Mondays).",
+      "ko": "하무야에서 도보 약 15분 거리에 있는 가성비 좋은 해산물 러차오(대만식 술집)로, 단골과 스태프들도 자주 찾는 곳입니다. 바삭한 '월량하병(새우전)'과 생강 곱창볶음, 생선구이, 전골까지 모두 맛있으며 인당 약 500위안이면 배부르게 즐길 수 있습니다. 주문서에 숫자를 적고 음료는 냉장고에서 직접 꺼내 마시는 방식입니다 (월요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我們要點月亮蝦餅和薑絲大腸，請問飲料可以直接從冰箱拿嗎？謝謝！",
+      "ja": "こんにちは。月亮蝦餅とホルモンと生姜の炒め物をください。飲み物は冷蔵庫から自分で取っていいですか？ありがとうございます！",
+      "en": "Hello, we'd like to order the Moon Shrimp Cake and stir-fried intestines with ginger. Can we grab drinks directly from the fridge? Thank you!",
+      "ko": "안녕하세요, 월량하병과 생강 곱창볶음 주문할게요. 음료는 냉장고에서 직접 꺼내 마셔도 되나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJTQ9lJvV2bjQRp-l2MQHlwmo",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5649/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "cai-san-mao-pork-blood-soup",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "蔡三毛豬血",
+      "ja": "蔡三毛豬血（ツァイサンマオ・ジューシュエ）",
+      "en": "Cai San Mao Pork Blood Soup",
+      "ko": "차이산마오 주쉐탕 (蔡三毛豬血)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分、赤崁楼のすぐ目の前にあるオーナー推薦のスープ名店です。丁寧に下処理された臭みのないモツと豬血がたっぷり入った「綜合湯」は、一人なら小サイズ（90元）で十分ボリューム満点！甘じょっぱい肉燥飯（赤身・脂身・ミックスから選択可）と一緒にどうぞ。店内用（内用）の伝票に記入して先に会計するスタイルです（火曜定休）。",
+      "zh": "從哈木家步行5分鐘、就在赤崁樓正對面的老闆推薦名店！招牌「綜合湯」料多實在，豬血滑嫩、內臟處理得非常乾淨完全沒腥味，一個人點小碗（90元）就很有飽足感。推薦搭配香鹹不膩的肉燥飯（可選瘦肉、肥肉或綜合），畫好內用單後需先至櫃檯結帳（週二公休）。",
+      "en": "An owner-recommended local soup spot right across from Chihkan Tower, just a 5-minute walk from Hamuya. The Mixed Soup (Zonghe Tang) is packed with tender pork blood curd and cleanly prepped offal—a small bowl (NT$90) is plenty for one person. Pair it with savory braised pork rice (choose lean, fatty, or mixed); fill out the dine-in sheet and pay upfront at the counter (closed Tuesdays).",
+      "ko": "하무야에서 도보 5분, 적감루 바로 앞에 위치한 사장님 추천 국밥 맛집입니다. 잡내 없이 깔끔하게 손질된 내장과 선지가 듬뿍 들어간 '종합탕'은 혼자라면 소(小, 90위안) 사이즈로도 충분히 든든합니다. 달콤 짭짤한 루로우판(살코기/비계/믹스 선택 가능)과 함께 드셔보세요. 매장용 주문서를 작성해 선불로 결제하는 방식입니다 (화요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，內用要一碗綜合湯（小）和一碗肉燥飯（半肥瘦），謝謝！",
+      "ja": "こんにちは。店内で、総合スープの小と、肉燥飯（赤身と脂身ミックス）を1つずつください。ありがとうございます！",
+      "en": "Hello, for dine-in, I'd like one small mixed pork blood & offal soup and one braised pork rice (half lean, half fatty), please. Thank you!",
+      "ko": "안녕하세요, 매장에서 먹을게요. 종합탕 소(小) 하나랑 루로우판 반반(살코기+비계) 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJkdrbg2F2bjQRAxkVH9-A3FE",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6108/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "luo-cheng-migao",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "落成米糕",
+      "ja": "落成米糕（ルオチェン・ミーガオ）",
+      "en": "Luo Cheng Rice Cake (Migao)",
+      "ko": "뤄청 미가오 (落成米糕)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩3分、ミシュラン・ビブグルマン常連の台南式おこわ「米糕」の名店です。甘辛豚バラ肉と魚でんぶが乗った米糕に、優しい味のモツスープ「四神豬腸湯」と「魯鴨蛋（アヒルの煮卵）」を合わせるのが鉄板！店主さんは簡単な日本語が話せるので一人でも入りやすく、セルフの辛いタレで味変するのもおすすめです（水・木曜定休）。",
+      "zh": "距離哈木家步行只要3分鐘，多次獲得米其林必比登推薦的台南老字號米糕！淋上香甜肉燥與魚鬆的米糕搭配爽口醃蘿蔔超對味，必點溫潤暖胃的「四神豬腸湯」與Q彈入味的「魯鴨蛋」。老闆會說一點簡單日文非常親切，愛吃辣的話別忘了加一點自助區的辣椒醬提味（週三、四公休）。",
+      "en": "A Michelin Bib Gourmand-featured Tainan sticky rice (migao) institution just a 3-minute walk from Hamuya. Topped with sweet braised pork, fish floss, and pickled radish, it pairs best with the gentle Four-Herb Pork Intestine Soup and a braised duck egg. The friendly owner speaks a bit of Japanese, making it very welcoming for solo travelers (closed Wednesdays and Thursdays).",
+      "ko": "하무야에서 도보 3분 거리에 있는 미슐랭 빕 구르망 단골 맛집으로, 대만식 찰밥 '미가오' 전문점입니다. 달콤하게 조린 돼지고기와 생선 보푸라기가 올라간 미가오에 부드러운 곱창국 '사신탕'과 '오리알 장조림(루야단)'을 곁들이는 조합이 최고입니다. 사장님이 간단한 일본어도 하셔서 혼자 가도 편하며, 셀프 매운 소스로 맛에 변화를 주는 것도 추천합니다 (수·목 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗小碗米糕、一碗四神豬腸湯，還要加一顆魯鴨蛋，謝謝！",
+      "ja": "こんにちは。米糕の小を1つ、四神豬腸湯を1つ、あとアヒルの煮卵（魯鴨蛋）を1つください。ありがとうございます！",
+      "en": "Hello, I'd like one small sticky rice (migao), one Four-Herb Pork Intestine Soup, and one braised duck egg, please. Thank you!",
+      "ko": "안녕하세요, 미가오 소(小) 하나, 사신탕(돼지곱창) 하나, 그리고 오리알 장조림 하나 추가해 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJy3nZ-2F2bjQRAfpYzggB2k8",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6074/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "boli-tea-house",
+    "category": "local_food",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "波力茶亭",
+      "ja": "波力茶亭（ボーリーチャーティン）",
+      "en": "Boli Tea House",
+      "ko": "보리 차정 (波力茶亭)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩8分ほど、台南市美術館近くの路地にある看板もない超ローカルな食堂です。濃い味に少し疲れた日にぴったりの、出汁が効いた優しい「鍋焼意麺（65元）」や、生姜が香るモチモチの「一口水餃子（35元）」が絶品！歩道の席で台湾のラジオを聴きながら、台南の日常の味をリーズナブルに楽しめます（日曜定休）。",
+      "zh": "從哈木家步行約8分鐘、藏身在台南市美術館附近巷弄裡的在地老店，連招牌都很低調。如果吃膩了重口味，這裡湯頭清甜的「鍋燒意麵（65元）」與薑香清爽的「一口水餃（35元）」絕對能療癒你的胃！坐在騎樓聽著廣播，只要百元就能享受台南最純樸的日常美味（週日公休）。",
+      "en": "A hidden, unassuming local eatery in an alley near the Tainan Art Museum, about an 8-minute walk from Hamuya. When you crave something light and comforting, their gentle dashi-like Pot-Boiled Yi-Mian noodles (NT$65) and ginger-infused bite-sized boiled dumplings (NT$35) hit the spot. Enjoy an authentic everyday Tainan meal on the sidewalk seats for just NT$100 (closed Sundays).",
+      "ko": "하무야에서 도보 약 8분, 타이난 시립미술관 근처 골목에 있는 간판조차 없는 숨은 로컬 식당입니다. 자극적인 음식에 지쳤을 때 딱 좋은 깔끔한 육수의 '궈샤오이몐(65위안)'과 생강 향이 상큼한 쫀득한 '한입 물만두(35위안)'가 일품입니다. 야외 테이블에서 대만 라디오를 들으며 100위안으로 타이난의 소박한 일상 맛을 즐겨보세요 (일요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗鍋燒意麵和一份一口水餃，內用，謝謝！",
+      "ja": "こんにちは。鍋焼意麺を1つと、一口水餃子を1皿、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of Pot-Boiled Yi-Mian noodles and one order of bite-sized boiled dumplings for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 궈샤오이몐 하나랑 한입 물만두 하나 주세요. 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJzdP6o4l2bjQRe54aUjgr3XI",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6361/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "juan-jie-beef-soup",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "娟姐牛肉湯",
+      "ja": "娟姐牛肉湯（ジュエンジエ・ニョウロウタン）",
+      "en": "Juan Jie Beef Soup",
+      "ko": "쥐안지에 우육탕 (娟姐牛肉湯)"
+    },
+    "owner_note": {
+      "ja": "成功大学の目の前にある、学生や地元客で賑わう穴場の牛肉湯店です（はむ家から徒歩30分ほど、自転車やタクシーが便利）。筋がなく驚くほど柔らかいレア牛肉の「牛肉湯（小140元）」は、運ばれてきたらすぐお肉を引き上げて生姜とタレで食べるのがコツ！ニンニクたっぷりの「牛肉蓋飯（170元）」も絶品で、辛さも無料で選べます（日・月曜定休）。",
+      "zh": "位於成功大學對面的私房牛肉湯名店，深受在地人與學生喜愛（從哈木家建議騎車或搭計程車前往）。招牌「牛肉湯（小140元）」肉質軟嫩無筋，建議上桌後趕快先撈起牛肉沾薑絲醬油膏，才不會過老！蒜香十足的「牛肉蓋飯（170元）」也很讚，還能免費客製辣度喔（週日、一公休）。",
+      "en": "A hidden-gem beef soup spot across from National Cheng Kung University, popular with locals and students (best reached by bike or taxi from Hamuya). The Beef Soup (small NT$140) features remarkably tender, sinew-free beef—lift the meat out right away so it stays rare and dip it with ginger and soy paste. The garlicky Beef Rice Bowl (NT$170) with customizable spice levels is also a must-try (closed Sundays and Mondays).",
+      "ko": "성공대학교 바로 앞에 있는 현지인과 학생들에게 인기 만점인 숨은 우육탕 맛집입니다 (하무야에서 자전거나 택시 추천). 힘줄 없이 놀라울 정도로 부드러운 '우육탕(소 140위안)'은 나오자마자 고기를 건져 생강과 소스에 찍어 먹는 것이 꿀팁! 마늘 향 가득한 '소고기 덮밥(170위안)'도 일품이며 맵기 조절도 무료입니다 (일·월 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗小碗牛肉湯，還有一份牛肉蓋飯（小辣），謝謝！",
+      "ja": "こんにちは。牛肉湯の小を1つと、牛肉蓋飯（少し辛め）を1つください。ありがとうございます！",
+      "en": "Hello, I'd like one small Beef Soup and one Beef Rice Bowl (mildly spicy), please. Thank you!",
+      "ko": "안녕하세요, 우육탕 소(小) 하나랑 소고기 덮밥(약간 맵게) 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJv2e9CS93bjQRl7j0DXBQK6k",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6511/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
