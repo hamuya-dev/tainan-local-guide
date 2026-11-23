@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#C84B31">
+  <meta name="description" content="台南のゲストハウス「はむ家（Hamuya / 哈木家）」宿泊者専用の台南ローカル案内アプリ">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="はむ家案内">
+
+  <title>はむ家 台南ローカル案内 | Hamuya Tainan Guide</title>
+
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/png" sizes="64x64" href="./icons/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192.png">
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <!-- Sticky Header & 3-Language Switcher -->
+    <header class="app-header">
+      <div class="header-top">
+        <div class="brand">
+          <img class="brand-icon" src="./icons/logo.png" alt="はむ家 ロゴ" width="40" height="40">
+          <div class="brand-text">
+            <h1 id="app-title" class="brand-title">はむ家 台南ローカル案内</h1>
+            <p id="app-subtitle" class="brand-subtitle">Hamuya Guest Exclusive Guide</p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="lang-switcher" aria-label="Language switcher" role="tablist">
+        <button type="button" class="lang-btn" data-lang="ja" role="tab" aria-selected="true">日本語</button>
+        <button type="button" class="lang-btn" data-lang="zh-TW" role="tab" aria-selected="false">繁體中文</button>
+        <button type="button" class="lang-btn" data-lang="en" role="tab" aria-selected="false">English</button>
+      </nav>
+    </header>
+
+    <!-- Compact Mobile-First Filter Panel -->
+    <section class="filter-panel" aria-label="Filters">
+      <div class="filter-row">
+        <span id="label-time" class="filter-label">時間帯</span>
+        <div id="filter-time" class="chip-scroll" role="group" aria-labelledby="label-time"></div>
+      </div>
+
+      <div class="filter-row">
+        <span id="label-category" class="filter-label">ジャンル</span>
+        <div id="filter-category" class="chip-scroll" role="group" aria-labelledby="label-category"></div>
+      </div>
+
+      <div class="filter-row">
+        <span id="label-distance" class="filter-label">距離</span>
+        <div id="filter-distance" class="chip-scroll" role="group" aria-labelledby="label-distance"></div>
+      </div>
+
+      <div class="results-bar">
+        <p id="results-count" class="results-count" aria-live="polite"></p>
+        <button type="button" id="reset-filters-inline" class="reset-inline-btn" hidden></button>
+      </div>
+    </section>
+
+    <!-- Spot Cards List -->
+    <main class="main-content">
+      <div id="spots-container" class="spots-list" aria-live="polite"></div>
+
+      <!-- Empty State -->
+      <section id="empty-state" class="state-card" hidden>
+        <div class="state-icon" aria-hidden="true">🏮</div>
+        <h2 id="empty-title" class="state-title"></h2>
+        <p id="empty-desc" class="state-desc"></p>
+        <button type="button" id="reset-filters-empty" class="btn btn-primary"></button>
+      </section>
+
+      <!-- Error State -->
+      <section id="error-state" class="state-card" hidden>
+        <div class="state-icon" aria-hidden="true">⚠️</div>
+        <h2 id="error-title" class="state-title"></h2>
+        <p id="error-desc" class="state-desc"></p>
+        <button type="button" id="retry-load-btn" class="btn btn-primary"></button>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p id="footer-note"></p>
+    </footer>
+  </div>
+
+  <!-- Full-Screen Point & Order Display Modal -->
+  <div id="point-modal" class="point-modal" role="dialog" aria-modal="true" aria-labelledby="point-modal-shop" hidden>
+    <div class="point-modal-backdrop" data-close-modal></div>
+    <div class="point-modal-sheet">
+      <div class="point-modal-head">
+        <span id="point-modal-badge" class="point-modal-badge"></span>
+        <p id="point-modal-shop" class="point-modal-shop"></p>
+      </div>
+      <div class="point-modal-body">
+        <p id="point-modal-zh" class="point-modal-zh" lang="zh-Hant"></p>
+        <p id="point-modal-sub" class="point-modal-sub"></p>
+      </div>
+      <button type="button" id="point-modal-close" class="btn btn-primary point-modal-close"></button>
+    </div>
+  </div>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
