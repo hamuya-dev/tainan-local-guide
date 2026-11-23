@@ -1,133 +1,5 @@
 [
   {
-    "id": "spot-001",
-    "category": "local_food",
-    "time_slots": ["morning", "lunch"],
-    "distance": "walk_5",
-    "name": {
-      "zh": "阿和牛肉湯",
-      "ja": "阿和牛肉湯（アフー・ギュウニクトウ）",
-      "en": "A-He Beef Soup",
-      "ko": "아허 우육탕 (牛肉湯)"
-    },
-    "owner_note": {
-      "ja": "朝イチのスープが一番うまい。10時過ぎると売り切れる日あり。卓上の甘い醤油ダレ＋生姜をちょい足しして食べるのが台南流！",
-      "zh": "一大早的湯頭最鮮甜，過了十點有時會賣完。記得沾一點桌上的台南甜醬油膏配薑絲吃！",
-      "en": "Best early in the morning — often sells out after 10 AM. Dip the beef in Tainan sweet soy paste with shredded ginger like a local!",
-      "ko": "아침 첫 국물이 제일 진하고 맛있어요. 오전 10시 넘으면 품절되는 날도 있으니 일찍 가세요. 테이블 위 달콤한 간장 소스에 생강채를 곁들여 먹는 게 타이난 스타일!"
-    },
-    "point_and_order": {
-      "zh": "我要一碗牛肉湯（小）、一碗肉燥飯。",
-      "ja": "牛肉湯（小）1つと、肉燥飯（ルーローハン）1つください。",
-      "en": "One small beef soup and one braised pork rice, please.",
-      "ko": "우육탕(소) 1그릇과 루러우판 1그릇 주세요."
-    },
-    "google_maps_url": "https://maps.google.com/?q=Tainan+Beef+Soup",
-    "blog_url": {
-      "ja": "https://example.com/hamuya-blog/tainan-beef-soup",
-      "zh": "https://example.com/hamuya-blog/tainan-beef-soup-zh",
-      "en": "https://example.com/hamuya-blog/tainan-beef-soup-en",
-      "ko": "https://example.com/hamuya-blog/tainan-beef-soup-ko"
-    },
-    "is_active": true
-  },
-  {
-    "id": "spot-002",
-    "category": "cafe_sweets",
-    "time_slots": ["lunch", "dinner"],
-    "distance": "walk_5",
-    "name": {
-      "zh": "老巷古早味豆花",
-      "ja": "老巷古早味豆花（トウファ）",
-      "en": "Old Alley Traditional Douhua",
-      "ko": "라오샹 옛날식 또우화 (豆花)"
-    },
-    "owner_note": {
-      "ja": "はむ家から歩いてすぐの路地裏。とろとろの豆花に、ほどよい甘さの黒糖シロップとピーナッツが最高。暑い午後の休憩にどうぞ。",
-      "zh": "從哈木家走路一下就到的巷弄老店。綿密豆花配上微甜黑糖水跟花生超讚，下午躲太陽休息的好去處。",
-      "en": "Just steps from Hamuya in a quiet alley. Silky tofu pudding with lightly sweet brown sugar syrup and soft peanuts — perfect for a hot afternoon break.",
-      "ko": "하무야에서 걸어서 금방인 골목 노포예요. 부드러운 또우화에 은은하게 달콤한 흑당 시럽과 땅콩 조합이 최고! 더운 오후에 잠깐 쉬어가기 좋아요."
-    },
-    "point_and_order": {
-      "zh": "我要一碗花生豆花，少冰、微糖。",
-      "ja": "ピーナッツ豆花を1つ、氷少なめ・甘さ控えめでください。",
-      "en": "One peanut tofu pudding, less ice and lightly sweet, please.",
-      "ko": "땅콩 또우화 1그릇, 얼음 적게·덜 달게 주세요."
-    },
-    "google_maps_url": "https://maps.google.com/?q=Tainan+Traditional+Douhua",
-    "blog_url": {
-      "ja": "https://example.com/hamuya-blog/old-alley-douhua",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
-    "id": "spot-003",
-    "category": "sightseeing",
-    "time_slots": ["morning", "lunch", "dinner"],
-    "distance": "walk_15",
-    "name": {
-      "zh": "神農老街散步路線",
-      "ja": "神農街（シェンノンジェ）老街さんぽ",
-      "en": "Shennong Old Street Walk",
-      "ko": "선농제(神農街) 옛 골목 산책"
-    },
-    "owner_note": {
-      "ja": "朝は静かで写真向き、夕方〜夜は赤い提灯が灯ってグッと台南らしい雰囲気に。1本隣の細い路地（蝸牛巷方面）まで覗くのがおすすめ。",
-      "zh": "早上人少好拍照，傍晚點燈後紅燈籠超有老台南味道。推薦順道彎進旁邊的小巷子慢慢逛。",
-      "en": "Quiet for morning photos, and magical at dusk when the red lanterns light up. Peek into the narrow side alleys nearby too.",
-      "ko": "아침엔 한적해서 사진 찍기 좋고, 해 질 녘부터 밤에는 붉은 홍등이 켜져 타이난 분위기가 물씬 나요. 옆에 이어진 작은 골목들도 꼭 둘러보세요."
-    },
-    "point_and_order": {
-      "zh": "請問這裡可以拍照嗎？謝謝！",
-      "ja": "ここで写真を撮ってもいいですか？ありがとうございます！",
-      "en": "May I take a photo here? Thank you!",
-      "ko": "여기서 사진 찍어도 될까요? 감사합니다!"
-    },
-    "google_maps_url": "https://maps.google.com/?q=Shennong+Street+Tainan",
-    "blog_url": {
-      "ja": "",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
-    "id": "spot-004",
-    "category": "bar",
-    "time_slots": ["dinner", "late_night"],
-    "distance": "bike_far",
-    "name": {
-      "zh": "老宅小酌 晚安台南",
-      "ja": "老宅バー 晚安台南（ワンアンタイナン）",
-      "en": "Goodnight Tainan Old-House Bar",
-      "ko": "고택 바 굿나잇 타이난 (晚安台南)"
-    },
-    "owner_note": {
-      "ja": "築80年の古民家を改装した隠れ家バー。台湾茶を使ったオリジナルカクテルとクラフトビールが絶品。ひとり飲みでも気さくに話しかけてくれます。",
-      "zh": "八十年老宅改建的隱藏版酒吧，台灣茶調酒跟精釀啤酒都超好喝。一個人來小酌老闆也很親切！",
-      "en": "Hidden bar in an 80-year-old house. Taiwanese tea cocktails and craft beers are fantastic — very welcoming for solo travelers.",
-      "ko": "80년 된 고택을 개조한 숨은 바예요. 대만 차로 만든 시그니처 칵테일과 수제 맥주가 정말 맛있고, 혼자 가도 사장님이 친절하게 맞아주세요."
-    },
-    "point_and_order": {
-      "zh": "一個人，請問有推薦的台灣茶調酒或精釀啤酒嗎？",
-      "ja": "1人です。おすすめの台湾茶カクテルかクラフトビールはありますか？",
-      "en": "Table for one — any recommended Taiwanese tea cocktail or craft beer?",
-      "ko": "혼자 왔어요. 추천하는 대만 차 칵테일이나 수제 맥주가 있나요?"
-    },
-    "google_maps_url": "https://maps.google.com/?q=Tainan+Old+House+Bar",
-    "blog_url": {
-      "ja": "",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
     "id": "sakariba-rechao",
     "category": "local_food",
     "time_slots": ["dinner", "late_night"],
@@ -345,6 +217,454 @@
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJv2e9CS93bjQRl7j0DXBQK6k",
     "blog_url": {
       "ja": "https://hamuguesthouse.com/staff-diary/6511/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "hao-di-fang-bing-guo-shi",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "好地方冰果室",
+      "ja": "好地方冰果室（ハオディーファン・ビングオシー）",
+      "en": "Hao Di Fang Bing Guo Shi",
+      "ko": "하오디팡 빙과실 (好地方冰果室)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分以内、親切なご夫婦が20年以上営むレトロな食堂です。スタッフの間で「50元炒飯」と呼ばれ親しまれている絶品炒飯をはじめ、台南名物の鍋焼意麺や水餃子もお手頃価格で味わえます。店先のテーブルで台南のローカルな雰囲気を感じながら食べるのがおすすめです。",
+      "zh": "從哈木家步行5分鐘以內，由親切夫妻經營超過20年的懷舊老店。被工作人員暱稱為「50元炒飯」的平價炒飯CP值超高，另外也有台南必吃的鍋燒意麵和水餃。坐在店門口的騎樓桌椅用餐，最能感受台南道地的日常氛圍。",
+      "en": "A retro local eatery run by a kind couple for over 20 years, within a 5-minute walk from Hamuya. Nicknamed 'NT$50 Fried Rice' by our staff for its unbeatable value, it also serves Tainan favorites like pot-boiled yi-mian noodles and boiled dumplings. Grab a sidewalk table out front to soak in the authentic neighborhood vibe.",
+      "ko": "하무야에서 도보 5분 이내, 친절한 부부가 20년 넘게 운영해 온 레트로 로컬 식당입니다. 스태프들 사이에서 '50위안 볶음밥'으로 불리는 가성비 최고 볶음밥은 물론, 타이난 명물 궈샤오이몐과 물만두도 저렴하게 즐길 수 있습니다. 가게 앞 야외 테이블에서 타이난의 로컬 분위기를 느끼며 식사해 보세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份炒飯，內用，謝謝！",
+      "ja": "こんにちは。炒飯を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one order of fried rice for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 볶음밥 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJmReW38h3bjQRF6kipomMhGc",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2151/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "huo-shui-breakfast",
+    "category": "local_food",
+    "time_slots": ["morning", "lunch"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "活水早餐店",
+      "ja": "活水早餐店（フオシュイ・ザオツァンディエン）",
+      "en": "Huo Shui Breakfast Shop",
+      "ko": "훠수이 조식점 (活水早餐店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分以内、朝6時から開いている台湾式朝ごはんの定番店です。スタッフのリピート率No.1は、濃厚なチーズがたっぷり入った「起士蛋餅（チーズダンピン）」！一品ずつがとてもお手頃価格なので、豆漿（豆乳）などと一緒に気になるメニューを複数頼むのもおすすめです（水曜定休）。",
+      "zh": "距離哈木家步行不到5分鐘、早上6點就開門的台式早餐愛店！各式經典早餐應有盡有，工作人員最愛回訪的是起司超濃郁的「起士蛋餅」。每樣餐點都很平價，猶豫不決時不妨搭配豆漿多點幾樣一起享用（週三公休）。",
+      "en": "A classic Taiwanese breakfast spot open from 6:00 AM, less than a 5-minute walk from Hamuya. Everything on the menu is a safe bet, but our staff's top repeat order is the Cheese Danbing (egg crepe) packed with rich, melted cheese. Prices are super affordable, so feel free to order a few items along with soy milk (closed Wednesdays).",
+      "ko": "하무야에서 도보 5분 이내, 아침 6시부터 문을 여는 대만식 아침 식사 단골집입니다. 무엇을 시켜도 맛있지만 스태프들이 가장 자주 찾는 메뉴는 진한 치즈가 듬뿍 들어간 '치즈 딴삥(起士蛋餅)'! 하나하나 가격이 매우 저렴하니 두유 등과 함께 여러 가지 메뉴를 주문해 보세요 (수요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份起士蛋餅和一杯冰豆漿，謝謝！",
+      "ja": "こんにちは。チーズ蛋餅（起士蛋餅）を1つと、冷たい豆乳を1杯ください。ありがとうございます！",
+      "en": "Hello, I'd like one Cheese Danbing (egg crepe) and one iced soy milk, please. Thank you!",
+      "ko": "안녕하세요, 치즈 딴삥 하나랑 아이스 두유 한 잔 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJEfPR_2F2bjQRPfhWNMLscSg",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2151/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "guo-ke-ting-omurice",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "過客亭葷食素食蛋包飯專賣店",
+      "ja": "過客亭葷食素食蛋包飯專賣店（グオクーティン・ダンバオファン）",
+      "en": "Guo Ke Ting Omurice",
+      "ko": "궈커팅 오므라이스 (過客亭葷食素食蛋包飯專賣店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分以内、オムライスを中心に豊富な定食メニューが揃う街の食堂です。ベジタリアン（素食）メニューも充実しているため、食の好みが違うグループでも安心して一緒に楽しめます。店頭に料理の写真がたくさん貼ってあるので、中国語が不安な方でも指差しで注文しやすく、季節にはマンゴーかき氷も人気です（火曜定休）。",
+      "zh": "從哈木家步行5分鐘以內，主打蛋包飯且菜色豐富的在地食堂。店內同時提供葷食與素食選擇，就算同行旅伴飲食習慣不同也能各自吃得滿足。店門口貼滿餐點照片，不懂中文也能輕鬆看圖點餐，夏天還吃得到美味的芒果冰喔（週二公休）。",
+      "en": "A neighborhood diner within a 5-minute walk from Hamuya specializing in omurice alongside a wide variety of set meals. They offer both regular and vegetarian menus, making it great for mixed groups. Plenty of dish photos are posted out front for easy ordering, and they even serve mango shaved ice in season (closed Tuesdays).",
+      "ko": "하무야에서 도보 5분 이내, 오므라이스를 중심으로 다양한 정식 메뉴를 파는 동네 식당입니다. 채식(소식) 메뉴도 잘 갖추어져 있어 일행과 식성이 달라도 함께 만족스럽게 식사할 수 있습니다. 가게 앞에 음식 사진이 많이 붙어 있어 중국어가 서툴러도 주문하기 편하며, 시즌에는 망고 빙수도 인기입니다 (화요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份招牌蛋包飯，內用，謝謝！",
+      "ja": "こんにちは。定番のオムライス（招牌蛋包飯）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one signature omurice for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 시그니처 오므라이스 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJ-_EThWF2bjQRng5zzqhLvec",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2151/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "red-sun-tea-minzu",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "紅太陽 台南民族總店",
+      "ja": "紅太陽 台南民族總店（ホンタイヤン）",
+      "en": "Red Sun Tea (Tainan Minzu)",
+      "ko": "홍타이양 타이난 민쭈점 (紅太陽 台南民族總店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分圏内にある台南発祥の人気ドリンクスタンドです。名物はハイネケンビールに緑茶と柑橘ジュースを合わせた「海尼根綠茶（70元）」で、ほどよい甘さでアルコールが苦手な方でも飲みやすい一杯。おすすめカスタムは「無糖・微冰（氷抜き不可）」です。",
+      "zh": "從哈木家步行5分鐘內即可抵達的台南發跡人氣手搖飲店！招牌「海尼根綠茶（70元）」將海尼根啤酒結合綠茶與柑橘果汁，微甜順口，連平常不常喝酒的人也能輕鬆喝完。推薦點「無糖微冰」（此款不可去冰）。",
+      "en": "A famous Tainan-born drink stand within a 5-minute walk from Hamuya. Don't miss their signature 'Heineken Green Tea' (NT$70), a surprisingly easy-to-drink blend of Heineken beer, green tea, and citrus juice. Best ordered with no sugar and light ice (no-ice is not available).",
+      "ko": "하무야에서 도보 5분 거리에 있는 타이난 발상 인기 음료 전문점입니다. 하이네켄 맥주에 녹차와 감귤 주스를 섞은 시그니처 '하이네켄 녹차(70위안)'는 적당한 단맛으로 술을 잘 못 마시는 분도 부담 없이 즐길 수 있습니다. 추천 커스텀은 '무당(無糖)·얼음 적게(微冰, 얼음 제거 불가)'입니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯海尼根綠茶，無糖微冰，謝謝！",
+      "ja": "こんにちは。海尼根綠茶（ハイネケン緑茶）を1杯、無糖・氷少なめでお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Heineken Green Tea with no sugar and light ice, please. Thank you!",
+      "ko": "안녕하세요, 하이네켄 녹차 한 잔 무당에 얼음 적게 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJUTUo8mF2bjQRwnETk7110Lg",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2116/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "macu-tea-chihkan",
+    "category": "cafe_sweets",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "麻古茶坊 台南赤崁店",
+      "ja": "麻古茶坊 台南赤崁店（マーグーチャーファン）",
+      "en": "MACU Tea (Tainan Chihkan)",
+      "ko": "마구차방 타이난 적감점 (麻古茶坊 台南赤崁店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分以内、朝8時から開いている大人気フルーツティー系スタンドです。オレンジとパッションフルーツの果肉たっぷりの「香橙果粒茶（70元・微糖微冰がおすすめ）」や、タピオカとナタデココが入った爽やかな「金萱雙Q（40元・一分糖微冰がおすすめ）」がスタッフ推し！",
+      "zh": "從哈木家步行5分鐘內、早上8點就營業的超人氣果粒茶手搖店！工作人員大推酸甜爽口、吃得到滿滿柳橙與百香果粒的「香橙果粒茶（70元，推薦微糖微冰）」，或是加滿波波與椰果、口感超豐富的「金萱雙Q（40元，推薦一分糖微冰）」。",
+      "en": "A wildly popular fruit tea chain open from 8:00 AM, within a 5-minute walk from Hamuya. Staff favorites include the Orange & Passionfruit Pulp Tea (NT$70, best with light sugar & light ice) and the refreshing Jin Xuan Double Q with chewy pearls and coconut jelly (NT$40, 10% sugar & light ice).",
+      "ko": "하무야에서 도보 5분 이내, 아침 8시부터 문을 여는 인기 과일티 전문점입니다. 오렌지와 패션프루트 과육이 듬뿍 들어간 '오렌지 과육차(70위안, 미당·미빙 추천)'와 타피오카 펄과 나타데코코가 가득한 상큼한 '진쉬안 솽Q(40위안, 1분당·미빙 추천)'가 스태프 강력 추천 메뉴입니다!"
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯香橙果粒茶，微糖微冰，謝謝！",
+      "ja": "こんにちは。香橙果粒茶を1杯、微糖・氷少なめ（微微）でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Orange & Passionfruit Pulp Tea with light sugar and light ice, please. Thank you!",
+      "ko": "안녕하세요, 오렌지 과육차(향등과립차) 한 잔 덜 달게, 얼음 적게 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJL5yTZAJ3bjQRc20Wu3wLZ2E",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2116/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "serving-tea-tainan",
+    "category": "cafe_sweets",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "奉茶 台南總店",
+      "ja": "奉茶 台南總店（フォンチャー）",
+      "en": "Serving Tea (Tainan Main Store)",
+      "ko": "펑차 타이난 본점 (奉茶 台南總店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分ほど、公園路沿いにある老舗の台湾茶スタンドです。スタッフイチオシは爽やかな香りとキレのある苦みがクセになる「十八歲青茶（30元）」で、無糖・微冰のカスタムが最高！お土産用の茶葉パックや可愛い雑貨も買えるので街歩きの休憩にもぴったりです。",
+      "zh": "距離哈木家步行約5分鐘、位於公園路上的台南老字號茶飲店。工作人員私心推薦「十八歲青茶（30元）」，茶香清雅、尾韻微苦回甘，點無糖微冰最能喝出好茶原味！店內也有販售質感茶葉與伴手禮小物，很適合散步順道逛逛。",
+      "en": "A long-established Tainan tea house and drink stand on Gongyuan Road, about a 5-minute walk from Hamuya. Try the staff-favorite '18-Year-Old Qing Tea' (NT$30) with no sugar and light ice for a crisp, refreshing finish. They also sell nicely packaged tea leaves and souvenirs.",
+      "ko": "하무야에서 도보 약 5분, 공원로에 위치한 타이난의 유서 깊은 대만차 전문점입니다. 스태프가 강력 추천하는 '18세 청차(30위안)'는 상쾌한 향과 깔끔한 쌉싸름함이 매력적이며 무당·미빙으로 마시면 최고입니다! 선물용 찻잎과 아기자기한 소품도 판매해 산책 중 들르기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯十八歲青茶，無糖微冰，謝謝！",
+      "ja": "こんにちは。十八歲青茶を1杯、無糖・氷少なめでお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one 18-Year-Old Qing Tea with no sugar and light ice, please. Thank you!",
+      "ko": "안녕하세요, 18세 청차 한 잔 무당에 얼음 적게 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJuYqMZnt2bjQRd9iCiSqNvJE",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2116/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "master-of-tea-minzu",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "花茶大師 台南民族店",
+      "ja": "花茶大師 台南民族店（ホワチャーダーシー）",
+      "en": "Master of Tea (Tainan Minzu)",
+      "ko": "화차대사 타이난 민쭈점 (花茶大師 台南民族店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分圏内、香り高いハーブティーや紅茶が評判のドリンクスタンドです。スタッフおすすめは仙草ゼリーがたっぷり入ったデザート感覚の「嫩仙草拿鐵（65元）」で、半糖・微冰がベストバランス！英語メニューもあり店員さんも親切なので、初めての方でも安心して注文できます。",
+      "zh": "從哈木家步行5分鐘以內，以花草茶與精品紅茶聞名的手搖飲店。工作人員大推「嫩仙草拿鐵（65元）」，裡頭滿滿滑嫩的仙草凍就像在喝甜點，半糖微冰最剛好！店員親切且備有英文菜單，對外國旅客非常友善。",
+      "en": "A specialty tea stand known for fragrant floral teas and black teas, within a 5-minute walk from Hamuya. Our staff recommends the Grass Jelly Tea Latte (NT$65, best with half sugar & light ice), packed with silky grass jelly like a drinkable dessert. Friendly staff and an English menu make ordering easy.",
+      "ko": "하무야에서 도보 5분 거리에 있는 향긋한 허브티와 홍차로 유명한 음료 전문점입니다. 스태프 추천 메뉴는 선초 젤리가 듬뿍 들어간 디저트 느낌의 '눈선초 라떼(65위안)'로, 반당(50%)·미빙이 가장 균형 잡힌 맛입니다! 영어 메뉴도 있고 직원도 친절해 처음 방문해도 편하게 주문할 수 있습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯嫩仙草拿鐵，半糖微冰，謝謝！",
+      "ja": "こんにちは。嫩仙草拿鐵（仙草ゼリー入りラテ）を1杯、半糖・氷少なめでお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Grass Jelly Tea Latte with half sugar and light ice, please. Thank you!",
+      "ko": "안녕하세요, 눈선초 라떼 한 잔 당도 50%에 얼음 적게 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJnfn24rZ3bjQRprhyFnV6m4U",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2116/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "qiu-jia-douhua",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "邱家豆花",
+      "ja": "邱家豆花（チウジャー・ドウホワ）",
+      "en": "Qiu Jia Douhua",
+      "ko": "추자 또우화 (邱家豆花)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約3分（約90m）の距離にある、豆花マニアのスタッフも何度もリピートする絶品豆花店です。定番の「花生豆花（ピーナッツ豆花・35元）」をはじめ30〜40元とお手頃価格で、なめらかな豆花と優しい甘さが楽しめます。お昼から夜まで気軽に立ち寄れます（水曜定休）。",
+      "zh": "距離哈木家步行只要約3分鐘（約90公尺），連熱愛豆花的工作人員都一再回訪的愛店！招牌「花生豆花（35元）」等品項只要30～40元非常親民，豆花口感滑嫩、糖水清甜不膩，從中午到晚上都很適合來一碗（週三公休）。",
+      "en": "A beloved traditional tofu pudding (douhua) shop just a 3-minute walk (90m) from Hamuya, repeatedly visited by our douhua-loving staff. Classics like Peanut Douhua (NT$35) cost only NT$30–40, offering silky texture and gentle sweetness from lunch through evening (closed Wednesdays).",
+      "ko": "하무야에서 도보 약 3분(약 90m) 거리에 있으며, 또우화 마니아 스태프도 여러 번 재방문하는 맛집입니다. 대표 메뉴인 '땅콩 또우화(35위안)'를 비롯해 30~40위안의 착한 가격으로 부드러운 식감과 은은한 단맛을 즐길 수 있습니다 (수요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗冰的花生豆花，內用，謝謝！",
+      "ja": "こんにちは。冷たい花生豆花（ピーナッツ豆花）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of cold Peanut Douhua for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 차가운 땅콩 또우화 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJzypd-mF2bjQRlz8gCp0Fq0Y",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/3072/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "shi-jing-jiu-xie-jia-babao-ice",
+    "category": "cafe_sweets",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "石精臼謝家八寶冰",
+      "ja": "石精臼謝家八寶冰（シージンジウ・シェジャーバーバオビン）",
+      "en": "Shi Jing Jiu Xie Jia Babao Shaved Ice",
+      "ko": "스징지우 셰자 팔보빙 (石精臼謝家八寶冰)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約6分、夜19時から深夜0時半まで営業する地元の超人気かき氷店です。平日でも開店前から行列ができ、小豆・緑豆・ハトムギなど具だくさんの「八寶冰（60元）」が絶品！夜ご飯の後のお散歩ついでにぴったりですが、ボリュームたっぷりなのでお腹の空き具合には要注意です（火曜定休）。",
+      "zh": "從哈木家步行約6分鐘，晚上7點才開門的在地超人氣夜間冰店！平日開店前就常大排長龍，招牌「八寶冰（60元）」鋪滿紅豆、綠豆、薏仁等豐富配料。很適合晚餐後散步順道來吃，但份量十足吃完會很有飽足感喔（週二公休）。",
+      "en": "A wildly popular late-night shaved ice stall about a 6-minute walk from Hamuya, opening at 7:00 PM and drawing queues even on weekdays. Their signature Eight-Treasure Shaved Ice (Babao Bing, NT$60) is loaded with red beans, mung beans, barley, and more—great after dinner, though quite filling (closed Tuesdays).",
+      "ko": "하무야에서 도보 약 6분, 밤 7시부터 새벽 12시 반까지 영업하는 현지인 인기 야간 빙수 맛집입니다. 평일에도 오픈 전부터 줄을 서며, 팥·녹두·율무 등 토핑이 듬뿍 올라간 '팔보빙(60위안)'이 일품입니다. 저녁 식사 후 산책 겸 들르기 좋지만 양이 아주 푸짐하니 참고하세요 (화요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗八寶冰，內用，謝謝！",
+      "ja": "こんにちは。八寶冰を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of Eight-Treasure Shaved Ice (Babao Bing) for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 팔보빙 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJuf-3cWF2bjQRt4-6ihVq900",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/3072/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "xiao-li-red-bean-cake",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "小李紅豆餅",
+      "ja": "小李紅豆餅（シャオリー・ホンドウビン）",
+      "en": "Xiao Li Wheel Cake (Red Bean Cake)",
+      "ko": "샤오리 홍또우빙 (小李紅豆餅)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約2分、最寄りのファミリーマートから路地へ入る角にある、いつも人だかりができている大判焼き（紅豆餅）の屋台です。なんと1つ10元で、5つ買うと1つ無料になる驚きのコスパ！味は紅豆（あずき）・奶油（クリーム）・花生芝麻（ピーナッツゴマ）の3種で、甘さ控えめな花生芝麻がスタッフイチオシです（14:00〜19:00営業）。",
+      "zh": "距離哈木家步行只要2分鐘，就在巷口全家便利商店旁的排隊紅豆餅攤！一顆只要超佛心的10元，而且買五送一，路過很難不買來吃。有紅豆、奶油、花生芝麻三種口味，工作人員最推甜度適中、越吃越香的花生芝麻口味（14:00～19:00營業）。",
+      "en": "A bustling wheel cake stall just a 2-minute walk from Hamuya at the alley entrance near FamilyMart. At an unbelievable NT$10 each—plus buy 5, get 1 free—it's impossible to walk past! Available in red bean, custard cream, and peanut-sesame; our staff's favorite is the not-too-sweet peanut-sesame (open 2:00 PM–7:00 PM).",
+      "ko": "하무야에서 도보 약 2분, 가장 가까운 패밀리마트 골목 입구에 늘 손님이 몰리는 대만식 풀빵(홍또우빙) 노점입니다. 개당 10위안이라는 놀라운 가격에 5개 사면 1개 무료! 팥, 커스터드 크림, 땅콩깨 3가지 맛이 있으며, 많이 달지 않은 땅콩깨 맛이 스태프 강력 추천입니다 (14:00~19:00 영업)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要紅豆、奶油、花生芝麻各一個，外帶，謝謝！",
+      "ja": "こんにちは。あずき、クリーム、ピーナッツゴマを1つずつ、テイクアウトでお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one red bean, one custard cream, and one peanut-sesame wheel cake to go, please. Thank you!",
+      "ko": "안녕하세요, 팥, 크림, 땅콩깨 맛 하나씩 포장해 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJNcDmNh93bjQRQI68xQQkpPw",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/3072/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "hei-gong-hao-grass-jelly-chihkan",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "黑工號嫩仙草 赤崁店",
+      "ja": "黑工號嫩仙草 赤崁店（ヘイゴンハオ・ネンシェンツァオ）",
+      "en": "Hei Gong Hao Grass Jelly (Chihkan)",
+      "ko": "헤이공하오 넌센차오 적감점 (黑工號嫩仙草 赤崁店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩5分圏内、スタッフもゲストにおすすめしている人気の仙草ゼリー（嫩仙草）専門店です。つるんとさっぱりした仙草ゼリーに、もちもちの紫米やほくほくの芋頭（タロイモ）などのトッピングが相性抜群！迷ったら紫米・芋頭入りの定番「1號」をどうぞ（追加料金で牛乳への変更も人気です）。",
+      "zh": "距離哈木家步行5分鐘以內，工作人員常推薦給房客的人氣嫩仙草專賣店。滑嫩清爽的仙草搭配綿密芋頭、紫米與Q彈芋圓超合拍，工作人員最常點經典的「1號」！附贈奶球，也可以加價升級成香濃鮮奶喔。",
+      "en": "A popular grass jelly specialty shop within a 5-minute walk from Hamuya that our staff loves recommending to guests. Smooth, refreshing grass jelly pairs wonderfully with purple rice, taro, and chewy taro balls—go for the staff-favorite 'No. 1' combo if you're unsure (upgrading the creamer to fresh milk is also popular).",
+      "ko": "하무야에서 도보 5분 거리에 있는, 스태프들이 게스트에게 자주 추천하는 인기 선초 젤리(넌센차오) 전문점입니다. 부드럽고 깔끔한 선초 젤리에 흑미(자미)와 토란(타로) 토핑이 환상적으로 어우러집니다. 무엇을 고를지 고민된다면 스태프의 단골 메뉴인 '1호(1號)'를 주문해 보세요 (추가 요금으로 우유 변경도 인기입니다)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗嫩仙草1號，內用，謝謝！",
+      "ja": "こんにちは。嫩仙草（仙草ゼリー）の1番を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Grass Jelly No. 1 combo for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 넌센차오 1번 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJY3YH0WN2bjQRF_OqHD8SJ70",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/3072/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "qingshan-tea-shop",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "青山茶行",
+      "ja": "青山茶行（チンシャンチャーハン）",
+      "en": "Qingshan Tea Shop",
+      "ko": "칭산 차행 (青山茶行)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩12分ほど、國華街エリア散策のスタートにぴったりな行列必至の人気ドリンクスタンドです。スタッフおすすめは爽やかな酸味とお茶の渋みが絶妙な「琥珀檸檬」と、お茶の氷が入った「琥珀冰磚奶」！休日は並びますが並ぶ価値ありの一杯で、日本語メニューもあります（日・月曜定休）。",
+      "zh": "從哈木家步行約12分鐘、逛國華街前必買的人氣排隊手搖茶飲店！工作人員大推清爽微酸的「琥珀檸檬」和茶香濃郁的「琥珀冰磚奶」。雖然假日經常大排長龍，但絕對值得等待，店內也備有日文菜單方便點餐（週日、一公休）。",
+      "en": "A wildly popular tea stand about a 12-minute walk from Hamuya, perfect for starting a stroll around Guohua Street. Staff favorites are the refreshing 'Amber Lemon' (Hupo Ningmeng) and the 'Amber Tea Ice Cube Milk Tea'—well worth the weekend queue, and they even have a Japanese menu (closed Sundays and Mondays).",
+      "ko": "하무야에서 도보 약 12분, 궈화제(국화가) 산책을 시작하기 딱 좋은 줄 서서 마시는 인기 티 스탠드입니다. 스태프 추천 메뉴는 상큼한 산미와 진한 차 향이 어우러진 '호박 레몬차(琥珀檸檬)'와 차 얼음이 들어간 '호박 아이스큐브 밀크티(琥珀冰磚奶)'! 주말엔 웨이팅이 있지만 기다릴 가치가 충분합니다 (일·월 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯琥珀檸檬和一杯琥珀冰磚奶，外帶，謝謝！",
+      "ja": "こんにちは。琥珀檸檬を1杯と、琥珀冰磚奶を1杯、テイクアウトでお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Amber Lemon Tea and one Amber Tea Ice Cube Milk Tea to go, please. Thank you!",
+      "ko": "안녕하세요, 호박 레몬차 한 잔이랑 호박 아이스큐브 밀크티 한 잔 포장해 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJR5ULrGV2bjQRKJ-YjifZbSI",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/3321/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "tofu-yang-hang-guohua",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "豆腐洋行 國華店",
+      "ja": "豆腐洋行 國華店（ドウフーヤンハン）",
+      "en": "Tofu Yang Hang (Guohua)",
+      "ko": "또우푸양항 궈화점 (豆腐洋行 國華店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩13分ほど、國華街にある杏仁豆腐とかき氷が評判のスイーツ店です。はむ家のゲストさんからもおすすめされる名店で、タロイモ好きスタッフ推しの「芋泥紅豆芋圓冰（タロイモ・小豆・芋圓のかき氷）」をはじめ種類豊富！夜22時まで営業しているので食後のデザートにも便利です。",
+      "zh": "距離哈木家步行約13分鐘、位於國華街上的人氣杏仁豆腐與冰品專賣店，也是房客大力推薦的口袋名單！除了滑嫩杏仁豆腐，熱愛芋頭的工作人員特別推薦「芋泥紅豆芋圓冰」，品項豐富且營業到晚上10點，很適合逛街歇腳或當飯後甜點。",
+      "en": "A guest-recommended almond tofu and shaved ice shop on Guohua Street, about a 13-minute walk from Hamuya. Alongside their signature silky almond tofu, our taro-loving staff swears by the Taro Paste, Red Bean & Taro Ball Shaved Ice. Open until 10:00 PM, making it an easy dessert stop after dinner.",
+      "ko": "하무야에서 도보 약 13분, 궈화제에 위치한 행인두부(아몬드 두부)와 빙수 맛집으로 하무야 게스트들에게도 호평받는 곳입니다. 타로를 좋아하는 스태프가 강력 추천하는 '타로 팥 타로볼 빙수(芋泥紅豆芋圓冰)'를 비롯해 메뉴가 아주 다양하며, 밤 10시까지 영업해 식후 디저트로도 딱 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗芋泥紅豆芋圓冰，內用，謝謝！",
+      "ja": "こんにちは。芋泥紅豆芋圓冰（タロイモ・小豆・芋圓のかき氷）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of Taro Paste, Red Bean & Taro Ball Shaved Ice for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 타로 팥 타로볼 빙수 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJX5SA-VV3bjQRTUITjsBoQNc",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/3321/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "ji-pin-shrimp-rice",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "集品蝦仁飯",
+      "ja": "集品蝦仁飯（ジーピン・シャーレンファン）",
+      "en": "Ji Pin Shrimp Rice",
+      "ko": "지핀 새우덮밥 (集品蝦仁飯)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩15分ほど、海安路沿いにある台南名物「蝦仁飯（えび飯）」の超有名店です。出汁がたっぷり染みたつゆだくのご飯に香ばしいエビが乗った一杯は、スタッフが「どんぶりで食べたい！」と感動するほどの美味しさ。半熟の目玉焼き（煎鴨蛋）を乗せて食べるのが定番です（19時閉店のため夕食は早めがおすすめ）。",
+      "zh": "從哈木家步行約15分鐘、位於海安路上的台南必吃「蝦仁飯」超人氣名店！吸滿鮮甜高湯的濕潤米飯搭配香氣十足的火燒蝦，好吃到讓工作人員直呼想直接來一大碗。推薦一定要加點一顆半熟煎鴨蛋拌著吃（營業至晚上7點，吃晚餐建議早點去）。",
+      "en": "A legendary Tainan shrimp rice (Xiaren Fan) spot along Hai'an Road, about a 15-minute walk from Hamuya. The savory, broth-soaked rice topped with smoky stir-fried shrimp is so good our staff wished it came in a giant bowl—top it with a runny fried duck egg for the full local experience (closes at 7:00 PM, so go early for dinner).",
+      "ko": "하무야에서 도보 약 15분, 하이안루에 위치한 타이난 명물 '새우덮밥(샤런판)'의 유명 맛집입니다. 감칠맛 나는 육수가 촉촉하게 배어든 밥 위에 불향 가득한 새우가 올라가 스태프가 '큰 대접으로 먹고 싶다'고 극찬한 맛! 반숙 오리알 프라이를 곁들여 먹는 것이 정석입니다 (저녁 7시 마감이므로 저녁 식사는 일찍 방문하세요)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗蝦仁飯加一顆半熟煎鴨蛋，內用，謝謝！",
+      "ja": "こんにちは。蝦仁飯を1つと、半熟の目玉焼き（煎鴨蛋）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Shrimp Rice and one runny fried duck egg for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 새우덮밥 하나랑 반숙 오리알 프라이 하나 주세요. 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJM-GE8np2bjQRsTnfVRNIlkY",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/3321/",
       "zh": "",
       "en": "",
       "ko": ""
