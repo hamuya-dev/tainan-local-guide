@@ -14,7 +14,7 @@ const SPOTS_PATH = path.resolve(__dirname, "../data/spots.json");
 const VALID_CATEGORIES = new Set(["local_food", "cafe_sweets", "bar", "sightseeing"]);
 const VALID_TIME_SLOTS = new Set(["morning", "lunch", "dinner", "late_night"]);
 const VALID_DISTANCES = new Set(["walk_5", "walk_15", "bike_far"]);
-const REQUIRED_LANGS = ["ja", "zh", "en"];
+const REQUIRED_LANGS = ["ja", "zh", "en", "ko"];
 
 function isValidHttpUrl(value) {
   if (typeof value !== "string") return false;

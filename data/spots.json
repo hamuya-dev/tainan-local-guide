@@ -7,23 +7,27 @@
     "name": {
       "zh": "阿和牛肉湯",
       "ja": "阿和牛肉湯（アフー・ギュウニクトウ）",
-      "en": "A-He Beef Soup"
+      "en": "A-He Beef Soup",
+      "ko": "아허 우육탕 (牛肉湯)"
     },
     "owner_note": {
       "ja": "朝イチのスープが一番うまい。10時過ぎると売り切れる日あり。卓上の甘い醤油ダレ＋生姜をちょい足しして食べるのが台南流！",
       "zh": "一大早的湯頭最鮮甜，過了十點有時會賣完。記得沾一點桌上的台南甜醬油膏配薑絲吃！",
-      "en": "Best early in the morning — often sells out after 10 AM. Dip the beef in Tainan sweet soy paste with shredded ginger like a local!"
+      "en": "Best early in the morning — often sells out after 10 AM. Dip the beef in Tainan sweet soy paste with shredded ginger like a local!",
+      "ko": "아침 첫 국물이 제일 진하고 맛있어요. 오전 10시 넘으면 품절되는 날도 있으니 일찍 가세요. 테이블 위 달콤한 간장 소스에 생강채를 곁들여 먹는 게 타이난 스타일!"
     },
     "point_and_order": {
       "zh": "我要一碗牛肉湯（小）、一碗肉燥飯。",
       "ja": "牛肉湯（小）1つと、肉燥飯（ルーローハン）1つください。",
-      "en": "One small beef soup and one braised pork rice, please."
+      "en": "One small beef soup and one braised pork rice, please.",
+      "ko": "우육탕(소) 1그릇과 루러우판 1그릇 주세요."
     },
     "google_maps_url": "https://maps.google.com/?q=Tainan+Beef+Soup",
     "blog_url": {
       "ja": "https://example.com/hamuya-blog/tainan-beef-soup",
       "zh": "https://example.com/hamuya-blog/tainan-beef-soup-zh",
-      "en": "https://example.com/hamuya-blog/tainan-beef-soup-en"
+      "en": "https://example.com/hamuya-blog/tainan-beef-soup-en",
+      "ko": "https://example.com/hamuya-blog/tainan-beef-soup-ko"
     },
     "is_active": true
   },
@@ -35,23 +39,27 @@
     "name": {
       "zh": "老巷古早味豆花",
       "ja": "老巷古早味豆花（トウファ）",
-      "en": "Old Alley Traditional Douhua"
+      "en": "Old Alley Traditional Douhua",
+      "ko": "라오샹 옛날식 또우화 (豆花)"
     },
     "owner_note": {
       "ja": "はむ家から歩いてすぐの路地裏。とろとろの豆花に、ほどよい甘さの黒糖シロップとピーナッツが最高。暑い午後の休憩にどうぞ。",
       "zh": "從哈木家走路一下就到的巷弄老店。綿密豆花配上微甜黑糖水跟花生超讚，下午躲太陽休息的好去處。",
-      "en": "Just steps from Hamuya in a quiet alley. Silky tofu pudding with lightly sweet brown sugar syrup and soft peanuts — perfect for a hot afternoon break."
+      "en": "Just steps from Hamuya in a quiet alley. Silky tofu pudding with lightly sweet brown sugar syrup and soft peanuts — perfect for a hot afternoon break.",
+      "ko": "하무야에서 걸어서 금방인 골목 노포예요. 부드러운 또우화에 은은하게 달콤한 흑당 시럽과 땅콩 조합이 최고! 더운 오후에 잠깐 쉬어가기 좋아요."
     },
     "point_and_order": {
       "zh": "我要一碗花生豆花，少冰、微糖。",
       "ja": "ピーナッツ豆花を1つ、氷少なめ・甘さ控えめでください。",
-      "en": "One peanut tofu pudding, less ice and lightly sweet, please."
+      "en": "One peanut tofu pudding, less ice and lightly sweet, please.",
+      "ko": "땅콩 또우화 1그릇, 얼음 적게·덜 달게 주세요."
     },
     "google_maps_url": "https://maps.google.com/?q=Tainan+Traditional+Douhua",
     "blog_url": {
       "ja": "https://example.com/hamuya-blog/old-alley-douhua",
       "zh": "",
-      "en": ""
+      "en": "",
+      "ko": ""
     },
     "is_active": true
   },
@@ -63,23 +71,27 @@
     "name": {
       "zh": "神農老街散步路線",
       "ja": "神農街（シェンノンジェ）老街さんぽ",
-      "en": "Shennong Old Street Walk"
+      "en": "Shennong Old Street Walk",
+      "ko": "선농제(神農街) 옛 골목 산책"
     },
     "owner_note": {
       "ja": "朝は静かで写真向き、夕方〜夜は赤い提灯が灯ってグッと台南らしい雰囲気に。1本隣の細い路地（蝸牛巷方面）まで覗くのがおすすめ。",
       "zh": "早上人少好拍照，傍晚點燈後紅燈籠超有老台南味道。推薦順道彎進旁邊的小巷子慢慢逛。",
-      "en": "Quiet for morning photos, and magical at dusk when the red lanterns light up. Peek into the narrow side alleys nearby too."
+      "en": "Quiet for morning photos, and magical at dusk when the red lanterns light up. Peek into the narrow side alleys nearby too.",
+      "ko": "아침엔 한적해서 사진 찍기 좋고, 해 질 녘부터 밤에는 붉은 홍등이 켜져 타이난 분위기가 물씬 나요. 옆에 이어진 작은 골목들도 꼭 둘러보세요."
     },
     "point_and_order": {
       "zh": "請問這裡可以拍照嗎？謝謝！",
       "ja": "ここで写真を撮ってもいいですか？ありがとうございます！",
-      "en": "May I take a photo here? Thank you!"
+      "en": "May I take a photo here? Thank you!",
+      "ko": "여기서 사진 찍어도 될까요? 감사합니다!"
     },
     "google_maps_url": "https://maps.google.com/?q=Shennong+Street+Tainan",
     "blog_url": {
       "ja": "",
       "zh": "",
-      "en": ""
+      "en": "",
+      "ko": ""
     },
     "is_active": true
   },
@@ -91,23 +103,27 @@
     "name": {
       "zh": "老宅小酌 晚安台南",
       "ja": "老宅バー 晚安台南（ワンアンタイナン）",
-      "en": "Goodnight Tainan Old-House Bar"
+      "en": "Goodnight Tainan Old-House Bar",
+      "ko": "고택 바 굿나잇 타이난 (晚安台南)"
     },
     "owner_note": {
       "ja": "築80年の古民家を改装した隠れ家バー。台湾茶を使ったオリジナルカクテルとクラフトビールが絶品。ひとり飲みでも気さくに話しかけてくれます。",
       "zh": "八十年老宅改建的隱藏版酒吧，台灣茶調酒跟精釀啤酒都超好喝。一個人來小酌老闆也很親切！",
-      "en": "Hidden bar in an 80-year-old house. Taiwanese tea cocktails and craft beers are fantastic — very welcoming for solo travelers."
+      "en": "Hidden bar in an 80-year-old house. Taiwanese tea cocktails and craft beers are fantastic — very welcoming for solo travelers.",
+      "ko": "80년 된 고택을 개조한 숨은 바예요. 대만 차로 만든 시그니처 칵테일과 수제 맥주가 정말 맛있고, 혼자 가도 사장님이 친절하게 맞아주세요."
     },
     "point_and_order": {
       "zh": "一個人，請問有推薦的台灣茶調酒或精釀啤酒嗎？",
       "ja": "1人です。おすすめの台湾茶カクテルかクラフトビールはありますか？",
-      "en": "Table for one — any recommended Taiwanese tea cocktail or craft beer?"
+      "en": "Table for one — any recommended Taiwanese tea cocktail or craft beer?",
+      "ko": "혼자 왔어요. 추천하는 대만 차 칵테일이나 수제 맥주가 있나요?"
     },
     "google_maps_url": "https://maps.google.com/?q=Tainan+Old+House+Bar",
     "blog_url": {
       "ja": "",
       "zh": "",
-      "en": ""
+      "en": "",
+      "ko": ""
     },
     "is_active": true
   }

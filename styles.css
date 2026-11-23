@@ -27,7 +27,7 @@
   --radius-md: 16px;
   --radius-pill: 999px;
 
-  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "PingFang TC", "Noto Sans TC", "Yu Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "PingFang TC", "Noto Sans TC", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Yu Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-tc: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Hiragino Sans", sans-serif;
 }
 
@@ -121,13 +121,13 @@ a {
   line-height: 1.2;
 }
 
-/* 3-Language Switcher */
+/* 4-Language Switcher */
 .lang-switcher {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 3px;
   background: #EFE7DC;
-  padding: 4px;
+  padding: 3px;
   border-radius: 12px;
 }
 
@@ -136,11 +136,12 @@ a {
   border: none;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  min-height: 38px;
-  padding: 6px 8px;
+  min-height: 36px;
+  padding: 6px 4px;
   border-radius: 9px;
+  white-space: nowrap;
   cursor: pointer;
   transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
 }

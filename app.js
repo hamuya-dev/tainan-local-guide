@@ -2,13 +2,14 @@
   "use strict";
 
   const STORAGE_LANG_KEY = "hamuya_guide_lang";
-  const SUPPORTED_LANGS = ["ja", "zh-TW", "en"];
+  const SUPPORTED_LANGS = ["ja", "zh-TW", "en", "ko"];
 
   // Map UI language code -> data/spots.json key
   const DATA_LANG_KEY = {
     ja: "ja",
     "zh-TW": "zh",
     en: "en",
+    ko: "ko",
   };
 
   const TIME_OPTIONS = ["morning", "lunch", "dinner", "late_night"];
@@ -56,7 +57,7 @@
       errorTitle: "スポットデータを読み込めませんでした",
       errorDesc: "通信状況を確認して、もう一度お試しください。",
       retryLoad: "再読み込み",
-      footerNote: "台南ゲストハウス はむ家（Hamuya / 哈木家）ローカル案内 v1.0",
+      footerNote: "台南ゲストハウス はむ家（Hamuya / 哈木家）ローカル案内 v1.1",
     },
     "zh-TW": {
       pageTitle: "哈木家 台南在地散步指南",
@@ -98,7 +99,7 @@
       errorTitle: "無法載入地點資料",
       errorDesc: "請確認網路連線後再試一次。",
       retryLoad: "重新載入",
-      footerNote: "台南旅宿 哈木家（Hamuya / はむ家）在地指南 v1.0",
+      footerNote: "台南旅宿 哈木家（Hamuya / はむ家）在地指南 v1.1",
     },
     en: {
       pageTitle: "Hamuya Tainan Local Guide",
@@ -140,7 +141,49 @@
       errorTitle: "Could not load spots",
       errorDesc: "Please check your connection and try again.",
       retryLoad: "Retry",
-      footerNote: "Hamuya Guesthouse (はむ家 / 哈木家) Tainan Local Guide v1.0",
+      footerNote: "Hamuya Guesthouse (はむ家 / 哈木家) Tainan Local Guide v1.1",
+    },
+    ko: {
+      pageTitle: "하무야 타이난 로컬 가이드",
+      appTitle: "하무야 타이난 로컬 가이드",
+      appSubtitle: "타이난 게스트하우스 '하무야' 투숙객 전용 가이드",
+      filterTime: "시간대",
+      filterCategory: "장르",
+      filterDistance: "거리",
+      all: "전체",
+      time: {
+        morning: "아침",
+        lunch: "점심",
+        dinner: "저녁",
+        late_night: "심야",
+      },
+      category: {
+        local_food: "로컬 맛집",
+        cafe_sweets: "카페·디저트",
+        bar: "술·바",
+        sightseeing: "산책·관광",
+      },
+      distance: {
+        walk_5: "도보 5분",
+        walk_15: "도보 15분",
+        bike_far: "자전거·조금 멀리",
+      },
+      resultsCount: (n) => `총 ${n}개의 스팟`,
+      resetInline: "필터 초기화",
+      ownerNoteLabel: "하무야의 한마디 메모",
+      pointOrderLabel: "손가락 주문 문구",
+      pointExpand: "크게 보기",
+      pointModalBadge: "가게 직원에게 보여주세요",
+      pointModalClose: "닫기",
+      openMaps: "Google 지도로 가기",
+      readBlog: "블로그 글 보기",
+      emptyTitle: "조건에 맞는 스팟을 찾지 못했어요",
+      emptyDesc: "시간대, 장르 또는 거리 필터를 변경해 보세요.",
+      resetEmpty: "모든 필터 해제",
+      errorTitle: "스팟 데이터를 불러오지 못했어요",
+      errorDesc: "네트워크 연결을 확인한 뒤 다시 시도해 주세요.",
+      retryLoad: "다시 불러오기",
+      footerNote: "타이난 게스트하우스 하무야(Hamuya / はむ家 / 哈木家) 로컬 가이드 v1.1",
     },
   };
 
@@ -198,6 +241,7 @@
     }
     const browserLang = (navigator.language || "").toLowerCase();
     if (browserLang.startsWith("zh")) return "zh-TW";
+    if (browserLang.startsWith("ko")) return "ko";
     if (browserLang.startsWith("en")) return "en";
     return "ja";
   }
