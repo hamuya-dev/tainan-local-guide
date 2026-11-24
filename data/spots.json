@@ -3031,5 +3031,248 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "xi-luo-dian-beef-soup-tainan",
+    "category": "local_food",
+    "time_slots": [
+      "morning",
+      "lunch"
+    ],
+    "distance": "walk_15",
+    "walk_minutes": 12,
+    "tags": [
+      "breakfast",
+      "first_tainan"
+    ],
+    "hamu_pick": true,
+    "name": {
+      "zh": "西羅殿牛肉湯",
+      "ja": "西羅殿牛肉湯（シーロウディエン・ニョウロウタン）",
+      "en": "Xi Luo Dian Beef Soup",
+      "ko": "시뤄뎬 우육탕 (西羅殿牛肉湯)"
+    },
+    "owner_note": {
+      "ja": "はむ家老闆（はむさん）イチオシの絶品牛肉湯！新鮮な台湾産牛肉に熱々のスープを注いで仕上げる一杯は、驚くほど柔らかく旨みたっぷり。水〜日曜の早朝4:30〜13:00営業（月・火曜定休）なので、少し早起きして台南の朝ごはんにぜひ！（※ブログ記事はただいま執筆中！）",
+      "zh": "哈木家老闆私心最推的極品牛肉湯！現切溫體牛沖入滾燙高湯，肉質鮮嫩甘甜、湯頭濃郁順口。週三至週日清晨4:30～13:00營業（週一、週二公休），很推薦早起當作台南早餐享用！（※部落格文章撰寫中！）",
+      "en": "Hamuya owner's personal top pick for Tainan beef soup! Freshly sliced local beef blanched in piping-hot broth delivers incredible tenderness and rich umami. Open Wed–Sun 4:30 AM–1:00 PM (closed Mon & Tue)—well worth waking up early for a classic Tainan breakfast! (Blog article coming soon!)",
+      "ko": "하무야 사장님(하무상)의 원픽 소고기탕(우육탕) 맛집! 신선한 대만산 생소고기에 뜨거운 육수를 부어 내어 놀라울 정도로 부드럽고 깊은 감칠맛을 자랑합니다. 수~일요일 04:30~13:00 영업(월·화요일 휴무)이니 아침 식사로 꼭 들러보세요! (※ 블로그 글 준비 중!)"
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗牛肉湯，附白飯，內用，謝謝！",
+      "ja": "こんにちは。牛肉湯を1つ（白ごはん付き）、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of beef soup with white rice for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 우육탕 하나(흰쌀밥 포함) 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E7%BE%85%E6%AE%BF%E7%89%9B%E8%82%89%E6%B9%AF+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "jia-hao-fresh-fish-soup-beer-house-tainan",
+    "category": [
+      "local_food",
+      "bar"
+    ],
+    "time_slots": [
+      "dinner",
+      "late_night"
+    ],
+    "distance": "walk_15",
+    "walk_minutes": 10,
+    "tags": [
+      "drinks",
+      "late_night"
+    ],
+    "hamu_pick": true,
+    "name": {
+      "zh": "家豪鮮魚湯啤酒屋",
+      "ja": "家豪鮮魚湯啤酒屋（ジアハオ・シエンユータン）",
+      "en": "Jia Hao Fresh Fish Soup & Beer House",
+      "ko": "자하오 신선생선탕 맥주집 (家豪鮮魚湯啤酒屋)"
+    },
+    "owner_note": {
+      "ja": "はむ家から忠義路を北へ徒歩約10分（台南市北區忠義路三段38號）、オーナー推しの鮮魚スープ＆熱炒（台湾式居酒屋）！旨みたっぷりの鮮魚湯や炒め物と一緒に冷えたビールを楽しめ、18:00〜翌1:00まで営業（水曜定休・現金のみ）なので夜ごはんや深夜の晩酌にも最高です。（※ブログ記事はただいま執筆中！）",
+      "zh": "從哈木家沿忠義路往北步行約10分鐘（台南市北區忠義路三段38號），老闆私心推薦的鮮魚湯與熱炒啤酒屋！鮮甜暖胃的鮮魚湯搭配下酒熱炒與冰涼啤酒超對味，營業至凌晨1點（18:00～01:00、週三公休、僅收現金），晚餐或宵夜小酌都很適合。（※部落格文章撰寫中！）",
+      "en": "About a 10-minute walk north along Zhongyi Rd. from Hamuya (No. 38, Sec. 3, Zhongyi Rd., North Dist., Tainan), a personal favorite for fresh fish soup and Taiwanese stir-fry (rechao) with cold beer! Open 6:00 PM–1:00 AM (closed Wed, cash only), making it ideal for dinner or late-night drinks. (Blog article coming soon!)",
+      "ko": "하무야에서 충이로를 따라 북쪽으로 도보 약 10분(타이난시 북구 충이로 3단 38호) 거리에 있는 사장님 추천 신선 생선탕 & 대만식 선술집(러차오)입니다! 시원한 생선탕과 볶음 안주에 맥주를 곁들이기 좋으며 새벽 1시까지 영업(18:00~01:00, 수요일 휴무, 현금 결제만 가능)해 저녁이나 야식 한잔에 딱입니다. (※ 블로그 글 준비 중!)"
+    },
+    "point_and_order": {
+      "zh": "你好，我們想點一碗鮮魚湯和幾道熱炒，內用，謝謝！",
+      "ja": "こんにちは。鮮魚湯を1つと、炒め物をいくつか店内でお願いします。ありがとうございます！",
+      "en": "Hello, we'd like a bowl of fresh fish soup and a few stir-fry dishes for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 신선 생선탕 하나랑 볶음 요리 몇 가지 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B6%E8%B1%AA%E9%AE%AE%E9%AD%9A%E6%B9%AF%E5%95%A4%E9%85%92%E5%B1%8B+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "recommended-japanese-restaurant-tainan",
+    "category": "local_food",
+    "time_slots": [
+      "lunch",
+      "dinner"
+    ],
+    "distance": "walk_15",
+    "name": {
+      "zh": "日式料理推薦店",
+      "ja": "日本食が恋しくなったときのおすすめ店",
+      "en": "Recommended Japanese Spot (Tainan)",
+      "ko": "일본 음식이 그리울 때 추천 식당"
+    },
+    "owner_note": {
+      "ja": "日本食が恋しくなったときにおすすめの、リーズナブルで美味しいお店です。滞在中の気分転換やほっとひと息つきたいランチ・ディナーにぴったりです。（※ブログ記事はただいま執筆中！）",
+      "zh": "想念日本料理時推薦的高CP值美味店家！很適合作為旅程中轉換心情、想輕鬆吃頓午晚餐時的選擇。（※部落格文章撰寫中！）",
+      "en": "A tasty, budget-friendly spot to recommend whenever you're craving Japanese food. Great for a comforting lunch or dinner or a quick change of pace during your trip. (Blog article coming soon!)",
+      "ko": "일본 음식이 그리울 때 추천하는 가성비 좋고 맛있는 곳입니다. 여행 중 기분 전환이나 든든한 점심·저녁 식사로 딱 좋습니다. (※ 블로그 글 준비 중!)"
+    },
+    "point_and_order": {
+      "zh": "你好，我們想內用，請問可以點餐嗎？謝謝！",
+      "ja": "こんにちは。店内でいただきたいのですが、注文してもいいですか？ありがとうございます！",
+      "en": "Hello, we'd like to dine in—could we place our order, please? Thank you!",
+      "ko": "안녕하세요, 여기서 먹고 갈게요. 주문해도 될까요? 감사합니다!"
+    },
+    "google_maps_url": "https://maps.app.goo.gl/Kpke8HwLxbZpfWX5A",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "taikoo-shennong-tainan",
+    "category": "bar",
+    "time_slots": [
+      "dinner",
+      "late_night"
+    ],
+    "distance": "walk_15",
+    "walk_minutes": 14,
+    "tags": [
+      "retro",
+      "drinks",
+      "late_night"
+    ],
+    "hamu_pick": true,
+    "name": {
+      "zh": "TAIKOO太古百貨店",
+      "ja": "TAIKOO太古百貨店（タイクー・バイフオディエン）",
+      "en": "TAIKOO",
+      "ko": "타이쿠 백화점 (TAIKOO太古百貨店)"
+    },
+    "owner_note": {
+      "ja": "神農街（台南市中西區神農街94號）にある、レトロで落ち着いた雰囲気が魅力のバーです。月〜木・日は19:00〜翌2:00、金曜は19:00〜翌3:00、土曜は18:00〜翌3:00まで開いているので、台南の夜や深夜の一杯にぜひ！（※ブログ記事はただいま執筆中！）",
+      "zh": "位於神農街（台南市中西區神農街94號），充滿懷舊復古氛圍的酒吧！週一至週四與週日19:00～02:00、週五19:00～03:00、週六18:00～03:00營業，很適合作為台南夜晚或宵夜小酌的去處。（※部落格文章撰寫中！）",
+      "en": "A cozy bar with vintage charm on Shennong St. (No. 94, Shennong St., West Central Dist., Tainan). Open 7:00 PM–2:00 AM Mon–Thu & Sun, 7:00 PM–3:00 AM Fri, and 6:00 PM–3:00 AM Sat—great for evening or late-night drinks in Tainan. (Blog article coming soon!)",
+      "ko": "선농제(타이난시 중서구 선농제 94호)에 자리한 레트로하고 차분한 분위기의 바입니다. 월~목·일 19:00~02:00, 금 19:00~03:00, 토 18:00~03:00까지 운영해 타이난의 밤이나 늦은 시간 한잔하기 좋습니다. (※ 블로그 글 준비 중!)"
+    },
+    "point_and_order": {
+      "zh": "你好，請問有位置嗎？我們想先看看酒單，謝謝！",
+      "ja": "こんにちは。席はありますか？まずはドリンクメニューを見せてください。ありがとうございます！",
+      "en": "Hello, do you have a table available? Could we take a look at the drink menu first, please? Thank you!",
+      "ko": "안녕하세요, 자리 있나요? 먼저 음료 메뉴 좀 볼 수 있을까요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TAIKOO%E5%A4%AA%E5%8F%A4%E7%99%BE%E8%B2%A8%E5%BA%97+%E7%A5%9E%E8%BE%B2%E8%A1%9794%E8%99%9F+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "cun-yi-cafe-bar-tainan",
+    "category": "bar",
+    "time_slots": [
+      "lunch",
+      "dinner"
+    ],
+    "distance": "walk_15",
+    "walk_minutes": 10,
+    "tags": [
+      "drinks"
+    ],
+    "hamu_pick": true,
+    "name": {
+      "zh": "存憶 Cafe Bar",
+      "ja": "存憶 Cafe Bar（ツンイー・カフェバー）",
+      "en": "Cun Yi Cafe Bar",
+      "ko": "춘이 카페바 (存憶 Cafe Bar)"
+    },
+    "owner_note": {
+      "ja": "中西區忠孝街45號にある、ビールも楽しめるカフェバーです。ユニークな老闆（マスター）のキャラクターも魅力で、月・木〜日曜は9:30〜22:00、火・水曜は12:30〜22:00まで営業しているので昼の一杯から夜の晩酌まで気軽に立ち寄れます。（※ブログ記事はただいま執筆中！）",
+      "zh": "位在中西區忠孝街45號、也能喝到啤酒的咖啡酒吧！親切又有趣的闆娘／老闆氛圍是一大亮點，週一、週四至週日9:30～22:00、週二至週三12:30～22:00營業，無論想白天喝一杯或晚上小酌都很自在。（※部落格文章撰寫中！）",
+      "en": "A laid-back cafe bar on Zhongxiao St. (No. 45, Zhongxiao St., West Central Dist., Tainan) where you can enjoy beer alongside cafe drinks, with a fun, memorable owner. Open 9:30 AM–10:00 PM Mon & Thu–Sun and 12:30 PM–10:00 PM Tue–Wed—easy for an afternoon drink or evening unwind. (Blog article coming soon!)",
+      "ko": "중서구 충효제 45호에 자리한 맥주도 즐길 수 있는 카페바로, 개성 있고 재미있는 사장님 분위기가 매력입니다. 월·목~일 09:30~22:00, 화·수 12:30~22:00까지 운영해 낮 한잔부터 저녁 가벼운 술자리까지 편하게 들르기 좋습니다. (※ 블로그 글 준비 중!)"
+    },
+    "point_and_order": {
+      "zh": "你好，請問有位置嗎？我們想點一杯啤酒，內用，謝謝！",
+      "ja": "こんにちは。席はありますか？ビールを1杯、店内でお願いします。ありがとうございます！",
+      "en": "Hello, do you have a seat available? We'd like a beer for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 자리 있나요? 맥주 한 잔 여기서 마실게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AD%98%E6%86%B6+Cafe+Bar+%E5%BF%A0%E5%AD%9D%E8%A1%9745%E8%99%9F+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "hamuya-favorite-yakitori-tainan",
+    "category": "bar",
+    "time_slots": [
+      "dinner",
+      "late_night"
+    ],
+    "distance": "walk_15",
+    "walk_minutes": 10,
+    "tags": [
+      "drinks",
+      "late_night"
+    ],
+    "hamu_pick": true,
+    "name": {
+      "zh": "日式串燒居酒屋",
+      "ja": "はむ家行きつけの串焼き屋",
+      "en": "Hamuya Favorite Yakitori Spot",
+      "ko": "하무야 단골 꼬치구이집"
+    },
+    "owner_note": {
+      "ja": "はむ家行きつけの、少し日式テイストが入ったお気に入りの串焼き屋です！個人的にはここの串焼きが一番美味しいと思っていて、特につくねと豚たんがイチオシ。夜ごはんや一杯飲みたい夜にぜひどうぞ！（※ブログ記事はただいま執筆中！）",
+      "zh": "哈木家私心常去的口袋串燒店，帶有一點日式居酒屋氛圍！老闆覺得這裡的串燒最好吃，特別大推雞肉丸子（つくね）與豬舌（豚たん），很適合作為晚餐或晚上小酌的好去處。（※部落格文章撰寫中！）",
+      "en": "A regular spot for Hamuya with a subtle Japanese-style touch—personally my favorite skewers in town, with chicken tsukune and pork tongue as top picks. Great for dinner or a laid-back evening drink. (Blog article coming soon!)",
+      "ko": "하무야가 자주 찾는 살짝 일식 감성이 더해진 단골 꼬치구이집입니다! 사장님 기준 가장 맛있는 꼬치집으로, 특히 츠쿠네와 돼지혀(돈설)를 추천해요. 저녁 식사나 가볍게 한잔하기 좋습니다. (※ 블로그 글 준비 중!)"
+    },
+    "point_and_order": {
+      "zh": "你好，我們想點一份雞肉丸子和一份豬舌，內用，謝謝！",
+      "ja": "こんにちは。つくねを1つと、豚たんを1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, we'd like one order of tsukune and one order of pork tongue for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 츠쿠네 하나랑 돼지혀 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://maps.app.goo.gl/kto5KUtW5W77pxqR8",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
