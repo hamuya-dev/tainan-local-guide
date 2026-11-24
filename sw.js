@@ -1,4 +1,4 @@
-const CACHE_NAME = "hamuya-tainan-guide-v16";
+const CACHE_NAME = "hamuya-tainan-guide-v17";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const STATIC_ASSETS = [
   "./app.js",
   "./manifest.json",
   "./icons/logo.png",
+  "./icons/hamusan-oshi.png",
   "./icons/favicon-64.png",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
