@@ -15,6 +15,7 @@
 *.log
 tmp/
 .tmp/
+node_modules/
 
 # Local guest QR image (do not publish)
 qr-hamuya.png

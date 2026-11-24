@@ -1,0 +1,12 @@
+{
+  "name": "tainan-local-guide-tools",
+  "private": true,
+  "description": "Local build/maintenance scripts for Hamuya Tainan Local Guide",
+  "scripts": {
+    "check:spots": "node scripts/check-spots.mjs",
+    "fetch:images": "node scripts/fetch-spot-images.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

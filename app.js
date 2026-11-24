@@ -770,6 +770,26 @@
     }
     card.appendChild(heading);
 
+    // Spot Photo (optional, lazy-loaded WebP)
+    const imagePath = typeof spot.image === "string" ? spot.image.trim() : "";
+    if (/^images\/spots\/[a-z0-9._-]+\.(?:webp|jpg|jpeg|png)$/i.test(imagePath)) {
+      const photoWrap = document.createElement("div");
+      photoWrap.className = "spot-photo-wrap";
+
+      const photoImg = document.createElement("img");
+      photoImg.className = "spot-photo";
+      photoImg.src = `./${imagePath}`;
+      photoImg.alt = translatedName || localName;
+      photoImg.loading = "lazy";
+      photoImg.decoding = "async";
+      photoImg.addEventListener("error", () => {
+        photoWrap.style.display = "none";
+      });
+
+      photoWrap.appendChild(photoImg);
+      card.appendChild(photoWrap);
+    }
+
     // Hamuya's Note
     const noteText = getLocalizedField(spot.owner_note, state.lang);
     if (noteText) {
