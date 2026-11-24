@@ -40,7 +40,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "xiao-jia-ren-steakhouse",
@@ -180,7 +181,7 @@
       "solo_ok",
       "jp_friendly"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "落成米糕",
       "ja": "落成米糕（ルオチェン・ミーガオ）",
@@ -246,7 +247,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "hao-di-fang-bing-guo-shi",
@@ -285,7 +287,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "huo-shui-breakfast",
@@ -363,7 +366,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "red-sun-tea-minzu",
@@ -402,7 +406,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "macu-tea-chihkan",
@@ -441,7 +446,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "serving-tea-tainan",
@@ -480,7 +486,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "master-of-tea-minzu",
@@ -515,7 +522,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "qiu-jia-douhua",
@@ -529,7 +537,7 @@
     "tags": [
       "first_tainan"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "邱家豆花",
       "ja": "邱家豆花（チウジャー・ドウホワ）",
@@ -594,7 +602,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "xiao-li-red-bean-cake",
@@ -672,7 +681,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "qingshan-tea-shop",
@@ -711,7 +721,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "tofu-yang-hang-guohua",
@@ -750,7 +761,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "ji-pin-shrimp-rice",
@@ -789,7 +801,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "boge-tea-house-xinghua",
@@ -830,7 +843,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "yuan-wei-wu-japanese-western-food",
@@ -865,7 +879,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "shan-ye-canteen",
@@ -900,7 +915,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "wa-yang-ting-manatsu",
@@ -938,7 +954,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "yue-jin-savory-congee",
@@ -956,7 +973,7 @@
       "breakfast",
       "late_night"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "悅津鹹粥",
       "ja": "悅津鹹粥（ユエジン・シエンジョウ）",
@@ -1023,7 +1040,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "mumu-seafood-congee",
@@ -1064,7 +1082,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "xiao-bei-xin-cheng-night-market",
@@ -1103,7 +1122,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "cheng-shi-guoshou",
@@ -1142,7 +1162,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "chun-xian-fang-guzaowei-guoshou-yimian",
@@ -1183,7 +1204,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "du-xiao-yue-ben-dian",
@@ -1222,7 +1244,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "xiao-lai-gua-bao",
@@ -1261,7 +1284,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "lu-bian-kao-rou",
@@ -1305,7 +1329,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "wu-ming-migao",
@@ -1343,7 +1368,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "a-mei-xian-kao-guzaowei-dangao",
@@ -1383,7 +1409,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "shui-xian-gong-market",
@@ -1422,7 +1449,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "bei-he-tang-shaved-ice",
@@ -1462,7 +1490,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "shuang-sheng-mung-bean-smoothie",
@@ -1500,7 +1529,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "tai-yang-ice-shop",
@@ -1540,7 +1570,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "bar-horizon-tainan",
@@ -1579,7 +1610,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "corner-cat-coffee-chihkan",
@@ -1619,7 +1651,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "nanfang-jiuguan-live-bar",
@@ -1658,7 +1691,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "giddy-tcrc-taihu-tainan",
@@ -1699,7 +1733,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "ji-yu-ji-dan-hua-tainan",
@@ -1739,7 +1774,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "kissa-maze-tainan",
@@ -1779,7 +1815,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "wubangtu-bookshop-huanhe",
@@ -1820,7 +1857,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "taihu-brewing-tainan",
@@ -1860,7 +1898,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "paripari-apt-tainan",
@@ -1898,7 +1937,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "donutes-tainan",
@@ -1941,7 +1981,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "shou-cao-hand-haabu",
@@ -1979,7 +2020,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "chimei-museum-tainan",
@@ -2018,7 +2060,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "wu-yuan-art-center",
@@ -2057,7 +2100,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "dong-cai-shi-market",
@@ -2095,7 +2139,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "taiwan-beer-shanhua-brewery",
@@ -2133,7 +2178,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "west-market-tainan",
@@ -2172,7 +2218,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "wenting-phonograph-museum",
@@ -2209,7 +2256,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "yu-guang-island-tainan",
@@ -2247,7 +2295,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "hayashi-department-store-tainan",
@@ -2327,7 +2376,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "zuozhen-fossil-park-tainan",
@@ -2362,7 +2412,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "hutoupi-scenic-area-tainan",
@@ -2400,7 +2451,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "feng-shou-fan-zhuo-tainan",
@@ -2439,7 +2491,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "a-way-music-center-tainan",
@@ -2481,7 +2534,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "yamuliao-market-charcoal-noodles",
@@ -2520,7 +2574,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "qing-jiang-shan-yu-yi-mian-tainan",
@@ -2559,7 +2614,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "jia-cuo-wei-tainan",
@@ -2598,7 +2654,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "xiao-jin-mian-dian-tainan",
@@ -2637,7 +2694,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "garden-night-market-tainan",
@@ -2676,7 +2734,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "dadong-night-market-tainan",
@@ -2715,7 +2774,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "wusheng-night-market-tainan",
@@ -2754,7 +2814,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "wu-ming-dou-hua-beizhong",
@@ -2792,7 +2853,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": false
   },
   {
     "id": "xi-luo-dian-beef-soup-tainan",
@@ -2851,7 +2913,7 @@
       "drinks",
       "late_night"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "家豪鮮魚湯啤酒屋",
       "ja": "家豪鮮魚湯啤酒屋（ジアハオ・シエンユータン）",
@@ -2933,7 +2995,7 @@
     "tags": [
       "drinks"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "存憶 Cafe Bar",
       "ja": "存憶 Cafe Bar（ツンイー・カフェバー）",
@@ -2972,7 +3034,7 @@
     "tags": [
       "retro"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "吉田万屋",
       "ja": "吉田万屋（ヨシダヨロズヤ）",
@@ -3013,7 +3075,7 @@
       "drinks",
       "late_night"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "岄食串焼",
       "ja": "岄食串焼（ユエシー・チュアンシャオ）",
@@ -3053,7 +3115,7 @@
     "tags": [
       "first_tainan"
     ],
-    "hamu_pick": true,
+    "hamu_pick": false,
     "name": {
       "zh": "有楽食堂",
       "ja": "有楽食堂（ユウラクショクドウ）",

@@ -319,7 +319,7 @@ a {
   min-width: 0;
   flex-wrap: wrap;
   align-items: center;
-  gap: 6px 10px;
+  gap: 6px 8px;
 }
 
 .filter-row-pick .chip-scroll {
@@ -329,14 +329,21 @@ a {
 .hamusan-oshi-tag {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  padding: 2px 10px 2px 3px;
-  border-radius: var(--radius-pill);
-  background: var(--amber-bg);
-  border: 1px solid var(--amber-border);
+  gap: 5px;
+  padding: 0;
+  background: transparent;
+  border: none;
   pointer-events: none;
   user-select: none;
   -webkit-user-select: none;
+  flex-shrink: 0;
+}
+
+.hamusan-oshi-arrow {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1;
   flex-shrink: 0;
 }
 
@@ -345,16 +352,16 @@ a {
   height: 34px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1.5px solid #FFFFFF;
-  box-shadow: 0 1px 3px rgba(45, 28, 16, 0.14);
+  border: 1.5px solid #EBD7BE;
+  box-shadow: 0 1px 4px rgba(45, 28, 16, 0.12);
   flex-shrink: 0;
   display: block;
 }
 
 .hamusan-oshi-label {
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   font-weight: 800;
-  color: var(--amber-text);
+  color: var(--primary-dark);
   letter-spacing: 0.02em;
   white-space: nowrap;
   line-height: 1.2;

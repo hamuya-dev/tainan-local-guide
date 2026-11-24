@@ -1,4 +1,4 @@
-const CACHE_NAME = "hamuya-tainan-guide-v17";
+const CACHE_NAME = "hamuya-tainan-guide-v18";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
