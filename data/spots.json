@@ -1342,5 +1342,805 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "bar-horizon-tainan",
+    "category": "bar",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "Bar Horizon",
+      "ja": "Bar Horizon（バー・ホライズン）",
+      "en": "Bar Horizon",
+      "ko": "바 호라이즌 (Bar Horizon)"
+    },
+    "owner_note": {
+      "ja": "落ち着いたおしゃれな雰囲気と2階席・テラス席を備えたバーです（19:00〜翌2:00営業・火曜定休）。目の前で作られるモヒートやスイカのカクテルが魅力で、涼しい季節はテラス席も心地よい空間！ドリンクのみで最低消費500元・滞在最長2時間制なので事前にご確認ください。",
+      "zh": "氛圍沉靜有質感、設有二樓與戶外露台座位的酒吧（19:00～凌晨2:00營業、週二公休）。能近距離欣賞調酒師現場調製莫希托或西瓜調酒，天氣涼爽時在露台小酌也很愜意；低消為每人飲品500元且限時2小時，前往前請先留意。",
+      "en": "A stylish, relaxed bar with upper seating and a terrace (open 7:00 PM–2:00 AM, closed Tuesdays). Enjoy watching cocktails like mojitos and watermelon drinks crafted up front, with the terrace great in cooler weather—note a NT$500 minimum drink spend and a 2-hour time limit.",
+      "ko": "세련되고 차분한 분위기에 2층과 테라스 좌석을 갖춘 바입니다 (19:00~새벽 2:00 영업·화요일 휴무). 눈앞에서 만들어지는 모히토나 수박 칵테일이 매력적이며 선선한 날씨엔 테라스 좌석도 좋습니다. 음료 1인 500위안 최소 주문 및 최대 2시간 이용 제한이 있으니 참고하세요."
+    },
+    "point_and_order": {
+      "zh": "你好，請問有位置嗎？我們想先點一杯莫希托，謝謝！",
+      "ja": "こんにちは。席は空いていますか？まずモヒートを1杯お願いします。ありがとうございます！",
+      "en": "Hello, do you have a table available? We'd like to start with one Mojito, please. Thank you!",
+      "ko": "안녕하세요, 자리 있나요? 우선 모히토 한 잔 먼저 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bar+Horizon+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/9688/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "corner-cat-coffee-chihkan",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "角落.有猫 corner cat coffee 台南 赤崁樓店",
+      "ja": "角落.有猫 corner cat coffee 台南 赤崁樓店",
+      "en": "corner cat coffee (Tainan Chihkan)",
+      "ko": "코너 캣 커피 타이난 적감루점 (角落.有猫)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約5〜6分・赤崁樓近くにある、歴史的建築を活かした温かみのある猫カフェです（10:30〜19:00営業・無休）。人懐っこい猫たちと触れ合いながらカフェラテやチーズケーキ、軽食を楽しめ、日本語メニューもあります！靴下必須（未着用時は50元）で、休日は事前予約がおすすめです。",
+      "zh": "距離哈木家步行約5～6分鐘、就在赤崁樓附近的貓咪咖啡廳，由歷史建築改造、充滿懷舊溫暖氛圍（10:30～19:00營業、全年無休）。可一邊與親人的貓咪互動一邊享用拿鐵、起司蛋糕與輕食，並提供日文菜單；入內需穿襪子（現場購買50元），假日建議先預約。",
+      "en": "A warm cat cafe set in a historic building near Chihkan Tower, about a 5–6 minute walk from Hamuya (open daily 10:30 AM–7:00 PM). Relax with friendly cats over lattes, cheesecake, or savory bites with a Japanese menu available—socks are required (NT$50 at the door) and booking ahead is recommended on weekends.",
+      "ko": "하무야에서 도보 약 5~6분·적감루 인근 역사적 건축물을 살려 만든 아늑한 고양이 카페입니다 (10:30~19:00 영업·연중무휴). 개냥이들과 교감하며 라떼·치즈케이크·식사 메뉴를 즐길 수 있고 일본어 메뉴도 있습니다. 양말 착용 필수(미착용 시 50위안)이며 주말엔 예약을 추천합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問有日文菜單嗎？我們想點一杯拿鐵和一塊起司蛋糕，謝謝！",
+      "ja": "こんにちは。日本語メニューはありますか？カフェラテを1杯と、チーズケーキを1つお願いします。ありがとうございます！",
+      "en": "Hello, do you have a Japanese menu? We'd like one latte and one slice of cheesecake, please. Thank you!",
+      "ko": "안녕하세요, 일본어 메뉴 있나요? 카페라떼 한 잔이랑 치즈케이크 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A7%92%E8%90%BD.%E6%9C%89%E7%8C%AB+%E8%B5%A4%E5%9D%8E%E6%A8%93+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/8275/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "nanfang-jiuguan-live-bar",
+    "category": "bar",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "南方酒館",
+      "ja": "南方酒館（ナンファンジウグァン）",
+      "en": "Nanfang Jiuguan",
+      "ko": "난팡 주관 (南方酒館)"
+    },
+    "owner_note": {
+      "ja": "生演奏やリクエスト曲とともにビールやカクテルを楽しめるライブバー＆ダイニングです（18:00〜翌1:00営業・月曜定休、はむ家からはタクシー利用も便利）。広々とした店内で音楽の迫力を間近に味わえ、フードメニューも充実！英語曲などのリクエスト対応もあり、非日常の夜を過ごしたいときにぴったりです。",
+      "zh": "可一邊聆聽現場演唱與點歌、一邊暢飲啤酒與調酒的音樂餐酒館（18:00～凌晨1:00營業、週一公休，從哈木家搭計程車前往很方便）。空間寬敞且能近距離感受Live演出魅力，餐點選擇也豐富；想聽現場演奏或換換夜生活氣氛時很值得一去。",
+      "en": "A live music bar and dining spot where you can enjoy beer and cocktails alongside live performances and song requests (open 6:00 PM–1:00 AM, closed Mondays; easy by taxi from Hamuya). Spatious with an up-close stage vibe and food options on the menu—great for a lively night out.",
+      "ko": "라이브 연주와 신청곡을 즐기며 맥주와 칵테일을 마실 수 있는 라이브 바 & 다이닝입니다 (18:00~새벽 1:00 영업·월요일 휴무, 하무야에서 택시 이동 편리). 넓은 공간에서 현장 음악의 열기를 가까이 느낄 수 있으며 식사 메뉴도 갖추어져 있습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問有位置嗎？我們想先點兩杯生啤酒，謝謝！",
+      "ja": "こんにちは。席は空いていますか？まず生ビールを2杯お願いします。ありがとうございます！",
+      "en": "Hello, do you have a seat for us? We'd like two draft beers to start, please. Thank you!",
+      "ko": "안녕하세요, 자리 있나요? 우선 생맥주 두 잔 먼저 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%96%B9%E9%85%92%E9%A4%A8+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7912/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "giddy-tcrc-taihu-tainan",
+    "category": "bar",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "GiDDY",
+      "ja": "GiDDY（ギディ / T.C.R.C.×臺虎精釀）",
+      "en": "GiDDY",
+      "ko": "기디 (GiDDY / T.C.R.C.×臺虎精釀)"
+    },
+    "owner_note": {
+      "ja": "台湾のクラフトビール「臺虎精釀」と台南の名店バー「T.C.R.C.」のコラボバーです（はむ家からは徒歩約30分のエリアのためタクシーやバスも便利）。サーバーから注ぐドラフトカクテルやクラフトビール、チリチーズポテトなどのおつまみが充実し、サイズアップでたっぷり楽しめるのも魅力！",
+      "zh": "由台灣精釀品牌「臺虎精釀」與台南傳奇酒吧「T.C.R.C.」聯名打造的特色酒吧（從哈木家步行約30分鐘，建議搭計程車或公車）。主打現拉汲飲式調酒與精釀啤酒，搭配起司辣椒薯條等下酒菜超對味，飲品也可加價升級大份量！",
+      "en": "A collaboration bar between Taiwanese craft brewer Taihu Brewing and legendary Tainan bar T.C.R.C. (about a 30-minute walk from Hamuya, so taxi or bus is handy). Highlights include tap-poured draft cocktails, craft beers, and loaded fries like chili-cheese, with large-size upgrades available.",
+      "ko": "대만 크래프트 맥주 '타이후 브루잉'과 타이난 명물 바 'T.C.R.C.'가 협업한 바입니다 (하무야에서 도보 약 30분 거리로 택시나 버스 추천). 탭으로 즐기는 드래프트 칵테일과 크래프트 맥주, 칠리치즈 감자튀김 등 안주가 매력적이며 사이즈 업도 가능합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯IPA精釀啤酒和一份起司辣椒薯條，謝謝！",
+      "ja": "こんにちは。IPAクラフトビールを1杯と、チリチーズポテトを1つお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one IPA craft beer and one chili-cheese fries, please. Thank you!",
+      "ko": "안녕하세요, IPA 크래프트 맥주 한 잔이랑 칠리치즈 감자튀김 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=GiDDY+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7487/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "xin-zao-yue-shi-ka-fei-ting-cat-cafe",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "心早越式咖啡廳 貓咪咖啡廳",
+      "ja": "心早越式咖啡廳 貓咪咖啡廳",
+      "en": "Xin Zao Vietnamese & Cat Cafe",
+      "ko": "신자오 베트남 & 고양이 카페 (心早越式咖啡廳)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約6分・赤崁樓すぐそばにある、猫ちゃんたちとリラックスできるカフェです。猫とふれあいながら過ごせる心地よい空間で、お手頃で美味しいバインミーなどのメニューも人気（1人最低100元注文制）。街歩き中の癒やしタイムにぜひ立ち寄ってみてください！",
+      "zh": "距離哈木家步行約6分鐘、就在赤崁樓旁，能一邊與貓咪互動一邊放鬆的咖啡廳。店內氣氛自在溫馨，除了可愛貓咪，平價又美味的越式法國麵包等餐點也很受歡迎（每人低消100元），很適合逛街中途來療癒一下！",
+      "en": "A laid-back cat cafe right by Chihkan Tower, about a 6-minute walk from Hamuya. Enjoy time with resident cats alongside affordable, tasty banh mi and cafe drinks (NT$100 minimum per person)—a cozy pause during sightseeing.",
+      "ko": "하무야에서 도보 약 6분·적감루 바로 옆에 있는 고양이 카페입니다. 고양이들과 함께 여유로운 시간을 보낼 수 있으며 가성비 좋고 맛있는 반미 등의 메뉴도 인기입니다 (1인 최소 100위안 주문). 산책 중 힐링 타임으로 들르기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我們想內用，請問有越式法國麵包嗎？謝謝！",
+      "ja": "こんにちは。店内で利用したいです、バインミーはありますか？ありがとうございます！",
+      "en": "Hello, we'd like to dine in—do you have banh mi available? Thank you!",
+      "ko": "안녕하세요, 매장에서 이용할게요. 반미 주문 가능한가요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E6%97%A9%E8%B6%8A%E5%BC%8F%E5%92%96%E5%95%A1%E5%BB%B3+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7051/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "ji-yu-ji-dan-hua-tainan",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "雞與雞蛋花",
+      "ja": "雞與雞蛋花（ジーユージーダンホワ）",
+      "en": "Ji Yu Ji Dan Hua",
+      "ko": "지위지단화 (雞與雞蛋花)"
+    },
+    "owner_note": {
+      "ja": "国立台湾文学館や台南市美術館から徒歩約7〜8分・はむ家からは徒歩約15分のエリアにある、サモエド犬と猫ちゃんに会えるカフェです（2階へ案内されるスタイル）。黒糖ラテなどのドリンクを楽しみながら人懐っこい動物たちに癒やされ、美術館・文学館巡りの休憩にもおすすめです（席数が少なめなので少人数向き）。",
+      "zh": "距離國立台灣文學館與台南市美術館步行約7～8分鐘、從哈木家步行約15分鐘的咖啡廳，二樓空間有可愛的薩摩耶犬與貓咪陪伴！喝杯黑糖拿鐵、被毛小孩療癒超放鬆，很適合安排在逛美術館或文學館時順道休息（座位數不多，較適合1～2人前往）。",
+      "en": "A cozy cafe near the National Museum of Taiwan Literature and Tainan Art Museum (about a 7–8 minute walk from them, or ~15 minutes from Hamuya), where you can meet a Samoyed and a cat upstairs. Great for a break during museum hopping over drinks like brown sugar latte (limited seating, best for small groups).",
+      "ko": "국립대만문학관·타이난시미술관에서 도보 약 7~8분(하무야에서 도보 약 15분) 거리에 있는 사모예드와 고양이를 만날 수 있는 카페입니다 (2층 공간). 흑당 라떼 등을 마시며 사랑스러운 동물들과 힐링하기 좋고 미술관·문학관 산책 중 쉬어가기 알맞습니다 (좌석이 적어 소인원 방문 추천)."
+    },
+    "point_and_order": {
+      "zh": "你好，請問有位置嗎？我們想點一杯黑糖拿鐵，謝謝！",
+      "ja": "こんにちは。席は空いていますか？黒糖ラテを1杯お願いします。ありがとうございます！",
+      "en": "Hello, do you have a seat available? We'd like one brown sugar latte, please. Thank you!",
+      "ko": "안녕하세요, 자리 있나요? 흑당 라떼 한 잔 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%9B%9E%E8%88%87%E9%9B%9E%E8%9B%8B%E8%8A%B1+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7051/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "kissa-maze-tainan",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "迷宮 Kissa Maze",
+      "ja": "迷宮 Kissa Maze（キス・マゼ）",
+      "en": "Kissa Maze",
+      "ko": "키사 마제 (迷宮 Kissa Maze)"
+    },
+    "owner_note": {
+      "ja": "神農街から少し抜けた落ち着いたエリアにある、看板犬「大丸」に会える夜遅くまで営業のカフェです。カフェラテや可愛いわんこクッキー（40元）、お酒メニューもあり、神農街散策のあとにゆったり過ごせます！ドア前のベルを押す・抱っこや勝手にエサをあげない・90分制・12歳未満入店不可などのルールを守って楽しみましょう。",
+      "zh": "位在神農街旁靜謐巷弄、營業到深夜且有店狗「大丸」坐鎮的咖啡廳。提供拿鐵、可愛的狗狗餅乾（40元）與酒類飲品，很適合逛完神農街來悠閒坐坐！入店前請先按門鈴、不隨意抱狗或餵食，並留意90分鐘用餐時間與12歲以下恕不接待等店規。",
+      "en": "A late-night cafe just past Shennong Street featuring resident dog Daimaru, serving lattes, cute dog cookies (NT$40), and alcoholic drinks for a calm post-stroll stop. Please ring the door bell before entering, don't pick up or feed Daimaru on your own, and note the 90-minute limit and 12+ age policy.",
+      "ko": "선눙제(신농가)에서 살짝 벗어난 차분한 골목에 위치한, 밤늦게까지 영업하며 마스코트 강아지 '다이마루'를 만날 수 있는 카페입니다. 라떼와 귀여운 강아지 쿠키(40위안), 주류 메뉴도 있으며, 입장 전 벨 누르기·임의 안기/급여 금지·90분 이용 제한·12세 미만 입장 불가 규칙을 지켜 주세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我們想點一杯拿鐵和一塊狗狗餅乾，內用，謝謝！",
+      "ja": "こんにちは。カフェラテを1杯と、わんこクッキーを1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, we'd like one latte and one dog cookie for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 카페라떼 한 잔이랑 강아지 쿠키 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%BF%B7%E5%AE%AE+Kissa+Maze+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6538/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "wubangtu-bookshop-huanhe",
+    "category": "cafe_sweets",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "烏邦圖書店 環河店",
+      "ja": "烏邦圖書店 環河店（ウバントゥー・ブックカフェ）",
+      "en": "Wubangtu Bookshop (Huanhe)",
+      "ko": "우방투 서점 환허점 (烏邦圖書店 環河店)"
+    },
+    "owner_note": {
+      "ja": "安平運河沿い・神農街から徒歩約12分（はむ家からは徒歩約30分のエリアのため自転車やタクシー・バスも便利）にある、静かで開放的なブックカフェです（9:00〜21:00営業・火曜定休）。本や雑貨、カフェメニューやお酒も楽しめ、運河を望むテラス席で読書や休憩にぴったり！",
+      "zh": "位於安平運河畔、距神農街步行約12分鐘（從哈木家步行約30分鐘，建議騎車、搭計程車或公車）的靜謐書店咖啡館（9:00～21:00營業、週二公休）。結合選書、文創小物、咖啡飲品與酒類，很適合坐在能望向運河的露台放空、看書或歇腳。",
+      "en": "A calm, airy book cafe along Anping Canal—about a 12-minute walk from Shennong Street (~30 minutes on foot from Hamuya, so bike, taxi, or bus is handy; open 9:00 AM–9:00 PM, closed Tuesdays). Browse books and gifts or unwind on the canal-view terrace with coffee or drinks.",
+      "ko": "안핑 운하변·선눙제에서 도보 약 12분(하무야에서 도보 약 30분 거리로 자전거나 택시·버스 추천) 거리에 있는 조용하고 개방적인 북카페입니다 (9:00~21:00 영업·화요일 휴무). 책과 소품, 커피·주류 메뉴가 있어 운하가 보이는 테라스에서 독서나 휴식을 즐기기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯拿鐵，內用，謝謝！",
+      "ja": "こんにちは。カフェラテを1杯、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one latte for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 카페라떼 한 잔 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%83%8F%E9%82%A6%E5%9C%96%E6%9B%B8%E5%BA%97+%E7%92%B0%E6%B2%B3%E5%BA%97+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6230/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "taihu-brewing-tainan",
+    "category": "bar",
+    "time_slots": ["lunch", "dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "臺虎台南 Taihu Tainan",
+      "ja": "臺虎台南 Taihu Tainan（タイフー・クラフトビール）",
+      "en": "Taihu Tainan",
+      "ko": "타이후 타이난 (臺虎台南 Taihu Tainan)"
+    },
+    "owner_note": {
+      "ja": "台湾を代表するクラフトビールブランド「臺虎精釀」の直営タップルームです。ホップが効いた「霧茫茫（DDH HAZY IPA）」や爽やかなフルーツエール「梅爾檸檬沙瓦」などの生ビール、マカロニチーズなどのおつまみが充実！お持ち帰りビールやグッズもあり、クラフトビール好きにおすすめの一軒です。",
+      "zh": "台灣知名精釀啤酒品牌「臺虎精釀」直營酒館！提供多款生啤酒如酒花香氣濃郁的「霧茫茫（DDH HAZY IPA）」與清爽果香的「梅爾檸檬沙瓦」，搭配起司通心粉等餐點很過癮，店內也有外帶酒款與周邊商品，精釀啤酒迷別錯過。",
+      "en": "Direct taproom from renowned Taiwanese craft brewer Taihu Brewing. Enjoy pours like hop-forward Jovian Clouds (DDH HAZY IPA) and crisp Meyer Lemon Formosawa alongside comfort bites like mac & cheese, plus take-home cans and merchandise for craft beer fans.",
+      "ko": "대만 대표 크래프트 맥주 브랜드 '타이후 브루잉'의 직영 탭룸입니다. 홉 향이 진한 DDH 헤이지 IPA와 상큼한 메이얼 레몬 사워 같은 생맥주와 맥앤치즈 등 안주가 잘 갖춰져 있으며, 포장용 맥주와 굿즈도 판매합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯霧茫茫IPA和一份起司通心粉，內用，謝謝！",
+      "ja": "こんにちは。霧茫茫（IPA）を1杯と、マカロニチーズを1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Jovian Clouds IPA and one mac and cheese for dine-in, please. Thank you!",
+      "ko": "안녕하세요, IPA 맥주 한 잔이랑 맥앤치즈 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E8%99%8E%E5%8F%B0%E5%8D%97+Taihu+Tainan",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6002/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "paripari-apt-tainan",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "PARIPARI",
+      "ja": "PARIPARI（パリパリ・カフェ）",
+      "en": "PARIPARI",
+      "ko": "파리파리 (PARIPARI)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約3分、1階にレトロカメラや雑貨が並び2階がカフェになっている人気店です（11:00〜18:00営業・木曜定休）。固め焼きプリンやカフェラテ、梅ソーダなどが評判！満席になりやすく90分制なので、1階のスタッフに席の空き状況を確認してから上がるのがスムーズです。",
+      "zh": "距離哈木家步行約3分鐘、一樓販售復古相機與選物、二樓為咖啡廳的人氣小店（11:00～18:00營業、週四公休）。紮實口感的烤布丁、拿鐵與梅子氣泡飲都很受歡迎；店內容易客滿且限時90分鐘，建議先請一樓店員確認二樓座位再上去喔。",
+      "en": "A trendy spot about a 3-minute walk from Hamuya with vintage cameras and goods downstairs and a cafe upstairs (open 11:00 AM–6:00 PM, closed Thursdays). Known for firm baked pudding, lattes, and plum soda—seats fill fast with a 90-minute limit, so check upstairs availability with downstairs staff first.",
+      "ko": "하무야에서 도보 약 3분, 1층에 레트로 카메라와 소품샵이 있고 2층이 카페인 인기 공간입니다 (11:00~18:00 영업·목요일 휴무). 단단한 식감의 푸딩, 카페라떼, 매실 소다가 맛있으며 만석이 잦고 90분 제한이 있으니 1층에서 좌석 여부를 먼저 확인해 보세요."
+    },
+    "point_and_order": {
+      "zh": "你好，請問二樓有位置嗎？我們想點一杯拿鐵和一份烤布丁，謝謝！",
+      "ja": "こんにちは。2階に席は空いていますか？カフェラテを1杯と、焼きプリンを1つお願いします。ありがとうございます！",
+      "en": "Hello, do you have space upstairs? We'd like one latte and one baked pudding, please. Thank you!",
+      "ko": "안녕하세요, 2층에 자리 있나요? 카페라떼 한 잔이랑 푸딩 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=PARIPARI+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5937/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "donutes-tainan",
+    "category": "cafe_sweets",
+    "time_slots": ["morning", "lunch", "dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "Donutes",
+      "ja": "Donutes（ドニューツ）",
+      "en": "Donutes",
+      "ko": "도뉴츠 (Donutes)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約10分、朝8時から夜23時半まで通しで営業する使いやすいカフェです。Mサイズ55元から楽しめるアメリカーノなどリーズナブルなドリンクに加え、Wi-Fiやコンセントも完備！お昼12時頃になるとラインナップがさらに増え、夜カフェや作業にも便利です。",
+      "zh": "距離哈木家步行約10分鐘、從早上8點營業到晚上11點半的便利咖啡廳！美式咖啡中杯55元起價格親民，店內也提供Wi-Fi與插座，很適合晚上來坐坐或處理事情；中午12點左右品項會更齊全，想挑餐食或點心建議那時段前往。",
+      "en": "A convenient cafe about a 10-minute walk from Hamuya open all the way from 8:00 AM to 11:30 PM. Alongside budget-friendly drinks like medium Americano starting around NT$55, Wi-Fi and power outlets make it great for evening hangouts or laptop work—selection expands around noon.",
+      "ko": "하무야에서 도보 약 10분, 아침 8시부터 밤 11시 30분까지 운영해 활용도가 높은 카페입니다. 미디엄 아메리카노 55위안대 등 합리적인 가격에 와이파이와 콘센트도 갖추어 밤 카페나 작업하기 좋으며, 정오 12시쯤 메뉴가 더욱 풍성해집니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯中杯冰美式，內用，謝謝！",
+      "ja": "こんにちは。アイスアメリカーノのMサイズを1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one medium iced Americano for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 아이스 아메리카노 M사이즈 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Donutes+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5937/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "tai-gou-lang-bar",
+    "category": "bar",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "泰勾狼",
+      "ja": "泰勾狼（タイゴウラン）",
+      "en": "Tai Gou Lang",
+      "ko": "타이거우랑 (泰勾狼)"
+    },
+    "owner_note": {
+      "ja": "地下にある広々としたカラオケバーで、曲名を書いてリクエストしながらお酒や軽食を楽しめる一軒です。飲み放題や単品メニューがあり比較的リーズナブルに過ごせます（1人あたり最低消費500元のルールあり）。気楽にお酒とカラオケを楽しみたい夜にどうぞ。",
+      "zh": "位於地下室、空間寬敞的卡拉OK酒吧，可在桌上寫歌單點歌並搭配酒水與餐食。提供暢飲或單點選擇、價格相對平易近人（每人低消500元），適合想輕鬆喝一杯、唱唱歌的夜晚。",
+      "en": "A spacious basement karaoke bar where you can write down song requests while enjoying drinks and bites. Both all-you-can-drink and a la carte options keep things relatively budget-friendly (NT$500 minimum spend per person)—good for a casual, lively night out.",
+      "ko": "지하에 자리한 넓은 공간의 노래방 바(가라오케 바)로, 신청곡을 적으며 주류와 메뉴를 즐길 수 있습니다. 무제한 또는 단품 메뉴가 있어 비교적 부담이 덜하며(1인 최소 소비 500위안), 가볍게 술과 노래를 즐기고 싶은 밤에 어울립니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問有位置嗎？我們想先點兩杯啤酒，謝謝！",
+      "ja": "こんにちは。席は空いていますか？まずビールを2杯お願いします。ありがとうございます！",
+      "en": "Hello, do you have seats available? We'd like two beers to start, please. Thank you!",
+      "ko": "안녕하세요, 자리 있나요? 우선 맥주 두 잔 먼저 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B3%B0%E5%8B%BE%E7%8B%BC+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5781/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "pa-chong-ka-fei-reptile-cafe",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "爬寵咖啡",
+      "ja": "爬寵咖啡（パーチョン・カーフェイ / 爬虫類カフェ）",
+      "en": "Reptile Cafe (Pa Chong Cafe)",
+      "ko": "파충류 카페 (爬寵咖啡)"
+    },
+    "owner_note": {
+      "ja": "新光三越 西門新天地近く・はむ家から徒歩約25分（自転車約10分）にある珍しい爬虫類カフェです。スタッフの案内に沿って1匹ずつ触れ合いを楽しめるスタイルで、席時間は平日90分・土日祝60分制（1ドリンク注文制）。予約優先なのでInstagramや電話での事前確認がおすすめです。",
+      "zh": "位在新光三越西門新天地附近、從哈木家步行約25分鐘（騎車約10分鐘）的特色爬蟲類咖啡廳。採依指示一次與一隻互動的方式體驗，內用限時平日90分鐘、假日60分鐘並需點一杯飲品；建議出發前先透過IG或電話預約確認。",
+      "en": "A unique reptile cafe near Shin Kong Mitsukoshi Ximen, about a 25-minute walk (~10 minutes by bike) from Hamuya. Guests interact with one animal at a time under guidance, with a 1-drink minimum and time limits of 90 minutes on weekdays or 60 minutes on weekends—booking via IG or phone is recommended.",
+      "ko": "신광미쓰코시 시먼신텐티 인근·하무야에서 도보 약 25분(자전거 약 10분) 거리에 있는 이색 파충류 카페입니다. 직원의 안내에 따라 한 마리씩 교감하는 방식이며 1인 1음료 주문 및 평일 90분·주말 60분 시간 제한이 있습니다. 인스타나 전화로 미리 확인해 보세요."
+    },
+    "point_and_order": {
+      "zh": "你好，請問今天有位置可以內用嗎？我們想先點一杯飲料，謝謝！",
+      "ja": "こんにちは。今日、店内で利用できますか？まずドリンクを1杯お願いします。ありがとうございます！",
+      "en": "Hello, do you have seating available today? We'd like one drink to start, please. Thank you!",
+      "ko": "안녕하세요, 오늘 매장 이용 가능한가요? 우선 음료 한 잔 먼저 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%88%AC%E5%AF%B5%E5%92%96%E5%95%A1+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5161/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "shou-cao-hand-haabu",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "手艸 Hand Haabu",
+      "ja": "手艸 Hand Haabu（ショウソウ・漢方カフェ）",
+      "en": "Hand Haabu",
+      "ko": "손차오 한방 카페 (手艸 Hand Haabu)"
+    },
+    "owner_note": {
+      "ja": "鴨母寮市場の奥にある古民家リノベの漢方茶カフェです（12:00〜18:30営業）。香ばしい「四神ミルク擂茶（230元）」や、金木犀シロップ・チーズ・卵を合わせた台南名物アレンジ「花烘蛋（180元）」が人気で、看板猫ちゃんにも出会えます！漢方茶の茶葉購入も可能です。",
+      "zh": "藏在鴨母寮市場深處、由老屋改造的漢方茶咖啡館（12:00～18:30營業）。香氣迷人的「四神牛奶擂茶（230元）」與結合桂花蜜、起司、蛋的創意椪餅料理「花烘蛋（180元）」很有特色，店內還有可愛店貓，也可選購漢方茶包。",
+      "en": "A renovated traditional-house herbal tea cafe tucked past Yaomuliao Market (open 12:00 PM–6:30 PM). Try the nutty Four-Herbs Milk Lei Cha (NT$230) and sweet-savory Flower Baked Egg in a pengbing (NT$180), with a resident cat and herbal teas available to buy.",
+      "ko": "야오무리야오 시장 안쪽 옛집을 개조한 한방차 카페입니다 (12:00~18:30 영업). 고소한 '사신 밀크 레이차(230위안)'와 계화 시럽·치즈·계란이 어우러진 '화홍단(180위안)'이 독특하며, 마스코트 고양이도 있고 한방차 제품 구매도 가능합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一壺四神牛奶擂茶和一份花烘蛋，內用，謝謝！",
+      "ja": "こんにちは。四神ミルク擂茶を1ポットと、花烘蛋を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one pot of Four-Herbs Milk Lei Cha and one Flower Baked Egg for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 사신 밀크 레이차 한 주전자랑 화홍단 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E8%8D%89+Hand+Haabu+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/2784/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "chimei-museum-tainan",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "奇美博物館",
+      "ja": "奇美博物館（チーメイ・ボーウーグァン）",
+      "en": "Chimei Museum",
+      "ko": "치메이 박물관 (奇美博物館)"
+    },
+    "owner_note": {
+      "ja": "台湾最大級の私立博物館で、西洋美術・楽器・自然史・武器など多彩なコレクションと美しい宮殿風建築・庭園が魅力です（はむ家からは電車・バス・タクシー利用が便利）。広大な敷地なので時間に余裕を持って巡るのがおすすめで、事前予約が必要な展示や時間帯もあるためご注意ください。",
+      "zh": "台灣規模最大的私立博物館之一，擁有西洋藝術、樂器、自然史與兵器等豐富館藏，搭配歐式宮殿建築與廣闊公園景觀超好拍（從哈木家建議搭台鐵、公車或計程車前往）。展區豐富建議預留充裕時間逛逛，部分票券或時段需提前預約。",
+      "en": "One of Taiwan's largest private museums, famous for European art, musical instruments, natural history, and arms collections set in a grand neoclassical building and park (best reached by train, bus, or taxi from Hamuya). Plan plenty of time to explore and check advance ticket booking requirements before visiting.",
+      "ko": "대만 최대 규모의 사립 박물관으로 서양 미술·악기·자연사·무기 컬렉션과 유럽풍 궁전 건축·정원이 인상적입니다 (하무야에서 기차·버스·택시 추천). 규모가 크니 넉넉한 일정을 잡는 것이 좋고 일부 입장권이나 회차는 사전 예약이 필요합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問今天有當日票可以買嗎？謝謝！",
+      "ja": "こんにちは。今日の当日券は購入できますか？ありがとうございます！",
+      "en": "Hello, are same-day tickets available today? Thank you!",
+      "ko": "안녕하세요, 오늘 현장 발권 가능한가요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%87%E7%BE%8E%E5%8D%9A%E7%89%A9%E9%A4%A8+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/category/tainan-sightseeing/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "wu-yuan-art-center",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "吳園藝文中心",
+      "ja": "吳園藝文中心（ウーユエン・イーウェンジョンシン）",
+      "en": "Wu Yuan Art Center",
+      "ko": "우위안 예문중심 (吳園藝文中心)"
+    },
+    "owner_note": {
+      "ja": "歴史ある庭園や茶藝館（お茶処）が融合した、街中の落ち着いた藝文スポットです。古典的な庭園美や池の風景を眺めながらお茶を楽しめ、観光の合間にほっと一息つきたいときにぴったり！周辺の街歩きとも組みやすい場所です。",
+      "zh": "融合歷史庭院與茶藝空間的市區藝文景點，環境清幽、充滿古雅韻味。很適合在庭園池畔喝茶歇腳、感受台南慢步調，也能順道串聯周邊老屋與街區散步。",
+      "en": "A peaceful arts and cultural garden spot in central Tainan blending historic grounds with traditional tea spaces. Ideal for slowing down with tea beside the garden pond and pairing with a walk through nearby historic streets.",
+      "ko": "역사적 정원과 차 공간이 어우러진 도심 속 차분한 예문 공간입니다. 고풍스러운 정원과 연못을 바라보며 차를 마시며 쉬어가기 좋고 인근 골목 산책과 함께 즐기기 알맞습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問喝茶內用有位置嗎？謝謝！",
+      "ja": "こんにちは。お茶の店内利用は席が空いていますか？ありがとうございます！",
+      "en": "Hello, do you have seating available for tea inside? Thank you!",
+      "ko": "안녕하세요, 차 마시러 이용할 수 있나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%90%B3%E5%9C%92%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/category/tainan-sightseeing/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "dong-cai-shi-market",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "東菜市",
+      "ja": "東菜市（ドンツァイシー・市場）",
+      "en": "Dong Cai Shi Market",
+      "ko": "둥차이스 시장 (東菜市)"
+    },
+    "owner_note": {
+      "ja": "地元の人々の暮らしが息づく伝統市場で、食材探しや市場グルメ・ごはんを一緒に楽しめるスポットです。朝〜昼にかけて活気があふれるため、ローカルな雰囲気を味わいたいなら午前中の訪問がおすすめ！",
+      "zh": "充滿在地生活感的傳統市場，不僅能感受熱鬧市場氛圍，也很適合順道吃頓道地小吃或家常美食。上午時段攤商最齊全、最有活力，想體驗在地日常建議早點來逛！",
+      "en": "A lively traditional market full of everyday local character, great for soaking in neighborhood energy and grabbing local bites. Best visited in the morning when stalls are bustling and food options are in full swing.",
+      "ko": "현지인의 일상이 살아 숨 쉬는 전통시장으로, 시장 분위기와 함께 로컬 먹거리를 즐기기 좋습니다. 오전 시간대에 가장 활기차니 아침~점심 시간대 방문을 추천합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問這附近有推薦的在地小吃嗎？謝謝！",
+      "ja": "こんにちは。このあたりでおすすめのローカル小吃はありますか？ありがとうございます！",
+      "en": "Hello, are there any local snacks around here you recommend? Thank you!",
+      "ko": "안녕하세요, 이 근처에 추천할 만한 로컬 먹거리가 있나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%8F%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/category/tainan-sightseeing/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "taiwan-beer-shanhua-brewery",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "台灣菸酒公司善化啤酒廠",
+      "ja": "台灣ビール 善化工場（善化啤酒廠）",
+      "en": "Taiwan Beer Shanhua Brewery",
+      "ko": "대만맥주 산화 공장 (善化啤酒廠)"
+    },
+    "owner_note": {
+      "ja": "善化エリアにある台湾ビールの工場見学＆お買い物スポットです（はむ家からは車・タクシー・電車＋乗り継ぎなど郊外移動が必要）。工場ならではの雰囲気やビール関連商品・お土産を楽しめ、ちょっとした郊外お出かけにぴったりです。",
+      "zh": "位於善化的台灣啤酒觀光酒廠，結合啤酒文化展示與伴手禮選購（從哈木家前往需安排跨區交通如計程車或台鐵轉乘）。很適合作為半日郊外走走的行程，順便帶點特色酒款或零食回去。",
+      "en": "A Taiwan Beer brewery site in Shanhua offering a glimpse into brewing culture and beer-themed snacks and souvenirs (requires inter-district transport like taxi or rail transfer from Hamuya). Nice for a relaxed half-day trip outside central Tainan.",
+      "ko": "산화(산후아) 지역에 위치한 대만맥주 양조장 견학·쇼핑 명소입니다 (하무야에서 택시나 기차 환승 등 교외 이동 필요). 타이난 시내에서 벗어나 반나절 나들이 겸 주류·간식 기념품을 구경하기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問今天有開放參觀嗎？謝謝！",
+      "ja": "こんにちは。今日は見学できますか？ありがとうございます！",
+      "en": "Hello, is the brewery open for visitors today? Thank you!",
+      "ko": "안녕하세요, 오늘 견학 가능한가요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%96%84%E5%8C%96%E5%95%A4%E9%85%92%E5%BB%A0+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/category/tainan-sightseeing/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "west-market-tainan",
+    "category": "sightseeing",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "西市場",
+      "ja": "西市場（シーシーチャン）",
+      "en": "West Market",
+      "ko": "서시장 (西市場)"
+    },
+    "owner_note": {
+      "ja": "國華街エリアにある歴史的市場がリニューアルした注目スポットで、グルメ・雑貨・工芸・DIY体験など多彩なお店が集まっています（月〜金11:00〜20:00、土日11:00〜21:00・水曜定休）。老舗の巨大シュークリームや手作りお土産探しにぴったりで、一度に「今の台南」を満喫できます！",
+      "zh": "位於國華街商圈、經修復翻新後人氣超高的歷史市場，集結美食小吃、文創選物、手作體驗等豐富店家（週一至五11:00～20:00、週末11:00～21:00、週三公休）。想吃老字號大泡芙或挑特色伴手禮都很方便，一次感受新舊交融的台南魅力！",
+      "en": "A revitalized historic market in the Guohua Street area packed with food stalls, craft shops, and DIY studios (Mon–Fri 11:00 AM–8:00 PM, Sat–Sun 11:00 AM–9:00 PM, closed Wednesdays). Great for cream puffs, handmade souvenirs, and experiencing Tainan's blend of heritage and trendy shops in one stop.",
+      "ko": "궈화제 인근 역사적 시장을 리뉴얼한 명소로 맛집, 소품, 공예, DIY 체험 매장 등이 모여 있습니다 (월~금 11:00~20:00, 주말 11:00~21:00·수요일 휴무). 노포 슈크림이나 개성 있는 기념품을 찾기에 좋고 타이난의 매력을 한곳에서 즐기기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問這附近有推薦的特色小店或點心嗎？謝謝！",
+      "ja": "こんにちは。このあたりでおすすめの特色あるお店やおやつはありますか？ありがとうございます！",
+      "en": "Hello, are there any local shops or snacks around here you recommend? Thank you!",
+      "ko": "안녕하세요, 이 근처에 추천할 만한 가게나 간식이 있나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%B8%82%E5%A0%B4+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/4421/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "wenting-phonograph-museum",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "文鼎留聲博物館",
+      "ja": "文鼎留聲博物館（ウェンディン・蓄音機博物館）",
+      "en": "Wenting Phonograph Museum",
+      "ko": "원딩 축음기 박물관 (文鼎留聲博物館)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約5〜6分の場所にある、蓄音機・オルゴール・レコードなど200年にわたる音の歴史を楽しめる博物館です（10:00〜17:30営業・月曜＆火曜定休、入場200元・1階カフェは入場無料）。11:30〜と14:30〜の実演タイムに合わせて訪れると、実際の音色と仕組みを体感できておすすめです！",
+      "zh": "距離哈木家步行約5～6分鐘、展示留聲機、音樂盒與黑膠唱片的聲音歷史博物館（10:00～17:30營業、週一及週二公休，門票200元、一樓咖啡區免門票）。建議配合11:30與14:30的現場播放導覽前往，聽聽古董留聲機的真實音色超特別！",
+      "en": "A sound and phonograph museum just a 5–6 minute walk from Hamuya showcasing phonographs, music boxes, and records spanning 200 years of audio history (open 10:00 AM–5:30 PM, closed Mon & Tue; NT$200 admission, 1F cafe free). Time your visit around the 11:30 AM and 2:30 PM live demonstrations to hear the machines in action.",
+      "ko": "하무야에서 도보 약 5~6분 거리에 있는 축음기·오르골·레코드 등 200년 소리 역사를 만나는 박물관입니다 (10:00~17:30 영업·월·화 휴무, 입장료 200위안·1층 카페 무료). 11:30과 14:30 시연 시간에 맞춰 방문하면 실제 소리와 원리를 감상할 수 있습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問要買博物館的門票，謝謝！",
+      "ja": "こんにちは。博物館の入場チケットを購入したいです。ありがとうございます！",
+      "en": "Hello, I'd like to buy museum admission tickets, please. Thank you!",
+      "ko": "안녕하세요, 박물관 입장권 구매할게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E9%BC%8E%E7%95%99%E8%81%B2%E5%8D%9A%E7%89%A9%E9%A4%A8+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6359/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "yu-guang-island-tainan",
+    "category": "sightseeing",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "漁光島",
+      "ja": "漁光島（ユーグァンダオ / 安平）",
+      "en": "Yu Guang Island",
+      "ko": "위광도 (漁光島)"
+    },
+    "owner_note": {
+      "ja": "安平エリアの橋を渡った先にある小さな島で、ビーチや海辺の散歩、美しい夕焼けを楽しめるリラックススポットです（はむ家からはバス＋徒歩やタクシーなどで約30〜40分）。夕方17時頃から海辺で夕日を眺めるのがおすすめで、食事は島内より安平エリアで済ませてから向かうのが安心です。",
+      "zh": "跨越漁光大橋即可抵達的安平小島，擁有海灘與海岸步道，是看夕陽、吹海風放鬆的好去處（從哈木家可搭公車轉步行或搭計程車前往）。推薦傍晚5點左右前來欣賞夕照，島上餐飲選擇較少，建議先在安平吃飽再過去或準備點心。",
+      "en": "A small island across the bridge from Anping known for coastal walks, beach breezes, and sunset views (about 30–40 minutes from Hamuya by bus plus walking or taxi). Arriving around 5:00 PM for sunset is ideal—dining options on the island are limited, so eat in Anping first.",
+      "ko": "안핑 다리를 건너 만나는 작은 섬으로 해변 산책과 아름다운 노을을 감상하기 좋은 힐링 명소입니다 (하무야에서 버스+도보 또는 택시로 약 30~40분). 오후 5시쯤 일몰 시간대에 맞춰 가는 것을 추천하며, 섬 내 식당이 적으니 안핑에서 식사 후 이동하세요."
+    },
+    "point_and_order": {
+      "zh": "你好，請問去漁光島的方向是在這邊嗎？謝謝！",
+      "ja": "こんにちは。漁光島へ向かうのはこちらで合っていますか？ありがとうございます！",
+      "en": "Hello, is this the way toward Yu Guang Island? Thank you!",
+      "ko": "안녕하세요, 위광도로 가는 길이 이쪽이 맞나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%BC%81%E5%85%89%E5%B3%B6+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5987/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "hayashi-department-store-tainan",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "林百貨",
+      "ja": "林百貨店（ハヤシ百貨店）",
+      "en": "Hayashi Department Store",
+      "ko": "하야시 백화점 (林百貨)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約10分、1932年創業の歴史あるレトロ百貨店です。当時珍しいエレベーターや当時の面影を残す内装、屋上神社（末広社）や戦争の痕跡など見どころ満載！台湾デザインのお土産・雑貨も豊富で、夜のライトアップも綺麗です。",
+      "zh": "距離哈木家步行約10分鐘、創立於1932年的經典歷史百貨！保留復古電梯、老建築細節、頂樓神社與歷史痕跡等許多看點，館內也集結滿滿台灣文創伴手禮與選物；晚上點燈後也很有氣氛，非常適合安排逛街。",
+      "en": "A historic 1932 department store about a 10-minute walk from Hamuya, packed with heritage details like its vintage elevator, rooftop shrine, and preserved war remnants. Great for Taiwanese design gifts and souvenirs, and especially atmospheric when lit up at night.",
+      "ko": "하무야에서 도보 약 10분 거리에 있는 1932년 개업한 레트로 백화점입니다. 옛 엘리베이터와 건축 디테일, 옥상 신사 등 볼거리가 가득하며 대만 디자인 소품·기념품 쇼핑과 야간 조명 감상에도 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問現在可以入館參觀嗎？謝謝！",
+      "ja": "こんにちは。今から館内に入れますか？ありがとうございます！",
+      "en": "Hello, can we enter the department store now? Thank you!",
+      "ko": "안녕하세요, 지금 백화점 입장 가능한가요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9E%97%E7%99%BE%E8%B2%A8+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5647/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "land-bank-tainan-branch",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "臺灣土地銀行 臺南分行",
+      "ja": "土地銀行 台南支店（建築スポット）",
+      "en": "Land Bank of Taiwan (Tainan Branch)",
+      "ko": "대만토지은행 타이난지점 (土地銀行 臺南分行)"
+    },
+    "owner_note": {
+      "ja": "林百貨店の向かい・はむ家から徒歩約10分の場所にある、日本統治時代からの歴史的建築です。ギリシャのドーリア式を思わせる柱や左右で異なるファサード・天井高など建築美が見どころ！林百貨店とあわせて外観や周辺散策を楽しむのがおすすめです。",
+      "zh": "就在林百貨對面、從哈木家步行約10分鐘的日治時期歷史建築！融合古典柱式、左右不對稱立面與不同挑高設計，建築細節很有看頭；很適合與林百貨安排在同一趟散步路線中順道欣賞。",
+      "en": "A historic building from the Japanese colonial era right across from Hayashi Department Store, about a 10-minute walk from Hamuya. Notable for its classical columns and asymmetric facade and ceiling heights—easy to pair with a stroll around Hayashi.",
+      "ko": "하야시 백화점 맞은편·하무야에서 도보 약 10분 거리에 있는 일제강점기 역사 건축물입니다. 고전적인 기둥과 좌우가 다른 입면·천장고 등 건축적 특징을 볼 수 있으며 하야시 백화점 산책과 함께 둘러보기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問這棟建築物在林百貨對面嗎？謝謝！",
+      "ja": "こんにちは。この建物は林百貨店の向かい側ですか？ありがとうございます！",
+      "en": "Hello, is this building right across from Hayashi Department Store? Thank you!",
+      "ko": "안녕하세요, 이 건물이 하야시 백화점 맞은편에 있나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E5%9C%B0%E9%8A%80%E8%A1%8C+%E5%8F%B0%E5%8D%97%E5%88%86%E8%A1%8C+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5761/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "zuozhen-fossil-park-tainan",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "臺南左鎮化石園區",
+      "ja": "臺南左鎮化石園區（化石博物館）",
+      "en": "Tainan Zuozhen Fossil Park",
+      "ko": "타이난 쭤전 화석원구 (臺南左鎮化石園區)"
+    },
+    "owner_note": {
+      "ja": "台湾で唯一の化石をテーマにした博物館で、自然史・生命進化・化石・物語・探索などのエリアに分かれて充実の展示を楽しめます（9:00〜17:00営業・一般100元、はむ家からは郊外のため車やツアー・乗り継ぎの計画がおすすめ）。恐竜や古代生物の化石が見応え抜群です！",
+      "zh": "台灣少見以化石為主題的特色博物館，涵蓋自然史、生命演化、化石、故事館與探索館等豐富展區（9:00～17:00營業、全票100元，位於左鎮山區建議提前規劃交通前往）。古生物與化石展示很有看頭，適合安排半日知性之旅。",
+      "en": "Taiwan's dedicated fossil museum featuring zones on natural history, evolution, fossils, local stories, and hands-on exploration (open 9:00 AM–5:00 PM, general admission NT$100; located in Zuozhen so plan transport ahead from Hamuya). Great prehistoric and fossil displays for a curious day out.",
+      "ko": "대만의 대표적인 화석 테마 박물관으로 자연사·생명진화·화석·스토리·탐험관 등 다양한 전시를 갖추고 있습니다 (9:00~17:00 영업·일반 100위안, 쭤전 지역으로 교통편을 미리 확인해 이동하세요)."
+    },
+    "point_and_order": {
+      "zh": "你好，請問要買全票，謝謝！",
+      "ja": "こんにちは。一般チケット（全票）を購入したいです。ありがとうございます！",
+      "en": "Hello, I'd like general admission tickets, please. Thank you!",
+      "ko": "안녕하세요, 일반 입장권 구매할게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8D%97%E5%B7%A6%E9%8E%AE%E5%8C%96%E7%9F%B3%E5%9C%92%E5%8C%BA",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5280/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "hutoupi-scenic-area-tainan",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "虎頭埤風景區",
+      "ja": "虎頭埤風景區（ダム湖お散歩スポット）",
+      "en": "Hutoupi Scenic Area",
+      "ko": "후터우피 풍경구 (虎頭埤風景區)"
+    },
+    "owner_note": {
+      "ja": "1846年築造の歴史あるダム湖を中心とした自然公園で、四季折々の景色や湖畔の散策コースを楽しめる憩いの場です（一般100元、はむ家からは郊外のため車やタクシー・乗り継ぎがおすすめ）。湖畔を一周する散歩や自然の中でリフレッシュしたいときにどうぞ！",
+      "zh": "以建於1846年的歷史水庫為核心的自然風景區，擁有湖畔步道與豐富綠意，是當地人散步踏青的休憩景點（全票100元，位於新化區建議提前安排交通前往）。很適合沿著湖畔慢慢散步、親近自然放鬆身心。",
+      "en": "A scenic reservoir park centered on a historic 1846 dam, offering lakeside walking paths and lush greenery for a refreshing nature break (general admission NT$100; plan transport ahead from Hamuya). Nice for a slow walk around the water on a pleasant day.",
+      "ko": "1846년 조성된 역사적 저수지를 중심으로 한 자연 풍경구로 호숫가 산책로와 푸른 자연을 즐길 수 있습니다 (일반 100위안, 교외 지역이므로 이동 수단을 미리 확인하세요). 여유롭게 산책하며 자연 속에서 쉬기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問要買入園門票，謝謝！",
+      "ja": "こんにちは。入園チケットを購入したいです。ありがとうございます！",
+      "en": "Hello, I'd like park admission tickets, please. Thank you!",
+      "ko": "안녕하세요, 입장권 구매할게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%99%8E%E9%A0%AD%E5%9F%A2%E9%A2%A8%E6%99%AF%E5%8D%80+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/5204/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
