@@ -20,7 +20,7 @@
     ja: {
       pageTitle: "はむ家 台南ローカル案内",
       appTitle: "はむ家 台南ローカル案内",
-      appSubtitle: "台南ゲストハウス「はむ家」宿泊者ガイド",
+      appSubtitle: "はむ家のリアルなおすすめ案内",
       filterTime: "時間帯",
       filterCategory: "ジャンル",
       filterDistance: "距離",
@@ -62,7 +62,7 @@
     "zh-TW": {
       pageTitle: "哈木家 台南在地散步指南",
       appTitle: "哈木家 台南在地指南",
-      appSubtitle: "台南旅宿「哈木家 Hamuya」房客專屬口袋名單",
+      appSubtitle: "哈木家在地人真心推薦",
       filterTime: "時段",
       filterCategory: "類型",
       filterDistance: "距離",
@@ -104,7 +104,7 @@
     en: {
       pageTitle: "Hamuya Tainan Local Guide",
       appTitle: "Hamuya Tainan Guide",
-      appSubtitle: "Curated local spots for Hamuya Guesthouse guests",
+      appSubtitle: "Hamuya's genuine local picks",
       filterTime: "Time",
       filterCategory: "Type",
       filterDistance: "Distance",
@@ -146,7 +146,7 @@
     ko: {
       pageTitle: "하무야 타이난 로컬 가이드",
       appTitle: "하무야 타이난 로컬 가이드",
-      appSubtitle: "타이난 게스트하우스 '하무야' 투숙객 전용 가이드",
+      appSubtitle: "하무야의 진짜 로컬 추천 가이드",
       filterTime: "시간대",
       filterCategory: "장르",
       filterDistance: "거리",

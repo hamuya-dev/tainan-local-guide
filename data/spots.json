@@ -2142,5 +2142,69 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "feng-shou-fan-zhuo-tainan",
+    "category": "local_food",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "豐收飯桌",
+      "ja": "豐收飯桌（フォンショウ・ファンジュオ）",
+      "en": "Feng Shou Fan Zhuo",
+      "ko": "펑쇼우 판주오 (豐收飯桌)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約11分・赤崁樓や永楽市場近くにある、リーズナブルで料理の提供も早い人気の台湾料理店です（16:30〜23:40営業・無休、ラストオーダーは22:30頃目安）。エビチャーハンや塔香蛤蜊（ハマグリのバジル炒め）、小蒼蠅頭、麻婆豆腐などが絶品！滞在60分制・追加注文不可・お酒持ち込み要相談なので、ピーク時を外すか複数人で色々頼むのがおすすめです。",
+      "zh": "距離哈木家步行約11分鐘、就在赤崁樓與永樂市場附近的超人氣台菜餐廳，價格親民且出菜速度快（16:30～23:40營業、全年無休，點餐約至22:30左右）。蝦仁炒飯、塔香蛤蜊、小蒼蠅頭與麻婆豆腐都很下飯！用餐限時60分鐘、不可加點且酒類需經同意攜帶，建議避開尖峰時段或揪伴多點幾道一起分享。",
+      "en": "A lively, budget-friendly Taiwanese dining spot about an 11-minute walk from Hamuya near Chihkan Tower and Yongle Market, known for fast service (open daily 4:30 PM–11:40 PM, last order around 10:30 PM). Shrimp fried rice, basil stir-fried clams, cangyingtou, and mapo tofu stand out—note the 60-minute limit, no add-on orders, and ask staff before bringing alcohol.",
+      "ko": "하무야에서 도보 약 11분·적감루와 영락시장 인근에 위치한 가성비 좋고 음식이 빨리 나오는 인기 대만 가정식·요리 식당입니다 (16:30~23:40 영업·연중무휴, 라스트오더 22:30경). 새우볶음밥, 바질 볶음 조개, 샤오창잉터우, 마파두부가 맛있으며, 60분 이용 제한·추가 주문 불가·주류 반입 사전 문의 조건이니 참고하세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我們想點一份蝦仁炒飯、一份塔香蛤蜊和一份麻婆豆腐，內用，謝謝！",
+      "ja": "こんにちは。エビチャーハンを1つと、塔香蛤蜊、麻婆豆腐を1つずつ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, we'd like one shrimp fried rice, one basil clams, and one mapo tofu for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 새우볶음밥 하나랑 바질 조개 볶음, 마파두부 하나씩 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B1%90%E6%94%B6%E9%A3%AF%E6%A1%8C+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/8894/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "a-way-music-center-tainan",
+    "category": "bar",
+    "time_slots": ["lunch", "dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "A way 音樂中心",
+      "ja": "A way 音樂中心（日式カラオケ）",
+      "en": "A way Music Center (Japanese Karaoke)",
+      "ko": "A way 음악중심 (일본식 노래방)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約15分、日本語入力やJOYSOUND機種も楽しめる数少ない台南の日式カラオケです（平日12:00〜23:00、休日9:00〜23:00・エレベーターは3階までなので4階へは階段で）。一人でも歌いやすい大廳スペースと友人向けの個室（要予約・IG/FB @awaykara）があり、日本が恋しくなったときの気分転換にもぴったり！",
+      "zh": "距離哈木家步行約15分鐘、少見能體驗日文點歌與JOYSOUND機型的日式KTV（平日12:00～23:00、假日9:00～23:00；電梯僅到3樓，4樓需走樓梯）。設有適合單人的大廳空間與適合揪友同歡的包廂（包廂需透過IG/FB @awaykara預約），想轉換心情或懷念日本氛圍時很推薦！",
+      "en": "A rare Japanese-style karaoke spot about a 15-minute walk from Hamuya featuring Japanese input and JOYSOUND systems (open weekdays 12:00 PM–11:00 PM, weekends 9:00 AM–11:00 PM; elevator goes to 3F with stairs to 4F). Offers a casual shared lounge for solo singers and private rooms by reservation via IG/FB (@awaykara).",
+      "ko": "하무야에서 도보 약 15분, 일본어 검색과 JOYSOUND 기기를 즐길 수 있는 타이난의 몇 안 되는 일본식 노래방입니다 (평일 12:00~23:00, 주말 09:00~23:00·엘리베이터는 3층까지며 4층은 계단 이동). 혼자 가기 좋은 라운지 공간과 예약제 룸(IG/FB @awaykara)이 있어 기분 전환하기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問我們有預約包廂，請問是在這邊嗎？謝謝！",
+      "ja": "こんにちは。個室を予約しているのですが、こちらで合っていますか？ありがとうございます！",
+      "en": "Hello, we have a private room reservation—is this the right place? Thank you!",
+      "ko": "안녕하세요, 룸 예약했는데 여기 맞나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=A+way+%E9%9F%B3%E6%A8%82%E4%B8%AD%E5%BF%83+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/8753/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
