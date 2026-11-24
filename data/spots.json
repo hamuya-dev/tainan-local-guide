@@ -28,10 +28,10 @@
       "ko": "하무야에서 택시로 약 15분 거리에 있는 레트로한 대만 분위기의 인기 러차오(대만식 술집)입니다. 음식이 빠르게 나오고 가격도 합리적이며, 맥주와 찰떡궁합인 진한 '진사두부(금사두부)', '사차소고기볶음', 부드러운 '파기름닭고기(총유계)'가 특히 맛있습니다. 볶음밥 같은 탄수화물 메뉴는 보통 가장 먼저 나오니, 마무리로 드시고 싶다면 나중에 추가 주문하는 것을 추천합니다."
     },
     "point_and_order": {
-      "zh": "你好，我們要點金沙豆腐、沙茶牛肉和蔥油雞，再來一瓶台灣啤酒。炒飯請最後再上，謝謝！",
-      "ja": "こんにちは。金沙豆腐、沙茶牛肉、葱油鶏と、台湾ビールを1本ください。チャーハンは最後に出してください。ありがとうございます！",
-      "en": "Hello, we'd like to order the salted egg yolk tofu, shacha beef, scallion oil chicken, and a bottle of Taiwan Beer. Please bring the fried rice last. Thank you!",
-      "ko": "안녕하세요, 금사두부, 사차소고기볶음, 파기름닭고기 그리고 대만 맥주 한 병 주세요. 볶음밥은 마지막에 내어주세요. 감사합니다!"
+      "zh": "我們要點金沙豆腐、沙茶牛肉和蔥油雞，再來一瓶台灣啤酒。炒飯請最後再上，謝謝！",
+      "ja": "金沙豆腐、沙茶牛肉、葱油鶏と、台湾ビールを1本ください。チャーハンは最後に出してください。ありがとうございます！",
+      "en": "We'd like to order the salted egg yolk tofu, shacha beef, scallion oil chicken, and a bottle of Taiwan Beer. Please bring the fried rice last. Thank you!",
+      "ko": "금사두부, 사차소고기볶음, 파기름닭고기 그리고 대만 맥주 한 병 주세요. 볶음밥은 마지막에 내어주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJpSbBOHB2bjQR1iMPVATu1Q4",
     "blog_url": {
@@ -69,10 +69,10 @@
       "ko": "하무야에서 도보 약 5분 거리에 있는 레트로 감성의 대만식 스테이크 맛집으로, 하무상이 강력 추천하는 곳입니다. NT$280의 '시그니처 특제 스테이크(두꺼운 컷)'가 단연 추천 메뉴(안심도 맛있음)이며, 고기 본연의 탄탄한 식감을 즐길 수 있습니다. 수프, 샐러드, 빵, 달콤한 홍차, 후식 과일까지 알차게 나오지만 품절될 때도 있으니 일찍 방문해 보세요!"
     },
     "point_and_order": {
-      "zh": "你好，我要一份招牌特製牛排（厚切），謝謝！",
-      "ja": "こんにちは。招牌特製牛排（厚切りステーキ）を1つください。ありがとうございます！",
-      "en": "Hello, I'd like one thick-cut Signature Special Steak, please. Thank you!",
-      "ko": "안녕하세요, 시그니처 특제 스테이크(두꺼운 컷) 하나 주세요. 감사합니다!"
+      "zh": "我要一份招牌特製牛排（厚切），謝謝！",
+      "ja": "招牌特製牛排（厚切りステーキ）を1つください。ありがとうございます！",
+      "en": "I'd like one thick-cut Signature Special Steak, please. Thank you!",
+      "ko": "시그니처 특제 스테이크(두꺼운 컷) 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJ83Q9PYp2bjQRr6Vo2KRSIyA",
     "blog_url": {
@@ -113,10 +113,10 @@
       "ko": "하무야에서 도보 약 15분 거리에 있는 가성비 좋은 해산물 러차오(대만식 술집)로, 단골과 스태프들도 자주 찾는 곳입니다. 바삭한 '월량하병(새우전)'과 생강 곱창볶음, 생선구이, 전골까지 모두 맛있으며 인당 약 NT$300~500이면 배부르게 즐길 수 있습니다. 특히 추천 메뉴는 강폭마유계(생강 참기름 닭볶음)! 주문서에 숫자를 적고 음료는 냉장고에서 직접 꺼내 마시는 방식입니다 (월요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我們要點月亮蝦餅和薑絲大腸，請問飲料可以直接從冰箱拿嗎？謝謝！",
-      "ja": "こんにちは。月亮蝦餅とホルモンと生姜の炒め物をください。飲み物は冷蔵庫から自分で取っていいですか？ありがとうございます！",
-      "en": "Hello, we'd like to order the Moon Shrimp Cake and stir-fried intestines with ginger. Can we grab drinks directly from the fridge? Thank you!",
-      "ko": "안녕하세요, 월량하병과 생강 곱창볶음 주문할게요. 음료는 냉장고에서 직접 꺼내 마셔도 되나요? 감사합니다!"
+      "zh": "我們要點薑爆麻油雞和客家小炒，請問飲料可以直接從冰箱拿嗎？謝謝！",
+      "ja": "薑爆麻油雞（生姜とごま油の鶏炒め）と客家小炒（客家風ピリ辛炒め）をお願いします。飲み物は冷蔵庫から自分で取っていいですか？ありがとうございます！",
+      "en": "We'd like to order the Ginger Sesame Oil Chicken (Jiangbao Mayouji) and Hakka stir-fry (Kejia Xiaochao). Can we grab drinks directly from the fridge? Thank you!",
+      "ko": "강폭마유계(생강 참기름 닭볶음)랑 객가소초(객가식 볶음) 주문할게요. 음료는 냉장고에서 직접 꺼내 마셔도 되나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJTQ9lJvV2bjQRp-l2MQHlwmo",
     "blog_url": {
@@ -154,10 +154,10 @@
       "ko": "하무야에서 도보 5분, 적감루 바로 앞에 위치한 하무상 추천 국밥 맛집입니다. 잡내 없이 깔끔하게 손질된 내장과 선지가 듬뿍 들어간 '종합탕'은 혼자라면 소(小, NT$90) 사이즈로도 충분히 든든합니다. 달콤 짭짤한 루로우판(살코기/비계/믹스 선택 가능)과 함께 드셔보세요. 매장용 주문서를 작성해 선불로 결제하는 방식입니다 (화요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，內用要一碗綜合湯（小）和一碗肉燥飯（半肥瘦），謝謝！",
-      "ja": "こんにちは。店内で、総合スープの小と、肉燥飯（赤身と脂身ミックス）を1つずつください。ありがとうございます！",
-      "en": "Hello, for dine-in, I'd like one small mixed pork blood & offal soup and one braised pork rice (half lean, half fatty), please. Thank you!",
-      "ko": "안녕하세요, 매장에서 먹을게요. 종합탕 소(小) 하나랑 루로우판 반반(살코기+비계) 하나 주세요. 감사합니다!"
+      "zh": "內用要一碗綜合湯（小）和一碗肉燥飯（半肥瘦），謝謝！",
+      "ja": "店内で、総合スープの小と、肉燥飯（赤身と脂身ミックス）を1つずつください。ありがとうございます！",
+      "en": "For dine-in, I'd like one small mixed pork blood & offal soup and one braised pork rice (half lean, half fatty), please. Thank you!",
+      "ko": "매장에서 먹을게요. 종합탕 소(小) 하나랑 루로우판 반반(살코기+비계) 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJkdrbg2F2bjQRAxkVH9-A3FE",
     "blog_url": {
@@ -195,10 +195,10 @@
       "ko": "하무야에서 도보 3분 거리에 있는 미슐랭 빕 구르망 단골 맛집으로, 대만식 찰밥 '미가오' 전문점입니다. 달콤하게 조린 돼지고기와 생선 보푸라기가 올라간 미가오에 부드러운 곱창국 '사신탕'과 '오리알 장조림(루야단)'을 곁들이는 조합이 최고입니다. 사장님이 간단한 일본어도 하셔서 혼자 가도 편하며, 셀프 매운 소스로 맛에 변화를 주는 것도 추천합니다 (10:30~18:30 영업·수요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗小碗米糕、一碗四神豬腸湯，還要加一顆魯鴨蛋，謝謝！",
-      "ja": "こんにちは。米糕の小を1つ、四神豬腸湯を1つ、あとアヒルの煮卵（魯鴨蛋）を1つください。ありがとうございます！",
-      "en": "Hello, I'd like one small sticky rice (migao), one Four-Herb Pork Intestine Soup, and one braised duck egg, please. Thank you!",
-      "ko": "안녕하세요, 미가오 소(小) 하나, 사신탕(돼지곱창) 하나, 그리고 오리알 장조림 하나 추가해 주세요. 감사합니다!"
+      "zh": "我要一碗小碗米糕、一碗四神豬腸湯，還要加一顆魯鴨蛋，謝謝！",
+      "ja": "米糕の小を1つ、四神豬腸湯を1つ、あとアヒルの煮卵（魯鴨蛋）を1つください。ありがとうございます！",
+      "en": "I'd like one small sticky rice (migao), one Four-Herb Pork Intestine Soup, and one braised duck egg, please. Thank you!",
+      "ko": "미가오 소(小) 하나, 사신탕(돼지곱창) 하나, 그리고 오리알 장조림 하나 추가해 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJy3nZ-2F2bjQRAfpYzggB2k8",
     "blog_url": {
@@ -235,10 +235,10 @@
       "ko": "하무야에서 도보 약 8분, 타이난 시립미술관 근처 골목에 있는 간판조차 없는 숨은 로컬 식당입니다. 자극적인 음식에 지쳤을 때 딱 좋은 깔끔한 육수의 '궈샤오이몐(NT$65)'과 생강 향이 상큼한 쫀득한 '한입 물만두(NT$35)'가 일품입니다. 야외 테이블에서 대만 라디오를 들으며 NT$100으로 타이난의 소박한 일상 맛을 즐겨보세요 (일요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗鍋燒意麵和一份一口水餃，內用，謝謝！",
-      "ja": "こんにちは。鍋焼意麺を1つと、一口水餃子を1皿、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of Pot-Boiled Yi-Mian noodles and one order of bite-sized boiled dumplings for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 궈샤오이몐 하나랑 한입 물만두 하나 주세요. 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗鍋燒意麵和一份一口水餃，內用，謝謝！",
+      "ja": "鍋焼意麺を1つと、一口水餃子を1皿、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of Pot-Boiled Yi-Mian noodles and one order of bite-sized boiled dumplings for dine-in, please. Thank you!",
+      "ko": "궈샤오이몐 하나랑 한입 물만두 하나 주세요. 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJzdP6o4l2bjQRe54aUjgr3XI",
     "blog_url": {
@@ -275,10 +275,10 @@
       "ko": "하무야에서 도보 5분 이내, 친절한 부부가 20년 넘게 운영해 온 레트로 로컬 식당입니다. 스태프들 사이에서 'NT$50 볶음밥'으로 불리는 가성비 최고 볶음밥은 물론, 타이난 명물 궈샤오이몐과 물만두도 저렴하게 즐길 수 있습니다. 가게 앞 야외 테이블에서 타이난의 로컬 분위기를 느끼며 식사해 보세요."
     },
     "point_and_order": {
-      "zh": "你好，我要一份炒飯，內用，謝謝！",
-      "ja": "こんにちは。炒飯を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one order of fried rice for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 볶음밥 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份炒飯，內用，謝謝！",
+      "ja": "炒飯を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one order of fried rice for dine-in, please. Thank you!",
+      "ko": "볶음밥 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJmReW38h3bjQRF6kipomMhGc",
     "blog_url": {
@@ -316,10 +316,10 @@
       "ko": "하무야에서 도보 5분 이내, 아침 6시부터 문을 여는 대만식 아침 식사 단골집입니다. 무엇을 시켜도 맛있지만 스태프들이 가장 자주 찾는 메뉴는 진한 치즈가 듬뿍 들어간 '치즈 딴삥(起士蛋餅)'! 하나하나 가격이 매우 저렴하니 두유 등과 함께 여러 가지 메뉴를 주문해 보세요 (수요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一份起士蛋餅和一杯冰豆漿，謝謝！",
-      "ja": "こんにちは。チーズ蛋餅（起士蛋餅）を1つと、冷たい豆乳を1杯ください。ありがとうございます！",
-      "en": "Hello, I'd like one Cheese Danbing (egg crepe) and one iced soy milk, please. Thank you!",
-      "ko": "안녕하세요, 치즈 딴삥 하나랑 아이스 두유 한 잔 주세요. 감사합니다!"
+      "zh": "我要一份起士蛋餅和一杯冰豆漿，謝謝！",
+      "ja": "チーズ蛋餅（起士蛋餅）を1つと、冷たい豆乳を1杯ください。ありがとうございます！",
+      "en": "I'd like one Cheese Danbing (egg crepe) and one iced soy milk, please. Thank you!",
+      "ko": "치즈 딴삥 하나랑 아이스 두유 한 잔 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJEfPR_2F2bjQRPfhWNMLscSg",
     "blog_url": {
@@ -354,10 +354,10 @@
       "ko": "하무야에서 도보 5분 이내, 오므라이스를 중심으로 다양한 정식 메뉴를 파는 동네 식당입니다. 채식(소식) 메뉴도 잘 갖추어져 있어 일행과 식성이 달라도 함께 만족스럽게 식사할 수 있습니다. 가게 앞에 음식 사진이 많이 붙어 있어 중국어가 서툴러도 주문하기 편하며, 시즌에는 망고 빙수도 인기입니다 (화요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一份招牌蛋包飯，內用，謝謝！",
-      "ja": "こんにちは。定番のオムライス（招牌蛋包飯）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one signature omurice for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 시그니처 오므라이스 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份招牌蛋包飯，內用，謝謝！",
+      "ja": "定番のオムライス（招牌蛋包飯）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one signature omurice for dine-in, please. Thank you!",
+      "ko": "시그니처 오므라이스 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJ-_EThWF2bjQRng5zzqhLvec",
     "blog_url": {
@@ -394,10 +394,10 @@
       "ko": "하무야에서 도보 5분 거리에 있는 타이난 발상 인기 음료 전문점입니다. 하이네켄 맥주에 녹차와 감귤 주스를 섞은 시그니처 '하이네켄 녹차(NT$70)'는 적당한 단맛으로 술을 잘 못 마시는 분도 부담 없이 즐길 수 있습니다. 추천 커스텀은 '무당(無糖)·얼음 적게(微冰, 얼음 제거 불가)'입니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯海尼根綠茶，無糖微冰，謝謝！",
-      "ja": "こんにちは。海尼根綠茶（ハイネケン緑茶）を1杯、無糖・氷少なめでお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Heineken Green Tea with no sugar and light ice, please. Thank you!",
-      "ko": "안녕하세요, 하이네켄 녹차 한 잔 무당에 얼음 적게 주세요. 감사합니다!"
+      "zh": "我要一杯海尼根綠茶，無糖微冰，謝謝！",
+      "ja": "海尼根綠茶（ハイネケン緑茶）を1杯、無糖・氷少なめでお願いします。ありがとうございます！",
+      "en": "I'd like one Heineken Green Tea with no sugar and light ice, please. Thank you!",
+      "ko": "하이네켄 녹차 한 잔 무당에 얼음 적게 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJUTUo8mF2bjQRwnETk7110Lg",
     "blog_url": {
@@ -434,10 +434,10 @@
       "ko": "하무야에서 도보 5분 이내, 아침 8시부터 문을 여는 인기 과일티 전문점입니다. 오렌지와 패션프루트 과육이 듬뿍 들어간 '오렌지 과육차(NT$70, 미당·미빙 추천)'와 타피오카 펄과 나타데코코가 가득한 상큼한 '진쉬안 솽Q(NT$40, 1분당·미빙 추천)'가 스태프 강력 추천 메뉴입니다!"
     },
     "point_and_order": {
-      "zh": "你好，我要一杯香橙果粒茶，微糖微冰，謝謝！",
-      "ja": "こんにちは。香橙果粒茶を1杯、微糖・氷少なめ（微微）でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Orange & Passionfruit Pulp Tea with light sugar and light ice, please. Thank you!",
-      "ko": "안녕하세요, 오렌지 과육차(향등과립차) 한 잔 덜 달게, 얼음 적게 주세요. 감사합니다!"
+      "zh": "我要一杯香橙果粒茶，微糖微冰，謝謝！",
+      "ja": "香橙果粒茶を1杯、微糖・氷少なめ（微微）でお願いします。ありがとうございます！",
+      "en": "I'd like one Orange & Passionfruit Pulp Tea with light sugar and light ice, please. Thank you!",
+      "ko": "오렌지 과육차(향등과립차) 한 잔 덜 달게, 얼음 적게 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJL5yTZAJ3bjQRc20Wu3wLZ2E",
     "blog_url": {
@@ -474,10 +474,10 @@
       "ko": "하무야에서 도보 약 5분, 공원로에 위치한 타이난의 유서 깊은 대만차 전문점입니다. 스태프가 강력 추천하는 '18세 청차(NT$30)'는 상쾌한 향과 깔끔한 쌉싸름함이 매력적이며 무당·미빙으로 마시면 최고입니다! 선물용 찻잎과 아기자기한 소품도 판매해 산책 중 들르기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯十八歲青茶，無糖微冰，謝謝！",
-      "ja": "こんにちは。十八歲青茶を1杯、無糖・氷少なめでお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one 18-Year-Old Qing Tea with no sugar and light ice, please. Thank you!",
-      "ko": "안녕하세요, 18세 청차 한 잔 무당에 얼음 적게 주세요. 감사합니다!"
+      "zh": "我要一杯十八歲青茶，無糖微冰，謝謝！",
+      "ja": "十八歲青茶を1杯、無糖・氷少なめでお願いします。ありがとうございます！",
+      "en": "I'd like one 18-Year-Old Qing Tea with no sugar and light ice, please. Thank you!",
+      "ko": "18세 청차 한 잔 무당에 얼음 적게 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJuYqMZnt2bjQRd9iCiSqNvJE",
     "blog_url": {
@@ -510,10 +510,10 @@
       "ko": "하무야에서 도보 5분 거리에 있는 향긋한 허브티와 홍차로 유명한 음료 전문점입니다. 스태프 추천 메뉴는 선초 젤리가 듬뿍 들어간 디저트 느낌의 '넌센차오 라떼(NT$65)'로, 반당(50%)·미빙이 가장 균형 잡힌 맛입니다! 영어 메뉴도 있고 직원도 친절해 처음 방문해도 편하게 주문할 수 있습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯嫩仙草拿鐵，半糖微冰，謝謝！",
-      "ja": "こんにちは。嫩仙草拿鐵（仙草ゼリー入りラテ）を1杯、半糖・氷少なめでお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Grass Jelly Tea Latte with half sugar and light ice, please. Thank you!",
-      "ko": "안녕하세요, 넌센차오 라떼 한 잔 당도 50%에 얼음 적게 주세요. 감사합니다!"
+      "zh": "我要一杯嫩仙草拿鐵，半糖微冰，謝謝！",
+      "ja": "嫩仙草拿鐵（仙草ゼリー入りラテ）を1杯、半糖・氷少なめでお願いします。ありがとうございます！",
+      "en": "I'd like one Grass Jelly Tea Latte with half sugar and light ice, please. Thank you!",
+      "ko": "넌센차오 라떼 한 잔 당도 50%에 얼음 적게 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJnfn24rZ3bjQRprhyFnV6m4U",
     "blog_url": {
@@ -551,10 +551,10 @@
       "ko": "하무야에서 도보 약 3분(약 90m) 거리에 있으며, 또우화 마니아 스태프도 여러 번 재방문하는 맛집입니다. 대표 메뉴인 '땅콩 또우화(NT$35)'를 비롯해 NT$30~40의 착한 가격으로 부드러운 식감과 은은한 단맛을 즐길 수 있습니다 (수요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗冰的花生豆花，內用，謝謝！",
-      "ja": "こんにちは。冷たい花生豆花（ピーナッツ豆花）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of cold Peanut Douhua for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 차가운 땅콩 또우화 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗冰的花生豆花，內用，謝謝！",
+      "ja": "冷たい花生豆花（ピーナッツ豆花）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of cold Peanut Douhua for dine-in, please. Thank you!",
+      "ko": "차가운 땅콩 또우화 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJzypd-mF2bjQRlz8gCp0Fq0Y",
     "blog_url": {
@@ -590,10 +590,10 @@
       "ko": "하무야에서 도보 약 6분, 밤 7시부터 새벽 12시 반까지 영업하는 현지인 인기 야간 빙수 맛집입니다. 평일에도 오픈 전부터 줄을 서며, 팥·녹두·율무 등 토핑이 듬뿍 올라간 '팔보빙(NT$60)'이 일품입니다. 저녁 식사 후 산책 겸 들르기 좋지만 양이 아주 푸짐하니 참고하세요 (화요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗八寶冰，內用，謝謝！",
-      "ja": "こんにちは。八寶冰を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of Eight-Treasure Shaved Ice (Babao Bing) for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 팔보빙 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗八寶冰，內用，謝謝！",
+      "ja": "八寶冰を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of Eight-Treasure Shaved Ice (Babao Bing) for dine-in, please. Thank you!",
+      "ko": "팔보빙 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJuf-3cWF2bjQRt4-6ihVq900",
     "blog_url": {
@@ -631,10 +631,10 @@
       "ko": "하무야에서 도보 약 2분, 가장 가까운 패밀리마트 골목 입구에 늘 손님이 몰리는 대만식 풀빵(홍또우빙) 노점입니다. 개당 NT$10이라는 놀라운 가격에 5개 사면 1개 무료! 팥, 커스터드 크림, 땅콩깨 3가지 맛이 있으며, 많이 달지 않은 땅콩깨 맛이 스태프 강력 추천입니다 (14:00~19:00 영업)."
     },
     "point_and_order": {
-      "zh": "你好，我要紅豆、奶油、花生芝麻各一個，外帶，謝謝！",
-      "ja": "こんにちは。あずき、クリーム、ピーナッツゴマを1つずつ、テイクアウトでお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one red bean, one custard cream, and one peanut-sesame wheel cake to go, please. Thank you!",
-      "ko": "안녕하세요, 팥, 크림, 땅콩깨 맛 하나씩 포장해 주세요. 감사합니다!"
+      "zh": "我要紅豆、奶油、花生芝麻各一個，外帶，謝謝！",
+      "ja": "あずき、クリーム、ピーナッツゴマを1つずつ、テイクアウトでお願いします。ありがとうございます！",
+      "en": "I'd like one red bean, one custard cream, and one peanut-sesame wheel cake to go, please. Thank you!",
+      "ko": "팥, 크림, 땅콩깨 맛 하나씩 포장해 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJNcDmNh93bjQRQI68xQQkpPw",
     "blog_url": {
@@ -669,10 +669,10 @@
       "ko": "하무야에서 도보 5분 거리에 있는, 스태프들이 게스트에게 자주 추천하는 인기 선초 젤리(넌센차오) 전문점입니다. 부드럽고 깔끔한 선초 젤리에 흑미(자미)와 토란(타로) 토핑이 환상적으로 어우러집니다. 무엇을 고를지 고민된다면 스태프의 단골 메뉴인 '1호(1號)'를 주문해 보세요 (추가 요금으로 우유 변경도 인기입니다)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗嫩仙草1號，內用，謝謝！",
-      "ja": "こんにちは。嫩仙草（仙草ゼリー）の1番を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Grass Jelly No. 1 combo for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 넌센차오 1번 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗嫩仙草1號，內用，謝謝！",
+      "ja": "嫩仙草（仙草ゼリー）の1番を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Grass Jelly No. 1 combo for dine-in, please. Thank you!",
+      "ko": "넌센차오 1번 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJY3YH0WN2bjQRF_OqHD8SJ70",
     "blog_url": {
@@ -709,10 +709,10 @@
       "ko": "하무야에서 도보 약 12분, 궈화제(국화가) 산책을 시작하기 딱 좋은 줄 서서 마시는 인기 티 스탠드입니다. 스태프 추천 메뉴는 상큼한 산미와 진한 차 향이 어우러진 '호박 레몬차(琥珀檸檬)'와 차 얼음이 들어간 '호박 아이스큐브 밀크티(琥珀冰磚奶)'! 주말엔 웨이팅이 있지만 기다릴 가치가 충분합니다 (일·월 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯琥珀檸檬和一杯琥珀冰磚奶，外帶，謝謝！",
-      "ja": "こんにちは。琥珀檸檬を1杯と、琥珀冰磚奶を1杯、テイクアウトでお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Amber Lemon Tea and one Amber Tea Ice Cube Milk Tea to go, please. Thank you!",
-      "ko": "안녕하세요, 호박 레몬차 한 잔이랑 호박 아이스큐브 밀크티 한 잔 포장해 주세요. 감사합니다!"
+      "zh": "我要一杯琥珀檸檬和一杯琥珀冰磚奶，外帶，謝謝！",
+      "ja": "琥珀檸檬を1杯と、琥珀冰磚奶を1杯、テイクアウトでお願いします。ありがとうございます！",
+      "en": "I'd like one Amber Lemon Tea and one Amber Tea Ice Cube Milk Tea to go, please. Thank you!",
+      "ko": "호박 레몬차 한 잔이랑 호박 아이스큐브 밀크티 한 잔 포장해 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJR5ULrGV2bjQRKJ-YjifZbSI",
     "blog_url": {
@@ -749,10 +749,10 @@
       "ko": "하무야에서 도보 약 13분, 궈화제에 위치한 행인두부(아몬드 두부)와 빙수 맛집으로 하무야 게스트들에게도 호평받는 곳입니다. 타로를 좋아하는 스태프가 강력 추천하는 '타로 팥 타로볼 빙수(芋泥紅豆芋圓冰)'를 비롯해 메뉴가 아주 다양하며, 밤 10시까지 영업해 식후 디저트로도 딱 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗芋泥紅豆芋圓冰，內用，謝謝！",
-      "ja": "こんにちは。芋泥紅豆芋圓冰（タロイモ・小豆・芋圓のかき氷）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of Taro Paste, Red Bean & Taro Ball Shaved Ice for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 타로 팥 타로볼 빙수 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗芋泥紅豆芋圓冰，內用，謝謝！",
+      "ja": "芋泥紅豆芋圓冰（タロイモ・小豆・芋圓のかき氷）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of Taro Paste, Red Bean & Taro Ball Shaved Ice for dine-in, please. Thank you!",
+      "ko": "타로 팥 타로볼 빙수 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJX5SA-VV3bjQRTUITjsBoQNc",
     "blog_url": {
@@ -789,10 +789,10 @@
       "ko": "하무야에서 도보 약 15분, 하이안루에 위치한 타이난 명물 '새우덮밥(샤런판)'의 유명 맛집입니다. 감칠맛 나는 육수가 촉촉하게 배어든 밥 위에 불향 가득한 새우가 올라가 스태프가 '큰 대접으로 먹고 싶다'고 극찬한 맛! 반숙 오리알 프라이를 곁들여 먹는 것이 정석입니다 (저녁 8시 마감·소진 시 조기 종료이므로 저녁 식사는 일찍 방문하세요)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗蝦仁飯加一顆半熟煎鴨蛋，內用，謝謝！",
-      "ja": "こんにちは。蝦仁飯を1つと、半熟の目玉焼き（煎鴨蛋）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Shrimp Rice and one runny fried duck egg for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 새우덮밥 하나랑 반숙 오리알 프라이 하나 주세요. 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗蝦仁飯加一顆半熟煎鴨蛋，內用，謝謝！",
+      "ja": "蝦仁飯を1つと、半熟の目玉焼き（煎鴨蛋）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Shrimp Rice and one runny fried duck egg for dine-in, please. Thank you!",
+      "ko": "새우덮밥 하나랑 반숙 오리알 프라이 하나 주세요. 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJM-GE8np2bjQRsTnfVRNIlkY",
     "blog_url": {
@@ -831,10 +831,10 @@
       "ko": "하무야에서 도보 약 15분, 타이난에서 30년 넘게 사랑받아 온 노포 음료·경식 전문점입니다. 녹차·레몬·매실에 펄과 한천 젤리가 어우러진 인기 1위 '종합신미'는 '웨이웨이(미당·미빙)'로 주문하는 것을 추천하며, 단짠 매력이 넘치는 땅콩 계란샐러드 샌드위치도 인기입니다. 매장 내 좌석이 있어 쉬거나 작업하기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯綜合新味，微糖微冰，還有一份花生沙拉蛋三明治，謝謝！",
-      "ja": "こんにちは。綜合新味を1杯、微糖・氷少なめ（微微）で、あと花生沙拉蛋三明治（ピーナッツ＆卵サラダサンド）を1つください。ありがとうございます！",
-      "en": "Hello, I'd like one Comprehensive New Flavor drink with light sugar and light ice, plus one Peanut & Egg Salad Sandwich, please. Thank you!",
-      "ko": "안녕하세요, 종합신미 한 잔 덜 달게·얼음 적게 하고, 땅콩 계란샐러드 샌드위치 하나 주세요. 감사합니다!"
+      "zh": "我要一杯綜合新味，微糖微冰，還有一份花生沙拉蛋三明治，謝謝！",
+      "ja": "綜合新味を1杯、微糖・氷少なめ（微微）で、あと花生沙拉蛋三明治（ピーナッツ＆卵サラダサンド）を1つください。ありがとうございます！",
+      "en": "I'd like one Comprehensive New Flavor drink with light sugar and light ice, plus one Peanut & Egg Salad Sandwich, please. Thank you!",
+      "ko": "종합신미 한 잔 덜 달게·얼음 적게 하고, 땅콩 계란샐러드 샌드위치 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://maps.app.goo.gl/jCk5pHUXRjTMqmB39",
     "blog_url": {
@@ -867,10 +867,10 @@
       "ko": "성공대 인근 학생가 위러제에 있는 학생들에게 인기인 일본식 양식 정식집입니다 (하무야에서 자전거나 택시 추천). 바삭한 튀김옷의 '두툼한 일식 돈가스 정식(NT$150)'은 밥이 무료 리필되어 가성비가 뛰어나며, 동과차도 즐길 수 있어 든든한 정식을 원할 때 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一份厚切日式豬排定食，內用，謝謝！",
-      "ja": "こんにちは。厚切日式豬排定食（厚切りとんかつ定食）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Thick-Cut Japanese Pork Chop Set for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 두툼한 일식 돈가스 정식 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份厚切日式豬排定食，內用，謝謝！",
+      "ja": "厚切日式豬排定食（厚切りとんかつ定食）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Thick-Cut Japanese Pork Chop Set for dine-in, please. Thank you!",
+      "ko": "두툼한 일식 돈가스 정식 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://share.google/wnuZU5NvHP9mcZv3R",
     "blog_url": {
@@ -903,10 +903,10 @@
       "ko": "위러제 끝자락이자 타이난역에서도 가기 좋은 감각적인 식당입니다 (하무야에서 자전거나 택시 추천). 덮밥 형태로 나오는 '특제 다파오주(가파오 돼지고기 덮밥, NT$130)'는 매콤해서 밥도둑이며, 달지 않고 정성스럽게 끓인 된장국도 인기입니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一份特製打拋豬，內用，謝謝！",
-      "ja": "こんにちは。特製打拋豬を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Special Gapao Pork Rice Bowl for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 특제 다파오주 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份特製打拋豬，內用，謝謝！",
+      "ja": "特製打拋豬を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Special Gapao Pork Rice Bowl for dine-in, please. Thank you!",
+      "ko": "특제 다파오주 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://share.google/Rga0nM05KvoW9l3PL",
     "blog_url": {
@@ -942,10 +942,10 @@
       "ko": "좁은 골목에 자리한 일본식 양식 맛집입니다. 겉은 바삭하고 속은 육즙 가득한 '헌터 스타일 치킨스테이크 정식(NT$380)'은 고를 수 있는 밑반찬 2가지가 함께 나와 특별한 저녁 식사로 딱 좋습니다. 함박스테이크도 유명하며 자리가 금방 차니 예약이나 일찍 방문하는 것을 추천합니다 (점심은 주말만 운영·월·화요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一份狩人風雞排定食，謝謝！",
-      "ja": "こんにちは。チキンステーキ定食 狩人風を1つください。ありがとうございます！",
-      "en": "Hello, I'd like one Hunter-Style Chicken Steak Set, please. Thank you!",
-      "ko": "안녕하세요, 헌터 스타일 치킨스테이크 정식 하나 주세요. 감사합니다!"
+      "zh": "我要一份狩人風雞排定食，謝謝！",
+      "ja": "チキンステーキ定食 狩人風を1つください。ありがとうございます！",
+      "en": "I'd like one Hunter-Style Chicken Steak Set, please. Thank you!",
+      "ko": "헌터 스타일 치킨스테이크 정식 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://share.google/IO4iWcu4OvFc1mAOc",
     "blog_url": {
@@ -987,10 +987,10 @@
       "ko": "하무야에서 도보 약 10분, 24시간 영업하는 타이난의 유서 깊은 셴저우(대만식 죽) 맛집입니다. 삼치·굴·밀크피시가 모두 들어간 '종합 셴저우'가 하무상 추천 메뉴로, 속이 편안해 야식이나 해장으로도 좋습니다. 주문서 대신 구두로 직접 주문하는 방식이니 참고하세요."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗綜合鹹粥，內用，謝謝！",
-      "ja": "こんにちは。綜合鹹粥を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of Mixed Savory Congee for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 종합 셴저우 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗綜合鹹粥，內用，謝謝！",
+      "ja": "綜合鹹粥を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of Mixed Savory Congee for dine-in, please. Thank you!",
+      "ko": "종합 셴저우 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%82%85%E6%B4%A5%E9%B9%B9%E7%B2%A5+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1028,10 +1028,10 @@
       "ko": "하무야에서 도보 약 15분, 대만 남부 한정 인기 로컬 패스트푸드 체인 '단단햄버거' 청공점입니다. 햄버거와 튀김뿐만 아니라 속을 달래주는 죽·수프·면선 메뉴도 훌륭하며, 기름기가 적고 담백한 고기를 원할 때는 '瘦肉(살코기)' 메뉴를 고르는 것이 좋습니다 (수요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗瘦肉粥，內用，謝謝！",
-      "ja": "こんにちは。痩肉粥（赤身肉のお粥）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of Lean Pork Congee for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 살코기 죽(瘦肉粥) 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗瘦肉粥，內用，謝謝！",
+      "ja": "痩肉粥（赤身肉のお粥）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of Lean Pork Congee for dine-in, please. Thank you!",
+      "ko": "살코기 죽(瘦肉粥) 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B9%E4%B8%B9%E6%BC%A2%E5%A0%A1+%E6%88%90%E5%8A%9F%E5%BA%97+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1070,10 +1070,10 @@
       "ko": "깔끔한 매장에서 새우·오징어 등 탱글탱글한 해산물과 감칠맛 나는 육수의 해산물죽을 즐길 수 있는 곳입니다 (하무야에서 도보 약 20분, 자전거나 택시도 편리). 일본어 메뉴가 있어 주문하기 편하며 볶음밥도 인기입니다. 수~금 17:00~00:00, 주말 11:00~14:00·17:00~00:00 영업 (월·화 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗海鮮粥，內用，謝謝！",
-      "ja": "こんにちは。海鮮粥を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of Seafood Congee for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 해산물죽 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗海鮮粥，內用，謝謝！",
+      "ja": "海鮮粥を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of Seafood Congee for dine-in, please. Thank you!",
+      "ko": "해산물죽 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9C%A8%E6%B5%B7%E9%AE%AE%E7%B2%A5+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1110,10 +1110,10 @@
       "ko": "매주 화·금요일(17:00~0:00) 열리는 야시장으로, 화원·대동야시장보다 규모가 작고 붐빔이 덜해 편하게 즐기기 좋습니다 (하무야에서 유바이크 약 15분). 바삭촉촉한 '묘구 바삭 굴전(NT$80)', 숯불 소시지, 가쓰오부시 육수의 '대창면선'이 인기며, 인기 노점은 대기 시간이 길 수 있고 매일 열리는 실내 샤오베이 관광야시장과는 별개 장소입니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一份蚵仔煎（小份），內用，謝謝！",
-      "ja": "こんにちは。蚵仔煎（牡蠣オムレツ）の小サイズを1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one small Oyster Omelet for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 굴전(소) 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份蚵仔煎（小份），內用，謝謝！",
+      "ja": "蚵仔煎（牡蠣オムレツ）の小サイズを1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one small Oyster Omelet for dine-in, please. Thank you!",
+      "ko": "굴전(소) 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%8C%97%E6%96%B0%E6%88%90%E5%8A%9F%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1150,10 +1150,10 @@
       "ko": "하무야에서 도보 약 20분(자전거도 추천) 거리에 있는 골목 속 궈샤오이몐 맛집입니다. 가쓰오부시 육수에 통통한 바지락이 가득한 '하마구리 가득(蛤蜊滿滿)'이 일품이며 면 익힘 정도도 선택할 수 있습니다. 임시 휴무가 종종 있으니 방문 전 인스타그램(@guoshaochengshi)이나 구글 맵으로 영업 여부를 확인해 보세요."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗蛤蜊滿滿意麵，麵條要硬一點，內用，謝謝！",
-      "ja": "こんにちは。蛤蜊滿滿意麺を1つ、麺は硬めで、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Clam-Loaded Yi-Mian noodles, firm noodles, for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 바지락 가득 이몐 하나 면은 꼬들하게 해서 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗蛤蜊滿滿意麵，麵條要硬一點，內用，謝謝！",
+      "ja": "蛤蜊滿滿意麺を1つ、麺は硬めで、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Clam-Loaded Yi-Mian noodles, firm noodles, for dine-in, please. Thank you!",
+      "ko": "바지락 가득 이몐 하나 면은 꼬들하게 해서 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%AA%A0%E5%AF%A6%E9%8D%8B%E7%87%92+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1192,10 +1192,10 @@
       "ko": "하무야에서 도보 약 20분(자전거나 택시도 편리) 거리에 있는 아침 6시 오픈 현지 인기 노포 궈샤오이몐 맛집입니다. 가쓰오부시 베이스의 은은한 단맛 육수와 국물을 머금은 생선 튀김이 정겹고 맛있으며, 양 조절도 가능합니다. 피크 타임에 줄이 길어도 회전율이 빠른 편입니다 (수요일 휴무, 화요일은 14:00까지 영업)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗小碗的鍋燒意麵，正常麵量，內用，謝謝！",
-      "ja": "こんにちは。鍋燒意麺の小サイズを1つ、麺は普通量で、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one small Pot-Boiled Yi-Mian noodles with regular noodle portion for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 궈샤오이몐 소(小) 사이즈 하나 면은 기본으로 해서 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗小碗的鍋燒意麵，正常麵量，內用，謝謝！",
+      "ja": "鍋燒意麺の小サイズを1つ、麺は普通量で、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one small Pot-Boiled Yi-Mian noodles with regular noodle portion for dine-in, please. Thank you!",
+      "ko": "궈샤오이몐 소(小) 사이즈 하나 면은 기본으로 해서 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%86%87%E6%B6%8E%E5%9D%8A%E5%8F%A4%E6%97%A9%E5%91%B3%E9%8D%8B%E7%87%92%E6%84%8F%E9%BA%B5+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1232,10 +1232,10 @@
       "ko": "하무야에서 도보 약 10분, 중서구 도서관 바로 앞에 있는 유서 깊은 본점입니다. 대표 메뉴인 단자이몐 외에 고구마 전분으로 바삭하게 튀긴 계란두부 튀김 '수자푸롱또우푸(NT$170)'가 스태프와 게스트 모두에게 극찬받는 별미로, 색다른 타이난 음식을 원할 때 추천합니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一份酥炸芙蓉豆腐，內用，謝謝！",
-      "ja": "こんにちは。酥炸芙蓉豆腐（卵豆腐の揚げ出し）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Crispy Furong Egg Tofu for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 수자푸롱또우푸(계란두부 튀김) 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份酥炸芙蓉豆腐，內用，謝謝！",
+      "ja": "酥炸芙蓉豆腐（卵豆腐の揚げ出し）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Crispy Furong Egg Tofu for dine-in, please. Thank you!",
+      "ko": "수자푸롱또우푸(계란두부 튀김) 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BA%A6%E5%B0%8F%E6%9C%88+%E6%9C%AC%E5%BA%97+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1272,10 +1272,10 @@
       "ko": "하무야에서 도보 약 6분 거리에 있는 대만식 채식(소식) 과바오 전문점입니다. 식물성 고기와 지방의 식감 재현도가 놀라울 정도로 뛰어나며 달콤한 소스와 갓김치 느낌의 절임 채소, 고수의 조화가 매력적입니다. 포장 및 매장 카운터 이용 가능하며 금~화요일 10:00~18:00 영업합니다 (수·목 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一份台式傳統刈包，內用，謝謝！",
-      "ja": "こんにちは。台式傳統刈包を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Traditional Taiwanese Gua Bao for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 대만식 전통 과바오 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份台式傳統刈包，內用，謝謝！",
+      "ja": "台式傳統刈包を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Traditional Taiwanese Gua Bao for dine-in, please. Thank you!",
+      "ko": "대만식 전통 과바오 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E4%BE%86%E5%88%88%E5%8C%85%E5%B0%88%E8%B3%A3+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1317,10 +1317,10 @@
       "ko": "성공대 인근이자 타이난역에서도 가기 좋은 인기 꼬치구이 전문점입니다 (하무야에서 도보 약 30분, 버스나 자전거 추천). 바구니에 원하는 꼬치를 골라 담고 양고기와 연유 은사권(튀긴 꽃빵 연유 토핑)을 맥주·주류와 함께 즐기기 좋으며, 인기 매장이므로 예약(10분 지각 시 자동 취소)을 추천합니다."
     },
     "point_and_order": {
-      "zh": "你好，我們有訂位，請問可以帶位嗎？另外想點一份煉乳銀絲卷，謝謝！",
-      "ja": "こんにちは。予約しています、席へ案内してもらえますか？あと練乳銀絲卷を1つください。ありがとうございます！",
-      "en": "Hello, we have a reservation—could you seat us? Also, one condensed-milk fried mantou, please. Thank you!",
-      "ko": "안녕하세요, 예약했습니다. 자리 안내 부탁드려요. 그리고 연유 은사권 하나 주세요. 감사합니다!"
+      "zh": "我們有訂位，請問可以帶位嗎？另外想點一份煉乳銀絲卷，謝謝！",
+      "ja": "予約しています、席へ案内してもらえますか？あと練乳銀絲卷を1つください。ありがとうございます！",
+      "en": "We have a reservation—could you seat us? Also, one condensed-milk fried mantou, please. Thank you!",
+      "ko": "예약했습니다. 자리 안내 부탁드려요. 그리고 연유 은사권 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B7%AF%E9%82%8A%E7%83%A4%E8%82%89+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1356,10 +1356,10 @@
       "ko": "골목 안쪽에서 오랫동안 현지인들에게 사랑받아 온 노포 미가오 맛집입니다. 쫀득한 찰밥 위에 야들야들한 돼지고기와 어송이 올라간 미가오(중 NT$45)와 생강·요우티아오가 어우러진 어피탕(NT$50) 등의 국물 메뉴가 일품이며, 주문서에 내장/포장을 적어 직접 건네는 방식입니다 (일요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，內用要一碗中碗米糕和一碗魚皮湯，謝謝！",
-      "ja": "こんにちは。店内で、米糕の中サイズを1つと、魚皮湯を1つお願いします。ありがとうございます！",
-      "en": "Hello, for dine-in, I'd like one medium Migao sticky rice and one Fish Skin Soup, please. Thank you!",
-      "ko": "안녕하세요, 매장에서 먹을게요. 미가오 중(中) 사이즈 하나랑 어피탕 하나 주세요. 감사합니다!"
+      "zh": "內用要一碗中碗米糕和一碗魚皮湯，謝謝！",
+      "ja": "店内で、米糕の中サイズを1つと、魚皮湯を1つお願いします。ありがとうございます！",
+      "en": "For dine-in, I'd like one medium Migao sticky rice and one Fish Skin Soup, please. Thank you!",
+      "ko": "매장에서 먹을게요. 미가오 중(中) 사이즈 하나랑 어피탕 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E5%90%8D%E7%B1%B3%E7%B3%95+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1397,10 +1397,10 @@
       "ko": "하무야에서 도보 약 10~15분, 수이시엔궁 시장 바로 옆에 있는 떡·고조미 카스텔라 맛집입니다. 개당 NT$20의 쫄깃한 떡은 흑임자·땅콩·흑임자땅콩 등 6가지 맛이 있으며 두 가지를 함께 맛보는 '흑임자땅콩'이 추천 메뉴입니다. 직접 봉투에 담아 셀프로 계산하는 방식입니다 (7:30~21:00 영업)."
     },
     "point_and_order": {
-      "zh": "你好，我拿了這幾顆麻糬（芝麻花生），請問是這樣自助付錢嗎？謝謝！",
-      "ja": "こんにちは。このお餅（ゴマピーナッツ）を取ったのですが、このままセルフでお支払いすればいいですか？ありがとうございます！",
-      "en": "Hello, I picked these mochi (sesame-peanut)—do I pay at the self-serve tray here? Thank you!",
-      "ko": "안녕하세요, 이 떡(흑임자땅콩) 골랐는데 이렇게 셀프로 계산하면 되나요? 감사합니다!"
+      "zh": "我拿了這幾顆麻糬（芝麻花生），請問是這樣自助付錢嗎？謝謝！",
+      "ja": "このお餅（ゴマピーナッツ）を取ったのですが、このままセルフでお支払いすればいいですか？ありがとうございます！",
+      "en": "I picked these mochi (sesame-peanut)—do I pay at the self-serve tray here? Thank you!",
+      "ko": "이 떡(흑임자땅콩) 골랐는데 이렇게 셀프로 계산하면 되나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%BE%8E%E7%8F%BE%E7%83%A4%E5%8F%A4%E6%97%A9%E5%91%B3%E8%9B%8B%E7%B3%95+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1437,10 +1437,10 @@
       "ko": "하무야에서 도보 약 10~15분, 영락시장(융러시장)과 인접한 활기찬 로컬 재래시장입니다. 신선한 식재료와 꽃집, 먹거리가 어우러져 타이난의 생생한 시장 분위기를 느낄 수 있으며 활기찬 오전 시간대 방문을 추천합니다."
     },
     "point_and_order": {
-      "zh": "你好，請問這附近有推薦的在地小吃嗎？謝謝！",
-      "ja": "こんにちは。このあたりでおすすめのローカル小吃はありますか？ありがとうございます！",
-      "en": "Hello, are there any local snacks around here you recommend? Thank you!",
-      "ko": "안녕하세요, 이 근처에 추천할 만한 로컬 먹거리가 있나요? 감사합니다!"
+      "zh": "請問這附近有推薦的在地小吃嗎？謝謝！",
+      "ja": "このあたりでおすすめのローカル小吃はありますか？ありがとうございます！",
+      "en": "Are there any local snacks around here you recommend? Thank you!",
+      "ko": "이 근처에 추천할 만한 로컬 먹거리가 있나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%BB%99%E5%AE%AE%E5%B8%82%E5%A0%B4+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1478,10 +1478,10 @@
       "ko": "하무야에서 도보 10분 이내, 레트로하고 아기자기한 분위기에서 점심부터 밤까지 즐길 수 있는 빙수·디저트 카페입니다. 새콤달콤한 토마토와 흑당 소스가 어우러진 '매실 절임 토마토 빙수'가 별미이며, 케이크와 식사 메뉴도 있고 일문·영문 메뉴가 있어 주문하기 편합니다 (13:00~23:00 영업·화요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗梅漬番茄冰，內用，謝謝！",
-      "ja": "こんにちは。梅漬番茄冰（梅漬けトマトかき氷）を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Plum-Marinated Tomato Shaved Ice for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 매실 절임 토마토 빙수 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗梅漬番茄冰，內用，謝謝！",
+      "ja": "梅漬番茄冰（梅漬けトマトかき氷）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Plum-Marinated Tomato Shaved Ice for dine-in, please. Thank you!",
+      "ko": "매실 절임 토마토 빙수 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%AF%E5%AD%90%E5%92%8C%E7%B3%96+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1517,10 +1517,10 @@
       "ko": "하무야에서 도보 약 3분·적감루 인근에 있는 녹두 스무디(뤼도우샤) 인기 맛집입니다. 콩 비린내가 적고 사각사각 부드러운 단맛이 특징이며, 우유가 들어간 '녹두 우유 스무디'와 콩 본연의 맛을 살린 '녹두 스무디' 모두 맛있습니다. 주말엔 줄이 기니 오픈 직후나 오후 늦은 시간대를 노려보세요 (11:00~18:00·소진 시 마감, 월·화요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯綠豆沙牛奶，外帶，謝謝！",
-      "ja": "こんにちは。綠豆沙牛奶（緑豆ミルクスムージー）を1杯、テイクアウトでお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Mung Bean Milk Smoothie to go, please. Thank you!",
-      "ko": "안녕하세요, 녹두 우유 스무디 한 잔 포장해 주세요. 감사합니다!"
+      "zh": "我要一杯綠豆沙牛奶，外帶，謝謝！",
+      "ja": "綠豆沙牛奶（緑豆ミルクスムージー）を1杯、テイクアウトでお願いします。ありがとうございます！",
+      "en": "I'd like one Mung Bean Milk Smoothie to go, please. Thank you!",
+      "ko": "녹두 우유 스무디 한 잔 포장해 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%8C%E7%94%9F+%E7%B6%A0%E8%B1%86%E6%B2%99+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1558,10 +1558,10 @@
       "ko": "하무야에서 도보 약 15분, 정겨운 로컬 분위기가 가득한 옛날식 아이스 맛집입니다. 타로·땅콩·우유·파인애플·패션프루트 맛을 즐길 수 있는 아이스를 비롯해 양이 과하지 않아 식후나 산책 중에 먹기 좋고, 사진 메뉴가 있어 주문하기 편합니다 (10:00~20:45 연중무휴)."
     },
     "point_and_order": {
-      "zh": "你好，我要一份草湖芋仔冰，內用，謝謝！",
-      "ja": "こんにちは。草湖芋仔冰を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Caohu Ice for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 차오후 아이스 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份草湖芋仔冰，內用，謝謝！",
+      "ja": "草湖芋仔冰を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Caohu Ice for dine-in, please. Thank you!",
+      "ko": "차오후 아이스 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%99%BD%E5%86%B0%E5%93%81+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1598,10 +1598,10 @@
       "ko": "세련되고 차분한 분위기에 2층과 테라스 좌석을 갖춘 바입니다 (19:00~새벽 2:00 영업·화요일 휴무). 눈앞에서 만들어지는 모히토나 수박 칵테일이 매력적이며 선선한 날씨엔 테라스 좌석도 좋습니다. 음료 1인 NT$500 최소 주문 및 최대 2시간 이용 제한이 있으니 참고하세요."
     },
     "point_and_order": {
-      "zh": "你好，請問有位置嗎？我們想先點一杯莫希托，謝謝！",
-      "ja": "こんにちは。席は空いていますか？まずモヒートを1杯お願いします。ありがとうございます！",
-      "en": "Hello, do you have a table available? We'd like to start with one Mojito, please. Thank you!",
-      "ko": "안녕하세요, 자리 있나요? 우선 모히토 한 잔 먼저 주세요. 감사합니다!"
+      "zh": "請問有位置嗎？我們想先點一杯莫希托，謝謝！",
+      "ja": "席は空いていますか？まずモヒートを1杯お願いします。ありがとうございます！",
+      "en": "Do you have a table available? We'd like to start with one Mojito, please. Thank you!",
+      "ko": "자리 있나요? 우선 모히토 한 잔 먼저 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Bar+Horizon+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1639,10 +1639,10 @@
       "ko": "하무야에서 도보 약 5~6분·적감루 인근 역사적 건축물을 살려 만든 아늑한 고양이 카페입니다 (10:30~19:00 영업·연중무휴). 개냥이들과 교감하며 라떼·치즈케이크·식사 메뉴를 즐길 수 있고 일본어 메뉴도 있습니다. 양말 착용 필수(미착용 시 NT$50)이며 주말엔 예약을 추천합니다."
     },
     "point_and_order": {
-      "zh": "你好，我們想點一杯拿鐵和一塊起司蛋糕，內用，謝謝！",
-      "ja": "こんにちは。カフェラテを1杯と、チーズケーキを1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, we'd like one latte and one slice of cheesecake for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 카페라떼 한 잔이랑 치즈케이크 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我們想點一杯拿鐵和一塊起司蛋糕，內用，謝謝！",
+      "ja": "カフェラテを1杯と、チーズケーキを1つ、店内でお願いします。ありがとうございます！",
+      "en": "We'd like one latte and one slice of cheesecake for dine-in, please. Thank you!",
+      "ko": "카페라떼 한 잔이랑 치즈케이크 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A7%92%E8%90%BD.%E6%9C%89%E7%8C%AB+%E8%B5%A4%E5%9D%8E%E6%A8%93+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1679,10 +1679,10 @@
       "ko": "라이브 연주와 신청곡을 즐기며 맥주와 칵테일을 마실 수 있는 라이브 바 & 다이닝입니다 (18:00~새벽 2:00 영업·월요일 휴무, 하무야에서 택시 이동 편리). 넓은 공간에서 현장 음악의 열기를 가까이 느낄 수 있으며 식사 메뉴도 갖추어져 있습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問有位置嗎？我們想先點兩杯生啤酒，謝謝！",
-      "ja": "こんにちは。席は空いていますか？まず生ビールを2杯お願いします。ありがとうございます！",
-      "en": "Hello, do you have a seat for us? We'd like two draft beers to start, please. Thank you!",
-      "ko": "안녕하세요, 자리 있나요? 우선 생맥주 두 잔 먼저 주세요. 감사합니다!"
+      "zh": "請問有位置嗎？我們想先點兩杯生啤酒，謝謝！",
+      "ja": "席は空いていますか？まず生ビールを2杯お願いします。ありがとうございます！",
+      "en": "Do you have a seat for us? We'd like two draft beers to start, please. Thank you!",
+      "ko": "자리 있나요? 우선 생맥주 두 잔 먼저 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E6%96%B9%E9%85%92%E9%A4%A8+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1721,10 +1721,10 @@
       "ko": "대만 크래프트 맥주 '타이후 브루잉'과 타이난 명물 바 'T.C.R.C.'가 협업한 바입니다 (하무야에서 도보 약 30분 거리로 택시나 버스 추천). 탭으로 즐기는 드래프트 칵테일과 크래프트 맥주, 칠리치즈 감자튀김 등 안주가 매력적이며 사이즈 업도 가능합니다 (월~목 16:00~23:30, 금·토 12:00~01:00, 일 12:00~23:30 영업)."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯IPA精釀啤酒和一份起司辣椒薯條，謝謝！",
-      "ja": "こんにちは。IPAクラフトビールを1杯と、チリチーズポテトを1つお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one IPA craft beer and one chili-cheese fries, please. Thank you!",
-      "ko": "안녕하세요, IPA 크래프트 맥주 한 잔이랑 칠리치즈 감자튀김 하나 주세요. 감사합니다!"
+      "zh": "我要一杯IPA精釀啤酒和一份起司辣椒薯條，謝謝！",
+      "ja": "IPAクラフトビールを1杯と、チリチーズポテトを1つお願いします。ありがとうございます！",
+      "en": "I'd like one IPA craft beer and one chili-cheese fries, please. Thank you!",
+      "ko": "IPA 크래프트 맥주 한 잔이랑 칠리치즈 감자튀김 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=GiDDY+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1762,10 +1762,10 @@
       "ko": "국립대만문학관·타이난시미술관에서 도보 약 7~8분(하무야에서 도보 약 15분) 거리에 있는 사모예드와 고양이를 만날 수 있는 카페입니다 (2층 공간). 흑당 라떼 등을 마시며 사랑스러운 동물들과 힐링하기 좋고 미술관·문학관 산책 중 쉬어가기 알맞습니다 (좌석이 적어 소인원 방문 추천)."
     },
     "point_and_order": {
-      "zh": "你好，請問有位置嗎？我們想點一杯黑糖拿鐵，謝謝！",
-      "ja": "こんにちは。席は空いていますか？黒糖ラテを1杯お願いします。ありがとうございます！",
-      "en": "Hello, do you have a seat available? We'd like one brown sugar latte, please. Thank you!",
-      "ko": "안녕하세요, 자리 있나요? 흑당 라떼 한 잔 주세요. 감사합니다!"
+      "zh": "請問有位置嗎？我們想點一杯黑糖拿鐵，謝謝！",
+      "ja": "席は空いていますか？黒糖ラテを1杯お願いします。ありがとうございます！",
+      "en": "Do you have a seat available? We'd like one brown sugar latte, please. Thank you!",
+      "ko": "자리 있나요? 흑당 라떼 한 잔 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%9B%9E%E8%88%87%E9%9B%9E%E8%9B%8B%E8%8A%B1+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1803,10 +1803,10 @@
       "ko": "선농제(신농가)에서 살짝 벗어난 차분한 골목에 위치한, 밤늦게까지 영업하며 마스코트 강아지 '다이마루'를 만날 수 있는 카페입니다. 라떼와 귀여운 강아지 쿠키(NT$40), 주류 메뉴도 있으며, 입장 전 벨 누르기·임의 안기/급여 금지·90분 이용 제한·12세 미만 입장 불가 규칙을 지켜 주세요."
     },
     "point_and_order": {
-      "zh": "你好，我們想點一杯拿鐵和一塊狗狗餅乾，內用，謝謝！",
-      "ja": "こんにちは。カフェラテを1杯と、わんこクッキーを1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, we'd like one latte and one dog cookie for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 카페라떼 한 잔이랑 강아지 쿠키 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我們想點一杯拿鐵和一塊狗狗餅乾，內用，謝謝！",
+      "ja": "カフェラテを1杯と、わんこクッキーを1つ、店内でお願いします。ありがとうございます！",
+      "en": "We'd like one latte and one dog cookie for dine-in, please. Thank you!",
+      "ko": "카페라떼 한 잔이랑 강아지 쿠키 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%BF%B7%E5%AE%AE+Kissa+Maze+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1845,10 +1845,10 @@
       "ko": "안핑 운하변·선농제에서 도보 약 12분(하무야에서 도보 약 30분 거리로 자전거나 택시·버스 추천) 거리에 있는 조용하고 개방적인 북카페입니다 (월·수·목·일 08:30~20:30, 금·토 08:30~22:00 영업·화요일 휴무). 책과 소품, 커피·주류 메뉴가 있어 운하가 보이는 테라스에서 독서나 휴식을 즐기기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯拿鐵，內用，謝謝！",
-      "ja": "こんにちは。カフェラテを1杯、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one latte for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 카페라떼 한 잔 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一杯拿鐵，內用，謝謝！",
+      "ja": "カフェラテを1杯、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one latte for dine-in, please. Thank you!",
+      "ko": "카페라떼 한 잔 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%83%8F%E9%82%A6%E5%9C%96%E6%9B%B8%E5%BA%97+%E7%92%B0%E6%B2%B3%E5%BA%97+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1886,10 +1886,10 @@
       "ko": "대만 대표 크래프트 맥주 브랜드 '타이후 브루잉'의 직영 탭룸입니다. 홉 향이 진한 DDH 헤이지 IPA와 상큼한 메이얼 레몬 사워 같은 생맥주와 맥앤치즈 등 안주가 잘 갖춰져 있으며, 포장용 맥주와 굿즈도 판매합니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯霧茫茫IPA和一份起司通心粉，內用，謝謝！",
-      "ja": "こんにちは。霧茫茫（IPA）を1杯と、マカロニチーズを1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Jovian Clouds IPA and one mac and cheese for dine-in, please. Thank you!",
-      "ko": "안녕하세요, IPA 맥주 한 잔이랑 맥앤치즈 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一杯霧茫茫IPA和一份起司通心粉，內用，謝謝！",
+      "ja": "霧茫茫（IPA）を1杯と、マカロニチーズを1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Jovian Clouds IPA and one mac and cheese for dine-in, please. Thank you!",
+      "ko": "IPA 맥주 한 잔이랑 맥앤치즈 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E8%99%8E%E5%8F%B0%E5%8D%97+Taihu+Tainan",
     "blog_url": {
@@ -1925,10 +1925,10 @@
       "ko": "하무야에서 도보 약 3분, 1층에 레트로 카메라와 소품샵이 있고 2층이 카페인 인기 공간입니다 (11:00~18:00 영업·목요일 휴무). 단단한 식감의 푸딩, 카페라떼, 매실 소다가 맛있으며 만석이 잦고 90분 제한이 있으니 1층에서 좌석 여부를 먼저 확인해 보세요."
     },
     "point_and_order": {
-      "zh": "你好，請問二樓有位置嗎？我們想點一杯拿鐵和一份烤布丁，謝謝！",
-      "ja": "こんにちは。2階に席は空いていますか？カフェラテを1杯と、焼きプリンを1つお願いします。ありがとうございます！",
-      "en": "Hello, do you have space upstairs? We'd like one latte and one baked pudding, please. Thank you!",
-      "ko": "안녕하세요, 2층에 자리 있나요? 카페라떼 한 잔이랑 푸딩 하나 주세요. 감사합니다!"
+      "zh": "請問二樓有位置嗎？我們想點一杯拿鐵和一份烤布丁，謝謝！",
+      "ja": "2階に席は空いていますか？カフェラテを1杯と、焼きプリンを1つお願いします。ありがとうございます！",
+      "en": "Do you have space upstairs? We'd like one latte and one baked pudding, please. Thank you!",
+      "ko": "2층에 자리 있나요? 카페라떼 한 잔이랑 푸딩 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=PARIPARI+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -1969,10 +1969,10 @@
       "ko": "하무야에서 도보 약 10분, 아침 8시부터 밤 11시 30분까지 운영해 활용도가 높은 카페입니다. 미디엄 아메리카노 NT$55대 등 합리적인 가격에 와이파이와 콘센트도 갖추어 밤 카페나 작업하기 좋으며, 정오 12시쯤 메뉴가 더욱 풍성해집니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一杯中杯冰美式，內用，謝謝！",
-      "ja": "こんにちは。アイスアメリカーノのMサイズを1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one medium iced Americano for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 아이스 아메리카노 M사이즈 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一杯中杯冰美式，內用，謝謝！",
+      "ja": "アイスアメリカーノのMサイズを1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one medium iced Americano for dine-in, please. Thank you!",
+      "ko": "아이스 아메리카노 M사이즈 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Donutes+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2008,10 +2008,10 @@
       "ko": "야오무리야오 시장 안쪽 옛집을 개조한 한방차 카페입니다 (12:00~18:30 영업·비정기 휴무이므로 방문 전 SNS 확인 추천). 고소한 '사신 밀크 레이차(NT$230)'와 계화 시럽·치즈·계란이 어우러진 '화홍단(NT$180)'이 독특하며, 마스코트 고양이도 있고 한방차 제품 구매도 가능합니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一壺四神牛奶擂茶和一份花烘蛋，內用，謝謝！",
-      "ja": "こんにちは。四神ミルク擂茶を1ポットと、花烘蛋を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one pot of Four-Herbs Milk Lei Cha and one Flower Baked Egg for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 사신 밀크 레이차 한 주전자랑 화홍단 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一壺四神牛奶擂茶和一份花烘蛋，內用，謝謝！",
+      "ja": "四神ミルク擂茶を1ポットと、花烘蛋を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one pot of Four-Herbs Milk Lei Cha and one Flower Baked Egg for dine-in, please. Thank you!",
+      "ko": "사신 밀크 레이차 한 주전자랑 화홍단 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%89%8B%E8%8D%89+Hand+Haabu+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2048,10 +2048,10 @@
       "ko": "대만 최대 규모의 사립 박물관으로 서양 미술·악기·자연사·무기 컬렉션과 유럽풍 궁전 건축·정원이 인상적입니다 (하무야에서 기차·버스·택시 추천). 규모가 크니 넉넉한 일정을 잡는 것이 좋고 일부 입장권이나 회차는 사전 예약이 필요합니다 (09:30~17:30·수요일 휴관)."
     },
     "point_and_order": {
-      "zh": "你好，請問今天有當日票可以買嗎？謝謝！",
-      "ja": "こんにちは。今日の当日券は購入できますか？ありがとうございます！",
-      "en": "Hello, are same-day tickets available today? Thank you!",
-      "ko": "안녕하세요, 오늘 현장 발권 가능한가요? 감사합니다!"
+      "zh": "請問今天有當日票可以買嗎？謝謝！",
+      "ja": "今日の当日券は購入できますか？ありがとうございます！",
+      "en": "Are same-day tickets available today? Thank you!",
+      "ko": "오늘 현장 발권 가능한가요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A5%87%E7%BE%8E%E5%8D%9A%E7%89%A9%E9%A4%A8+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2088,10 +2088,10 @@
       "ko": "역사적 정원과 차 공간이 어우러진 도심 속 차분한 예문 공간입니다. 고풍스러운 정원과 연못을 바라보며 차를 마시며 쉬어가기 좋고 인근 골목 산책과 함께 즐기기 알맞습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問喝茶內用有位置嗎？謝謝！",
-      "ja": "こんにちは。お茶の店内利用は席が空いていますか？ありがとうございます！",
-      "en": "Hello, do you have seating available for tea inside? Thank you!",
-      "ko": "안녕하세요, 차 마시러 이용할 수 있나요? 감사합니다!"
+      "zh": "請問喝茶內用有位置嗎？謝謝！",
+      "ja": "お茶の店内利用は席が空いていますか？ありがとうございます！",
+      "en": "Do you have seating available for tea inside? Thank you!",
+      "ko": "차 마시러 이용할 수 있나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%90%B3%E5%9C%92%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2127,10 +2127,10 @@
       "ko": "현지인의 일상이 살아 숨 쉬는 전통시장으로, 시장 분위기와 함께 로컬 먹거리를 즐기기 좋습니다. 오전 시간대에 가장 활기차니 아침~점심 시간대 방문을 추천합니다."
     },
     "point_and_order": {
-      "zh": "你好，請問這附近有推薦的在地小吃嗎？謝謝！",
-      "ja": "こんにちは。このあたりでおすすめのローカル小吃はありますか？ありがとうございます！",
-      "en": "Hello, are there any local snacks around here you recommend? Thank you!",
-      "ko": "안녕하세요, 이 근처에 추천할 만한 로컬 먹거리가 있나요? 감사합니다!"
+      "zh": "請問這附近有推薦的在地小吃嗎？謝謝！",
+      "ja": "このあたりでおすすめのローカル小吃はありますか？ありがとうございます！",
+      "en": "Are there any local snacks around here you recommend? Thank you!",
+      "ko": "이 근처에 추천할 만한 로컬 먹거리가 있나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%8F%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2166,10 +2166,10 @@
       "ko": "산화(산후아) 지역에 위치한 대만맥주 양조장 견학·쇼핑 명소입니다 (하무야에서 택시나 기차 환승 등 교외 이동 필요). 타이난 시내에서 벗어나 반나절 나들이 겸 주류·간식 기념품을 구경하기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問今天有開放參觀嗎？謝謝！",
-      "ja": "こんにちは。今日は見学できますか？ありがとうございます！",
-      "en": "Hello, is the brewery open for visitors today? Thank you!",
-      "ko": "안녕하세요, 오늘 견학 가능한가요? 감사합니다!"
+      "zh": "請問今天有開放參觀嗎？謝謝！",
+      "ja": "今日は見学できますか？ありがとうございます！",
+      "en": "Is the brewery open for visitors today? Thank you!",
+      "ko": "오늘 견학 가능한가요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%96%84%E5%8C%96%E5%95%A4%E9%85%92%E5%BB%A0+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2206,10 +2206,10 @@
       "ko": "궈화제 인근 역사적 시장을 리뉴얼한 명소로 맛집, 소품, 공예, DIY 체험 매장 등이 모여 있습니다 (월~금 11:00~20:00, 주말 11:00~21:00·수요일 휴무). 노포 슈크림이나 개성 있는 기념품을 찾기에 좋고 타이난의 매력을 한곳에서 즐기기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問這附近有推薦的特色小店或點心嗎？謝謝！",
-      "ja": "こんにちは。このあたりでおすすめの特色あるお店やおやつはありますか？ありがとうございます！",
-      "en": "Hello, are there any local shops or snacks around here you recommend? Thank you!",
-      "ko": "안녕하세요, 이 근처에 추천할 만한 가게나 간식이 있나요? 감사합니다!"
+      "zh": "請問這附近有推薦的特色小店或點心嗎？謝謝！",
+      "ja": "このあたりでおすすめの特色あるお店やおやつはありますか？ありがとうございます！",
+      "en": "Are there any local shops or snacks around here you recommend? Thank you!",
+      "ko": "이 근처에 추천할 만한 가게나 간식이 있나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E5%B8%82%E5%A0%B4+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2244,10 +2244,10 @@
       "ko": "하무야에서 도보 약 5~6분 거리에 있는 축음기·오르골·레코드 등 200년 소리 역사를 만나는 박물관입니다 (10:00~17:30 영업·월·화 휴무, 입장료 NT$200·1층 카페 무료). 11:30과 14:30 시연 시간에 맞춰 방문하면 실제 소리와 원리를 감상할 수 있습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問要買博物館的門票，謝謝！",
-      "ja": "こんにちは。博物館の入場チケットを購入したいです。ありがとうございます！",
-      "en": "Hello, I'd like to buy museum admission tickets, please. Thank you!",
-      "ko": "안녕하세요, 박물관 입장권 구매할게요. 감사합니다!"
+      "zh": "請問要買博物館的門票，謝謝！",
+      "ja": "博物館の入場チケットを購入したいです。ありがとうございます！",
+      "en": "I'd like to buy museum admission tickets, please. Thank you!",
+      "ko": "박물관 입장권 구매할게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%96%87%E9%BC%8E%E7%95%99%E8%81%B2%E5%8D%9A%E7%89%A9%E9%A4%A8+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2283,10 +2283,10 @@
       "ko": "안핑 다리를 건너 만나는 작은 섬으로 해변 산책과 아름다운 노을을 감상하기 좋은 힐링 명소입니다 (하무야에서 버스+도보 또는 택시로 약 30~40분). 오후 5시쯤 일몰 시간대에 맞춰 가는 것을 추천하며, 섬 내 식당이 적으니 안핑에서 식사 후 이동하세요."
     },
     "point_and_order": {
-      "zh": "你好，請問去漁光島的方向是在這邊嗎？謝謝！",
-      "ja": "こんにちは。漁光島へ向かうのはこちらで合っていますか？ありがとうございます！",
-      "en": "Hello, is this the way toward Yu Guang Island? Thank you!",
-      "ko": "안녕하세요, 위광도로 가는 길이 이쪽이 맞나요? 감사합니다!"
+      "zh": "請問去漁光島的方向是在這邊嗎？謝謝！",
+      "ja": "漁光島へ向かうのはこちらで合っていますか？ありがとうございます！",
+      "en": "Is this the way toward Yu Guang Island? Thank you!",
+      "ko": "위광도로 가는 길이 이쪽이 맞나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%BC%81%E5%85%89%E5%B3%B6+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2325,10 +2325,10 @@
       "ko": "하무야에서 도보 약 10분 거리에 있는 1932년 개업한 레트로 백화점입니다. 옛 엘리베이터와 건축 디테일, 옥상 신사 등 볼거리가 가득하며 대만 디자인 소품·기념품 쇼핑과 야간 조명 감상에도 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問現在可以入館參觀嗎？謝謝！",
-      "ja": "こんにちは。今から館内に入れますか？ありがとうございます！",
-      "en": "Hello, can we enter the department store now? Thank you!",
-      "ko": "안녕하세요, 지금 백화점 입장 가능한가요? 감사합니다!"
+      "zh": "請問現在可以入館參觀嗎？謝謝！",
+      "ja": "今から館内に入れますか？ありがとうございます！",
+      "en": "Can we enter the department store now? Thank you!",
+      "ko": "지금 백화점 입장 가능한가요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9E%97%E7%99%BE%E8%B2%A8+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2364,10 +2364,10 @@
       "ko": "하야시 백화점 맞은편·하무야에서 도보 약 10분 거리에 있는 일제강점기 역사 건축물입니다. 고전적인 기둥과 좌우가 다른 입면·천장고 등 건축적 특징을 볼 수 있으며 하야시 백화점 산책과 함께 둘러보기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問這棟建築物在林百貨對面嗎？謝謝！",
-      "ja": "こんにちは。この建物は林百貨店の向かい側ですか？ありがとうございます！",
-      "en": "Hello, is this building right across from Hayashi Department Store? Thank you!",
-      "ko": "안녕하세요, 이 건물이 하야시 백화점 맞은편에 있나요? 감사합니다!"
+      "zh": "請問這棟建築物在林百貨對面嗎？謝謝！",
+      "ja": "この建物は林百貨店の向かい側ですか？ありがとうございます！",
+      "en": "Is this building right across from Hayashi Department Store? Thank you!",
+      "ko": "이 건물이 하야시 백화점 맞은편에 있나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E5%9C%B0%E9%8A%80%E8%A1%8C+%E5%8F%B0%E5%8D%97%E5%88%86%E8%A1%8C+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2400,10 +2400,10 @@
       "ko": "대만의 대표적인 화석 테마 박물관으로 자연사·생명진화·화석·스토리·탐험관 등 다양한 전시를 갖추고 있습니다 (09:00~17:00 영업·수요일 휴관·일반 NT$100, 쭤전 지역으로 교통편을 미리 확인해 이동하세요)."
     },
     "point_and_order": {
-      "zh": "你好，請問要買全票，謝謝！",
-      "ja": "こんにちは。一般チケット（全票）を購入したいです。ありがとうございます！",
-      "en": "Hello, I'd like general admission tickets, please. Thank you!",
-      "ko": "안녕하세요, 일반 입장권 구매할게요. 감사합니다!"
+      "zh": "請問要買全票，謝謝！",
+      "ja": "一般チケット（全票）を購入したいです。ありがとうございます！",
+      "en": "I'd like general admission tickets, please. Thank you!",
+      "ko": "일반 입장권 구매할게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%87%BA%E5%8D%97%E5%B7%A6%E9%8E%AE%E5%8C%96%E7%9F%B3%E5%9C%92%E5%8C%BA",
     "blog_url": {
@@ -2439,10 +2439,10 @@
       "ko": "1846년 조성된 역사적 저수지를 중심으로 한 자연 풍경구로 호숫가 산책로와 푸른 자연을 즐길 수 있습니다 (일반 NT$100, 교외 지역이므로 이동 수단을 미리 확인하세요). 여유롭게 산책하며 자연 속에서 쉬기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問要買入園門票，謝謝！",
-      "ja": "こんにちは。入園チケットを購入したいです。ありがとうございます！",
-      "en": "Hello, I'd like park admission tickets, please. Thank you!",
-      "ko": "안녕하세요, 입장권 구매할게요. 감사합니다!"
+      "zh": "請問要買入園門票，謝謝！",
+      "ja": "入園チケットを購入したいです。ありがとうございます！",
+      "en": "I'd like park admission tickets, please. Thank you!",
+      "ko": "입장권 구매할게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%99%8E%E9%A0%AD%E5%9F%A2%E9%A2%A8%E6%99%AF%E5%8D%80+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2479,10 +2479,10 @@
       "ko": "하무야에서 도보 약 11분·적감루와 영락시장 인근에 위치한 가성비 좋고 음식이 빨리 나오는 인기 대만 가정식·요리 식당입니다 (16:30~23:40 영업·연중무휴, 라스트오더 22:30경). 새우볶음밥, 바질 볶음 조개, 샤오창잉터우, 마파두부가 맛있으며, 60분 이용 제한·추가 주문 불가·주류 반입 사전 문의 조건이니 참고하세요."
     },
     "point_and_order": {
-      "zh": "你好，我們想點一份蝦仁炒飯、一份塔香蛤蜊和一份麻婆豆腐，內用，謝謝！",
-      "ja": "こんにちは。エビチャーハンを1つと、塔香蛤蜊、麻婆豆腐を1つずつ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, we'd like one shrimp fried rice, one basil clams, and one mapo tofu for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 새우볶음밥 하나랑 바질 조개 볶음, 마파두부 하나씩 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我們想點一份蝦仁炒飯、一份塔香蛤蜊和一份麻婆豆腐，內用，謝謝！",
+      "ja": "エビチャーハンを1つと、塔香蛤蜊、麻婆豆腐を1つずつ、店内でお願いします。ありがとうございます！",
+      "en": "We'd like one shrimp fried rice, one basil clams, and one mapo tofu for dine-in, please. Thank you!",
+      "ko": "새우볶음밥 하나랑 바질 조개 볶음, 마파두부 하나씩 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B1%90%E6%94%B6%E9%A3%AF%E6%A1%8C+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2522,10 +2522,10 @@
       "ko": "하무야에서 도보 약 15분, 일본어 검색과 JOYSOUND 기기를 즐길 수 있는 타이난의 몇 안 되는 일본식 노래방입니다 (평일 12:00~23:00, 주말 09:00~23:00·엘리베이터는 3층까지며 4층은 계단 이동). 혼자 가기 좋은 라운지 공간과 예약제 룸(IG/FB @awaykara)이 있어 기분 전환하기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問我們有預約包廂，請問是在這邊嗎？謝謝！",
-      "ja": "こんにちは。個室を予約しているのですが、こちらで合っていますか？ありがとうございます！",
-      "en": "Hello, we have a private room reservation—is this the right place? Thank you!",
-      "ko": "안녕하세요, 룸 예약했는데 여기 맞나요? 감사합니다!"
+      "zh": "請問我們有預約包廂，請問是在這邊嗎？謝謝！",
+      "ja": "個室を予約しているのですが、こちらで合っていますか？ありがとうございます！",
+      "en": "We have a private room reservation—is this the right place? Thank you!",
+      "ko": "룸 예약했는데 여기 맞나요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=A+way+%E9%9F%B3%E6%A8%82%E4%B8%AD%E5%BF%83+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2562,10 +2562,10 @@
       "ko": "야오무리야오 시장 안쪽(타이난시 북구 성공로 148호, 07:00~13:30 영업·월요일 휴무)에 있는 간판도 메뉴판도 없는 현지 인기 국수집입니다. 전통 숯불 화덕에서 삶아낸 쫄깃한 '양춘면(NT$50)'과 데친 오징어가 일품이며, 구두로 주문하고 자리에 앉아 즐기는 시장 명소입니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗陽春麵，內用，謝謝！",
-      "ja": "こんにちは。陽春麵を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of Yangchun Noodles for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 양춘면 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗陽春麵，內用，謝謝！",
+      "ja": "陽春麵を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of Yangchun Noodles for dine-in, please. Thank you!",
+      "ko": "양춘면 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E6%AF%8D%E5%AF%AE%E5%B8%82%E5%A0%B4+%E7%82%AD%E7%81%AB%E9%BA%B5+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2602,10 +2602,10 @@
       "ko": "하무야에서 도보 약 1분(타이난시 충이로 2단 120호) 거리에 있는 타이난 명물 '장어(타우나기) 이면' 로컬 맛집입니다. 걸쭉한 국물(갱) 스타일과 볶음 스타일을 비롯해 볶음밥, 돼지간 수프 등도 즐길 수 있어 하무야 머무는 동안 가볍게 들르기 좋습니다 (11:00~14:00·17:00~21:00 영업, 토·일요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一份鱔魚意麵，內用，謝謝！",
-      "ja": "こんにちは。鱔魚意麵を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one Shan Yu Yi Mian for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 샨위이면 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份鱔魚意麵，內用，謝謝！",
+      "ja": "鱔魚意麵を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one Shan Yu Yi Mian for dine-in, please. Thank you!",
+      "ko": "샨위이면 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E6%B1%9F%E9%B1%94%E9%AD%9A%E6%84%8F%E9%BA%B5+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2642,10 +2642,10 @@
       "ko": "적감루 맞은편(타이난시 중서구 민족로 2단 321호)·하무야에서 도보 약 5분 거리에 있는 옛날 감성의 로컬 식당입니다. 쑤안라몐과 매콤한 홍유차오쇼우(만두/완탕)가 인기이며, 주문표 작성 후 선결제 방식으로 편하게 즐길 수 있습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一份酸辣麵和一份紅油抄手，內用，謝謝！",
-      "ja": "こんにちは。酸辣麵を1つと、紅油抄手を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one suanla mian and one hongyou chaoshou for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 쑤안라몐 하나랑 홍유차오쇼우 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份酸辣麵和一份紅油抄手，內用，謝謝！",
+      "ja": "酸辣麵を1つと、紅油抄手を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one suanla mian and one hongyou chaoshou for dine-in, please. Thank you!",
+      "ko": "쑤안라몐 하나랑 홍유차오쇼우 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%92%8B%E5%8E%9D%E5%91%B3+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2682,10 +2682,10 @@
       "ko": "하무야에서 도보 약 3분(타이난시 중서구 민권로 2단 106호) 거리에 있는 옛 국숫집을 세련되게 리모델링한 로컬 면 맛집입니다. 주유반판, 단단면, 매콤한 홍유차오쇼우 등을 즐길 수 있어 하무야에 머무는 동안 점심이나 저녁으로 들르기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一份擔擔麵和一份紅油抄手，內用，謝謝！",
-      "ja": "こんにちは。擔擔麵を1つと、紅油抄手を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one dandan noodles and one hongyou chaoshou for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 단단면 하나랑 홍유차오쇼우 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一份擔擔麵和一份紅油抄手，內用，謝謝！",
+      "ja": "擔擔麵を1つと、紅油抄手を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one dandan noodles and one hongyou chaoshou for dine-in, please. Thank you!",
+      "ko": "단단면 하나랑 홍유차오쇼우 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%91%E9%BA%B5%E5%BA%97+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2722,10 +2722,10 @@
       "ko": "타이난 최대 규모를 자랑하는 대표 야시장입니다 (주요 개장 요일 목·금·토·일; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 먹거리와 게임 부스, 쇼핑까지 활기가 넘치니 개장 요일을 꼭 확인하고 방문해 보세요."
     },
     "point_and_order": {
-      "zh": "你好，我要一份地瓜球，謝謝！",
-      "ja": "こんにちは。地瓜球を1つお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one order of sweet potato balls, please. Thank you!",
-      "ko": "안녕하세요, 고구마볼(디과치우) 하나 주세요. 감사합니다!"
+      "zh": "我要一份地瓜球，謝謝！",
+      "ja": "地瓜球を1つお願いします。ありがとうございます！",
+      "en": "I'd like one order of sweet potato balls, please. Thank you!",
+      "ko": "고구마볼(디과치우) 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E5%9C%92%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2762,10 +2762,10 @@
       "ko": "화위안 야시장 다음으로 큰 인기 야시장으로 학생과 현지인들로 활기찹니다 (주요 개장 요일 월·화·금; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 평일 저녁 야시장 먹거리 투어로 즐기기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問這份怎麼賣？我們想點一份，謝謝！",
-      "ja": "こんにちは。こちらはいくらですか？1つお願いします。ありがとうございます！",
-      "en": "Hello, how much is this? We'd like one, please. Thank you!",
-      "ko": "안녕하세요, 이거 얼마인가요? 하나 주세요. 감사합니다!"
+      "zh": "請問這份怎麼賣？我們想點一份，謝謝！",
+      "ja": "こちらはいくらですか？1つお願いします。ありがとうございます！",
+      "en": "How much is this? We'd like one, please. Thank you!",
+      "ko": "이거 얼마인가요? 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%9D%B1%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2802,10 +2802,10 @@
       "ko": "타이난에서 가장 오래된 역사를 지닌 야시장으로 먹거리와 함께 게임 부스 등 즐길 거리가 있습니다 (주요 개장 요일 수·금·토; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 수요일 저녁 야시장을 찾을 때 특히 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我要一份虱目魚酥，謝謝！",
-      "ja": "こんにちは。サバヒー（虱目魚）の揚げ物を1つお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one fried milkfish snack, please. Thank you!",
-      "ko": "안녕하세요, 밀크피시(사바히) 튀김 하나 주세요. 감사합니다!"
+      "zh": "我要一份虱目魚酥，謝謝！",
+      "ja": "サバヒー（虱目魚）の揚げ物を1つお願いします。ありがとうございます！",
+      "en": "I'd like one fried milkfish snack, please. Thank you!",
+      "ko": "밀크피시(사바히) 튀김 하나 주세요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%81%96%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2841,10 +2841,10 @@
       "ko": "타이난 공원 인근(타이난시 북구 베이중제 176호)에 있는 전통 두화(연두부 디저트) 가게입니다. 기본 두화는 물론 금귤 두화, 딸기 두화 등 메뉴를 즐길 수 있어 산책 후 달콤한 휴식에 어울립니다 (09:30~17:30 영업·화·수요일 휴무)."
     },
     "point_and_order": {
-      "zh": "你好，我要一碗金桔豆花，內用，謝謝！",
-      "ja": "こんにちは。金桔豆花を1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of calamansi douhua for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 금귤 두화 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗金桔豆花，內用，謝謝！",
+      "ja": "金桔豆花を1つ、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of calamansi douhua for dine-in, please. Thank you!",
+      "ko": "금귤 두화 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E5%90%8D%E8%B1%86%E8%85%91+%E5%8C%97%E5%BF%A0%E8%A1%97176%E8%99%9F+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2883,10 +2883,10 @@
       "ko": "하무상의 원픽 소고기탕(우육탕) 맛집! 신선한 대만산 생소고기에 뜨거운 육수를 부어 내어 놀라울 정도로 부드럽고 깊은 감칠맛을 자랑합니다. 수~일요일 04:30~13:00 영업(월·화요일 휴무)이니 아침 식사로 꼭 들러보세요!"
     },
     "point_and_order": {
-      "zh": "你好，我要一碗牛肉湯，附白飯，內用，謝謝！",
-      "ja": "こんにちは。牛肉湯を1つ（白ごはん付き）、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl of beef soup with white rice for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 우육탕 하나(흰쌀밥 포함) 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我要一碗牛肉湯，附白飯，內用，謝謝！",
+      "ja": "牛肉湯を1つ（白ごはん付き）、店内でお願いします。ありがとうございます！",
+      "en": "I'd like one bowl of beef soup with white rice for dine-in, please. Thank you!",
+      "ko": "우육탕 하나(흰쌀밥 포함) 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E7%BE%85%E6%AE%BF%E7%89%9B%E8%82%89%E6%B9%AF+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2927,10 +2927,10 @@
       "ko": "하무야에서 충이로를 따라 북쪽으로 도보 약 10분(타이난시 북구 충이로 3단 38호) 거리에 있는 하무상 추천 대만식 선술집(러차오)입니다! 다양한 대만 볶음 요리와 함께 시원한 맥주를 즐길 수 있으며, 특히 피망 소고기 볶음밥(청초우육볶음밥)이 일품입니다! 새벽 1시까지 영업(18:00~01:00, 수요일 휴무, 현금 결제만 가능)해 저녁 식사나 심야 한잔에 딱입니다."
     },
     "point_and_order": {
-      "zh": "你好，我們想點一碗鮮魚湯和幾道熱炒，內用，謝謝！",
-      "ja": "こんにちは。鮮魚湯を1つと、炒め物をいくつか店内でお願いします。ありがとうございます！",
-      "en": "Hello, we'd like a bowl of fresh fish soup and a few stir-fry dishes for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 신선 생선탕 하나랑 볶음 요리 몇 가지 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我們要點青椒牛肉炒飯和蒜泥白肉，謝謝！",
+      "ja": "青椒牛肉炒飯と蒜泥白肉（ゆで豚のにんにくソースがけ）をお願いします。ありがとうございます！",
+      "en": "We'd like to order the green pepper beef fried rice and garlic pork belly (Suanni Bairou), please. Thank you!",
+      "ko": "피망 소고기 볶음밥(청초우육볶음밥)이랑 마늘소스 수육(쏸니바이러우) 주문할게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%B6%E8%B1%AA%E9%AE%AE%E9%AD%9A%E6%B9%AF%E5%95%A4%E9%85%92%E5%B1%8B+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -2969,10 +2969,10 @@
       "ko": "선농제(타이난시 중서구 선농제 94호)에 자리한 레트로하고 차분한 분위기의 바입니다. 월~목·일 19:00~02:00, 금 19:00~03:00, 토 18:00~03:00까지 운영해 타이난의 밤이나 늦은 시간 한잔하기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問有位置嗎？我們想先看看酒單，謝謝！",
-      "ja": "こんにちは。席はありますか？まずはドリンクメニューを見せてください。ありがとうございます！",
-      "en": "Hello, do you have a table available? Could we take a look at the drink menu first, please? Thank you!",
-      "ko": "안녕하세요, 자리 있나요? 먼저 음료 메뉴 좀 볼 수 있을까요? 감사합니다!"
+      "zh": "請問有位置嗎？我們想先看看酒單，謝謝！",
+      "ja": "席はありますか？まずはドリンクメニューを見せてください。ありがとうございます！",
+      "en": "Do you have a table available? Could we take a look at the drink menu first, please? Thank you!",
+      "ko": "자리 있나요? 먼저 음료 메뉴 좀 볼 수 있을까요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=TAIKOO%E5%A4%AA%E5%8F%A4%E7%99%BE%E8%B2%A8%E5%BA%97+%E7%A5%9E%E8%BE%B2%E8%A1%9794%E8%99%9F+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -3009,10 +3009,10 @@
       "ko": "중서구 충효제 45호에 자리한 맥주도 즐길 수 있는 카페바로, 개성 있고 재미있는 사장님 분위기가 매력입니다. 월·목~일 09:30~22:00, 화·수 12:30~22:00까지 운영해 낮 한잔부터 저녁 가벼운 술자리까지 편하게 들르기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，請問有位置嗎？我們想點一杯啤酒，內用，謝謝！",
-      "ja": "こんにちは。席はありますか？ビールを1杯、店内でお願いします。ありがとうございます！",
-      "en": "Hello, do you have a seat available? We'd like a beer for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 자리 있나요? 맥주 한 잔 여기서 마실게요. 감사합니다!"
+      "zh": "請問有位置嗎？我們想點一杯啤酒，內用，謝謝！",
+      "ja": "席はありますか？ビールを1杯、店内でお願いします。ありがとうございます！",
+      "en": "Do you have a seat available? We'd like a beer for dine-in, please. Thank you!",
+      "ko": "자리 있나요? 맥주 한 잔 여기서 마실게요. 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AD%98%E6%86%B6+Cafe+Bar+%E5%BF%A0%E5%AD%9D%E8%A1%9745%E8%99%9F+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -3048,10 +3048,10 @@
       "ko": "중서구 민권로 2단 279호 2층에 있는 잡화와 가벼운 먹거리·음료 분위기를 함께 느낄 수 있는 요로즈야 스타일 공간으로, 하무야와도 인연이 깊은 곳입니다. 월·금~일요일 13:00~19:00 영업(화~목요일 휴무, 현금 결제만 가능)이니 영업일을 확인하고 방문해 보세요."
     },
     "point_and_order": {
-      "zh": "你好，請問今天有營業嗎？我們想看看，謝謝！",
-      "ja": "こんにちは。今日やっていますか？ちょっと見せてください。ありがとうございます！",
-      "en": "Hello, are you open today? We'd love to take a look, thank you!",
-      "ko": "안녕하세요, 오늘 영업하나요? 잠깐 구경해도 될까요? 감사합니다!"
+      "zh": "請問今天有營業嗎？我們想看看，謝謝！",
+      "ja": "今日やっていますか？ちょっと見せてください。ありがとうございます！",
+      "en": "Are you open today? We'd love to take a look, thank you!",
+      "ko": "오늘 영업하나요? 잠깐 구경해도 될까요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E7%94%B0%E4%B8%87%E5%B1%8B+%E6%B0%91%E6%AC%8A%E8%B7%AF%E4%BA%8C%E6%AE%B5279%E8%99%9F+%E5%8F%B0%E5%8D%97",
     "blog_url": {
@@ -3089,10 +3089,10 @@
       "ko": "중서구 중청로 56호(中成路56號)에 자리한 살짝 일식 감성이 더해진 하무야 단골 꼬치구이집입니다! 하무상이 가장 맛있다고 생각하는 꼬치구이집으로, 특히 츠쿠네와 돼지혀(돈설)를 추천해요. 17:30~23:30 영업(월·화요일 휴무)으로 저녁 식사나 야식 한잔에 딱입니다."
     },
     "point_and_order": {
-      "zh": "你好，我們想點一份雞肉丸子和一份豬舌，內用，謝謝！",
-      "ja": "こんにちは。つくねを1つと、豚たんを1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, we'd like one order of tsukune and one order of pork tongue for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 츠쿠네 하나랑 돼지혀 하나 여기서 먹고 갈게요. 감사합니다!"
+      "zh": "我們想點一份雞肉丸子和一份豬舌，內用，謝謝！",
+      "ja": "つくねを1つと、豚たんを1つ、店内でお願いします。ありがとうございます！",
+      "en": "We'd like one order of tsukune and one order of pork tongue for dine-in, please. Thank you!",
+      "ko": "츠쿠네 하나랑 돼지혀 하나 여기서 먹고 갈게요. 감사합니다!"
     },
     "google_maps_url": "https://maps.app.goo.gl/uTMto69BoYg4eRbY7",
     "blog_url": {
@@ -3129,10 +3129,10 @@
       "ko": "하무야와 같은 충이로 2단(타이난시 중서구 충이로 2단 196호)에 있는, 일본 음식이 그리울 때 추천하는 가성비 좋고 맛있는 식당입니다. 점심(11:30~14:00)과 저녁(17:30~20:30)에 운영하며(화요일 휴무) 여행 중 기분 전환 겸 식사하기 좋습니다."
     },
     "point_and_order": {
-      "zh": "你好，我們想內用，請問可以點餐嗎？謝謝！",
-      "ja": "こんにちは。店内でいただきたいのですが、注文してもいいですか？ありがとうございます！",
-      "en": "Hello, we'd like to dine in—could we place our order, please? Thank you!",
-      "ko": "안녕하세요, 여기서 먹고 갈게요. 주문해도 될까요? 감사합니다!"
+      "zh": "我們想內用，請問可以點餐嗎？謝謝！",
+      "ja": "店内でいただきたいのですが、注文してもいいですか？ありがとうございます！",
+      "en": "We'd like to dine in—could we place our order, please? Thank you!",
+      "ko": "여기서 먹고 갈게요. 주문해도 될까요? 감사합니다!"
     },
     "google_maps_url": "https://maps.app.goo.gl/VybTh6VzJGZKk3uF7",
     "blog_url": {
@@ -3169,10 +3169,10 @@
       "ko": "하무야와 같은 충이로 라인을 따라 북쪽으로 올라간 충이로 3단 34호에 있는 하무상이 좋아하는 우육면 맛집입니다! 월~수·금~토요일 11:30~19:30 영업(목·일요일 휴무)으로 점심이나 저녁 식사로 들르기 좋습니다. (※ 블로그 글 준비 중!)"
     },
     "point_and_order": {
-      "zh": "你好，我們想內用，請問可以點餐嗎？謝謝！",
-      "ja": "こんにちは。店内でいただきたいのですが、注文してもいいですか？ありがとうございます！",
-      "en": "Hello, we'd like to dine in—could we place our order, please? Thank you!",
-      "ko": "안녕하세요, 여기서 먹고 갈게요. 주문해도 될까요? 감사합니다!"
+      "zh": "我們想內用，請問可以點餐嗎？謝謝！",
+      "ja": "店内でいただきたいのですが、注文してもいいですか？ありがとうございます！",
+      "en": "We'd like to dine in—could we place our order, please? Thank you!",
+      "ko": "여기서 먹고 갈게요. 주문해도 될까요? 감사합니다!"
     },
     "google_maps_url": "https://maps.app.goo.gl/P8yboSrxEyc73Cm2A",
     "blog_url": {
@@ -3211,10 +3211,10 @@
       "ko": "안핑 해안가에 자리한 24시간 개방 산책 명소로, 바닷바람과 노을을 즐기기 좋고 하무상도 자주 찾는 힐링 코스입니다. 숙소에서는 조금 거리가 있으니 스쿠터나 택시, 자전거를 타고 바닷가 바람을 쐬러 가보세요. (※ 블로그 글 준비 중!)"
     },
     "point_and_order": {
-      "zh": "你好，請問到「觀夕平台」怎麼走？謝謝！",
-      "ja": "こんにちは。「觀夕平台」まではどうやって行けばいいですか？ありがとうございます！",
-      "en": "Hello, could you tell me how to get to Guanxi Platform, please? Thank you!",
-      "ko": "안녕하세요, 관시핑타이(觀夕平台)까지 어떻게 가는지 알 수 있을까요? 감사합니다!"
+      "zh": "請問到「觀夕平台」怎麼走？謝謝！",
+      "ja": "「觀夕平台」まではどうやって行けばいいですか？ありがとうございます！",
+      "en": "Could you tell me how to get to Guanxi Platform, please? Thank you!",
+      "ko": "관시핑타이(觀夕平台)까지 어떻게 가는지 알 수 있을까요? 감사합니다!"
     },
     "google_maps_url": "https://maps.app.goo.gl/rz38xP1R5FVYkyHu6",
     "blog_url": {
@@ -3252,10 +3252,10 @@
       "ko": "타이난시 북구 린안로 2단 310호에 위치한 대형 마트(구 다룬파)입니다! 하무상에게는 일상 장보기 장소이지만, 여행 중 간식·음료·기념품을 사거나 시원하게 쉬어가기에도 편리합니다. 07:30~23:00 영업하며 스쿠터나 택시, 버스로 편하게 들를 수 있습니다. (※ 블로그 글 준비 중!)"
     },
     "point_and_order": {
-      "zh": "你好，請問「大全聯」怎麼走？謝謝！",
-      "ja": "こんにちは。「大全聯」まではどうやって行けばいいですか？ありがとうございます！",
-      "en": "Hello, could you tell me how to get to MEGA PX MART, please? Thank you!",
-      "ko": "안녕하세요, 다취안롄(大全聯)까지 어떻게 가는지 알 수 있을까요? 감사합니다!"
+      "zh": "請問「大全聯」怎麼走？謝謝！",
+      "ja": "「大全聯」まではどうやって行けばいいですか？ありがとうございます！",
+      "en": "Could you tell me how to get to MEGA PX MART, please? Thank you!",
+      "ko": "다취안롄(大全聯)까지 어떻게 가는지 알 수 있을까요? 감사합니다!"
     },
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%85%A8%E8%81%AF+%E5%8F%B0%E5%8D%97%E5%BA%97+%E8%87%A8%E5%AE%89%E8%B7%AF%E4%BA%8C%E6%AE%B5310%E8%99%9F+%E5%8F%B0%E5%8D%97",
     "blog_url": {
