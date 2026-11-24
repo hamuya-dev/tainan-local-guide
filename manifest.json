@@ -1,7 +1,7 @@
 {
-  "name": "はむ家 台南ローカル案内 | Hamuya Tainan Guide",
-  "short_name": "はむ家案内",
-  "description": "台南のゲストハウス「はむ家（Hamuya / 哈木家）」宿泊者向けの台南ローカルスポット案内アプリ",
+  "name": "はむ家 台南ローカルガイド | Hamuya Tainan Guide",
+  "short_name": "はむ家ガイド",
+  "description": "台南のゲストハウス「はむ家（Hamuya / 哈木家）」宿泊者向けの台南ローカルスポットガイドアプリ",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

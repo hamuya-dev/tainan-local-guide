@@ -26,8 +26,8 @@
 
   const I18N = {
     ja: {
-      pageTitle: "はむ家 台南ローカル案内",
-      appTitle: "はむ家 台南ローカル案内",
+      pageTitle: "はむ家 台南ローカルガイド",
+      appTitle: "はむ家 台南ローカルガイド",
       appSubtitle: "はむ家のリアルなおすすめ案内",
       headerBooking: "宿泊予約 ↗",
       filterTime: "時間帯",
@@ -87,16 +87,16 @@
       errorTitle: "スポットデータを読み込めませんでした",
       errorDesc: "通信状況を確認して、もう一度お試しください。",
       retryLoad: "再読み込み",
-      footerNote: "台南ゲストハウス はむ家（Hamuya / 哈木家）ローカル案内 v1.1",
+      footerNote: "台南ゲストハウス はむ家（Hamuya / 哈木家）ローカルガイド v1.1",
       authTitle: "はむ家 宿泊ゲスト専用ガイド",
       authDesc: "はむ家にご宿泊のゲスト専用ページです。館内に掲示されているQRコードをスキャンしてご利用ください。",
       authPromoExpiredDesc: "3日間のお試し期間が終了しました。はむ家にご宿泊の際は、館内QRコードから引き続きご利用いただけます。",
       authValidity: "※ QRコードをスキャンすると、そのまま3日間（72時間）ご利用いただけます",
     },
     "zh-TW": {
-      pageTitle: "哈木家 台南在地散步指南",
+      pageTitle: "哈木家 台南在地指南",
       appTitle: "哈木家 台南在地指南",
-      appSubtitle: "哈木家的台南私房推薦",
+      appSubtitle: "哈木家的私房口袋名單",
       headerBooking: "訂房 ↗",
       filterTime: "時段",
       filterCategory: "類型",
@@ -162,7 +162,7 @@
       authValidity: "※ 掃描後即可直接使用 3 天（72 小時）",
     },
     en: {
-      pageTitle: "Hamuya Tainan Local Guide",
+      pageTitle: "Hamuya Tainan Guide",
       appTitle: "Hamuya Tainan Guide",
       appSubtitle: "Hamuya's Local Favorites",
       headerBooking: "Book ↗",
@@ -232,7 +232,7 @@
     ko: {
       pageTitle: "하무야 타이난 로컬 가이드",
       appTitle: "하무야 타이난 로컬 가이드",
-      appSubtitle: "하무야의 진짜 로컬 추천 가이드",
+      appSubtitle: "하무야의 진짜 단골 맛집·명소",
       headerBooking: "예약 ↗",
       filterTime: "시간대",
       filterCategory: "카테고리",
