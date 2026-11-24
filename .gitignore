@@ -15,3 +15,7 @@
 *.log
 tmp/
 .tmp/
+
+# Local guest QR image (do not publish)
+qr-hamuya.png
+
