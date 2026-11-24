@@ -42,33 +42,13 @@
       </nav>
     </header>
 
-    <!-- Guest Passcode Lock Screen -->
+    <!-- Guest QR-Only Lock Screen -->
     <section id="auth-gate" class="auth-gate" aria-labelledby="auth-title">
       <div class="auth-card">
-        <div class="auth-icon" aria-hidden="true">🔑</div>
+        <div class="auth-icon" aria-hidden="true">🏡</div>
         <h2 id="auth-title" class="auth-title">はむ家 宿泊ゲスト専用ガイド</h2>
-        <p id="auth-desc" class="auth-desc">フロントの案内ボードに記載された今週の4桁パスコードを入力してください。</p>
-
-        <form id="auth-form" class="auth-form" novalidate>
-          <input
-            type="text"
-            id="auth-input"
-            class="auth-input"
-            inputmode="numeric"
-            pattern="[0-9]*"
-            maxlength="4"
-            autocomplete="one-time-code"
-            autocorrect="off"
-            spellcheck="false"
-            placeholder="4桁の数字"
-            aria-label="4桁の数字"
-            required
-          >
-          <p id="auth-error" class="auth-error" role="alert" aria-live="assertive" hidden></p>
-          <button type="submit" id="auth-submit" class="btn btn-primary auth-submit">ガイドを開く</button>
-        </form>
-
-        <p id="auth-validity" class="auth-validity">※ 一度入力すると3日間（72時間）有効です</p>
+        <p id="auth-desc" class="auth-desc">はむ家にご宿泊のゲスト専用ページです。館内に掲示されているQRコードをスキャンしてご利用ください。</p>
+        <p id="auth-validity" class="auth-validity">※ QRコードをスキャンすると、そのまま3日間（72時間）ご利用いただけます</p>
       </div>
     </section>
 
