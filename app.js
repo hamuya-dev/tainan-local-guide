@@ -32,7 +32,7 @@
         late_night: "深夜",
       },
       category: {
-        local_food: "ローカル飯",
+        local_food: "グルメ",
         cafe_sweets: "カフェ・スイーツ",
         bar: "お酒",
         sightseeing: "散歩・観光",
@@ -74,7 +74,7 @@
         late_night: "宵夜",
       },
       category: {
-        local_food: "在地美食",
+        local_food: "美食",
         cafe_sweets: "咖啡・甜點",
         bar: "微醺小酌",
         sightseeing: "散步・景點",
@@ -116,7 +116,7 @@
         late_night: "Late Night",
       },
       category: {
-        local_food: "Local Food",
+        local_food: "Food",
         cafe_sweets: "Cafe & Sweets",
         bar: "Drinks / Bar",
         sightseeing: "Walk & Sights",
@@ -158,7 +158,7 @@
         late_night: "심야",
       },
       category: {
-        local_food: "로컬 맛집",
+        local_food: "맛집",
         cafe_sweets: "카페·디저트",
         bar: "술·바",
         sightseeing: "산책·관광",
