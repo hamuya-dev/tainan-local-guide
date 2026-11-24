@@ -747,10 +747,25 @@ a {
   background: var(--jade-soft);
 }
 
+.btn-youtube {
+  background: var(--surface);
+  color: #B92B27;
+  border: 1.5px solid #EBC5C3;
+}
+
+.btn-youtube:hover {
+  background: #FDF1F0;
+}
+
 .btn-icon {
   width: 18px;
   height: 18px;
   flex-shrink: 0;
+}
+
+.btn-icon-youtube {
+  width: 20px;
+  height: 20px;
 }
 
 /* Empty & Error States */

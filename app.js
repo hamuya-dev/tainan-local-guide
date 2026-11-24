@@ -81,6 +81,7 @@
       pointModalClose: "閉じる",
       openMaps: "Googleマップで行く",
       readBlog: "ブログ記事を読む",
+      watchYoutube: "YouTubeで見る",
       emptyTitle: "条件に合うスポットが見つかりませんでした",
       emptyDesc: "検索ワードや時間帯・ジャンル・距離の絞り込み条件を変えてみてください。",
       resetEmpty: "フィルターをすべて解除",
@@ -149,6 +150,7 @@
       pointModalClose: "關閉",
       openMaps: "開啟 Google 地圖",
       readBlog: "閱讀部落格介紹",
+      watchYoutube: "看 YouTube 影片",
       emptyTitle: "找不到符合條件的地點",
       emptyDesc: "試試看更換搜尋關鍵字，或調整時段、類型、距離等篩選條件吧！",
       resetEmpty: "重設所有篩選",
@@ -217,6 +219,7 @@
       pointModalClose: "Close",
       openMaps: "Open in Google Maps",
       readBlog: "Read Blog Post",
+      watchYoutube: "Watch on YouTube",
       emptyTitle: "No spots match your filters",
       emptyDesc: "Try another keyword or adjust your time, category, or distance filters.",
       resetEmpty: "Reset all filters",
@@ -285,6 +288,7 @@
       pointModalClose: "닫기",
       openMaps: "Google 지도에서 보기",
       readBlog: "블로그 글 보기",
+      watchYoutube: "YouTube로 보기",
       emptyTitle: "조건에 맞는 스팟을 찾지 못했어요",
       emptyDesc: "검색어나 시간대·장르·거리 필터를 변경해 보세요.",
       resetEmpty: "모든 필터 해제",
@@ -656,6 +660,29 @@
     return svg;
   }
 
+  function createYoutubeIcon() {
+    const ns = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(ns, "svg");
+    svg.setAttribute("viewBox", "0 0 24 24");
+    svg.setAttribute("aria-hidden", "true");
+    svg.classList.add("btn-icon", "btn-icon-youtube");
+
+    const bg = document.createElementNS(ns, "path");
+    bg.setAttribute(
+      "d",
+      "M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"
+    );
+    bg.setAttribute("fill", "#E52D27");
+    svg.appendChild(bg);
+
+    const play = document.createElementNS(ns, "polygon");
+    play.setAttribute("points", "9.75,15.02 15.5,12 9.75,8.98");
+    play.setAttribute("fill", "#FFFFFF");
+    svg.appendChild(play);
+
+    return svg;
+  }
+
   function renderSpotCard(spot) {
     const t = I18N[state.lang];
     const dataKey = DATA_LANG_KEY[state.lang];
@@ -822,11 +849,26 @@
       actions.appendChild(mapsLink);
     }
 
+    const youtubeUrl = typeof spot.youtube_url === "string"
+      ? spot.youtube_url.trim()
+      : "";
+
     const blogUrl = spot.blog_url && typeof spot.blog_url[dataKey] === "string"
       ? spot.blog_url[dataKey].trim()
       : "";
 
-    if (isSafeExternalUrl(blogUrl)) {
+    if (isSafeExternalUrl(youtubeUrl)) {
+      const youtubeLink = document.createElement("a");
+      youtubeLink.className = "btn btn-youtube";
+      youtubeLink.href = youtubeUrl;
+      youtubeLink.target = "_blank";
+      youtubeLink.rel = "noopener noreferrer";
+      youtubeLink.appendChild(createYoutubeIcon());
+      const youtubeText = document.createElement("span");
+      youtubeText.textContent = t.watchYoutube;
+      youtubeLink.appendChild(youtubeText);
+      actions.appendChild(youtubeLink);
+    } else if (isSafeExternalUrl(blogUrl)) {
       const blogLink = document.createElement("a");
       blogLink.className = "btn btn-secondary";
       blogLink.href = blogUrl;

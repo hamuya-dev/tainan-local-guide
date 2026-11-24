@@ -212,6 +212,15 @@ function main() {
       }
     }
 
+    // youtube_url (optional string: "" or valid http(s) URL)
+    if (spot.youtube_url !== undefined) {
+      if (typeof spot.youtube_url !== "string") {
+        errors.push(`${label}: "youtube_url" must be a string (empty "" if none).`);
+      } else if (spot.youtube_url.trim() !== "" && !isValidHttpUrl(spot.youtube_url)) {
+        errors.push(`${label}: "youtube_url" is not a valid http(s) URL (got ${JSON.stringify(spot.youtube_url)}).`);
+      }
+    }
+
     // is_active
     if (typeof spot.is_active !== "boolean") {
       errors.push(`${label}: "is_active" must be a boolean (true or false).`);
@@ -230,8 +239,9 @@ function main() {
   const walkCount = spots.filter((s) => Number.isInteger(s.walk_minutes)).length;
   const taggedCount = spots.filter((s) => Array.isArray(s.tags) && s.tags.length > 0).length;
   const pickCount = spots.filter((s) => s.hamu_pick === true).length;
+  const youtubeCount = spots.filter((s) => typeof s.youtube_url === "string" && s.youtube_url.trim() !== "").length;
   console.log(
-    `✅ data/spots.json passed all checks! (${spots.length} spots total, ${activeCount} active, ${walkCount} with walk_minutes, ${taggedCount} with tags, ${pickCount} hamu_pick)`
+    `✅ data/spots.json passed all checks! (${spots.length} spots total, ${activeCount} active, ${walkCount} with walk_minutes, ${taggedCount} with tags, ${pickCount} hamu_pick, ${youtubeCount} youtube_url)`
   );
 }
 
