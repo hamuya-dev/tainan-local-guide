@@ -670,5 +670,677 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "boge-tea-house-xinghua",
+    "category": "cafe_sweets",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "波哥茶飲 興華店",
+      "ja": "波哥茶飲 興華店（ボーグーチャーイン）",
+      "en": "Boge Tea House (Xinghua)",
+      "ko": "보거차음 싱화점 (波哥茶飲 興華店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約15分、台南で30年以上愛され「波哥を飲まずして台南を語るなかれ」とも言われる老舗ドリンク＆軽食店です。緑茶・レモン・梅にタピオカや寒天が入った人気No.1「綜合新味」は「微微（微糖・微冰）」での注文がおすすめ！甘い×しょっぱいがクセになるピーナッツ卵サラダサンドイッチ（花生沙拉蛋三明治）もあり、イートインで休憩や作業もできます。",
+      "zh": "距離哈木家步行約15分鐘、在台南飄香逾30年的老字號茶飲輕食店，更有「來台南沒喝過波哥，就不算來過台南」的說法！人氣第一的「綜合新味」融合綠茶、檸檬、梅汁與黑白珍珠、寒天，推薦點「微微」；搭配鹹甜交織的「花生沙拉蛋三明治」超對味，店內也有座位可坐著休息或處理事情。",
+      "en": "A beloved Tainan staple for over 30 years—locals say you haven't really been to Tainan without trying Boge—about a 15-minute walk from Hamuya. Order the #1 'Comprehensive New Flavor' (green tea, lemon, plum, pearls, and agar jelly) with light sugar & light ice, and pair it with the sweet-savory Peanut & Egg Salad Sandwich; seating is available for a break or light work.",
+      "ko": "하무야에서 도보 약 15분, 타이난에서 30년 넘게 사랑받아 온 노포 음료·경식 전문점입니다. 녹차·레몬·매실에 펄과 한천 젤리가 어우러진 인기 1위 '종합신미'는 '웨이웨이(미당·미빙)'로 주문하는 것을 추천하며, 단짠 매력이 넘치는 땅콩 계란샐러드 샌드위치도 인기입니다. 매장 내 좌석이 있어 쉬거나 작업하기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯綜合新味，微糖微冰，還有一份花生沙拉蛋三明治，謝謝！",
+      "ja": "こんにちは。綜合新味を1杯、微糖・氷少なめ（微微）で、あと花生沙拉蛋三明治（ピーナッツ＆卵サラダサンド）を1つください。ありがとうございます！",
+      "en": "Hello, I'd like one Comprehensive New Flavor drink with light sugar and light ice, plus one Peanut & Egg Salad Sandwich, please. Thank you!",
+      "ko": "안녕하세요, 종합신미 한 잔 덜 달게·얼음 적게 하고, 땅콩 계란샐러드 샌드위치 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://maps.app.goo.gl/jCk5pHUXRjTMqmB39",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/3740/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "yuan-wei-wu-japanese-western-food",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "元味屋 和風洋食",
+      "ja": "元味屋 和風洋食（ユエンウェイウー・ワフウヨウショク）",
+      "en": "Yuan Wei Wu Japanese Western Food",
+      "ko": "위안웨이우 화풍양식 (元味屋 和風洋食)"
+    },
+    "owner_note": {
+      "ja": "成功大学近くの学生街・育樂街エリアにある、学生に人気の和風洋食・定食屋さんです（はむ家からは自転車やタクシー・徒歩での散策ルートもおすすめ）。サクサク衣の「厚切日式豬排定食（150元）」は白ごはんおかわり自由でコスパ抜群！甘い冬瓜茶も飲めて、しっかり定食を食べたいときにぴったりです。",
+      "zh": "位於成功大學旁育樂街學生商圈的人氣和風洋食定食店（從哈木家可騎車或搭計程車前往）。「厚切日式豬排定食（150元）」炸衣酥脆、份量實在，而且白飯還能免費續加，CP值超高！店內還有冬瓜茶可喝，想好好吃一頓有菜有飯的定食時很推薦。",
+      "en": "A student-favorite Japanese-style western set meal spot in the Yule Street student area near NCKU (best reached by bike or taxi from Hamuya). The Thick-Cut Japanese Pork Chop Set (NT$150) comes with crispy breading and free rice refills for great value, with sweet winter melon tea on hand.",
+      "ko": "성공대 인근 학생가 위러제에 있는 학생들에게 인기인 일본식 양식 정식집입니다 (하무야에서 자전거나 택시 추천). 바삭한 튀김옷의 '두툼한 일식 돈가스 정식(150위안)'은 밥이 무료 리필되어 가성비가 뛰어나며, 동과차도 즐길 수 있어 든든한 정식을 원할 때 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份厚切日式豬排定食，內用，謝謝！",
+      "ja": "こんにちは。厚切日式豬排定食（厚切りとんかつ定食）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Thick-Cut Japanese Pork Chop Set for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 두툼한 일식 돈가스 정식 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://share.google/wnuZU5NvHP9mcZv3R",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/3738/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "shan-ye-canteen",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "善也食堂",
+      "ja": "善也食堂（シャンイエショクドウ）",
+      "en": "Shan Ye Canteen",
+      "ko": "산예 식당 (善也食堂)"
+    },
+    "owner_note": {
+      "ja": "育樂街の外れ・台南駅からもアクセスしやすい、おしゃれな雰囲気の食堂です（はむ家からは自転車やタクシーが便利）。定食屋さんのガパオライス丼「特製打拋豬（130元）」はピリ辛でご飯が進む美味しさ！甘さ控えめで丁寧に作られたお味噌汁もスタッフに大好評です。",
+      "zh": "位在育樂街尾端、從台南火車站過來也很方便的質感食堂（從哈木家建議騎車或搭計程車前往）。「特製打拋豬（130元）」以丼飯形式上桌，微辣下飯超涮嘴，店裡不死甜、用心熬煮的味噌湯也深受工作人員喜愛！",
+      "en": "A stylish neighborhood canteen on the edge of Yule Street with easy access from Tainan Station (best reached by bike or taxi from Hamuya). Their 'Special Gapao Pork Rice Bowl' (NT$130) brings a pleasant kick of spice, and the carefully made, not-too-sweet miso soup is a standout.",
+      "ko": "위러제 끝자락이자 타이난역에서도 가기 좋은 감각적인 식당입니다 (하무야에서 자전거나 택시 추천). 덮밥 형태로 나오는 '특제 다파오주(가파오 돼지고기 덮밥, 130위안)'는 매콤해서 밥도둑이며, 달지 않고 정성스럽게 끓인 된장국도 인기입니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份特製打拋豬，內用，謝謝！",
+      "ja": "こんにちは。特製打拋豬を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Special Gapao Pork Rice Bowl for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 특제 다파오주 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://share.google/Rga0nM05KvoW9l3PL",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/3738/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "wa-yang-ting-manatsu",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "和洋亭 真夏",
+      "ja": "和洋亭 真夏（ワヨウテイ・マナツ）",
+      "en": "Wa Yang Ting Manatsu",
+      "ko": "와요우테이 마나츠 (和洋亭 真夏)"
+    },
+    "owner_note": {
+      "ja": "狭い路地にひっそり佇む、日本の洋食文化を楽しめる人気店です。外はパリッと中はジューシーな「チキンステーキ定食 狩人風（380元）」は選べる小鉢2品付きで、ご褒美ディナーにもぴったり！ハンバーグも名物で、席がすぐ埋まるので事前予約や早めの訪問がおすすめです。",
+      "zh": "藏身在靜謐小巷裡的熱門洋食店，能品嚐到道地日式洋食風味！外酥內嫩的「獵人風雞排定食（380元）」附兩道自選小菜，很適合當作犒賞自己的晚餐；店內漢堡排也很有名，座位容易客滿，建議提前訂位或提早前往。",
+      "en": "A popular, cozy spot tucked in a narrow lane serving Japanese-style western dishes. The Hunter-Style Chicken Steak Set (NT$380) comes with crispy skin, juicy meat, and two selectable side dishes—great for a treat-yourself dinner (hamburgers are also a specialty; booking ahead is recommended as seats fill fast).",
+      "ko": "좁은 골목에 자리한 일본식 양식 맛집입니다. 겉은 바삭하고 속은 육즙 가득한 '헌터 스타일 치킨스테이크 정식(380위안)'은 고를 수 있는 밑반찬 2가지가 함께 나와 특별한 저녁 식사로 딱 좋습니다. 함박스테이크도 유명하며 자리가 금방 차니 예약이나 일찍 방문하는 것을 추천합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份狩人風雞排定食，謝謝！",
+      "ja": "こんにちは。チキンステーキ定食 狩人風を1つください。ありがとうございます！",
+      "en": "Hello, I'd like one Hunter-Style Chicken Steak Set, please. Thank you!",
+      "ko": "안녕하세요, 헌터 스타일 치킨스테이크 정식 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://share.google/IO4iWcu4OvFc1mAOc",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/3738/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "lv-dou-pi-snail-alley",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "綠豆皮",
+      "ja": "綠豆皮（リュードウピー）",
+      "en": "Lv Dou Pi",
+      "ko": "뤼도우피 (綠豆皮)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約12分、カタツムリ通り（蝸牛巷）の路地裏にある、原則日曜14:00〜18:00のみ営業のレア甘味処です。3種の粉粿＋2種の粉角に緑豆・糖水・豆漿から選べるデザートが50元とお手頃！席数が少ないためオープン直後が狙い目で、営業日は事前にSNSをご確認ください。",
+      "zh": "距離哈木家步行約12分鐘、隱身在蝸牛巷弄內的超人氣限定甜品店，原則上僅於週日14:00～18:00營業（售完為止）。三種粉粿加上兩種粉角，可搭配綠豆湯、糖水或豆漿，只要50元非常超值！座位不多建議一開門就來，出發前也別忘了先看店家IG或FB確認當週營業日。",
+      "en": "A rare sweet-treat spot tucked in Snail Alley (Woniuxiang), about a 12-minute walk from Hamuya, typically open only Sundays 2:00 PM–6:00 PM until sold out. Three kinds of fanguo and two kinds of fenjiao with mung bean soup, syrup, or soy milk cost just NT$50—arrive right at opening as seating is limited, and check their IG/FB beforehand for schedule updates.",
+      "ko": "하무야에서 도보 약 12분, 달팽이 골목(와우샹) 안쪽에 있는 희소성 높은 디저트 맛집으로 원칙적으로 매주 일요일 14:00~18:00만 영업합니다 (소진 시 조기 마감). 세 가지 펀궈와 두 가지 펀자오에 녹두탕·설탕물·두유 중 선택할 수 있으며 50위안으로 가성비가 훌륭합니다. 좌석이 적으니 오픈 직후 방문을 추천하며 방문 전 SNS에서 영업일을 확인해 주세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗加綠豆的，內用，謝謝！",
+      "ja": "こんにちは。緑豆入りのものを1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl with mung beans for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 녹두 들어간 걸로 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://maps.app.goo.gl/SXbQPQTfCcHoWuCN7",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/3819/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "yue-jin-savory-congee",
+    "category": "local_food",
+    "time_slots": ["morning", "lunch", "dinner", "late_night"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "悅津鹹粥",
+      "ja": "悅津鹹粥（ユエジン・シエンジョウ）",
+      "en": "Yue Jin Savory Congee",
+      "ko": "웨진 셴저우 (悅津鹹粥)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約10分、24時間営業でいつでも頼れる台南名物「鹹粥（台湾式おかゆ）」の老舗です。サワラ・牡蠣・サバヒーが全部乗った「綜合鹹粥」がオーナーおすすめで、胃にやさしく深夜や飲みの〆にもぴったり！伝票ではなく口頭で注文するスタイルなのでご注意ください。",
+      "zh": "距離哈木家步行約10分鐘、24小時營業的台南老字號鹹粥名店！老闆大推什麼料都吃得到的「綜合鹹粥」（含土魠魚、蚵仔、虱目魚），湯頭鮮甜溫潤、不油膩，不論當早餐、消夜或喝酒後暖胃都很適合。點餐需直接向店員口頭點餐喔！",
+      "en": "A 24-hour Tainan institution for savory rice porridge (xianzhou), about a 10-minute walk from Hamuya. The owner recommends the Mixed Savory Congee loaded with mackerel, oysters, and milkfish—gentle on the stomach and great late at night or after drinks (order verbally with staff rather than on a slip).",
+      "ko": "하무야에서 도보 약 10분, 24시간 영업하는 타이난의 유서 깊은 셴저우(대만식 죽) 맛집입니다. 삼치·굴·밀크피시가 모두 들어간 '종합 셴저우'가 사장님 추천 메뉴로, 속이 편안해 야식이나 해장으로도 좋습니다. 주문서 대신 구두로 직접 주문하는 방식이니 참고하세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗綜合鹹粥，內用，謝謝！",
+      "ja": "こんにちは。綜合鹹粥を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of Mixed Savory Congee for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 종합 셴저우 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%82%85%E6%B4%A5%E9%B9%B9%E7%B2%A5+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6148/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "dan-dan-burger-chenggong",
+    "category": "local_food",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "丹丹漢堡 成功店",
+      "ja": "丹丹漢堡 成功店（ダンダンハンバーガー）",
+      "en": "Dan Dan Burger (Chenggong)",
+      "ko": "단단햄버거 청공점 (丹丹漢堡 成功店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約15分、台湾南部限定の超人気ご当地ファストフードチェーン「丹丹漢堡」の成功店です。ハンバーガーや揚げ物だけでなく、やさしい味わいのスープやお粥、麺線もあるのが魅力！油少なめのさっぱり系を選びたいときは「痩肉」の表記を目印にするのがおすすめです（水曜定休）。",
+      "zh": "距離哈木家步行約15分鐘、台灣南部限定的超人氣速食名店「丹丹漢堡」成功店！除了漢堡與炸物，還有溫潤好入口的粥品、湯品與麵線可以選；想吃油脂較少、清爽一點的肉類，認明「瘦肉」就對了（週三公休）。",
+      "en": "The Chenggong branch of Dan Dan Burger, the beloved Southern Taiwan-only fast-food chain about a 15-minute walk from Hamuya. Alongside burgers and fried snacks, it's famous for comforting congee, soups, and misua—look for '瘦肉' (lean meat) if you prefer a lighter, less oily option (closed Wednesdays).",
+      "ko": "하무야에서 도보 약 15분, 대만 남부 한정 인기 로컬 패스트푸드 체인 '단단햄버거' 청공점입니다. 햄버거와 튀김뿐만 아니라 속을 달래주는 죽·수프·면선 메뉴도 훌륭하며, 기름기가 적고 담백한 고기를 원할 때는 '瘦肉(살코기)' 메뉴를 고르는 것이 좋습니다 (수요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗瘦肉粥，內用，謝謝！",
+      "ja": "こんにちは。痩肉粥（赤身肉のお粥）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of Lean Pork Congee for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 살코기 죽(瘦肉粥) 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E4%B8%B9%E4%B8%B9%E6%BC%A2%E5%A0%A1+%E6%88%90%E5%8A%9F%E5%BA%97+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6148/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "mumu-seafood-congee",
+    "category": "local_food",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "木木海鮮粥",
+      "ja": "木木海鮮粥（ムームー・ハイシェンジョウ）",
+      "en": "Mu Mu Seafood Congee",
+      "ko": "무무 해산물죽 (木木海鮮粥)"
+    },
+    "owner_note": {
+      "ja": "清潔感のある店内で、エビやイカなどぷりぷりの海鮮出汁が効いた美味しい海鮮粥を楽しめるお店です（はむ家からは徒歩約20分、自転車やタクシーも便利）。日本語メニューがあり注文しやすく、チャーハンも人気！夕方17時から深夜0時まで開いています（月・火曜定休）。",
+      "zh": "環境乾淨整潔的海鮮粥店，能品嚐到蝦仁、花枝等彈牙海味與鮮甜海鮮高湯（從哈木家步行約20分鐘，也可騎車或搭計程車）。店內備有日文菜單方便點餐，炒飯也很受歡迎；營業時間為17:00至凌晨0:00（週一、二公休）。",
+      "en": "A clean, comfortable seafood congee spot serving sweet, savory broth packed with plump shrimp and squid (about a 20-minute walk from Hamuya, or easy by bike/taxi). A Japanese menu makes ordering stress-free, and fried rice is another favorite—open 5:00 PM to midnight (closed Mondays and Tuesdays).",
+      "ko": "깔끔한 매장에서 새우·오징어 등 탱글탱글한 해산물과 감칠맛 나는 육수의 해산물죽을 즐길 수 있는 곳입니다 (하무야에서 도보 약 20분, 자전거나 택시도 편리). 일본어 메뉴가 있어 주문하기 편하며 볶음밥도 인기입니다. 17:00~00:00 영업 (월·화 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗海鮮粥，內用，謝謝！",
+      "ja": "こんにちは。海鮮粥を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of Seafood Congee for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 해산물죽 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9C%A8%E6%9C%A8%E6%B5%B7%E9%AE%AE%E7%B2%A5+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6148/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "xiao-bei-xin-cheng-night-market",
+    "category": "sightseeing",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "小北新成功夜市",
+      "ja": "小北新成功夜市（シャオベイ・シンチェンゴン・イエシー）",
+      "en": "Xiao Bei Xin Cheng Night Market",
+      "ko": "샤오베이 신청공 야시장 (小北新成功夜市)"
+    },
+    "owner_note": {
+      "ja": "毎週火・金曜（17:00〜0:00）に開かれる、花園夜市や大東夜市よりコンパクトで人混みが少なめな穴場夜市です（はむ家からYouBikeで約15分）。サクふわの「廟口酥皮蚵仔煎（80元）」や炭火焼の「阿林香腸」、鰹出汁が効いた「黒蜘蛛大腸麵線」が人気！混雑時は番号リストバンドや待ち時間に余裕を持ってどうぞ（屋内の小北観光夜市とは別会場なのでご注意）。",
+      "zh": "每週二、五（17:00～0:00）營業的在地夜市，規模比花園或大東夜市小、人潮相對沒那麼擁擠（從哈木家騎YouBike約15分鐘）。推薦外酥內嫩的「廟口酥皮蚵仔煎（80元）」、炭烤「阿林香腸」與柴魚湯頭的「黑蜘蛛大腸麵線」；熱門攤位排隊較久，建議預留時間並留意與室內「小北觀光夜市」不同地點。",
+      "en": "A more compact, less crowded night market held Tuesdays and Fridays (5:00 PM–midnight), about a 15-minute YouBike ride from Hamuya. Don't miss crispy-chewy Oyster Omelet (NT$80), charcoal-grilled sausage at Alin, and bonito-dashi Oyster/Intestine Misua—allow extra time for popular stalls and note it's separate from the daily indoor Xiaobei Tourist Night Market.",
+      "ko": "매주 화·금요일(17:00~0:00) 열리는 야시장으로, 화원·대동야시장보다 규모가 작고 붐빔이 덜해 편하게 즐기기 좋습니다 (하무야에서 유바이크 약 15분). 바삭촉촉한 '묘구 바삭 굴전(80위안)', 숯불 소시지, 가쓰오부시 육수의 '대창면선'이 인기며, 인기 노점은 대기 시간이 길 수 있고 매일 열리는 실내 샤오베이 관광야시장과는 별개 장소입니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份蚵仔煎（小份），內用，謝謝！",
+      "ja": "こんにちは。蚵仔煎（牡蠣オムレツ）の小サイズを1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one small Oyster Omelet for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 굴전(소) 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%8C%97%E6%96%B0%E6%88%90%E5%8A%9F%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6348/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "cheng-shi-guoshou",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "誠實鍋燒",
+      "ja": "誠實鍋燒（チョンシー・グオシャオ）",
+      "en": "Cheng Shi Guoshou",
+      "ko": "청스 궈샤오 (誠實鍋燒)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約20分（自転車もおすすめ）、路地裏にひっそり佇む鍋燒意麵の人気店です。かつお出汁が効いたスープにぷりぷりのハマグリがたっぷり乗った「蛤蜊滿滿」が絶品で、意麺の硬さも選べます！不定休気味なので、お出かけ前にInstagram（@guoshaochengshi）やGoogleマップで営業状況を確認してから行くのが安心です。",
+      "zh": "距離哈木家步行約20分鐘（也可騎車前往）、藏身在巷弄裡的鍋燒意麵愛店。柴魚高湯搭配滿滿鮮甜蛤蜊的「蛤蜊滿滿」超美味，意麵還能選擇喜歡的軟硬度！營業時間偶爾會有臨時公休，出發前建議先看店家IG（@guoshaochengshi）或Google地圖確認喔。",
+      "en": "A cozy alley-tucked pot-boiled noodle shop about a 20-minute walk (or easy bike ride) from Hamuya. The clam-packed '蛤蜊滿滿' in bonito broth is a highlight, and you can choose your preferred noodle firmness—check their IG (@guoshaochengshi) or Google Maps before heading out as irregular days off can happen.",
+      "ko": "하무야에서 도보 약 20분(자전거도 추천) 거리에 있는 골목 속 궈샤오이몐 맛집입니다. 가쓰오부시 육수에 통통한 바지락이 가득한 '하마구리 가득(蛤蜊滿滿)'이 일품이며 면 익힘 정도도 선택할 수 있습니다. 임시 휴무가 종종 있으니 방문 전 인스타그램(@guoshaochengshi)이나 구글 맵으로 영업 여부를 확인해 보세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗蛤蜊滿滿意麵，麵條要硬一點，內用，謝謝！",
+      "ja": "こんにちは。蛤蜊滿滿意麺を1つ、麺は硬めで、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Clam-Loaded Yi-Mian noodles, firm noodles, for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 바지락 가득 이몐 하나 면은 꼬들하게 해서 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%AA%A0%E5%AF%A6%E9%8D%8B%E7%87%92+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6430/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "chun-xian-fang-guzaowei-guoshou-yimian",
+    "category": "local_food",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "醇涎坊古早味鍋燒意麵",
+      "ja": "醇涎坊古早味鍋燒意麵（チュンイェンファン・グザオウェイ・グオシャオイーミェン）",
+      "en": "Chun Xian Fang Traditional Guoshou Yi-Mian",
+      "ko": "춘옌팡 고조미 궈샤오이몐 (醇涎坊古早味鍋燒意麵)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約20分（自転車やタクシーも便利）、朝6時から営業する地元民に大人気の老舗鍋燒意麵店です。かつお出汁に台南らしいほんのり甘い味付けと、スープを吸った魚のフライがどこか懐かしく絶品！サイズや麺の量も調整でき、ピーク時は並んでも回転が早めです（水曜定休、火曜は14:00まで）。",
+      "zh": "距離哈木家步行約20分鐘（也可騎車或搭計程車前往）、早上6點就開門的在地人氣老字號鍋燒意麵！柴魚湯頭帶有台南特有的微甜風味，加上吸飽湯汁的炸魚片超涮嘴，大小與麵量都能依食量調整。尖峰時段雖然常排隊但翻桌快，不妨耐心等一下（週三公休、週二營業至14:00）。",
+      "en": "A local-favorite traditional pot-boiled noodle shop opening at 6:00 AM, about a 20-minute walk (or quick bike/taxi ride) from Hamuya. Sweet-savory Tainan-style bonito broth paired with broth-soaked fried fish hits a nostalgic note, and you can adjust bowl size and noodle portion—lines move briskly despite peak crowds (closed Wednesdays; open until 2:00 PM on Tuesdays).",
+      "ko": "하무야에서 도보 약 20분(자전거나 택시도 편리) 거리에 있는 아침 6시 오픈 현지 인기 노포 궈샤오이몐 맛집입니다. 가쓰오부시 베이스의 은은한 단맛 육수와 국물을 머금은 생선 튀김이 정겹고 맛있으며, 양 조절도 가능합니다. 피크 타임에 줄이 길어도 회전율이 빠른 편입니다 (수요일 휴무, 화요일은 14:00까지 영업)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗小碗的鍋燒意麵，正常麵量，內用，謝謝！",
+      "ja": "こんにちは。鍋燒意麺の小サイズを1つ、麺は普通量で、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one small Pot-Boiled Yi-Mian noodles with regular noodle portion for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 궈샤오이몐 소(小) 사이즈 하나 면은 기본으로 해서 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%86%87%E6%B6%8E%E5%9D%8A%E5%8F%A4%E6%97%A9%E5%91%B3%E9%8D%8B%E7%87%92%E6%84%8F%E9%BA%B5+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6430/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "du-xiao-yue-ben-dian",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "度小月 本店",
+      "ja": "度小月 本店（ドゥーシャオユエ・ホンディエン）",
+      "en": "Du Xiao Yue (Main Store)",
+      "ko": "두샤오위에 본점 (度小月 本店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約10分、中西区図書館の目の前にある老舗の本店です。定番の担仔麺だけでなく、サツマイモ粉の衣がカリッとした卵豆腐の揚げ出し「酥炸芙蓉豆腐（170元）」がスタッフ＆ゲストに大好評！ちょっと変わった台南グルメを楽しみたいときにもおすすめです。",
+      "zh": "距離哈木家步行約10分鐘、就在中西區圖書館正對面的百年老店本店！除了招牌擔仔麵，外酥內嫩、以地瓜粉酥炸雞蛋豆腐製成的「酥炸芙蓉豆腐（170元）」更是工作人員與房客一致大推的隱藏亮點，想吃點不一樣的台南小吃很推薦點這道！",
+      "en": "The historic main branch about a 10-minute walk from Hamuya, right across from the West Central District Library. Beyond the famous danzai noodles, our staff and guests rave about the Crispy Furong Tofu (NT$170)—sweet-potato-starch-crusted egg tofu that's crunchy outside and silky inside.",
+      "ko": "하무야에서 도보 약 10분, 중서구 도서관 바로 앞에 있는 유서 깊은 본점입니다. 대표 메뉴인 단자이몐 외에 고구마 전분으로 바삭하게 튀긴 계란두부 튀김 '수자푸롱또우푸(170위안)'가 스태프와 게스트 모두에게 극찬받는 별미로, 색다른 타이난 음식을 원할 때 추천합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份酥炸芙蓉豆腐，內用，謝謝！",
+      "ja": "こんにちは。酥炸芙蓉豆腐（卵豆腐の揚げ出し）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Crispy Furong Egg Tofu for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 수자푸롱또우푸(계란두부 튀김) 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BA%A6%E5%B0%8F%E6%9C%88+%E6%9C%AC%E5%BA%97+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/6496/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "xiao-lai-gua-bao",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "小來刈包專賣",
+      "ja": "小來刈包專賣（シャオライ・グアバオ）",
+      "en": "Xiao Lai Gua Bao",
+      "ko": "샤오라이 괄바오 (小來刈包專賣)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約6分、本格ベジタリアン（素食）の刈包（台湾風バーガー）専門店です。大豆ミートや脂身の再現度が驚くほど高く、甘めのタレと高菜漬け風の塩気、パクチーの組み合わせがクセになります！テイクアウトのほか店内にカウンター席もあり、金〜火曜10:00〜17:30に営業しています（水・木曜定休）。",
+      "zh": "距離哈木家步行約6分鐘、主打素食刈包的專賣店！植物肉與肥肉的口感還原度超高，搭配甜甜的醬汁、酸菜與香菜非常涮嘴。除了外帶也有吧台座可內用，營業時間為週五至週二10:00～17:30（週三、四公休）。",
+      "en": "A vegetarian (sushih) gua bao specialty shop about a 6-minute walk from Hamuya. The plant-based meat and fat texture are surprisingly realistic, balanced by sweet sauce, tangy pickled greens, and cilantro—available to go or at the counter, open Fri–Tue 10:00 AM–5:30 PM (closed Wed & Thu).",
+      "ko": "하무야에서 도보 약 6분 거리에 있는 대만식 채식(수식) 괄바오 전문점입니다. 식물성 고기와 지방의 식감 재현도가 놀라울 정도로 뛰어나며 달콤한 소스와 갓김치 느낌의 절임 채소, 고수의 조화가 매력적입니다. 포장 및 매장 카운터 이용 가능하며 금~화요일 10:00~17:30 영업합니다 (수·목 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份台式傳統刈包，內用，謝謝！",
+      "ja": "こんにちは。台式傳統刈包を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Traditional Taiwanese Gua Bao for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 대만식 전통 괄바오 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E4%BE%86%E5%88%88%E5%8C%85%E5%B0%88%E8%B3%A3+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7134/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "lu-bian-kao-rou",
+    "category": "local_food",
+    "time_slots": ["dinner", "late_night"],
+    "distance": "bike_far",
+    "name": {
+      "zh": "路邊烤肉",
+      "ja": "路邊烤肉（ルービエン・カオロウ）",
+      "en": "Lu Bian Kao Rou",
+      "ko": "루볜 카오로우 (路邊烤肉)"
+    },
+    "owner_note": {
+      "ja": "成功大学近く・台南駅からもアクセスしやすい人気の串焼き店です（はむ家からは徒歩約30分、バスや自転車も便利）。店頭のカゴで好みの串を選び、羊肉や練乳銀絲卷（揚げマントウの練乳がけ）とビール・お酒をワイワイ楽しめます！人気店なので2名以上でも事前予約がおすすめです（予約は10分遅れると自動キャンセルになるためご注意）。",
+      "zh": "靠近成功大學、從台南車站過來也很方便的熱門串燒店（從哈木家步行約30分鐘，建議搭公車或騎車）。拿籃子挑選喜歡的肉串、海鮮與蔬菜，大推羊肉串和淋上煉乳的炸銀絲卷，搭配酒類超對味！熱門時段建議提前預約（逾時10分鐘未到預約會取消喔）。",
+      "en": "A lively skewer grill spot near NCKU and convenient from Tainan Station (about a 30-minute walk from Hamuya, or easy by bus/bike). Grab a basket to pick meat, seafood, and veggies—lamb skewers and condensed-milk fried mantou are favorites with drinks—and book ahead as reservations expire after 10 minutes late.",
+      "ko": "성공대 인근이자 타이난역에서도 가기 좋은 인기 꼬치구이 전문점입니다 (하무야에서 도보 약 30분, 버스나 자전거 추천). 바구니에 원하는 꼬치를 골라 담고 양고기와 연유 은사권(튀긴 꽃빵 연유 토핑)을 맥주·주류와 함께 즐기기 좋으며, 인기 매장이므로 예약(10분 지각 시 자동 취소)을 추천합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我們有訂位，請問可以帶位嗎？另外想點一份練乳銀絲卷，謝謝！",
+      "ja": "こんにちは。予約しています、席へ案内してもらえますか？あと練乳銀絲卷を1つください。ありがとうございます！",
+      "en": "Hello, we have a reservation—could you seat us? Also, one condensed-milk fried mantou, please. Thank you!",
+      "ko": "안녕하세요, 예약했습니다. 자리 안내 부탁드려요. 그리고 연유 은사권 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%B7%AF%E9%82%8A%E7%83%A4%E8%82%89+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7281/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "wu-ming-migao",
+    "category": "local_food",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "無名米糕",
+      "ja": "無名米糕（ウーミン・ミーガオ）",
+      "en": "Wu Ming Migao",
+      "ko": "우밍 미가오 (無名米糕)"
+    },
+    "owner_note": {
+      "ja": "路地裏で長年地元民に愛される老舗の米糕店です。白もち米に脂身たっぷりでプルとろ食感の豚肉と魚鬆（でんぶ）が乗った米糕（中45元）と、生姜と油條が効いたスープ類（魚皮湯50元など）が絶品！伝票に內用／外帶を書いて直接渡し、混雑時は電話番号を書いて待つこともできます（日曜定休）。",
+      "zh": "藏在巷弄裡、深受在地人喜愛的古早味米糕老店。白糯米鋪上鹹香入味、肥瘦軟嫩的滷肉與魚鬆，米糕（中45元）搭配魚皮湯（50元）等豐富湯品超對味！填單時記得勾選內用或外帶再交給老闆娘，排隊人多時也可留電話等候（週日公休）。",
+      "en": "A longtime neighborhood sticky rice (migao) spot tucked in a narrow lane. Savored with tender, fatty braised pork and fish floss over white glutinous rice (medium NT$45) alongside comforting soups like fish skin soup (NT$50)—mark dine-in or takeout on the slip and hand it directly to the staff (closed Sundays).",
+      "ko": "골목 안쪽에서 오랫동안 현지인들에게 사랑받아 온 노포 미가오 맛집입니다. 쫀득한 찰밥 위에 야들야들한 돼지고기와 어송이 올라간 미가오(중 45위안)와 생강·요우티아오가 어우러진 어피탕(50위안) 등의 국물 메뉴가 일품이며, 주문서에 내장/포장을 적어 직접 건네는 방식입니다 (일요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，內用要一碗中碗米糕和一碗魚皮湯，謝謝！",
+      "ja": "こんにちは。店内で、米糕の中サイズを1つと、魚皮湯を1つお願いします。ありがとうございます！",
+      "en": "Hello, for dine-in, I'd like one medium Migao sticky rice and one Fish Skin Soup, please. Thank you!",
+      "ko": "안녕하세요, 매장에서 먹을게요. 미가오 중(中) 사이즈 하나랑 어피탕 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E5%90%8D%E7%B1%B3%E7%B3%95+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7415/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "pizzeria-da-wataru",
+    "category": "local_food",
+    "time_slots": ["dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "PIZZERIA da WATARU",
+      "ja": "PIZZERIA da WATARU（ピッツェリア・ダ・ワタル）",
+      "en": "PIZZERIA da WATARU",
+      "ko": "피체리아 다 와타루 (PIZZERIA da WATARU)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩10分圏内・三越近くで、日本人店主が一人で切り盛りする本格イタリアンピザ店です。注文後に焼き上げる生地は耳までパリもちで、マルゲリータ（260元）やマッシュルームピザ（290元）が絶品！台湾グルメの合間に本格ピザを楽しみたいときにぴったりです（17:30〜21:00営業・月曜定休）。",
+      "zh": "距離哈木家步行不到10分鐘、新光三越附近，由日本老闆一人用心經營的道地義式披薩店。現點現烤的餅皮外酥內Q、連餅邊都很有嚼勁，推薦瑪格麗特（260元）與蘑菇披薩（290元）；吃膩台灣小吃想換換口味時很推薦來這裡（17:30～21:00營業、週一公休）。",
+      "en": "An authentic Italian pizzeria run solo by a Japanese chef near Mitsukoshi, less than a 10-minute walk from Hamuya. Made-to-order pies feature a crisp, chewy crust—great choices include Margherita (NT$260) and Mushroom Pizza (NT$290) when you want a break from local Taiwanese dishes (open 5:30 PM–9:00 PM, closed Mondays).",
+      "ko": "하무야에서 도보 10분 이내·신광미쓰코시 인근에 위치한 일본인 셰프가 운영하는 정통 이탈리안 피자집입니다. 주문 즉시 구워 쫄깃하고 바삭한 도우가 매력적이며 마르게리타(260위안)와 버섯 피자(290위안)가 인기입니다. 대만 음식과 다른 메뉴를 즐기고 싶을 때 딱 좋습니다 (17:30~21:00 영업·월요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我們想點一份瑪格麗特披薩和一份蘑菇披薩，內用，謝謝！",
+      "ja": "こんにちは。マルゲリータピザを1枚と、マッシュルームピザを1枚、店内でお願いします。ありがとうございます！",
+      "en": "Hello, we'd like one Margherita pizza and one Mushroom pizza for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 마르게리타 피자 한 판이랑 버섯 피자 한 판 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=PIZZERIA+da+WATARU+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7580/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "a-mei-xian-kao-guzaowei-dangao",
+    "category": "cafe_sweets",
+    "time_slots": ["morning", "lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "阿美現烤古早味蛋糕",
+      "ja": "阿美現烤古早味蛋糕（アーメイ・シェンカオ・グザオウェイ・ダンガオ）",
+      "en": "A Mei Fresh-Baked Traditional Cake",
+      "ko": "아메이 현고 고조미 단가오 (阿美現烤古早味蛋糕)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約10〜15分、水仙宮市場すぐそばで食べ歩きにぴったりなお餅＆古早味蛋糕店です。1個20元のもちもちお餅はゴマ・ピーナッツ・ゴマピーナッツなど全6種あり、両方楽しめる「ゴマピーナッツ」がスタッフ推し！袋に入れてセルフ精算するスタイルです（7:30〜21:00営業）。",
+      "zh": "從哈木家步行約10～15分鐘、就在水仙宮市場旁，很適合邊走邊吃的麻糬與古早味蛋糕店！一顆20元的Q彈麻糬有芝麻、花生、芝麻花生等6種口味，最推薦一次吃到雙重風味的「芝麻花生」；採自行裝袋與自助投幣找零結帳（7:30～21:00營業）。",
+      "en": "A mochi and traditional castella cake stop right outside Shuixiangong Market, about a 10–15 minute walk from Hamuya. Chewy mochi (NT$20 each) comes in 6 flavors including sesame and peanut—the sesame-peanut mix is a staff favorite—with self-bagging and self-service payment/change (open 7:30 AM–9:00 PM).",
+      "ko": "하무야에서 도보 약 10~15분, 수이시엔궁 시장 바로 옆에 있는 떡·고조미 카스텔라 맛집입니다. 개당 20위안의 쫄깃한 떡은 흑임자·땅콩·흑임자땅콩 등 6가지 맛이 있으며 두 가지를 함께 맛보는 '흑임자땅콩'이 추천 메뉴입니다. 직접 봉투에 담아 셀프로 계산하는 방식입니다 (7:30~21:00 영업)."
+    },
+    "point_and_order": {
+      "zh": "你好，我拿了這幾顆麻糬（芝麻花生），請問是這樣自助付錢嗎？謝謝！",
+      "ja": "こんにちは。このお餅（ゴマピーナッツ）を取ったのですが、このままセルフでお支払いすればいいですか？ありがとうございます！",
+      "en": "Hello, I picked these mochi (sesame-peanut)—do I pay at the self-serve tray here? Thank you!",
+      "ko": "안녕하세요, 이 떡(흑임자땅콩) 골랐는데 이렇게 셀프로 계산하면 되나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E7%BE%8E%E7%8F%BE%E7%83%A4%E5%8F%A4%E6%97%A9%E5%91%B3%E8%9B%8B%E7%B3%95+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7610/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "shui-xian-gong-market",
+    "category": "sightseeing",
+    "time_slots": ["morning", "lunch"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "水仙宮市場",
+      "ja": "水仙宮市場（シュイシェンゴン・シーチャン）",
+      "en": "Shuixiangong Market",
+      "ko": "수이시엔궁 시장 (水仙宮市場)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約10〜15分、永楽市場に隣接する活気あふれるローカル朝市です。生鮮食材や花屋、食べ歩きグルメが並び、台南のリアルな市場の雰囲気を体感できます！朝〜昼にかけて賑わうため、散策するなら午前中がおすすめです。",
+      "zh": "距離哈木家步行約10～15分鐘、緊鄰永樂市場的傳統市場，充滿熱鬧道地的台南生活氣息！市場內外有生鮮蔬果、花店與各式小吃攤，適合早上來逛逛感受在地市場活力（建議上午前往最熱鬧）。",
+      "en": "A lively traditional morning market adjacent to Yongle Market, about a 10–15 minute walk from Hamuya. Packed with fresh produce, flower stalls, and local street snacks, it offers a real slice of everyday Tainan life—best visited in the morning when stalls are bustling.",
+      "ko": "하무야에서 도보 약 10~15분, 영락시장(융러시장)과 인접한 활기찬 로컬 재래시장입니다. 신선한 식재료와 꽃집, 먹거리가 어우러져 타이난의 생생한 시장 분위기를 느낄 수 있으며 활기찬 오전 시간대 방문을 추천합니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問這附近有推薦的在地小吃嗎？謝謝！",
+      "ja": "こんにちは。このあたりでおすすめのローカル小吃はありますか？ありがとうございます！",
+      "en": "Hello, are there any local snacks around here you recommend? Thank you!",
+      "ko": "안녕하세요, 이 근처에 추천할 만한 로컬 먹거리가 있나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B4%E4%BB%99%E5%AE%AE%E5%B8%82%E5%A0%B4+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7610/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "bei-he-tang-shaved-ice",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "杯子和糖",
+      "ja": "杯子和糖（ベイフーヘタン）",
+      "en": "Bei He Tang Shaved Ice",
+      "ko": "베이허탕 빙수 (杯子和糖)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩10分圏内、レトロ可愛い店内で昼から夜まで楽しめるかき氷＆スイーツ店です。名物の「梅漬番茄冰（梅漬けトマトかき氷）」は甘酸っぱいトマトと黒糖ソースがクセになる台湾ならではの懐かし系スイーツ！かき氷のほかケーキや軽食もあり、日本語・英語併記メニューで注文しやすいです（11:30〜22:30営業・火曜定休）。",
+      "zh": "距離哈木家步行不到10分鐘、環境復古可愛且從中午營業到晚上的冰品甜品店！招牌「梅漬番茄冰」以酸甜番茄搭配黑糖醬，呈現台灣人熟悉的懷舊風味；除了冰品也有蛋糕與鹹食，並附有日文與英文菜單方便點餐（11:30～22:30營業、週二公休）。",
+      "en": "A charming, retro-styled shaved ice and dessert spot less than a 10-minute walk from Hamuya, open from lunch through evening. Their signature Plum-Marinated Tomato Shaved Ice pairs sweet-tangy tomatoes with brown sugar syrup for a nostalgic local taste, with cakes, savory bites, and Japanese/English menu notes available (open 11:30 AM–10:30 PM, closed Tuesdays).",
+      "ko": "하무야에서 도보 10분 이내, 레트로하고 아기자기한 분위기에서 점심부터 밤까지 즐길 수 있는 빙수·디저트 카페입니다. 새콤달콤한 토마토와 흑당 소스가 어우러진 '매실 절임 토마토 빙수'가 별미이며, 케이크와 식사 메뉴도 있고 일문·영문 메뉴가 있어 주문하기 편합니다 (11:30~22:30 영업·화요일 휴무)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗梅漬番茄冰，內用，謝謝！",
+      "ja": "こんにちは。梅漬番茄冰（梅漬けトマトかき氷）を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Plum-Marinated Tomato Shaved Ice for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 매실 절임 토마토 빙수 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%9D%AF%E5%AD%90%E5%92%8C%E7%B3%96+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/7699/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "shuang-sheng-mung-bean-smoothie",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_5",
+    "name": {
+      "zh": "双生",
+      "ja": "双生（シュアンション）",
+      "en": "Shuang Sheng",
+      "ko": "솽셩 (双生)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約3分・赤崁樓近くにある、緑豆スムージー（綠豆沙）の大人気店です。豆のクセが少なくシャリシャリとした優しい甘さが魅力で、ミルク入りの「綠豆沙牛奶」や豆本来の味を楽しめる「綠豆沙」が絶品！土日は行列ができるため、開店直後か夕方の狙い目タイムがおすすめです。",
+      "zh": "距離哈木家步行約3分鐘、就在赤崁樓附近的超人氣綠豆沙名店！口感冰涼綿密、豆香清甜不膩，無論是加入鮮奶的「綠豆沙牛奶」或單純品嚐豆香的「綠豆沙」都很受歡迎。假日排隊人潮較多，建議剛開店或傍晚時段前往比較不用久等。",
+      "en": "A wildly popular mung bean smoothie spot near Chihkan Tower, about a 3-minute walk from Hamuya. Smooth, icy, and gently sweet without heaviness—try Mung Bean Milk Smoothie or pure Mung Bean Smoothie, and aim for opening time or late afternoon to beat weekend lines.",
+      "ko": "하무야에서 도보 약 3분·적감루 인근에 있는 녹두 스무디(뤼도우샤) 인기 맛집입니다. 콩 비린내가 적고 사각사각 부드러운 단맛이 특징이며, 우유가 들어간 '녹두 우유 스무디'와 콩 본연의 맛을 살린 '녹두 스무디' 모두 맛있습니다. 주말엔 줄이 기니 오픈 직후나 오후 늦은 시간대를 노려보세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一杯綠豆沙牛奶，外帶，謝謝！",
+      "ja": "こんにちは。綠豆沙牛奶（緑豆ミルクスムージー）を1杯、テイクアウトでお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Mung Bean Milk Smoothie to go, please. Thank you!",
+      "ko": "안녕하세요, 녹두 우유 스무디 한 잔 포장해 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%8F%8C%E7%94%9F+%E7%B6%A0%E8%B1%86%E6%B2%99+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/9046/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "tai-yang-ice-shop",
+    "category": "cafe_sweets",
+    "time_slots": ["lunch", "dinner"],
+    "distance": "walk_15",
+    "name": {
+      "zh": "太陽冰品",
+      "ja": "太陽冰品（タイヤンビンピン）",
+      "en": "Tai Yang Ice Shop",
+      "ko": "타이양 빙품 (太陽冰品)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約15分、古き良き台湾のローカル感あふれる昔ながらのアイス店です。芋頭・花生・牛乳・鳳梨・百香果などのフレーバーが楽しめる「草湖芋仔冰」をはじめ、ボリューム控えめで食べ歩きや食後にもぴったり！写真付きメニューがあり、10:00〜20:45まで無休で営業しています。",
+      "zh": "從哈木家步行約15分鐘、充滿懷舊在地氛圍的傳統冰品店！除了能吃到芋頭、花生、牛奶、鳳梨、百香果等口味的「草湖芋仔冰」，整體份量適中，逛街中途或飯後吃也很剛好。店內有附照片的菜單方便點餐，10:00～20:45全年無休。",
+      "en": "A nostalgic, local-feeling traditional ice shop about a 15-minute walk from Hamuya. Enjoy flavors like taro, peanut, milk, pineapple, and passionfruit in Caohu Ice with moderate portions that fit easily after meals—photo menus make ordering simple, open daily 10:00 AM–8:45 PM.",
+      "ko": "하무야에서 도보 약 15분, 정겨운 로컬 분위기가 가득한 옛날식 아이스 맛집입니다. 타로·땅콩·우유·파인애플·패션프루트 맛을 즐길 수 있는 아이스를 비롯해 양이 과하지 않아 식후나 산책 중에 먹기 좋고, 사진 메뉴가 있어 주문하기 편합니다 (10:00~20:45 연중무휴)."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份草湖芋仔冰，內用，謝謝！",
+      "ja": "こんにちは。草湖芋仔冰を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Caohu Ice for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 차오후 아이스 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%99%BD%E5%86%B0%E5%93%81+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/staff-diary/9542/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
