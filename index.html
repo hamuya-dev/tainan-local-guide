@@ -43,6 +43,25 @@
 
     <!-- Compact Mobile-First Filter Panel -->
     <section class="filter-panel" aria-label="Filters">
+      <div class="search-row">
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M21 21l-4.35-4.35"></path>
+          </svg>
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            autocomplete="off"
+            autocorrect="off"
+            spellcheck="false"
+            placeholder="店名・料理名で検索（例：牛肉湯、豆花）"
+          >
+          <button type="button" id="search-clear" class="search-clear-btn" aria-label="検索をクリア" hidden>×</button>
+        </div>
+      </div>
+
       <div class="filter-row">
         <span id="label-time" class="filter-label">時間帯</span>
         <div id="filter-time" class="chip-scroll" role="group" aria-labelledby="label-time"></div>

@@ -60,6 +60,8 @@
         reservation: "予約推奨",
       },
       hoursNotice: "ⓘ 営業時間・定休日は変更される場合があります。最新情報はGoogleマップ等でご確認ください。",
+      searchPlaceholder: "店名・料理名で検索（例：牛肉湯、豆花）",
+      searchClearLabel: "検索ワードをクリア",
       resultsCount: (n) => `${n}件のスポット`,
       resetInline: "条件クリア",
       ownerNoteLabel: "はむ家の一言メモ",
@@ -70,7 +72,7 @@
       openMaps: "Googleマップで行く",
       readBlog: "ブログ記事を読む",
       emptyTitle: "条件に合うスポットが見つかりませんでした",
-      emptyDesc: "時間帯やジャンル、距離の絞り込みを緩めてみてください。",
+      emptyDesc: "検索ワードや時間帯・ジャンル・距離の絞り込み条件を変えてみてください。",
       resetEmpty: "フィルターをすべて解除",
       errorTitle: "スポットデータを読み込めませんでした",
       errorDesc: "通信状況を確認して、もう一度お試しください。",
@@ -120,6 +122,8 @@
         reservation: "建議預約",
       },
       hoursNotice: "ⓘ 營業時間與公休日可能有所變動，出發前請以 Google 地圖等最新資訊為準。",
+      searchPlaceholder: "搜尋店名或料理（例：牛肉湯、豆花）",
+      searchClearLabel: "清除搜尋文字",
       resultsCount: (n) => `共 ${n} 個推薦地點`,
       resetInline: "清除篩選",
       ownerNoteLabel: "哈木家私房筆記",
@@ -130,7 +134,7 @@
       openMaps: "開啟 Google 地圖",
       readBlog: "閱讀部落格介紹",
       emptyTitle: "找不到符合條件的地點",
-      emptyDesc: "試試看調整時段、類型或距離的篩選條件吧！",
+      emptyDesc: "試試看更換搜尋關鍵字，或調整時段、類型、距離等篩選條件吧！",
       resetEmpty: "重設所有篩選",
       errorTitle: "無法載入地點資料",
       errorDesc: "請確認網路連線後再試一次。",
@@ -180,6 +184,8 @@
         reservation: "Booking Advised",
       },
       hoursNotice: "ⓘ Hours and closing days may change. Please check Google Maps for the latest info.",
+      searchPlaceholder: "Search spot or food (e.g. beef soup)",
+      searchClearLabel: "Clear search",
       resultsCount: (n) => (n === 1 ? "1 spot found" : `${n} spots found`),
       resetInline: "Clear filters",
       ownerNoteLabel: "Hamuya's Note",
@@ -190,7 +196,7 @@
       openMaps: "Open in Google Maps",
       readBlog: "Read Blog Post",
       emptyTitle: "No spots match your filters",
-      emptyDesc: "Try clearing or changing your time, category, or distance filters.",
+      emptyDesc: "Try another keyword or adjust your time, category, or distance filters.",
       resetEmpty: "Reset all filters",
       errorTitle: "Could not load spots",
       errorDesc: "Please check your connection and try again.",
@@ -240,6 +246,8 @@
         reservation: "예약 추천",
       },
       hoursNotice: "ⓘ 영업시간 및 휴무일은 변경될 수 있습니다. 방문 전 Google 지도 등에서 최신 정보를 확인해 주세요.",
+      searchPlaceholder: "가게명·메뉴 검색 (예: 우육탕, 또우화)",
+      searchClearLabel: "검색어 지우기",
       resultsCount: (n) => `총 ${n}개의 스팟`,
       resetInline: "필터 초기화",
       ownerNoteLabel: "하무야의 한마디 메모",
@@ -250,7 +258,7 @@
       openMaps: "Google 지도로 가기",
       readBlog: "블로그 글 보기",
       emptyTitle: "조건에 맞는 스팟을 찾지 못했어요",
-      emptyDesc: "시간대, 장르 또는 거리 필터를 변경해 보세요.",
+      emptyDesc: "검색어나 시간대·장르·거리 필터를 변경해 보세요.",
       resetEmpty: "모든 필터 해제",
       errorTitle: "스팟 데이터를 불러오지 못했어요",
       errorDesc: "네트워크 연결을 확인한 뒤 다시 시도해 주세요.",
@@ -264,6 +272,7 @@
     spots: [],
     loadError: false,
     filters: {
+      query: "",
       time: null,
       category: null,
       distance: null,
@@ -272,11 +281,15 @@
     modalSpotId: null,
   };
 
+  const searchIndexCache = new WeakMap();
+
   // DOM References
   const dom = {
     appTitle: document.getElementById("app-title"),
     appSubtitle: document.getElementById("app-subtitle"),
     langButtons: Array.from(document.querySelectorAll(".lang-btn")),
+    searchInput: document.getElementById("search-input"),
+    searchClear: document.getElementById("search-clear"),
     labelTime: document.getElementById("label-time"),
     labelCategory: document.getElementById("label-category"),
     labelDistance: document.getElementById("label-distance"),
@@ -335,8 +348,42 @@
     return (fieldObj[key] || fieldObj.ja || fieldObj.zh || fieldObj.en || "").trim();
   }
 
+  function normalizeSearchText(str) {
+    if (typeof str !== "string") return "";
+    return str.normalize("NFKC").toLowerCase();
+  }
+
+  function getSpotSearchHaystack(spot) {
+    if (searchIndexCache.has(spot)) {
+      return searchIndexCache.get(spot);
+    }
+    const parts = [];
+    for (const field of ["name", "owner_note", "point_and_order"]) {
+      const obj = spot[field];
+      if (obj && typeof obj === "object") {
+        Object.values(obj).forEach((val) => {
+          if (typeof val === "string" && val.trim()) parts.push(val);
+        });
+      }
+    }
+    if (Array.isArray(spot.tags)) {
+      spot.tags.forEach((tagId) => {
+        if (typeof tagId !== "string") return;
+        parts.push(tagId);
+        SUPPORTED_LANGS.forEach((lang) => {
+          const label = I18N[lang] && I18N[lang].tags ? I18N[lang].tags[tagId] : "";
+          if (label) parts.push(label);
+        });
+      });
+    }
+    const haystack = normalizeSearchText(parts.join(" "));
+    searchIndexCache.set(spot, haystack);
+    return haystack;
+  }
+
   function hasActiveFilters() {
     return Boolean(
+      state.filters.query.trim() ||
       state.filters.time ||
       state.filters.category ||
       state.filters.distance ||
@@ -355,6 +402,11 @@
   }
 
   function getFilteredSpots() {
+    const queryTokens = normalizeSearchText(state.filters.query)
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean);
+
     return state.spots.filter((spot) => {
       if (spot.is_active === false) return false;
       if (state.filters.pickOnly && spot.hamu_pick !== true) {
@@ -369,6 +421,12 @@
       }
       if (state.filters.distance && spot.distance !== state.filters.distance) {
         return false;
+      }
+      if (queryTokens.length > 0) {
+        const haystack = getSpotSearchHaystack(spot);
+        if (!queryTokens.every((token) => haystack.includes(token))) {
+          return false;
+        }
       }
       return true;
     });
@@ -640,10 +698,12 @@
   }
 
   function resetFilters() {
+    state.filters.query = "";
     state.filters.time = null;
     state.filters.category = null;
     state.filters.distance = null;
     state.filters.pickOnly = false;
+    if (dom.searchInput) dom.searchInput.value = "";
     render();
   }
 
@@ -673,6 +733,12 @@
       const isSelected = btn.dataset.lang === state.lang;
       btn.setAttribute("aria-selected", String(isSelected));
     });
+
+    // Search input labels & clear button state
+    dom.searchInput.placeholder = t.searchPlaceholder;
+    dom.searchInput.setAttribute("aria-label", t.searchPlaceholder);
+    dom.searchClear.setAttribute("aria-label", t.searchClearLabel);
+    dom.searchClear.hidden = state.filters.query.length === 0;
 
     // Filter labels & chips
     dom.labelTime.textContent = t.filterTime;
@@ -770,6 +836,18 @@
       btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
     });
 
+    dom.searchInput.addEventListener("input", (e) => {
+      state.filters.query = e.target.value;
+      render();
+    });
+
+    dom.searchClear.addEventListener("click", () => {
+      state.filters.query = "";
+      dom.searchInput.value = "";
+      render();
+      dom.searchInput.focus();
+    });
+
     dom.resetInline.addEventListener("click", resetFilters);
     dom.resetEmpty.addEventListener("click", resetFilters);
     dom.retryLoadBtn.addEventListener("click", loadSpots);
@@ -781,8 +859,14 @@
       }
     });
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && !dom.pointModal.hidden) {
-        closePointModal();
+      if (e.key === "Escape") {
+        if (!dom.pointModal.hidden) {
+          closePointModal();
+        } else if (document.activeElement === dom.searchInput && state.filters.query) {
+          state.filters.query = "";
+          dom.searchInput.value = "";
+          render();
+        }
       }
     });
   }
