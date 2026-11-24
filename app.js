@@ -38,10 +38,28 @@
         sightseeing: "散歩・観光",
       },
       distance: {
-        walk_5: "徒歩5分",
-        walk_15: "徒歩15分",
+        walk_5: "徒歩5分以内",
+        walk_15: "徒歩6〜15分",
         bike_far: "自転車・少し遠く",
       },
+      walkMinutesLabel: (m) => `はむ家から徒歩約${m}分`,
+      filterPick: "特集",
+      hamuPickFilter: "⭐ 迷ったらここ",
+      hamuPickBadge: "⭐ 迷ったらここ",
+      tags: {
+        breakfast: "朝ごはん",
+        late_night: "深夜OK",
+        drinks: "お酒あり",
+        solo_ok: "ひとりOK",
+        first_tainan: "台南名物",
+        jp_friendly: "日本語OK",
+        vegetarian_ok: "素食OK",
+        animal_cafe: "動物カフェ",
+        retro: "レトロ・古民家",
+        work_friendly: "作業・休憩OK",
+        reservation: "予約推奨",
+      },
+      hoursNotice: "ⓘ 営業時間・定休日は変更される場合があります。最新情報はGoogleマップ等でご確認ください。",
       resultsCount: (n) => `${n}件のスポット`,
       resetInline: "条件クリア",
       ownerNoteLabel: "はむ家の一言メモ",
@@ -80,10 +98,28 @@
         sightseeing: "散步・景點",
       },
       distance: {
-        walk_5: "步行5分",
-        walk_15: "步行15分",
+        walk_5: "步行5分內",
+        walk_15: "步行6〜15分",
         bike_far: "騎車・稍遠",
       },
+      walkMinutesLabel: (m) => `從哈木家步行約${m}分`,
+      filterPick: "精選",
+      hamuPickFilter: "⭐ 不知道去哪就選這家",
+      hamuPickBadge: "⭐ 哈木家精選",
+      tags: {
+        breakfast: "早餐",
+        late_night: "宵夜・深夜",
+        drinks: "有酒類",
+        solo_ok: "適合獨旅",
+        first_tainan: "台南經典",
+        jp_friendly: "日文友善",
+        vegetarian_ok: "素食友善",
+        animal_cafe: "寵物咖啡",
+        retro: "老宅・復古",
+        work_friendly: "適合休息・辦公",
+        reservation: "建議預約",
+      },
+      hoursNotice: "ⓘ 營業時間與公休日可能有所變動，出發前請以 Google 地圖等最新資訊為準。",
       resultsCount: (n) => `共 ${n} 個推薦地點`,
       resetInline: "清除篩選",
       ownerNoteLabel: "哈木家私房筆記",
@@ -122,10 +158,28 @@
         sightseeing: "Walk & Sights",
       },
       distance: {
-        walk_5: "5 min walk",
-        walk_15: "15 min walk",
+        walk_5: "Within 5 min",
+        walk_15: "6–15 min walk",
         bike_far: "Bike / Further",
       },
+      walkMinutesLabel: (m) => `~${m} min walk from Hamuya`,
+      filterPick: "Picks",
+      hamuPickFilter: "⭐ Hamuya Picks",
+      hamuPickBadge: "⭐ Hamuya Pick",
+      tags: {
+        breakfast: "Breakfast",
+        late_night: "Late Night",
+        drinks: "Drinks",
+        solo_ok: "Solo-Friendly",
+        first_tainan: "Tainan Classic",
+        jp_friendly: "Japanese OK",
+        vegetarian_ok: "Veg-Friendly",
+        animal_cafe: "Animal Cafe",
+        retro: "Retro / Old House",
+        work_friendly: "Chill / Work",
+        reservation: "Booking Advised",
+      },
+      hoursNotice: "ⓘ Hours and closing days may change. Please check Google Maps for the latest info.",
       resultsCount: (n) => (n === 1 ? "1 spot found" : `${n} spots found`),
       resetInline: "Clear filters",
       ownerNoteLabel: "Hamuya's Note",
@@ -164,10 +218,28 @@
         sightseeing: "산책·관광",
       },
       distance: {
-        walk_5: "도보 5분",
-        walk_15: "도보 15분",
+        walk_5: "도보 5분 이내",
+        walk_15: "도보 6~15분",
         bike_far: "자전거·조금 멀리",
       },
+      walkMinutesLabel: (m) => `하무야에서 도보 약 ${m}분`,
+      filterPick: "추천",
+      hamuPickFilter: "⭐ 고민될 땐 여기",
+      hamuPickBadge: "⭐ 하무야 추천",
+      tags: {
+        breakfast: "아침 식사",
+        late_night: "심야 영업",
+        drinks: "술 가능",
+        solo_ok: "혼밥·혼술 OK",
+        first_tainan: "타이난 명물",
+        jp_friendly: "일본어 가능",
+        vegetarian_ok: "채식 가능",
+        animal_cafe: "동물 카페",
+        retro: "레트로·고택",
+        work_friendly: "휴식·작업 OK",
+        reservation: "예약 추천",
+      },
+      hoursNotice: "ⓘ 영업시간 및 휴무일은 변경될 수 있습니다. 방문 전 Google 지도 등에서 최신 정보를 확인해 주세요.",
       resultsCount: (n) => `총 ${n}개의 스팟`,
       resetInline: "필터 초기화",
       ownerNoteLabel: "하무야의 한마디 메모",
@@ -195,6 +267,7 @@
       time: null,
       category: null,
       distance: null,
+      pickOnly: false,
     },
     modalSpotId: null,
   };
@@ -207,11 +280,15 @@
     labelTime: document.getElementById("label-time"),
     labelCategory: document.getElementById("label-category"),
     labelDistance: document.getElementById("label-distance"),
+    hamuPickRow: document.getElementById("hamu-pick-row"),
+    labelPick: document.getElementById("label-pick"),
     filterTime: document.getElementById("filter-time"),
     filterCategory: document.getElementById("filter-category"),
     filterDistance: document.getElementById("filter-distance"),
+    filterPick: document.getElementById("filter-pick"),
     resultsCount: document.getElementById("results-count"),
     resetInline: document.getElementById("reset-filters-inline"),
+    hoursNotice: document.getElementById("hours-notice"),
     spotsContainer: document.getElementById("spots-container"),
     emptyState: document.getElementById("empty-state"),
     emptyTitle: document.getElementById("empty-title"),
@@ -259,7 +336,12 @@
   }
 
   function hasActiveFilters() {
-    return Boolean(state.filters.time || state.filters.category || state.filters.distance);
+    return Boolean(
+      state.filters.time ||
+      state.filters.category ||
+      state.filters.distance ||
+      state.filters.pickOnly
+    );
   }
 
   function getSpotCategories(spot) {
@@ -275,6 +357,9 @@
   function getFilteredSpots() {
     return state.spots.filter((spot) => {
       if (spot.is_active === false) return false;
+      if (state.filters.pickOnly && spot.hamu_pick !== true) {
+        return false;
+      }
       if (state.filters.time) {
         const slots = Array.isArray(spot.time_slots) ? spot.time_slots : [];
         if (!slots.includes(state.filters.time)) return false;
@@ -340,11 +425,23 @@
     const card = document.createElement("article");
     card.className = "spot-card";
 
-    // Meta badges: distance, category, time slots
+    // Meta badges: hamu_pick, distance / walk_minutes, category, time slots
     const meta = document.createElement("div");
     meta.className = "spot-meta";
 
-    if (spot.distance && t.distance[spot.distance]) {
+    if (spot.hamu_pick === true) {
+      const pickBadge = document.createElement("span");
+      pickBadge.className = "badge badge-pick";
+      pickBadge.textContent = t.hamuPickBadge;
+      meta.appendChild(pickBadge);
+    }
+
+    if (Number.isInteger(spot.walk_minutes) && spot.walk_minutes > 0) {
+      const distBadge = document.createElement("span");
+      distBadge.className = "badge badge-distance";
+      distBadge.textContent = `🚶 ${t.walkMinutesLabel(spot.walk_minutes)}`;
+      meta.appendChild(distBadge);
+    } else if (spot.distance && t.distance[spot.distance]) {
       const distBadge = document.createElement("span");
       distBadge.className = "badge badge-distance";
       const iconPrefix = spot.distance === "bike_far" ? "🚲 " : "🚶 ";
@@ -370,6 +467,22 @@
       });
     }
     card.appendChild(meta);
+
+    // Language-independent internal tags rendered in current language
+    if (Array.isArray(spot.tags) && spot.tags.length > 0) {
+      const validTags = spot.tags.filter((tagId) => t.tags && t.tags[tagId]);
+      if (validTags.length > 0) {
+        const tagRow = document.createElement("div");
+        tagRow.className = "spot-tags";
+        validTags.forEach((tagId) => {
+          const pill = document.createElement("span");
+          pill.className = "tag-pill";
+          pill.textContent = `#${t.tags[tagId]}`;
+          tagRow.appendChild(pill);
+        });
+        card.appendChild(tagRow);
+      }
+    }
 
     // Spot Name (local zh + selected language)
     const heading = document.createElement("div");
@@ -530,6 +643,7 @@
     state.filters.time = null;
     state.filters.category = null;
     state.filters.distance = null;
+    state.filters.pickOnly = false;
     render();
   }
 
@@ -564,6 +678,7 @@
     dom.labelTime.textContent = t.filterTime;
     dom.labelCategory.textContent = t.filterCategory;
     dom.labelDistance.textContent = t.filterDistance;
+    dom.hoursNotice.textContent = t.hoursNotice;
 
     renderFilterGroup(dom.filterTime, TIME_OPTIONS, state.filters.time, t.time, (val) => {
       state.filters.time = val;
@@ -577,6 +692,22 @@
       state.filters.distance = val;
       render();
     });
+
+    // Show hamu_pick filter row only when at least one active spot has hamu_pick: true
+    const hasHamuPicks = state.spots.some((s) => s.is_active !== false && s.hamu_pick === true);
+    dom.hamuPickRow.hidden = !hasHamuPicks;
+    if (hasHamuPicks) {
+      dom.labelPick.textContent = t.filterPick;
+      dom.filterPick.innerHTML = "";
+      dom.filterPick.appendChild(
+        createChip(t.hamuPickFilter, state.filters.pickOnly, () => {
+          state.filters.pickOnly = !state.filters.pickOnly;
+          render();
+        })
+      );
+    } else if (state.filters.pickOnly) {
+      state.filters.pickOnly = false;
+    }
 
     // Reset button text
     dom.resetInline.textContent = t.resetInline;

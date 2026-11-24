@@ -58,6 +58,11 @@
         <div id="filter-distance" class="chip-scroll" role="group" aria-labelledby="label-distance"></div>
       </div>
 
+      <div id="hamu-pick-row" class="filter-row" hidden>
+        <span id="label-pick" class="filter-label">推し</span>
+        <div id="filter-pick" class="chip-scroll" role="group" aria-labelledby="label-pick"></div>
+      </div>
+
       <div class="results-bar">
         <p id="results-count" class="results-count" aria-live="polite"></p>
         <button type="button" id="reset-filters-inline" class="reset-inline-btn" hidden></button>
@@ -66,6 +71,7 @@
 
     <!-- Spot Cards List -->
     <main class="main-content">
+      <p id="hours-notice" class="hours-notice"></p>
       <div id="spots-container" class="spots-list" aria-live="polite"></div>
 
       <!-- Empty State -->

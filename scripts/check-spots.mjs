@@ -14,7 +14,21 @@ const SPOTS_PATH = path.resolve(__dirname, "../data/spots.json");
 const VALID_CATEGORIES = new Set(["local_food", "cafe_sweets", "bar", "sightseeing"]);
 const VALID_TIME_SLOTS = new Set(["morning", "lunch", "dinner", "late_night"]);
 const VALID_DISTANCES = new Set(["walk_5", "walk_15", "bike_far"]);
+const VALID_TAGS = new Set([
+  "breakfast",
+  "late_night",
+  "drinks",
+  "solo_ok",
+  "first_tainan",
+  "jp_friendly",
+  "vegetarian_ok",
+  "animal_cafe",
+  "retro",
+  "work_friendly",
+  "reservation",
+]);
 const REQUIRED_LANGS = ["ja", "zh", "en", "ko"];
+const ISO_DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
 
 function isValidHttpUrl(value) {
   if (typeof value !== "string") return false;
@@ -124,6 +138,47 @@ function main() {
       );
     }
 
+    // walk_minutes (optional, positive integer only)
+    if (spot.walk_minutes !== undefined) {
+      if (!Number.isInteger(spot.walk_minutes) || spot.walk_minutes <= 0 || spot.walk_minutes > 120) {
+        errors.push(`${label}: "walk_minutes" must be an integer between 1 and 120 (got ${JSON.stringify(spot.walk_minutes)}).`);
+      }
+    }
+
+    // tags (optional, max 3 language-independent internal IDs)
+    if (spot.tags !== undefined) {
+      if (!Array.isArray(spot.tags)) {
+        errors.push(`${label}: "tags" must be an array of internal tag IDs.`);
+      } else {
+        if (spot.tags.length > 3) {
+          warnings.push(`${label}: "tags" has ${spot.tags.length} items (recommended max 3).`);
+        }
+        const seenTags = new Set();
+        spot.tags.forEach((tag) => {
+          if (typeof tag !== "string" || !VALID_TAGS.has(tag)) {
+            errors.push(
+              `${label}: invalid tag ID (${JSON.stringify(tag)}). Must be a language-independent ID in: ${[...VALID_TAGS].join(", ")}`
+            );
+          } else if (seenTags.has(tag)) {
+            warnings.push(`${label}: duplicate tag "${tag}".`);
+          }
+          seenTags.add(tag);
+        });
+      }
+    }
+
+    // hamu_pick (optional boolean flag)
+    if (spot.hamu_pick !== undefined && typeof spot.hamu_pick !== "boolean") {
+      errors.push(`${label}: "hamu_pick" must be a boolean when provided.`);
+    }
+
+    // last_verified (optional schema frame: "" or YYYY-MM-DD)
+    if (spot.last_verified !== undefined) {
+      if (typeof spot.last_verified !== "string" || (spot.last_verified !== "" && !ISO_DATE_RE.test(spot.last_verified))) {
+        errors.push(`${label}: "last_verified" must be "" or YYYY-MM-DD (got ${JSON.stringify(spot.last_verified)}).`);
+      }
+    }
+
     // Localized required text fields
     for (const field of ["name", "owner_note", "point_and_order"]) {
       const obj = spot[field];
@@ -143,7 +198,7 @@ function main() {
       errors.push(`${label}: "google_maps_url" must be a valid http(s) URL (got ${JSON.stringify(spot.google_maps_url)}).`);
     }
 
-    // blog_url (optional per language, but must have ja/zh/en strings and valid URL when non-empty)
+    // blog_url (optional per language, but must have ja/zh/en/ko strings and valid URL when non-empty)
     if (!spot.blog_url || typeof spot.blog_url !== "object" || Array.isArray(spot.blog_url)) {
       errors.push(`${label}: "blog_url" must be an object with ${REQUIRED_LANGS.join("/")} keys.`);
     } else {
@@ -172,7 +227,12 @@ function main() {
   }
 
   const activeCount = spots.filter((s) => s.is_active === true).length;
-  console.log(`✅ data/spots.json passed all checks! (${spots.length} spots total, ${activeCount} active)`);
+  const walkCount = spots.filter((s) => Number.isInteger(s.walk_minutes)).length;
+  const taggedCount = spots.filter((s) => Array.isArray(s.tags) && s.tags.length > 0).length;
+  const pickCount = spots.filter((s) => s.hamu_pick === true).length;
+  console.log(
+    `✅ data/spots.json passed all checks! (${spots.length} spots total, ${activeCount} active, ${walkCount} with walk_minutes, ${taggedCount} with tags, ${pickCount} hamu_pick)`
+  );
 }
 
 main();
