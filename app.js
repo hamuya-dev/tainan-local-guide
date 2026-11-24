@@ -2,6 +2,11 @@
   "use strict";
 
   const STORAGE_LANG_KEY = "hamuya_guide_lang";
+  const STORAGE_AUTH_KEY = "hamuya_guide_auth_at";
+  const AUTH_TTL_MS = 72 * 60 * 60 * 1000; // 72 hours (3 days)
+  const TW_OFFSET_MS = 8 * 60 * 60 * 1000; // Taiwan time UTC+8
+  const DAY_MS = 24 * 60 * 60 * 1000;
+  const PASSCODE_SALT = "hamuya-tainan-guest-2026-v1";
   const SUPPORTED_LANGS = ["ja", "zh-TW", "en", "ko"];
 
   // Map UI language code -> data/spots.json key
@@ -78,6 +83,13 @@
       errorDesc: "通信状況を確認して、もう一度お試しください。",
       retryLoad: "再読み込み",
       footerNote: "台南ゲストハウス はむ家（Hamuya / 哈木家）ローカル案内 v1.1",
+      authTitle: "はむ家 宿泊ゲスト専用ガイド",
+      authDesc: "フロントの案内ボードに記載された今週の4桁パスコードを入力してください。",
+      authPlaceholder: "4桁の数字",
+      authSubmit: "ガイドを開く",
+      authValidity: "※ 一度入力すると3日間（72時間）有効です",
+      authErrorInvalid: "パスコードが正しくありません。フロントの案内ボードをご確認ください。",
+      authErrorIncomplete: "4桁の数字を入力してください。",
     },
     "zh-TW": {
       pageTitle: "哈木家 台南在地散步指南",
@@ -140,6 +152,13 @@
       errorDesc: "請確認網路連線後再試一次。",
       retryLoad: "重新載入",
       footerNote: "台南旅宿 哈木家（Hamuya / はむ家）在地指南 v1.1",
+      authTitle: "哈木家 住客專屬指南",
+      authDesc: "請輸入櫃檯公告欄上本週的 4 位數通關密碼。",
+      authPlaceholder: "4 位數密碼",
+      authSubmit: "開啟在地指南",
+      authValidity: "※ 輸入一次即可使用 3 天（72 小時）",
+      authErrorInvalid: "密碼不正確，請再確認櫃檯公告欄的本週密碼。",
+      authErrorIncomplete: "請輸入 4 位數字。",
     },
     en: {
       pageTitle: "Hamuya Tainan Local Guide",
@@ -202,6 +221,13 @@
       errorDesc: "Please check your connection and try again.",
       retryLoad: "Retry",
       footerNote: "Hamuya Guesthouse (はむ家 / 哈木家) Tainan Local Guide v1.1",
+      authTitle: "Hamuya Guests Only",
+      authDesc: "Please enter this week's 4-digit passcode posted on the front desk board.",
+      authPlaceholder: "4-digit code",
+      authSubmit: "Unlock Guide",
+      authValidity: "Valid for 3 days (72 hours) once unlocked.",
+      authErrorInvalid: "Incorrect passcode. Please check the board at the front desk.",
+      authErrorIncomplete: "Please enter a 4-digit number.",
     },
     ko: {
       pageTitle: "하무야 타이난 로컬 가이드",
@@ -264,11 +290,21 @@
       errorDesc: "네트워크 연결을 확인한 뒤 다시 시도해 주세요.",
       retryLoad: "다시 불러오기",
       footerNote: "타이난 게스트하우스 하무야(Hamuya / はむ家 / 哈木家) 로컬 가이드 v1.1",
+      authTitle: "하무야 투숙객 전용 가이드",
+      authDesc: "프런트 안내판에 적힌 이번 주 4자리 패스코드를 입력해 주세요.",
+      authPlaceholder: "4자리 숫자",
+      authSubmit: "가이드 열기",
+      authValidity: "※ 한 번 입력하면 3일간(72시간) 유지됩니다.",
+      authErrorInvalid: "패스코드가 올바르지 않습니다. 프런트 안내판을 다시 확인해 주세요.",
+      authErrorIncomplete: "4자리 숫자를 입력해 주세요.",
     },
   };
 
   const state = {
     lang: detectInitialLang(),
+    isAuthenticated: hasValidAuthSession(),
+    authErrorKey: null,
+    spotsLoaded: false,
     spots: [],
     loadError: false,
     filters: {
@@ -288,6 +324,15 @@
     appTitle: document.getElementById("app-title"),
     appSubtitle: document.getElementById("app-subtitle"),
     langButtons: Array.from(document.querySelectorAll(".lang-btn")),
+    authGate: document.getElementById("auth-gate"),
+    authTitle: document.getElementById("auth-title"),
+    authDesc: document.getElementById("auth-desc"),
+    authForm: document.getElementById("auth-form"),
+    authInput: document.getElementById("auth-input"),
+    authError: document.getElementById("auth-error"),
+    authSubmit: document.getElementById("auth-submit"),
+    authValidity: document.getElementById("auth-validity"),
+    appProtected: document.getElementById("app-protected"),
     searchInput: document.getElementById("search-input"),
     searchClear: document.getElementById("search-clear"),
     labelTime: document.getElementById("label-time"),
@@ -319,6 +364,126 @@
     pointModalSub: document.getElementById("point-modal-sub"),
     pointModalClose: document.getElementById("point-modal-close"),
   };
+
+  function getTaiwanIsoWeekInfo(date = new Date()) {
+    const tw = new Date(date.getTime() + TW_OFFSET_MS);
+    const year = tw.getUTCFullYear();
+    const month = tw.getUTCMonth();
+    const day = tw.getUTCDate();
+
+    const tmp = new Date(Date.UTC(year, month, day));
+    const dayNum = tmp.getUTCDay() || 7; // Mon=1..Sun=7
+    tmp.setUTCDate(tmp.getUTCDate() + 4 - dayNum);
+    const isoYear = tmp.getUTCFullYear();
+    const yearStart = new Date(Date.UTC(isoYear, 0, 1));
+    const isoWeek = Math.ceil(((tmp - yearStart) / DAY_MS + 1) / 7);
+    return { isoYear, isoWeek };
+  }
+
+  function computeWeeklyPasscode(isoYear, isoWeek) {
+    const input = `${PASSCODE_SALT}:${isoYear}-W${String(isoWeek).padStart(2, "0")}`;
+    let h1 = 0x811c9dc5;
+    let h2 = 0x9e3779b1;
+    for (let i = 0; i < input.length; i++) {
+      const c = input.charCodeAt(i);
+      h1 ^= c;
+      h1 = Math.imul(h1, 0x01000193) >>> 0;
+      h2 ^= (c + i * 31) & 0xff;
+      h2 = Math.imul(h2, 0x85ebca6b) >>> 0;
+    }
+    let mixed = (h1 ^ (h2 >>> 13) ^ (h2 << 7)) >>> 0;
+    mixed = Math.imul(mixed ^ (mixed >>> 16), 0x45d9f3b) >>> 0;
+    mixed = Math.imul(mixed ^ (mixed >>> 16), 0x45d9f3b) >>> 0;
+    mixed = (mixed ^ (mixed >>> 16)) >>> 0;
+    return String(mixed % 10000).padStart(4, "0");
+  }
+
+  function getCurrentWeeklyPasscode(date = new Date()) {
+    const { isoYear, isoWeek } = getTaiwanIsoWeekInfo(date);
+    return computeWeeklyPasscode(isoYear, isoWeek);
+  }
+
+  function normalizeDigits(raw) {
+    return String(raw || "")
+      .replace(/[０-９]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0))
+      .replace(/\D/g, "")
+      .slice(0, 4);
+  }
+
+  function hasValidAuthSession(now = Date.now()) {
+    try {
+      const raw = localStorage.getItem(STORAGE_AUTH_KEY);
+      if (!raw) return false;
+      const authAt = Number.parseInt(raw, 10);
+      if (!Number.isFinite(authAt) || authAt > now + 60000 || now - authAt >= AUTH_TTL_MS) {
+        localStorage.removeItem(STORAGE_AUTH_KEY);
+        return false;
+      }
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  function saveAuthSession(now = Date.now()) {
+    try {
+      localStorage.setItem(STORAGE_AUTH_KEY, String(now));
+    } catch {
+      // Ignore storage errors in private mode; session stays active in memory
+    }
+  }
+
+  function checkAuthExpiration() {
+    if (!state.isAuthenticated) return;
+    if (!hasValidAuthSession()) {
+      state.isAuthenticated = false;
+      state.authErrorKey = null;
+      if (state.modalSpotId && !dom.pointModal.hidden) {
+        closePointModal();
+      }
+      render();
+    }
+  }
+
+  function triggerAuthShake() {
+    dom.authInput.classList.remove("is-error");
+    void dom.authInput.offsetWidth;
+    dom.authInput.classList.add("is-error");
+  }
+
+  function handleAuthSubmit(e) {
+    e.preventDefault();
+    const cleaned = normalizeDigits(dom.authInput.value);
+    dom.authInput.value = cleaned;
+
+    if (cleaned.length < 4) {
+      state.authErrorKey = "authErrorIncomplete";
+      render();
+      triggerAuthShake();
+      dom.authInput.focus();
+      return;
+    }
+
+    const expected = getCurrentWeeklyPasscode();
+    if (cleaned !== expected) {
+      state.authErrorKey = "authErrorInvalid";
+      render();
+      triggerAuthShake();
+      dom.authInput.focus();
+      dom.authInput.select();
+      return;
+    }
+
+    saveAuthSession();
+    state.isAuthenticated = true;
+    state.authErrorKey = null;
+    dom.authInput.value = "";
+    dom.authInput.classList.remove("is-error");
+    render();
+    if (!state.spotsLoaded) {
+      loadSpots();
+    }
+  }
 
   function detectInitialLang() {
     try {
@@ -734,6 +899,31 @@
       btn.setAttribute("aria-selected", String(isSelected));
     });
 
+    // Lock screen localization & visibility
+    dom.authTitle.textContent = t.authTitle;
+    dom.authDesc.textContent = t.authDesc;
+    dom.authInput.placeholder = t.authPlaceholder;
+    dom.authInput.setAttribute("aria-label", t.authPlaceholder);
+    dom.authSubmit.textContent = t.authSubmit;
+    dom.authValidity.textContent = t.authValidity;
+    if (state.authErrorKey && t[state.authErrorKey]) {
+      dom.authError.textContent = t[state.authErrorKey];
+      dom.authError.hidden = false;
+    } else {
+      dom.authError.textContent = "";
+      dom.authError.hidden = true;
+    }
+
+    if (!state.isAuthenticated) {
+      dom.authGate.hidden = false;
+      dom.appProtected.hidden = true;
+      dom.spotsContainer.innerHTML = "";
+      return;
+    }
+
+    dom.authGate.hidden = true;
+    dom.appProtected.hidden = false;
+
     // Search input labels & clear button state
     dom.searchInput.placeholder = t.searchPlaceholder;
     dom.searchInput.setAttribute("aria-label", t.searchPlaceholder);
@@ -817,6 +1007,7 @@
   }
 
   async function loadSpots() {
+    if (!state.isAuthenticated) return;
     state.loadError = false;
     try {
       const res = await fetch("./data/spots.json", { cache: "no-cache" });
@@ -824,6 +1015,7 @@
       const data = await res.json();
       if (!Array.isArray(data)) throw new Error("Invalid spots data");
       state.spots = data;
+      state.spotsLoaded = true;
     } catch (err) {
       console.error("Failed to load spots.json:", err);
       state.loadError = true;
@@ -835,6 +1027,26 @@
     dom.langButtons.forEach((btn) => {
       btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
     });
+
+    dom.authForm.addEventListener("submit", handleAuthSubmit);
+    dom.authInput.addEventListener("input", () => {
+      const cleaned = normalizeDigits(dom.authInput.value);
+      if (dom.authInput.value !== cleaned) {
+        dom.authInput.value = cleaned;
+      }
+      if (state.authErrorKey) {
+        state.authErrorKey = null;
+        dom.authInput.classList.remove("is-error");
+        dom.authError.textContent = "";
+        dom.authError.hidden = true;
+      }
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) checkAuthExpiration();
+    });
+    window.addEventListener("focus", checkAuthExpiration);
+    window.setInterval(checkAuthExpiration, 60 * 1000);
 
     dom.searchInput.addEventListener("input", (e) => {
       state.filters.query = e.target.value;
@@ -884,5 +1096,7 @@
   bindEvents();
   registerServiceWorker();
   render();
-  loadSpots();
+  if (state.isAuthenticated) {
+    loadSpots();
+  }
 })();
