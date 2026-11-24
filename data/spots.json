@@ -2718,5 +2718,318 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "yamuliao-market-charcoal-noodles",
+    "category": "local_food",
+    "time_slots": [
+      "morning",
+      "lunch"
+    ],
+    "distance": "walk_15",
+    "tags": [
+      "breakfast",
+      "first_tainan"
+    ],
+    "name": {
+      "zh": "鴨母寮市場 炭火麵",
+      "ja": "鴨母寮市場 炭火麵（タンフオミェン）",
+      "en": "Yamuliao Market Charcoal Noodles",
+      "ko": "야오무리야오 시장 탄훠몐 (鴨母寮市場 炭火麵)"
+    },
+    "owner_note": {
+      "ja": "鴨母寮市場（台南市北區成功路148號・7:00〜13:30）の奥にある、看板もメニュー表もないディープなローカル麺のお店です。炭火で一気に茹で上げるもちもちの「陽春麵（50元）」や湯引きイカが絶品！口頭注文＆着席スタイルで、台南通なら一度は体験したい市場グルメです。",
+      "zh": "藏在鴨母寮市場內（台南市北區成功路148號、營業時間7:00～13:30）的人氣炭火麵攤，沒有招牌也沒有菜單！用傳統炭火爐現煮的Q彈「陽春麵（50元）」與川燙小卷非常道地，採直接口頭點餐、自行入座的市場美食體驗。",
+      "en": "A legendary no-sign, no-menu noodle stall tucked inside Yamuliao Market (No. 148, Chenggong Rd., North Dist., Tainan; open 7:00 AM–1:30 PM). Chewy Yangchun Noodles (NT$50) and blanched squid cooked over traditional charcoal fires deliver an unforgettable local market experience—order verbally and grab a seat.",
+      "ko": "야오무리야오 시장 안쪽(타이난시 북구 성공로 148호, 07:00~13:30 영업)에 있는 간판도 메뉴판도 없는 현지 인기 국수집입니다. 전통 숯불 화덕에서 삶아낸 쫄깃한 '양춘면(50위안)'과 데친 오징어가 일품이며, 구두로 주문하고 자리에 앉아 즐기는 시장 명소입니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗陽春麵，內用，謝謝！",
+      "ja": "こんにちは。陽春麵を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of Yangchun Noodles for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 양춘면 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E6%AF%8D%E5%AF%AE%E5%B8%82%E5%A0%B4+%E7%82%AD%E7%81%AB%E9%BA%B5+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "qing-jiang-shan-yu-yi-mian-tainan",
+    "category": "local_food",
+    "time_slots": [
+      "lunch",
+      "dinner",
+      "late_night"
+    ],
+    "distance": "walk_5",
+    "walk_minutes": 1,
+    "tags": [
+      "first_tainan"
+    ],
+    "name": {
+      "zh": "清江鱔魚意麵",
+      "ja": "清江鱔魚意麵（チンジャン・シャンユーイーミェン）",
+      "en": "Qing Jiang Shan Yu Yi Mian",
+      "ko": "칭장 샨위이면 (清江鱔魚意麵)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約1分（台南市忠義路二段120號）にある、台南名物「鱔魚意麵（タウナギ×意麵）」を楽しめるローカル食堂です。とろみのあるあんかけタイプや汁なし炒めタイプをはじめ、チャーハンや豬肝湯（豚レバースープ）なども味わえ、はむ家滞在中に気軽に挑戦できます！",
+      "zh": "距離哈木家步行約1分鐘（台南市忠義路二段120號）的在地小吃店，可以品嚐台南代表美食「鱔魚意麵」！無論是羹麵或乾炒意麵，搭配炒飯與豬肝湯都很夠味，住在哈木家時隨時都能輕鬆去吃吃看。",
+      "en": "A local spot about a 1-minute walk from Hamuya (No. 120, Sec. 2, Zhongyi Rd., Tainan) serving Tainan's signature swamp-eel yimian noodles. Try gravy or dry-tossed yimian alongside fried rice and pork liver soup for an easy neighborhood meal.",
+      "ko": "하무야에서 도보 약 1분(타이난시 충이로 2단 120호) 거리에 있는 타이난 명물 '장어(타우나기) 이면' 로컬 맛집입니다. 걸쭉한 국물(갱) 스타일과 볶음 스타일을 비롯해 볶음밥, 돼지간 수프 등도 즐길 수 있어 하무야 머무는 동안 가볍게 들르기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份鱔魚意麵，內用，謝謝！",
+      "ja": "こんにちは。鱔魚意麵を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one Shan Yu Yi Mian for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 샨위이면 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E6%B1%9F%E9%B1%94%E9%AD%9A%E6%84%8F%E9%BA%B5+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "jia-cuo-wei-tainan",
+    "category": "local_food",
+    "time_slots": [
+      "lunch",
+      "dinner"
+    ],
+    "distance": "walk_5",
+    "walk_minutes": 5,
+    "tags": [
+      "retro"
+    ],
+    "name": {
+      "zh": "呷厝味",
+      "ja": "呷厝味（ジアツオウェイ）",
+      "en": "Jia Cuo Wei",
+      "ko": "자추오웨이 (呷厝味)"
+    },
+    "owner_note": {
+      "ja": "赤崁樓の向かい（台南市中西區民族路二段321號）・はむ家から徒歩約5分の場所にある、昔ながらのローカル食堂です。酸辣麵やピリ辛の紅油抄手（ワンタン）が人気で、伝票記入＆先払いスタイルで気軽に立ち寄れます！",
+      "zh": "就在赤崁樓對面（台南市中西區民族路二段321號）、距離哈木家步行約5分鐘的傳統在地小吃店！酸辣麵與微辣開胃的紅油抄手都很受歡迎，採劃單先結帳方式，逛赤崁樓前後很適合順道來吃。",
+      "en": "A nostalgic local eatery right across from Chihkan Tower (No. 321, Sec. 2, Minzu Rd., West Central Dist., Tainan), about a 5-minute walk from Hamuya. Known for hot and sour noodles (suanla mian) and spicy chili-oil wontons (hongyou chaoshou), ordered on a slip and paid upfront.",
+      "ko": "적감루 맞은편(타이난시 중서구 민족로 2단 321호)·하무야에서 도보 약 5분 거리에 있는 옛날 감성의 로컬 식당입니다. 쑤안라몐과 매콤한 홍유차오쇼우(만두/완탕)가 인기이며, 주문표 작성 후 선결제 방식으로 편하게 즐길 수 있습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份酸辣麵和一份紅油抄手，內用，謝謝！",
+      "ja": "こんにちは。酸辣麵を1つと、紅油抄手を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one suanla mian and one hongyou chaoshou for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 쑤안라몐 하나랑 홍유차오쇼우 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%92%8B%E5%8E%9D%E5%91%B3+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "xiao-jin-mian-dian-tainan",
+    "category": "local_food",
+    "time_slots": [
+      "lunch",
+      "dinner"
+    ],
+    "distance": "walk_5",
+    "walk_minutes": 3,
+    "tags": [
+      "retro"
+    ],
+    "name": {
+      "zh": "小金麵店",
+      "ja": "小金麵店（シャオジン・ミェンディエン）",
+      "en": "Xiao Jin Mian Dian",
+      "ko": "샤오진 면점 (小金麵店)"
+    },
+    "owner_note": {
+      "ja": "はむ家から徒歩約3分（台南市中西區民權路二段106號）にある、昔ながらの麺屋さんをリノベーションしたおしゃれな雰囲気のローカル食堂です。豬油拌飯や擔擔麵、ピリ辛の紅油抄手（ワンタン）などを楽しめ、はむ家滞在中のランチや夕食に気軽に立ち寄れます！",
+      "zh": "距離哈木家步行約3分鐘（台南市中西區民權路二段106號），由傳統麵店翻新改造、空間很有質感的在地麵食館！可以吃到豬油拌飯、擔擔麵與微辣開胃的紅油抄手，住在哈木家時中午或晚上都很方便來吃。",
+      "en": "A stylishly renovated noodle eatery about a 3-minute walk from Hamuya (No. 106, Sec. 2, Minquan Rd., West Central Dist., Tainan) with a welcoming, modern-retro interior. Enjoy dishes like lard rice (zhuyou banfan), dandan noodles, and spicy chili-oil wontons (hongyou chaoshou) for an easy lunch or dinner.",
+      "ko": "하무야에서 도보 약 3분(타이난시 중서구 민권로 2단 106호) 거리에 있는 옛 국숫집을 세련되게 리모델링한 로컬 면 맛집입니다. 주유반판, 단단면, 매콤한 홍유차오쇼우 등을 즐길 수 있어 하무야에 머무는 동안 점심이나 저녁으로 들르기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份擔擔麵和一份紅油抄手，內用，謝謝！",
+      "ja": "こんにちは。擔擔麵を1つと、紅油抄手を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one dandan noodles and one hongyou chaoshou for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 단단면 하나랑 홍유차오쇼우 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E9%87%91%E9%BA%B5%E5%BA%97+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "garden-night-market-tainan",
+    "category": "sightseeing",
+    "time_slots": [
+      "dinner",
+      "late_night"
+    ],
+    "distance": "bike_far",
+    "tags": [
+      "late_night",
+      "first_tainan"
+    ],
+    "name": {
+      "zh": "花園夜市",
+      "ja": "花園夜市（ファーユェン・イェシー）",
+      "en": "Garden Night Market",
+      "ko": "화위안 야시장 (花園夜市)"
+    },
+    "owner_note": {
+      "ja": "台南最大規模を誇る超定番の夜市です（主な開催曜日は木・土・日、はむ家からはYouBikeやタクシーで10〜15分・徒歩30〜40分目安）。屋台グルメからゲーム屋台、ショッピングまで圧倒的な賑わいを楽しめるので、開催曜日を確認してから向かうのがおすすめです！",
+      "zh": "台南規模最大的經典夜市，攤位數與人潮都很壯觀（主要營業日為週四、週六、週日；從哈木家騎YouBike或搭計程車約10～15分鐘、步行約30～40分鐘）。小吃、遊戲攤與逛街選擇超豐富，出發前務必先確認當天是否有營業！",
+      "en": "Tainan's largest and liveliest night market (typically open Thu, Sat, and Sun; about 10–15 minutes by YouBike or taxi, or 30–40 minutes on foot from Hamuya). Packed with street food, game stalls, and shopping—always check the day's schedule before heading out.",
+      "ko": "타이난 최대 규모를 자랑하는 대표 야시장입니다 (주요 개장 요일 목·토·일; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 먹거리와 게임 부스, 쇼핑까지 활기가 넘치니 개장 요일을 꼭 확인하고 방문해 보세요."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份地瓜球，謝謝！",
+      "ja": "こんにちは。地瓜球を1つお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one order of sweet potato balls, please. Thank you!",
+      "ko": "안녕하세요, 고구마볼(디과치우) 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E8%8A%B1%E5%9C%92%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2585/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "dadong-night-market-tainan",
+    "category": "sightseeing",
+    "time_slots": [
+      "dinner",
+      "late_night"
+    ],
+    "distance": "bike_far",
+    "tags": [
+      "late_night",
+      "first_tainan"
+    ],
+    "name": {
+      "zh": "大東夜市",
+      "ja": "大東夜市（ダードン・イェシー）",
+      "en": "Dadong Night Market",
+      "ko": "다둥 야시장 (大東夜市)"
+    },
+    "owner_note": {
+      "ja": "花園夜市に次ぐ規模を持つ人気夜市で、学生や地元客にも親しまれる活気ある雰囲気です（主な開催曜日は月・火・金、はむ家からはYouBikeやタクシーで10〜15分・徒歩30〜40分目安）。グルメ屋台が充実しており、平日夜に夜市を楽しみたいときにもぴったり！",
+      "zh": "規模僅次於花園夜市的人氣夜市，周邊學校多、學生與在地客絡繹不絕（主要營業日為週一、週二、週五；從哈木家騎YouBike或搭計程車約10～15分鐘、步行約30～40分鐘）。美食攤位選擇多，很適合平日晚上來逛夜市！",
+      "en": "Tainan's second-largest night market with a lively local and student crowd (typically open Mon, Tue, and Fri; about 10–15 minutes by YouBike or taxi, or 30–40 minutes on foot from Hamuya). Great for evening street food and casual night market strolling on weekdays.",
+      "ko": "화위안 야시장 다음으로 큰 인기 야시장으로 학생과 현지인들로 활기찹니다 (주요 개장 요일 월·화·금; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 평일 저녁 야시장 먹거리 투어로 즐기기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，請問這份怎麼賣？我們想點一份，謝謝！",
+      "ja": "こんにちは。こちらはいくらですか？1つお願いします。ありがとうございます！",
+      "en": "Hello, how much is this? We'd like one, please. Thank you!",
+      "ko": "안녕하세요, 이거 얼마인가요? 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%9D%B1%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2585/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "wusheng-night-market-tainan",
+    "category": "sightseeing",
+    "time_slots": [
+      "dinner",
+      "late_night"
+    ],
+    "distance": "bike_far",
+    "tags": [
+      "late_night",
+      "first_tainan"
+    ],
+    "name": {
+      "zh": "武聖夜市",
+      "ja": "武聖夜市（ウーシェン・イェシー）",
+      "en": "Wusheng Night Market",
+      "ko": "우성 야시장 (武聖夜市)"
+    },
+    "owner_note": {
+      "ja": "台南最古の歴史を持つ夜市で、屋台グルメに加えてゲーム屋台なども楽しめる定番スポットです（主な開催曜日は水・土、はむ家からはYouBikeやタクシーで10〜15分・徒歩30〜40分目安）。水曜夜に夜市へ行きたいときの心強い選択肢です！",
+      "zh": "台南歷史最悠久的夜市，除了各式小吃攤外，也有不少遊戲攤位增添熱鬧感（主要營業日為週三、週六；從哈木家騎YouBike或搭計程車約10～15分鐘、步行約30～40分鐘）。週三晚上想逛夜市時很推薦來這裡！",
+      "en": "Tainan's oldest night market, offering classic street food alongside lively game stalls (typically open Wed and Sat; about 10–15 minutes by YouBike or taxi, or 30–40 minutes on foot from Hamuya). A go-to pick if you're looking for a night market on a Wednesday evening.",
+      "ko": "타이난에서 가장 오래된 역사를 지닌 야시장으로 먹거리와 함께 게임 부스 등 즐길 거리가 있습니다 (주요 개장 요일 수·토; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 수요일 저녁 야시장을 찾을 때 특히 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一份虱目魚酥，謝謝！",
+      "ja": "こんにちは。サバヒーフライ（虱目魚酥）を1つお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one fried milkfish snack, please. Thank you!",
+      "ko": "안녕하세요, 밀크피시(사바히) 튀김 하나 주세요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%AD%A6%E8%81%96%E5%A4%9C%E5%B8%82+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "https://hamuguesthouse.com/news/2585/",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "wu-ming-dou-hua-beizhong",
+    "category": "cafe_sweets",
+    "time_slots": [
+      "lunch",
+      "dinner"
+    ],
+    "distance": "walk_15",
+    "tags": [
+      "retro",
+      "first_tainan"
+    ],
+    "name": {
+      "zh": "無名豆花",
+      "ja": "無名豆花（ウーミン・ドウホワ）",
+      "en": "Wu Ming Dou Hua",
+      "ko": "우밍 두화 (無名豆花)"
+    },
+    "owner_note": {
+      "ja": "台南公園近く（台南市北區北忠街176號）にある、昔ながらの豆花屋さんです。定番の豆花に加えて、金桔豆花や草莓豆花（イチゴジャム風）など個性的なフレーバーも楽しめ、食べ歩きや甘味休憩にぴったり！",
+      "zh": "位在台南公園附近（台南市北區北忠街176號）的傳統豆花店！除了經典豆花，也能吃到金桔豆花、草莓豆花等風味選擇，很適合作為小吃巡禮後的甜點收尾。",
+      "en": "A traditional douhua stall near Tainan Park (No. 176, Beizhong St., North Dist., Tainan) serving classic tofu pudding alongside flavors like calamansi (jinju) and strawberry—great for a sweet stop after exploring the area.",
+      "ko": "타이난 공원 인근(타이난시 북구 베이중제 176호)에 있는 전통 두화(연두부 디저트) 가게입니다. 기본 두화는 물론 금귤 두화, 딸기 두화 등 메뉴를 즐길 수 있어 산책 후 달콤한 휴식에 어울립니다."
+    },
+    "point_and_order": {
+      "zh": "你好，我要一碗金桔豆花，內用，謝謝！",
+      "ja": "こんにちは。金桔豆花を1つ、店内でお願いします。ありがとうございます！",
+      "en": "Hello, I'd like one bowl of calamansi douhua for dine-in, please. Thank you!",
+      "ko": "안녕하세요, 금귤 두화 하나 여기서 먹고 갈게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%84%A1%E5%90%8D%E8%B1%86%E8%85%91+%E5%8C%97%E5%BF%A0%E8%A1%97176%E8%99%9F+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
