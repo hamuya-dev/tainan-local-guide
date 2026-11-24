@@ -49,10 +49,27 @@
         <h2 id="auth-title" class="auth-title">はむ家 宿泊ゲスト専用ガイド</h2>
         <p id="auth-desc" class="auth-desc">はむ家にご宿泊のゲスト専用ページです。館内に掲示されているQRコードをスキャンしてご利用ください。</p>
         <p id="auth-validity" class="auth-validity">※ QRコードをスキャンすると、そのまま3日間（72時間）ご利用いただけます</p>
+        <a
+          id="auth-booking-btn"
+          class="btn btn-primary auth-booking-btn"
+          href="https://hamuguesthouse.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >はむ家 公式サイト・宿泊予約</a>
       </div>
     </section>
 
     <div id="app-protected" class="app-protected" hidden>
+    <!-- Promo-Only Top Booking Banner -->
+    <a
+      id="promo-banner"
+      class="promo-banner"
+      href="https://hamuguesthouse.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      hidden
+    >🎁 3日間限定お試し中｜台南ゲストハウス「はむ家」の空室・予約はこちら →</a>
+
     <!-- Compact Mobile-First Filter Panel -->
     <section class="filter-panel" aria-label="Filters">
       <div class="search-row">
@@ -96,7 +113,7 @@
           <div class="hamusan-oshi-tag" aria-hidden="true">
             <span class="hamusan-oshi-arrow">←</span>
             <img class="hamusan-oshi-icon" src="./icons/hamusan-oshi.png" alt="" width="34" height="34">
-            <span class="hamusan-oshi-label">はむさんオシ</span>
+            <span id="hamusan-oshi-label" class="hamusan-oshi-label">はむさんオシ</span>
           </div>
         </div>
       </div>
@@ -130,6 +147,17 @@
     </main>
 
     <footer class="app-footer">
+      <a
+        id="footer-booking-card"
+        class="footer-booking-card"
+        href="https://hamuguesthouse.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="footer-booking-icon" aria-hidden="true">🏡</span>
+        <span id="footer-booking-text" class="footer-booking-text">台南ゲストハウス はむ家｜公式サイト・宿泊予約はこちら</span>
+        <span class="footer-booking-arrow" aria-hidden="true">→</span>
+      </a>
       <p id="footer-note"></p>
     </footer>
     </div>

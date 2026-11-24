@@ -3,9 +3,13 @@
 
   const STORAGE_LANG_KEY = "hamuya_guide_lang";
   const STORAGE_AUTH_KEY = "hamuya_guide_auth_at";
+  const STORAGE_AUTH_TYPE_KEY = "hamuya_auth_type";
+  const STORAGE_PROMO_USED_KEY = "hamuya_promo_used";
   const AUTH_TTL_MS = 72 * 60 * 60 * 1000; // 72 hours (3 days)
   const GUEST_PARAM_KEY = "guest";
   const GUEST_PARAM_VALUE = "hamuya";
+  const PROMO_PARAM_KEY = "promo";
+  const PROMO_PARAM_VALUE = "tainan2026";
   const SUPPORTED_LANGS = ["ja", "zh-TW", "en", "ko"];
 
   // Map UI language code -> data/spots.json key
@@ -50,6 +54,7 @@
       filterPick: "特集",
       hamuPickFilter: "⭐ 迷ったらここ",
       hamuPickBadge: "⭐ はむ家推し",
+      hamusanOshiLabel: "はむさんオシ",
       tags: {
         breakfast: "朝ごはん",
         late_night: "深夜OK",
@@ -84,7 +89,11 @@
       footerNote: "台南ゲストハウス はむ家（Hamuya / 哈木家）ローカル案内 v1.1",
       authTitle: "はむ家 宿泊ゲスト専用ガイド",
       authDesc: "はむ家にご宿泊のゲスト専用ページです。館内に掲示されているQRコードをスキャンしてご利用ください。",
+      authPromoExpiredDesc: "3日間のお試し期間が終了しました。はむ家にご宿泊の際は、館内QRコードから引き続きご利用いただけます。",
       authValidity: "※ QRコードをスキャンすると、そのまま3日間（72時間）ご利用いただけます",
+      authBooking: "はむ家 公式サイト・宿泊予約",
+      promoBanner: "🎁 3日間限定お試し中｜台南ゲストハウス「はむ家」の空室・予約はこちら →",
+      footerBooking: "台南ゲストハウス はむ家｜公式サイト・宿泊予約はこちら",
     },
     "zh-TW": {
       pageTitle: "哈木家 台南在地散步指南",
@@ -115,6 +124,7 @@
       filterPick: "精選",
       hamuPickFilter: "⭐ 不知道去哪？看這裡",
       hamuPickBadge: "⭐ 哈木家精選",
+      hamusanOshiLabel: "哈木桑推薦",
       tags: {
         breakfast: "早餐",
         late_night: "宵夜・深夜",
@@ -149,7 +159,11 @@
       footerNote: "台南旅宿 哈木家（Hamuya / はむ家）在地指南 v1.1",
       authTitle: "哈木家 住客專屬指南",
       authDesc: "此頁面為哈木家住客專屬指南。請掃描館內張貼的 QR Code 即可開啟使用。",
+      authPromoExpiredDesc: "3天免費體驗已結束。入住哈木家時，掃描館內QR Code即可繼續使用。",
       authValidity: "※ 掃描後即可直接使用 3 天（72 小時）",
+      authBooking: "哈木家 官方網站・線上訂房",
+      promoBanner: "🎁 3天免費體驗中｜台南民宿「哈木家」空房查詢與訂房 →",
+      footerBooking: "台南民宿 哈木家｜官方網站・線上訂房",
     },
     en: {
       pageTitle: "Hamuya Tainan Local Guide",
@@ -180,6 +194,7 @@
       filterPick: "Picks",
       hamuPickFilter: "⭐ Hamuya Picks",
       hamuPickBadge: "⭐ Hamuya Pick",
+      hamusanOshiLabel: "Hamu-san's Pick",
       tags: {
         breakfast: "Breakfast",
         late_night: "Late Night",
@@ -214,7 +229,11 @@
       footerNote: "Hamuya Guesthouse (はむ家 / 哈木家) Tainan Local Guide v1.1",
       authTitle: "Hamuya Guests Only",
       authDesc: "This guide is exclusively for Hamuya Guesthouse guests. Please scan the QR code posted inside the guesthouse to unlock.",
+      authPromoExpiredDesc: "Your 3-day free trial has ended. When you stay at Hamu Guesthouse, scan the in-house QR code to continue using the guide.",
       authValidity: "Once scanned, access stays unlocked for 3 days (72 hours).",
+      authBooking: "Hamu Guesthouse Official Site & Booking",
+      promoBanner: "🎁 3-Day Free Trial | Check Availability & Book Hamu Guesthouse →",
+      footerBooking: "Hamu Guesthouse Tainan | Official Website & Booking",
     },
     ko: {
       pageTitle: "하무야 타이난 로컬 가이드",
@@ -245,6 +264,7 @@
       filterPick: "추천",
       hamuPickFilter: "⭐ 고민될 땐 여기",
       hamuPickBadge: "⭐ 하무야 추천",
+      hamusanOshiLabel: "하무상 추천",
       tags: {
         breakfast: "아침 식사",
         late_night: "심야 영업",
@@ -279,7 +299,11 @@
       footerNote: "타이난 게스트하우스 하무야(Hamuya / はむ家 / 哈木家) 로컬 가이드 v1.1",
       authTitle: "하무야 투숙객 전용 가이드",
       authDesc: "하무야 투숙객 전용 안내 페이지입니다. 숙소 내부에 게시된 QR 코드를 스캔하여 이용해 주세요.",
+      authPromoExpiredDesc: "3일 무료 체험이 종료되었습니다. 하무야에 숙박하시면 관내 QR 코드를 스캔해 계속 이용하실 수 있습니다.",
       authValidity: "※ QR 코드를 스캔하면 3일간(72시간) 바로 이용하실 수 있습니다.",
+      authBooking: "하무야 공식 홈페이지 · 숙박 예약",
+      promoBanner: "🎁 3일 무료 체험 중 | 타이난 숙소 '하무야' 빈방 확인 및 예약 →",
+      footerBooking: "타이난 게스트하우스 하무야 | 공식 홈페이지 · 숙박 예약",
     },
   };
 
@@ -289,6 +313,8 @@
     lang: detectInitialLang(),
     isAuthenticated: initialAuth.authenticated,
     authAt: initialAuth.authAt,
+    authType: initialAuth.authType,
+    promoExpired: initialAuth.promoExpired,
     spotsLoaded: false,
     spots: [],
     loadError: false,
@@ -313,7 +339,9 @@
     authTitle: document.getElementById("auth-title"),
     authDesc: document.getElementById("auth-desc"),
     authValidity: document.getElementById("auth-validity"),
+    authBookingBtn: document.getElementById("auth-booking-btn"),
     appProtected: document.getElementById("app-protected"),
+    promoBanner: document.getElementById("promo-banner"),
     searchInput: document.getElementById("search-input"),
     searchClear: document.getElementById("search-clear"),
     labelTime: document.getElementById("label-time"),
@@ -321,6 +349,7 @@
     labelDistance: document.getElementById("label-distance"),
     hamuPickRow: document.getElementById("hamu-pick-row"),
     labelPick: document.getElementById("label-pick"),
+    hamusanOshiLabel: document.getElementById("hamusan-oshi-label"),
     filterTime: document.getElementById("filter-time"),
     filterCategory: document.getElementById("filter-category"),
     filterDistance: document.getElementById("filter-distance"),
@@ -337,6 +366,7 @@
     errorTitle: document.getElementById("error-title"),
     errorDesc: document.getElementById("error-desc"),
     retryLoadBtn: document.getElementById("retry-load-btn"),
+    footerBookingText: document.getElementById("footer-booking-text"),
     footerNote: document.getElementById("footer-note"),
     pointModal: document.getElementById("point-modal"),
     pointModalBadge: document.getElementById("point-modal-badge"),
@@ -350,6 +380,23 @@
     return Number.isFinite(authAt) && authAt <= now + 60000 && now - authAt < AUTH_TTL_MS;
   }
 
+  function hasPromoUsed() {
+    try {
+      return localStorage.getItem(STORAGE_PROMO_USED_KEY) === "true";
+    } catch {
+      return false;
+    }
+  }
+
+  function getStoredAuthType() {
+    try {
+      const val = localStorage.getItem(STORAGE_AUTH_TYPE_KEY);
+      return val === "promo" ? "promo" : "guest";
+    } catch {
+      return "guest";
+    }
+  }
+
   function getValidStoredAuthAt(now = Date.now()) {
     try {
       const raw = localStorage.getItem(STORAGE_AUTH_KEY);
@@ -357,6 +404,7 @@
       const authAt = Number.parseInt(raw, 10);
       if (!isValidAuthTimestamp(authAt, now)) {
         localStorage.removeItem(STORAGE_AUTH_KEY);
+        localStorage.removeItem(STORAGE_AUTH_TYPE_KEY);
         return null;
       }
       return authAt;
@@ -365,19 +413,31 @@
     }
   }
 
-  function saveAuthSession(now = Date.now()) {
+  function saveAuthSession(authType, now = Date.now()) {
     try {
       localStorage.setItem(STORAGE_AUTH_KEY, String(now));
+      localStorage.setItem(STORAGE_AUTH_TYPE_KEY, authType);
+      if (authType === "promo") {
+        localStorage.setItem(STORAGE_PROMO_USED_KEY, "true");
+      }
     } catch {
       // Ignore storage errors in private mode; session stays active in memory
     }
   }
 
-  function stripGuestParamFromUrl() {
+  function stripAuthParamsFromUrl() {
     try {
       const url = new URL(window.location.href);
-      if (!url.searchParams.has(GUEST_PARAM_KEY)) return;
-      url.searchParams.delete(GUEST_PARAM_KEY);
+      let changed = false;
+      if (url.searchParams.has(GUEST_PARAM_KEY)) {
+        url.searchParams.delete(GUEST_PARAM_KEY);
+        changed = true;
+      }
+      if (url.searchParams.has(PROMO_PARAM_KEY)) {
+        url.searchParams.delete(PROMO_PARAM_KEY);
+        changed = true;
+      }
+      if (!changed) return;
       const cleanUrl = url.pathname + (url.search ? url.search : "") + (url.hash || "");
       window.history.replaceState(null, "", cleanUrl);
     } catch {
@@ -388,16 +448,49 @@
   function resolveInitialAuth(now = Date.now()) {
     try {
       const params = new URLSearchParams(window.location.search);
+      // 1. In-house fixed QR (?guest=hamuya) always unlocks / overwrites
       if (params.get(GUEST_PARAM_KEY) === GUEST_PARAM_VALUE) {
-        saveAuthSession(now);
-        stripGuestParamFromUrl();
-        return { authenticated: true, authAt: now };
+        saveAuthSession("guest", now);
+        stripAuthParamsFromUrl();
+        return { authenticated: true, authAt: now, authType: "guest", promoExpired: false };
+      }
+      // 2. Promo link (?promo=tainan2026) unlocks once per device for 72h
+      if (params.get(PROMO_PARAM_KEY) === PROMO_PARAM_VALUE) {
+        stripAuthParamsFromUrl();
+        if (!hasPromoUsed()) {
+          saveAuthSession("promo", now);
+          return { authenticated: true, authAt: now, authType: "promo", promoExpired: false };
+        }
+        // Promo already used: allow only if an existing valid session is still active (no extension)
+        const existingAt = getValidStoredAuthAt(now);
+        if (existingAt !== null) {
+          return {
+            authenticated: true,
+            authAt: existingAt,
+            authType: getStoredAuthType(),
+            promoExpired: false,
+          };
+        }
+        return { authenticated: false, authAt: null, authType: null, promoExpired: true };
       }
     } catch {
       // Fall through to stored session check
     }
     const storedAt = getValidStoredAuthAt(now);
-    return { authenticated: storedAt !== null, authAt: storedAt };
+    if (storedAt !== null) {
+      return {
+        authenticated: true,
+        authAt: storedAt,
+        authType: getStoredAuthType(),
+        promoExpired: false,
+      };
+    }
+    return {
+      authenticated: false,
+      authAt: null,
+      authType: null,
+      promoExpired: hasPromoUsed(),
+    };
   }
 
   function checkAuthExpiration() {
@@ -408,6 +501,8 @@
     if (!isValidAuthTimestamp(activeAt, now)) {
       state.isAuthenticated = false;
       state.authAt = null;
+      state.authType = null;
+      state.promoExpired = hasPromoUsed();
       if (state.modalSpotId && !dom.pointModal.hidden) {
         closePointModal();
       }
@@ -831,8 +926,21 @@
 
     // Lock screen localization & visibility
     dom.authTitle.textContent = t.authTitle;
-    dom.authDesc.textContent = t.authDesc;
+    dom.authDesc.textContent = state.promoExpired ? t.authPromoExpiredDesc : t.authDesc;
     dom.authValidity.textContent = t.authValidity;
+    dom.authValidity.hidden = state.promoExpired;
+    if (dom.authBookingBtn) {
+      dom.authBookingBtn.textContent = t.authBooking;
+    }
+
+    // Promo top banner & common footer booking CTA
+    if (dom.promoBanner) {
+      dom.promoBanner.textContent = t.promoBanner;
+      dom.promoBanner.hidden = !(state.isAuthenticated && state.authType === "promo");
+    }
+    if (dom.footerBookingText) {
+      dom.footerBookingText.textContent = t.footerBooking;
+    }
 
     if (!state.isAuthenticated) {
       dom.authGate.hidden = false;
@@ -874,6 +982,9 @@
     dom.hamuPickRow.hidden = !hasHamuPicks;
     if (hasHamuPicks) {
       dom.labelPick.textContent = t.filterPick;
+      if (dom.hamusanOshiLabel) {
+        dom.hamusanOshiLabel.textContent = t.hamusanOshiLabel;
+      }
       dom.filterPick.innerHTML = "";
       dom.filterPick.appendChild(
         createChip(t.hamuPickFilter, state.filters.pickOnly, () => {
