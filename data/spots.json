@@ -3274,5 +3274,44 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "yoshida-yorozuya-tainan",
+    "category": "sightseeing",
+    "time_slots": [
+      "lunch"
+    ],
+    "distance": "walk_15",
+    "walk_minutes": 10,
+    "tags": [
+      "retro"
+    ],
+    "hamu_pick": true,
+    "name": {
+      "zh": "吉田万屋",
+      "ja": "吉田万屋（ヨシダヨロズヤ）",
+      "en": "Yoshida Yorozuya",
+      "ko": "요시다 요로즈야 (吉田万屋)"
+    },
+    "owner_note": {
+      "ja": "台南市中西區民權路二段279號2樓にある、雑貨とちょっとした飲食を楽しめる万屋スタイルの隠れ家スポットです。オーナーとはむ家（はむさん）とも縁が深く、ふらっと立ち寄る街歩きにぴったり！営業日は月・金〜日曜（13:00〜19:00、火〜木曜定休・現金のみ）なので、営業日を確認してから訪れてみてください。（※ブログ記事はただいま執筆中！）",
+      "zh": "位在中西區民權路二段279號2樓的萬屋小天地，兼具雜貨與輕食甜點飲品氛圍！與哈木家（老闆）淵源深厚，很適合作為散步順道造訪的秘密基地；營業日為週一、週五至週日13:00～19:00（週二至週四公休、僅收現金），出發前先留意營業日。（※部落格文章撰寫中！）",
+      "en": "A tucked-away yorozuya-style spot on the 2nd floor of No. 279, Sec. 2, Minquan Rd., West Central Dist., Tainan, blending miscellaneous goods with cafe/light food vibes and a close connection to Hamuya. Open Mon & Fri–Sun, 1:00 PM–7:00 PM (closed Tue–Thu, cash only), so check the schedule before dropping by. (Blog article coming soon!)",
+      "ko": "중서구 민권로 2단 279호 2층에 있는 잡화와 가벼운 먹거리·음료 분위기를 함께 느낄 수 있는 요로즈야 스타일 공간으로, 하무야와도 인연이 깊은 곳입니다. 월·금~일요일 13:00~19:00 영업(화~목요일 휴무, 현금 결제만 가능)이니 영업일을 확인하고 방문해 보세요. (※ 블로그 글 준비 중!)"
+    },
+    "point_and_order": {
+      "zh": "你好，請問今天有營業嗎？我們想看看，謝謝！",
+      "ja": "こんにちは。今日やっていますか？ちょっと見せてください。ありがとうございます！",
+      "en": "Hello, are you open today? We'd love to take a look, thank you!",
+      "ko": "안녕하세요, 오늘 영업하나요? 잠깐 구경해도 될까요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E7%94%B0%E4%B8%87%E5%B1%8B+%E6%B0%91%E6%AC%8A%E8%B7%AF%E4%BA%8C%E6%AE%B5279%E8%99%9F+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
