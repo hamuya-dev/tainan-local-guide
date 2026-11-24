@@ -57,7 +57,7 @@
     ],
     "hamu_pick": true,
     "name": {
-      "zh": "小佳人猪牛排館",
+      "zh": "小佳人豬牛排館",
       "ja": "小佳人猪牛排館（シャオジャーレンジューニョウパイグァン）",
       "en": "Xiao Jia Ren Steakhouse",
       "ko": "샤오자런 스테이크 (小佳人猪牛排館)"
@@ -1627,7 +1627,7 @@
       "reservation"
     ],
     "name": {
-      "zh": "角落.有猫 corner cat coffee 台南 赤崁樓店",
+      "zh": "角落.有貓 corner cat coffee 台南 赤崁樓店",
       "ja": "角落.有猫 corner cat coffee 台南 赤崁樓店",
       "en": "corner cat coffee (Tainan Chihkan)",
       "ko": "코너 캣 커피 타이난 적감루점 (角落.有猫)"
@@ -3036,7 +3036,7 @@
     ],
     "hamu_pick": false,
     "name": {
-      "zh": "吉田万屋",
+      "zh": "吉田萬屋",
       "ja": "吉田万屋（ヨシダヨロズヤ）",
       "en": "Yoshida Yorozuya",
       "ko": "요시다 요로즈야 (吉田万屋)"
@@ -3077,7 +3077,7 @@
     ],
     "hamu_pick": false,
     "name": {
-      "zh": "岄食串焼",
+      "zh": "岄食串燒",
       "ja": "岄食串焼（ユエシー・チュアンシャオ）",
       "en": "Yue Shi Skewers",
       "ko": "웨스 꼬치구이 (岄食串焼)"
@@ -3117,7 +3117,7 @@
     ],
     "hamu_pick": false,
     "name": {
-      "zh": "有楽食堂",
+      "zh": "有樂食堂",
       "ja": "有楽食堂（ユウラクショクドウ）",
       "en": "Youraku Shokudo",
       "ko": "유라쿠 식당 (有楽食堂)"
@@ -3157,7 +3157,7 @@
       "first_tainan"
     ],
     "name": {
-      "zh": "来一碗牛肉面",
+      "zh": "來一碗牛肉麵",
       "ja": "来一碗牛肉面（ライイーワン・ニョウロウミェン）",
       "en": "Lai Yi Wan Beef Noodles",
       "ko": "라이이완 우육면 (来一碗牛肉面)"
