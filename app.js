@@ -29,6 +29,7 @@
       pageTitle: "はむ家 台南ローカル案内",
       appTitle: "はむ家 台南ローカル案内",
       appSubtitle: "はむ家のリアルなおすすめ案内",
+      headerBooking: "宿泊予約 ↗",
       filterTime: "時間帯",
       filterCategory: "ジャンル",
       filterDistance: "距離",
@@ -96,6 +97,7 @@
       pageTitle: "哈木家 台南在地散步指南",
       appTitle: "哈木家 台南在地指南",
       appSubtitle: "哈木家的台南私房推薦",
+      headerBooking: "訂房 ↗",
       filterTime: "時段",
       filterCategory: "類型",
       filterDistance: "距離",
@@ -163,6 +165,7 @@
       pageTitle: "Hamuya Tainan Local Guide",
       appTitle: "Hamuya Tainan Guide",
       appSubtitle: "Hamuya's Local Favorites",
+      headerBooking: "Book ↗",
       filterTime: "Time",
       filterCategory: "Type",
       filterDistance: "Distance",
@@ -230,6 +233,7 @@
       pageTitle: "하무야 타이난 로컬 가이드",
       appTitle: "하무야 타이난 로컬 가이드",
       appSubtitle: "하무야의 진짜 로컬 추천 가이드",
+      headerBooking: "예약 ↗",
       filterTime: "시간대",
       filterCategory: "카테고리",
       filterDistance: "거리",
@@ -322,6 +326,7 @@
   const dom = {
     appTitle: document.getElementById("app-title"),
     appSubtitle: document.getElementById("app-subtitle"),
+    headerBookingBtn: document.getElementById("header-booking-btn"),
     langButtons: Array.from(document.querySelectorAll(".lang-btn")),
     authGate: document.getElementById("auth-gate"),
     authTitle: document.getElementById("auth-title"),
@@ -901,6 +906,10 @@
     document.title = t.pageTitle;
     dom.appTitle.textContent = t.appTitle;
     dom.appSubtitle.textContent = t.appSubtitle;
+    if (dom.headerBookingBtn) {
+      dom.headerBookingBtn.textContent = t.headerBooking;
+      dom.headerBookingBtn.hidden = !(state.isAuthenticated && state.authType === "promo");
+    }
     dom.footerNote.textContent = t.footerNote;
 
     // Language buttons
