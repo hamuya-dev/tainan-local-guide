@@ -1,7 +1,7 @@
 [
   {
     "id": "sakariba-rechao",
-    "category": "local_food",
+    "category": ["local_food", "bar"],
     "time_slots": ["dinner", "late_night"],
     "distance": "bike_far",
     "name": {
@@ -65,7 +65,7 @@
   },
   {
     "id": "xiao-chuan-wu-seafood-rechao",
-    "category": "local_food",
+    "category": ["local_food", "bar"],
     "time_slots": ["dinner", "late_night"],
     "distance": "walk_15",
     "name": {
@@ -1089,7 +1089,7 @@
   },
   {
     "id": "lu-bian-kao-rou",
-    "category": "local_food",
+    "category": ["local_food", "bar"],
     "time_slots": ["dinner", "late_night"],
     "distance": "bike_far",
     "name": {

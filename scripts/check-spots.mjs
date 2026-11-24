@@ -75,10 +75,28 @@ function main() {
       seenIds.add(spot.id);
     }
 
-    // category
-    if (!VALID_CATEGORIES.has(spot.category)) {
+    // category (single string or non-empty array of valid categories)
+    if (typeof spot.category === "string") {
+      if (!VALID_CATEGORIES.has(spot.category)) {
+        errors.push(
+          `${label}: invalid "category" (${JSON.stringify(spot.category)}). Allowed: ${[...VALID_CATEGORIES].join(", ")}`
+        );
+      }
+    } else if (Array.isArray(spot.category) && spot.category.length > 0) {
+      const seenCats = new Set();
+      spot.category.forEach((cat) => {
+        if (!VALID_CATEGORIES.has(cat)) {
+          errors.push(
+            `${label}: invalid "category" entry (${JSON.stringify(cat)}). Allowed: ${[...VALID_CATEGORIES].join(", ")}`
+          );
+        } else if (seenCats.has(cat)) {
+          warnings.push(`${label}: duplicate category "${cat}".`);
+        }
+        seenCats.add(cat);
+      });
+    } else {
       errors.push(
-        `${label}: invalid "category" (${JSON.stringify(spot.category)}). Allowed: ${[...VALID_CATEGORIES].join(", ")}`
+        `${label}: "category" must be a valid string or non-empty array. Allowed: ${[...VALID_CATEGORIES].join(", ")}`
       );
     }
 

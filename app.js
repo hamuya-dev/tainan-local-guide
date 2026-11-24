@@ -76,7 +76,7 @@
       category: {
         local_food: "美食",
         cafe_sweets: "咖啡・甜點",
-        bar: "微醺小酌",
+        bar: "喝酒",
         sightseeing: "散步・景點",
       },
       distance: {
@@ -262,6 +262,16 @@
     return Boolean(state.filters.time || state.filters.category || state.filters.distance);
   }
 
+  function getSpotCategories(spot) {
+    if (Array.isArray(spot.category)) {
+      return spot.category.filter((c) => typeof c === "string" && c.trim() !== "");
+    }
+    if (typeof spot.category === "string" && spot.category.trim() !== "") {
+      return [spot.category.trim()];
+    }
+    return [];
+  }
+
   function getFilteredSpots() {
     return state.spots.filter((spot) => {
       if (spot.is_active === false) return false;
@@ -269,7 +279,7 @@
         const slots = Array.isArray(spot.time_slots) ? spot.time_slots : [];
         if (!slots.includes(state.filters.time)) return false;
       }
-      if (state.filters.category && spot.category !== state.filters.category) {
+      if (state.filters.category && !getSpotCategories(spot).includes(state.filters.category)) {
         return false;
       }
       if (state.filters.distance && spot.distance !== state.filters.distance) {
@@ -342,12 +352,13 @@
       meta.appendChild(distBadge);
     }
 
-    if (spot.category && t.category[spot.category]) {
+    getSpotCategories(spot).forEach((cat) => {
+      if (!t.category[cat]) return;
       const catBadge = document.createElement("span");
       catBadge.className = "badge badge-category";
-      catBadge.textContent = t.category[spot.category];
+      catBadge.textContent = t.category[cat];
       meta.appendChild(catBadge);
-    }
+    });
 
     if (Array.isArray(spot.time_slots)) {
       spot.time_slots.forEach((slot) => {
