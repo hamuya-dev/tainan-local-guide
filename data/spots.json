@@ -171,8 +171,7 @@
     "id": "luo-cheng-migao",
     "category": "local_food",
     "time_slots": [
-      "lunch",
-      "dinner"
+      "lunch"
     ],
     "distance": "walk_5",
     "walk_minutes": 3,
@@ -189,10 +188,10 @@
       "ko": "뤄청 미가오 (落成米糕)"
     },
     "owner_note": {
-      "ja": "はむ家から徒歩3分、ミシュラン・ビブグルマン常連の台南式おこわ「米糕」の名店です。甘辛豚バラ肉と魚でんぶが乗った米糕に、優しい味のモツスープ「四神豬腸湯」と「魯鴨蛋（アヒルの煮卵）」を合わせるのが鉄板！店主さんは簡単な日本語が話せるので一人でも入りやすく、セルフの辛いタレで味変するのもおすすめです（水・木曜定休）。",
-      "zh": "距離哈木家步行只要3分鐘，多次獲得米其林必比登推薦的台南老字號米糕！淋上香甜肉燥與魚鬆的米糕搭配爽口醃蘿蔔超對味，必點溫潤暖胃的「四神豬腸湯」與Q彈入味的「魯鴨蛋」。老闆會說一點簡單日文非常親切，愛吃辣的話別忘了加一點自助區的辣椒醬提味（週三、四公休）。",
-      "en": "A Michelin Bib Gourmand-featured Tainan sticky rice (migao) institution just a 3-minute walk from Hamuya. Topped with sweet braised pork, fish floss, and pickled radish, it pairs best with the gentle Four-Herb Pork Intestine Soup and a braised duck egg. The friendly owner speaks a bit of Japanese, making it very welcoming for solo travelers (closed Wednesdays and Thursdays).",
-      "ko": "하무야에서 도보 3분 거리에 있는 미슐랭 빕 구르망 단골 맛집으로, 대만식 찰밥 '미가오' 전문점입니다. 달콤하게 조린 돼지고기와 생선 보푸라기가 올라간 미가오에 부드러운 곱창국 '사신탕'과 '오리알 장조림(루야단)'을 곁들이는 조합이 최고입니다. 사장님이 간단한 일본어도 하셔서 혼자 가도 편하며, 셀프 매운 소스로 맛에 변화를 주는 것도 추천합니다 (수·목 휴무)."
+      "ja": "はむ家から徒歩3分、ミシュラン・ビブグルマン常連の台南式おこわ「米糕」の名店です。甘辛豚バラ肉と魚でんぶが乗った米糕に、優しい味のモツスープ「四神豬腸湯」と「魯鴨蛋（アヒルの煮卵）」を合わせるのが鉄板！店主さんは簡単な日本語が話せるので一人でも入りやすく、セルフの辛いタレで味変するのもおすすめです（10:30〜18:30営業・水曜定休）。",
+      "zh": "距離哈木家步行只要3分鐘，多次獲得米其林必比登推薦的台南老字號米糕！淋上香甜肉燥與魚鬆的米糕搭配爽口醃蘿蔔超對味，必點溫潤暖胃的「四神豬腸湯」與Q彈入味的「魯鴨蛋」。老闆會說一點簡單日文非常親切，愛吃辣的話別忘了加一點自助區的辣椒醬提味（10:30～18:30營業、週三公休）。",
+      "en": "A Michelin Bib Gourmand-featured Tainan sticky rice (migao) institution just a 3-minute walk from Hamuya. Topped with sweet braised pork, fish floss, and pickled radish, it pairs best with the gentle Four-Herb Pork Intestine Soup and a braised duck egg. The friendly owner speaks a bit of Japanese, making it very welcoming for solo travelers (open 10:30 AM–6:30 PM, closed Wednesdays).",
+      "ko": "하무야에서 도보 3분 거리에 있는 미슐랭 빕 구르망 단골 맛집으로, 대만식 찰밥 '미가오' 전문점입니다. 달콤하게 조린 돼지고기와 생선 보푸라기가 올라간 미가오에 부드러운 곱창국 '사신탕'과 '오리알 장조림(루야단)'을 곁들이는 조합이 최고입니다. 사장님이 간단한 일본어도 하셔서 혼자 가도 편하며, 셀프 매운 소스로 맛에 변화를 주는 것도 추천합니다 (10:30~18:30 영업·수요일 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一碗小碗米糕、一碗四神豬腸湯，還要加一顆魯鴨蛋，謝謝！",
@@ -243,45 +242,6 @@
     "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJzdP6o4l2bjQRe54aUjgr3XI",
     "blog_url": {
       "ja": "https://hamuguesthouse.com/staff-diary/6361/",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
-    "id": "juan-jie-beef-soup",
-    "category": "local_food",
-    "time_slots": [
-      "lunch",
-      "dinner"
-    ],
-    "distance": "bike_far",
-    "walk_minutes": 30,
-    "tags": [
-      "first_tainan"
-    ],
-    "name": {
-      "zh": "娟姐牛肉湯",
-      "ja": "娟姐牛肉湯（ジュエンジエ・ニョウロウタン）",
-      "en": "Juan Jie Beef Soup",
-      "ko": "쥐안지에 우육탕 (娟姐牛肉湯)"
-    },
-    "owner_note": {
-      "ja": "成功大学の目の前にある、学生や地元客で賑わう穴場の牛肉湯店です（はむ家から徒歩30分ほど、自転車やタクシーが便利）。筋がなく驚くほど柔らかいレア牛肉の「牛肉湯（小140元）」は、運ばれてきたらすぐお肉を引き上げて生姜とタレで食べるのがコツ！ニンニクたっぷりの「牛肉蓋飯（170元）」も絶品で、辛さも無料で選べます（日・月曜定休）。",
-      "zh": "位於成功大學對面的私房牛肉湯名店，深受在地人與學生喜愛（從哈木家步行約30分鐘，建議騎車或搭計程車前往）。招牌「牛肉湯（小140元）」肉質軟嫩無筋，建議上桌後趕快先撈起牛肉沾薑絲醬油膏，才不會過老！蒜香十足的「牛肉蓋飯（170元）」也很讚，還能免費客製辣度喔（週日、一公休）。",
-      "en": "A hidden-gem beef soup spot across from National Cheng Kung University, popular with locals and students (~30 min walk from Hamuya; best reached by bike or taxi). The Beef Soup (small NT$140) features remarkably tender, sinew-free beef—lift the meat out right away so it stays rare and dip it with ginger and soy paste. The garlicky Beef Rice Bowl (NT$170) with customizable spice levels is also a must-try (closed Sundays and Mondays).",
-      "ko": "성공대학교 바로 앞에 있는 현지인과 학생들에게 인기 만점인 숨은 우육탕 맛집입니다 (하무야에서 도보 약 30분, 자전거나 택시 추천). 힘줄 없이 놀라울 정도로 부드러운 '우육탕(소 NT$140)'은 나오자마자 고기를 건져 생강과 소스에 찍어 먹는 것이 꿀팁! 마늘 향 가득한 '소고기 덮밥(NT$170)'도 일품이며 맵기 조절도 무료입니다 (일·월 휴무)."
-    },
-    "point_and_order": {
-      "zh": "你好，我要一碗小碗牛肉湯，還有一份牛肉蓋飯（小辣），謝謝！",
-      "ja": "こんにちは。牛肉湯の小を1つと、牛肉蓋飯（少し辛め）を1つください。ありがとうございます！",
-      "en": "Hello, I'd like one small Beef Soup and one Beef Rice Bowl (mildly spicy), please. Thank you!",
-      "ko": "안녕하세요, 우육탕 소(小) 하나랑 소고기 덮밥(약간 맵게) 하나 주세요. 감사합니다!"
-    },
-    "google_maps_url": "https://www.google.com/maps/place//data=!4m2!3m1!19sChIJv2e9CS93bjQRl7j0DXBQK6k",
-    "blog_url": {
-      "ja": "https://hamuguesthouse.com/staff-diary/6511/",
       "zh": "",
       "en": "",
       "ko": ""
@@ -410,7 +370,8 @@
     "category": "cafe_sweets",
     "time_slots": [
       "lunch",
-      "dinner"
+      "dinner",
+      "late_night"
     ],
     "distance": "walk_5",
     "tags": [
@@ -486,7 +447,6 @@
     "id": "serving-tea-tainan",
     "category": "cafe_sweets",
     "time_slots": [
-      "morning",
       "lunch",
       "dinner"
     ],
@@ -811,10 +771,10 @@
       "ko": "지핀 새우덮밥 (集品蝦仁飯)"
     },
     "owner_note": {
-      "ja": "はむ家から徒歩15分ほど、海安路沿いにある台南名物「蝦仁飯（えび飯）」の超有名店です。出汁がたっぷり染みたつゆだくのご飯に香ばしいエビが乗った一杯は、スタッフが「どんぶりで食べたい！」と感動するほどの美味しさ。半熟の目玉焼き（煎鴨蛋）を乗せて食べるのが定番です（19時閉店のため夕食は早めがおすすめ）。",
-      "zh": "從哈木家步行約15分鐘、位於海安路上的台南必吃「蝦仁飯」超人氣名店！吸滿鮮甜高湯的濕潤米飯搭配香氣十足的火燒蝦，好吃到讓小幫手直呼想直接來一大碗。推薦一定要加點一顆半熟煎鴨蛋拌著吃（營業至晚上7點，吃晚餐建議早點去）。",
-      "en": "A legendary Tainan shrimp rice (Xiaren Fan) spot along Hai'an Road, about a 15-minute walk from Hamuya. The savory, broth-soaked rice topped with smoky stir-fried shrimp is so good our staff wished it came in a giant bowl—top it with a runny fried duck egg for the full local experience (closes at 7:00 PM, so go early for dinner).",
-      "ko": "하무야에서 도보 약 15분, 하이안루에 위치한 타이난 명물 '새우덮밥(샤런판)'의 유명 맛집입니다. 감칠맛 나는 육수가 촉촉하게 배어든 밥 위에 불향 가득한 새우가 올라가 스태프가 '큰 대접으로 먹고 싶다'고 극찬한 맛! 반숙 오리알 프라이를 곁들여 먹는 것이 정석입니다 (저녁 7시 마감이므로 저녁 식사는 일찍 방문하세요)."
+      "ja": "はむ家から徒歩15分ほど、海安路沿いにある台南名物「蝦仁飯（えび飯）」の超有名店です。出汁がたっぷり染みたつゆだくのご飯に香ばしいエビが乗った一杯は、スタッフが「どんぶりで食べたい！」と感動するほどの美味しさ。半熟の目玉焼き（煎鴨蛋）を乗せて食べるのが定番です（20時閉店・売り切れ次第終了のため夕食は早めがおすすめ）。",
+      "zh": "從哈木家步行約15分鐘、位於海安路上的台南必吃「蝦仁飯」超人氣名店！吸滿鮮甜高湯的濕潤米飯搭配香氣十足的火燒蝦，好吃到讓小幫手直呼想直接來一大碗。推薦一定要加點一顆半熟煎鴨蛋拌著吃（營業至晚上8點、售完為止，吃晚餐建議早點去）。",
+      "en": "A legendary Tainan shrimp rice (Xiaren Fan) spot along Hai'an Road, about a 15-minute walk from Hamuya. The savory, broth-soaked rice topped with smoky stir-fried shrimp is so good our staff wished it came in a giant bowl—top it with a runny fried duck egg for the full local experience (closes at 8:00 PM or when sold out, so go early for dinner).",
+      "ko": "하무야에서 도보 약 15분, 하이안루에 위치한 타이난 명물 '새우덮밥(샤런판)'의 유명 맛집입니다. 감칠맛 나는 육수가 촉촉하게 배어든 밥 위에 불향 가득한 새우가 올라가 스태프가 '큰 대접으로 먹고 싶다'고 극찬한 맛! 반숙 오리알 프라이를 곁들여 먹는 것이 정석입니다 (저녁 8시 마감·소진 시 조기 종료이므로 저녁 식사는 일찍 방문하세요)."
     },
     "point_and_order": {
       "zh": "你好，我要一碗蝦仁飯加一顆半熟煎鴨蛋，內用，謝謝！",
@@ -960,10 +920,10 @@
       "ko": "와요우테이 마나츠 (和洋亭 真夏)"
     },
     "owner_note": {
-      "ja": "狭い路地にひっそり佇む、日本の洋食文化を楽しめる人気店です。外はパリッと中はジューシーな「チキンステーキ定食 狩人風（380元）」は選べる小鉢2品付きで、ご褒美ディナーにもぴったり！ハンバーグも名物で、席がすぐ埋まるので事前予約や早めの訪問がおすすめです。",
-      "zh": "藏身在靜謐小巷裡的熱門洋食店，能品嚐到道地日式洋食風味！外酥內嫩的「獵人風雞排定食（380元）」附兩道自選小菜，很適合當作犒賞自己的晚餐；店內漢堡排也很有名，座位容易客滿，建議提前訂位或提早前往。",
-      "en": "A popular, cozy spot tucked in a narrow lane serving Japanese-style western dishes. The Hunter-Style Chicken Steak Set (NT$380) comes with crispy skin, juicy meat, and two selectable side dishes—great for a treat-yourself dinner (hamburgers are also a specialty; booking ahead is recommended as seats fill fast).",
-      "ko": "좁은 골목에 자리한 일본식 양식 맛집입니다. 겉은 바삭하고 속은 육즙 가득한 '헌터 스타일 치킨스테이크 정식(NT$380)'은 고를 수 있는 밑반찬 2가지가 함께 나와 특별한 저녁 식사로 딱 좋습니다. 함박스테이크도 유명하며 자리가 금방 차니 예약이나 일찍 방문하는 것을 추천합니다."
+      "ja": "狭い路地にひっそり佇む、日本の洋食文化を楽しめる人気店です。外はパリッと中はジューシーな「チキンステーキ定食 狩人風（380元）」は選べる小鉢2品付きで、ご褒美ディナーにもぴったり！ハンバーグも名物で、席がすぐ埋まるので事前予約や早めの訪問がおすすめです（ランチは土日のみ・月・火曜定休）。",
+      "zh": "藏身在靜謐小巷裡的熱門洋食店，能品嚐到道地日式洋食風味！外酥內嫩的「獵人風雞排定食（380元）」附兩道自選小菜，很適合當作犒賞自己的晚餐；店內漢堡排也很有名，座位容易客滿，建議提前訂位或提早前往（午餐僅週末供應、週一及週二公休）。",
+      "en": "A popular, cozy spot tucked in a narrow lane serving Japanese-style western dishes. The Hunter-Style Chicken Steak Set (NT$380) comes with crispy skin, juicy meat, and two selectable side dishes—great for a treat-yourself dinner (hamburgers are also a specialty; booking ahead is recommended—lunch is weekends only, closed Mon & Tue).",
+      "ko": "좁은 골목에 자리한 일본식 양식 맛집입니다. 겉은 바삭하고 속은 육즙 가득한 '헌터 스타일 치킨스테이크 정식(NT$380)'은 고를 수 있는 밑반찬 2가지가 함께 나와 특별한 저녁 식사로 딱 좋습니다. 함박스테이크도 유명하며 자리가 금방 차니 예약이나 일찍 방문하는 것을 추천합니다 (점심은 주말만 운영·월·화요일 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一份狩人風雞排定食，謝謝！",
@@ -974,42 +934,6 @@
     "google_maps_url": "https://share.google/IO4iWcu4OvFc1mAOc",
     "blog_url": {
       "ja": "https://hamuguesthouse.com/staff-diary/3738/",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
-    "id": "lv-dou-pi-snail-alley",
-    "category": "cafe_sweets",
-    "time_slots": [
-      "lunch",
-      "dinner"
-    ],
-    "distance": "walk_15",
-    "walk_minutes": 12,
-    "name": {
-      "zh": "綠豆皮",
-      "ja": "綠豆皮（リュードウピー）",
-      "en": "Lv Dou Pi",
-      "ko": "뤼도우피 (綠豆皮)"
-    },
-    "owner_note": {
-      "ja": "はむ家から徒歩約12分、カタツムリ通り（蝸牛巷）の路地裏にある、原則日曜14:00〜18:00のみ営業のレア甘味処です。3種の粉粿＋2種の粉角に緑豆・糖水・豆漿から選べるデザートが50元とお手頃！席数が少ないためオープン直後が狙い目で、営業日は事前にSNSをご確認ください。",
-      "zh": "距離哈木家步行約12分鐘、隱身在蝸牛巷弄內的超人氣限定甜品店，原則上僅於週日14:00～18:00營業（售完為止）。三種粉粿加上兩種粉角，可搭配綠豆湯、糖水或豆漿，只要50元非常超值！座位不多建議一開門就來，出發前也別忘了先看店家IG或FB確認當週營業日。",
-      "en": "A rare sweet-treat spot tucked in Snail Alley (Woniuxiang), about a 12-minute walk from Hamuya, typically open only Sundays 2:00 PM–6:00 PM until sold out. Three kinds of fenguo (chewy starch jelly) and two kinds of fenjiao with mung bean soup, syrup, or soy milk cost just NT$50—arrive right at opening as seating is limited, and check their IG/FB beforehand for schedule updates.",
-      "ko": "하무야에서 도보 약 12분, 달팽이 골목(와우샹) 안쪽에 있는 희소성 높은 디저트 맛집으로 원칙적으로 매주 일요일 14:00~18:00만 영업합니다 (소진 시 조기 마감). 세 가지 펀궈와 두 가지 펀자오에 녹두탕·설탕물·두유 중 선택할 수 있으며 NT$50으로 가성비가 훌륭합니다. 좌석이 적으니 오픈 직후 방문을 추천하며 방문 전 SNS에서 영업일을 확인해 주세요."
-    },
-    "point_and_order": {
-      "zh": "你好，我要一碗加綠豆的，內用，謝謝！",
-      "ja": "こんにちは。緑豆入りのものを1つ、店内でお願いします。ありがとうございます！",
-      "en": "Hello, I'd like one bowl with mung beans for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 녹두 들어간 걸로 하나 여기서 먹고 갈게요. 감사합니다!"
-    },
-    "google_maps_url": "https://maps.app.goo.gl/SXbQPQTfCcHoWuCN7",
-    "blog_url": {
-      "ja": "https://hamuguesthouse.com/staff-diary/3819/",
       "zh": "",
       "en": "",
       "ko": ""
@@ -1105,6 +1029,7 @@
     "id": "mumu-seafood-congee",
     "category": "local_food",
     "time_slots": [
+      "lunch",
       "dinner",
       "late_night"
     ],
@@ -1121,10 +1046,10 @@
       "ko": "무무 해산물죽 (木木海鮮粥)"
     },
     "owner_note": {
-      "ja": "清潔感のある店内で、エビやイカなどぷりぷりの海鮮出汁が効いた美味しい海鮮粥を楽しめるお店です（はむ家からは徒歩約20分、自転車やタクシーも便利）。日本語メニューがあり注文しやすく、チャーハンも人気！夕方17時から深夜0時まで開いています（月・火曜定休）。",
-      "zh": "環境乾淨整潔的海鮮粥店，能品嚐到蝦仁、花枝等彈牙海味與鮮甜海鮮高湯（從哈木家步行約20分鐘，也可騎車或搭計程車）。店內備有日文菜單方便點餐，炒飯也很受歡迎；營業時間為17:00至凌晨0:00（週一、二公休）。",
-      "en": "A clean, comfortable seafood congee spot serving sweet, savory broth packed with plump shrimp and squid (about a 20-minute walk from Hamuya, or easy by bike/taxi). A Japanese menu makes ordering stress-free, and fried rice is another favorite—open 5:00 PM to midnight (closed Mondays and Tuesdays).",
-      "ko": "깔끔한 매장에서 새우·오징어 등 탱글탱글한 해산물과 감칠맛 나는 육수의 해산물죽을 즐길 수 있는 곳입니다 (하무야에서 도보 약 20분, 자전거나 택시도 편리). 일본어 메뉴가 있어 주문하기 편하며 볶음밥도 인기입니다. 17:00~00:00 영업 (월·화 휴무)."
+      "ja": "清潔感のある店内で、エビやイカなどぷりぷりの海鮮出汁が効いた美味しい海鮮粥を楽しめるお店です（はむ家からは徒歩約20分、自転車やタクシーも便利）。日本語メニューがあり注文しやすく、チャーハンも人気！水〜金曜は17:00〜0:00、土日は11:00〜14:00・17:00〜0:00営業です（月・火曜定休）。",
+      "zh": "環境乾淨整潔的海鮮粥店，能品嚐到蝦仁、花枝等彈牙海味與鮮甜海鮮高湯（從哈木家步行約20分鐘，也可騎車或搭計程車）。店內備有日文菜單方便點餐，炒飯也很受歡迎；週三至週五17:00～0:00，週末加開午餐時段11:00～14:00與17:00～0:00（週一、二公休）。",
+      "en": "A clean, comfortable seafood congee spot serving sweet, savory broth packed with plump shrimp and squid (about a 20-minute walk from Hamuya, or easy by bike/taxi). A Japanese menu makes ordering stress-free, and fried rice is another favorite—open Wed–Fri 5:00 PM–midnight, and Sat–Sun 11:00 AM–2:00 PM & 5:00 PM–midnight (closed Mondays and Tuesdays).",
+      "ko": "깔끔한 매장에서 새우·오징어 등 탱글탱글한 해산물과 감칠맛 나는 육수의 해산물죽을 즐길 수 있는 곳입니다 (하무야에서 도보 약 20분, 자전거나 택시도 편리). 일본어 메뉴가 있어 주문하기 편하며 볶음밥도 인기입니다. 수~금 17:00~00:00, 주말 11:00~14:00·17:00~00:00 영업 (월·화 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一碗海鮮粥，內用，謝謝！",
@@ -1303,8 +1228,7 @@
     "id": "xiao-lai-gua-bao",
     "category": "local_food",
     "time_slots": [
-      "lunch",
-      "dinner"
+      "lunch"
     ],
     "distance": "walk_15",
     "walk_minutes": 6,
@@ -1319,10 +1243,10 @@
       "ko": "샤오라이 과바오 (小來刈包專賣)"
     },
     "owner_note": {
-      "ja": "はむ家から徒歩約6分、本格ベジタリアン（素食）の刈包（台湾風バーガー）専門店です。大豆ミートや脂身の再現度が驚くほど高く、甘めのタレと高菜漬け風の塩気、パクチーの組み合わせがクセになります！テイクアウトのほか店内にカウンター席もあり、金〜火曜10:00〜17:30に営業しています（水・木曜定休）。",
-      "zh": "距離哈木家步行約6分鐘、主打素食刈包的專賣店！植物肉與肥肉的口感還原度超高，搭配甜甜的醬汁、酸菜與香菜非常涮嘴。除了外帶也有吧台座可內用，營業時間為週五至週二10:00～17:30（週三、四公休）。",
-      "en": "A vegetarian (su-shi) gua bao specialty shop about a 6-minute walk from Hamuya. The plant-based meat and fat texture are surprisingly realistic, balanced by sweet sauce, tangy pickled greens, and cilantro—available to go or at the counter, open Fri–Tue 10:00 AM–5:30 PM (closed Wed & Thu).",
-      "ko": "하무야에서 도보 약 6분 거리에 있는 대만식 채식(소식) 과바오 전문점입니다. 식물성 고기와 지방의 식감 재현도가 놀라울 정도로 뛰어나며 달콤한 소스와 갓김치 느낌의 절임 채소, 고수의 조화가 매력적입니다. 포장 및 매장 카운터 이용 가능하며 금~화요일 10:00~17:30 영업합니다 (수·목 휴무)."
+      "ja": "はむ家から徒歩約6分、本格ベジタリアン（素食）の刈包（台湾風バーガー）専門店です。大豆ミートや脂身の再現度が驚くほど高く、甘めのタレと高菜漬け風の塩気、パクチーの組み合わせがクセになります！テイクアウトのほか店内にカウンター席もあり、金〜火曜10:00〜18:00に営業しています（水・木曜定休）。",
+      "zh": "距離哈木家步行約6分鐘、主打素食刈包的專賣店！植物肉與肥肉的口感還原度超高，搭配甜甜的醬汁、酸菜與香菜非常涮嘴。除了外帶也有吧台座可內用，營業時間為週五至週二10:00～18:00（週三、四公休）。",
+      "en": "A vegetarian (su-shi) gua bao specialty shop about a 6-minute walk from Hamuya. The plant-based meat and fat texture are surprisingly realistic, balanced by sweet sauce, tangy pickled greens, and cilantro—available to go or at the counter, open Fri–Tue 10:00 AM–6:00 PM (closed Wed & Thu).",
+      "ko": "하무야에서 도보 약 6분 거리에 있는 대만식 채식(소식) 과바오 전문점입니다. 식물성 고기와 지방의 식감 재현도가 놀라울 정도로 뛰어나며 달콤한 소스와 갓김치 느낌의 절임 채소, 고수의 조화가 매력적입니다. 포장 및 매장 카운터 이용 가능하며 금~화요일 10:00~18:00 영업합니다 (수·목 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一份台式傳統刈包，內用，謝謝！",
@@ -1422,43 +1346,6 @@
     "is_active": true
   },
   {
-    "id": "pizzeria-da-wataru",
-    "category": "local_food",
-    "time_slots": [
-      "dinner"
-    ],
-    "distance": "walk_15",
-    "tags": [
-      "jp_friendly"
-    ],
-    "name": {
-      "zh": "PIZZERIA da WATARU",
-      "ja": "PIZZERIA da WATARU（ピッツェリア・ダ・ワタル）",
-      "en": "PIZZERIA da WATARU",
-      "ko": "피체리아 다 와타루 (PIZZERIA da WATARU)"
-    },
-    "owner_note": {
-      "ja": "はむ家から徒歩10分圏内・三越近くで、日本人店主が一人で切り盛りする本格イタリアンピザ店です。注文後に焼き上げる生地は耳までパリもちで、マルゲリータ（260元）やマッシュルームピザ（290元）が絶品！台湾グルメの合間に本格ピザを楽しみたいときにぴったりです（17:30〜21:00営業・月曜定休）。",
-      "zh": "距離哈木家步行不到10分鐘、新光三越附近，由日本老闆一人用心經營的道地義式披薩店。現點現烤的餅皮外酥內Q、連餅邊都很有嚼勁，推薦瑪格麗特（260元）與蘑菇披薩（290元）；吃膩台灣小吃想換換口味時很推薦來這裡（17:30～21:00營業、週一公休）。",
-      "en": "An authentic Italian pizzeria run solo by a Japanese chef near Mitsukoshi, less than a 10-minute walk from Hamuya. Made-to-order pies feature a crisp, chewy crust—great choices include Margherita (NT$260) and Mushroom Pizza (NT$290) when you want a break from local Taiwanese dishes (open 5:30 PM–9:00 PM, closed Mondays).",
-      "ko": "하무야에서 도보 10분 이내·신광미쓰코시 인근에 위치한 일본인 셰프가 운영하는 정통 이탈리안 피자집입니다. 주문 즉시 구워 쫄깃하고 바삭한 도우가 매력적이며 마르게리타(NT$260)와 버섯 피자(NT$290)가 인기입니다. 대만 음식과 다른 메뉴를 즐기고 싶을 때 딱 좋습니다 (17:30~21:00 영업·월요일 휴무)."
-    },
-    "point_and_order": {
-      "zh": "你好，我們想點一份瑪格麗特披薩和一份蘑菇披薩，內用，謝謝！",
-      "ja": "こんにちは。マルゲリータピザを1枚と、マッシュルームピザを1枚、店内でお願いします。ありがとうございます！",
-      "en": "Hello, we'd like one Margherita pizza and one Mushroom pizza for dine-in, please. Thank you!",
-      "ko": "안녕하세요, 마르게리타 피자 한 판이랑 버섯 피자 한 판 여기서 먹고 갈게요. 감사합니다!"
-    },
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=PIZZERIA+da+WATARU+%E5%8F%B0%E5%8D%97",
-    "blog_url": {
-      "ja": "https://hamuguesthouse.com/staff-diary/7580/",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
     "id": "a-mei-xian-kao-guzaowei-dangao",
     "category": "cafe_sweets",
     "time_slots": [
@@ -1542,7 +1429,8 @@
     "category": "cafe_sweets",
     "time_slots": [
       "lunch",
-      "dinner"
+      "dinner",
+      "late_night"
     ],
     "distance": "walk_15",
     "tags": [
@@ -1556,10 +1444,10 @@
       "ko": "베이허탕 빙수 (杯子和糖)"
     },
     "owner_note": {
-      "ja": "はむ家から徒歩10分圏内、レトロ可愛い店内で昼から夜まで楽しめるかき氷＆スイーツ店です。名物の「梅漬番茄冰（梅漬けトマトかき氷）」は甘酸っぱいトマトと黒糖ソースがクセになる台湾ならではの懐かし系スイーツ！かき氷のほかケーキや軽食もあり、日本語・英語併記メニューで注文しやすいです（11:30〜22:30営業・火曜定休）。",
-      "zh": "距離哈木家步行不到10分鐘、環境復古可愛且從中午營業到晚上的冰品甜品店！招牌「梅漬番茄冰」以酸甜番茄搭配黑糖醬，呈現台灣人熟悉的懷舊風味；除了冰品也有蛋糕與鹹食，並附有日文與英文菜單方便點餐（11:30～22:30營業、週二公休）。",
-      "en": "A charming, retro-styled shaved ice and dessert spot less than a 10-minute walk from Hamuya, open from lunch through evening. Their signature Plum-Marinated Tomato Shaved Ice pairs sweet-tangy tomatoes with brown sugar syrup for a nostalgic local taste, with cakes, savory bites, and Japanese/English menu notes available (open 11:30 AM–10:30 PM, closed Tuesdays).",
-      "ko": "하무야에서 도보 10분 이내, 레트로하고 아기자기한 분위기에서 점심부터 밤까지 즐길 수 있는 빙수·디저트 카페입니다. 새콤달콤한 토마토와 흑당 소스가 어우러진 '매실 절임 토마토 빙수'가 별미이며, 케이크와 식사 메뉴도 있고 일문·영문 메뉴가 있어 주문하기 편합니다 (11:30~22:30 영업·화요일 휴무)."
+      "ja": "はむ家から徒歩10分圏内、レトロ可愛い店内で昼から夜まで楽しめるかき氷＆スイーツ店です。名物の「梅漬番茄冰（梅漬けトマトかき氷）」は甘酸っぱいトマトと黒糖ソースがクセになる台湾ならではの懐かし系スイーツ！かき氷のほかケーキや軽食もあり、日本語・英語併記メニューで注文しやすいです（13:00〜23:00営業・火曜定休）。",
+      "zh": "距離哈木家步行不到10分鐘、環境復古可愛且從中午營業到晚上的冰品甜品店！招牌「梅漬番茄冰」以酸甜番茄搭配黑糖醬，呈現台灣人熟悉的懷舊風味；除了冰品也有蛋糕與鹹食，並附有日文與英文菜單方便點餐（13:00～23:00營業、週二公休）。",
+      "en": "A charming, retro-styled shaved ice and dessert spot less than a 10-minute walk from Hamuya, open from lunch through evening. Their signature Plum-Marinated Tomato Shaved Ice pairs sweet-tangy tomatoes with brown sugar syrup for a nostalgic local taste, with cakes, savory bites, and Japanese/English menu notes available (open 1:00 PM–11:00 PM, closed Tuesdays).",
+      "ko": "하무야에서 도보 10분 이내, 레트로하고 아기자기한 분위기에서 점심부터 밤까지 즐길 수 있는 빙수·디저트 카페입니다. 새콤달콤한 토마토와 흑당 소스가 어우러진 '매실 절임 토마토 빙수'가 별미이며, 케이크와 식사 메뉴도 있고 일문·영문 메뉴가 있어 주문하기 편합니다 (13:00~23:00 영업·화요일 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一碗梅漬番茄冰，內用，謝謝！",
@@ -1580,8 +1468,7 @@
     "id": "shuang-sheng-mung-bean-smoothie",
     "category": "cafe_sweets",
     "time_slots": [
-      "lunch",
-      "dinner"
+      "lunch"
     ],
     "distance": "walk_5",
     "walk_minutes": 3,
@@ -1595,10 +1482,10 @@
       "ko": "솽셩 (双生)"
     },
     "owner_note": {
-      "ja": "はむ家から徒歩約3分・赤崁樓近くにある、緑豆スムージー（綠豆沙）の大人気店です。豆のクセが少なくシャリシャリとした優しい甘さが魅力で、ミルク入りの「綠豆沙牛奶」や豆本来の味を楽しめる「綠豆沙」が絶品！土日は行列ができるため、開店直後か夕方の狙い目タイムがおすすめです。",
-      "zh": "距離哈木家步行約3分鐘、就在赤崁樓附近的超人氣綠豆沙名店！口感冰涼綿密、豆香清甜不膩，無論是加入鮮奶的「綠豆沙牛奶」或單純品嚐豆香的「綠豆沙」都很受歡迎。假日排隊人潮較多，建議剛開店或傍晚時段前往比較不用久等。",
-      "en": "A wildly popular mung bean smoothie spot near Chihkan Tower, about a 3-minute walk from Hamuya. Smooth, icy, and gently sweet without heaviness—try Mung Bean Milk Smoothie or pure Mung Bean Smoothie, and aim for opening time or late afternoon to beat weekend lines.",
-      "ko": "하무야에서 도보 약 3분·적감루 인근에 있는 녹두 스무디(뤼도우샤) 인기 맛집입니다. 콩 비린내가 적고 사각사각 부드러운 단맛이 특징이며, 우유가 들어간 '녹두 우유 스무디'와 콩 본연의 맛을 살린 '녹두 스무디' 모두 맛있습니다. 주말엔 줄이 기니 오픈 직후나 오후 늦은 시간대를 노려보세요."
+      "ja": "はむ家から徒歩約3分・赤崁樓近くにある、緑豆スムージー（綠豆沙）の大人気店です。豆のクセが少なくシャリシャリとした優しい甘さが魅力で、ミルク入りの「綠豆沙牛奶」や豆本来の味を楽しめる「綠豆沙」が絶品！土日は行列ができるため、開店直後か夕方の狙い目タイムがおすすめです（11:00〜18:00・売り切れ次第終了、月・火曜定休）。",
+      "zh": "距離哈木家步行約3分鐘、就在赤崁樓附近的超人氣綠豆沙名店！口感冰涼綿密、豆香清甜不膩，無論是加入鮮奶的「綠豆沙牛奶」或單純品嚐豆香的「綠豆沙」都很受歡迎。假日排隊人潮較多，建議剛開店或傍晚時段前往比較不用久等（11:00～18:00售完為止、週一及週二公休）。",
+      "en": "A wildly popular mung bean smoothie spot near Chihkan Tower, about a 3-minute walk from Hamuya. Smooth, icy, and gently sweet without heaviness—try Mung Bean Milk Smoothie or pure Mung Bean Smoothie, and aim for opening time or late afternoon to beat weekend lines (open 11:00 AM–6:00 PM until sold out, closed Mon & Tue).",
+      "ko": "하무야에서 도보 약 3분·적감루 인근에 있는 녹두 스무디(뤼도우샤) 인기 맛집입니다. 콩 비린내가 적고 사각사각 부드러운 단맛이 특징이며, 우유가 들어간 '녹두 우유 스무디'와 콩 본연의 맛을 살린 '녹두 스무디' 모두 맛있습니다. 주말엔 줄이 기니 오픈 직후나 오후 늦은 시간대를 노려보세요 (11:00~18:00·소진 시 마감, 월·화요일 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一杯綠豆沙牛奶，外帶，謝謝！",
@@ -1753,10 +1640,10 @@
       "ko": "난팡 주관 (南方酒館)"
     },
     "owner_note": {
-      "ja": "生演奏やリクエスト曲とともにビールやカクテルを楽しめるライブバー＆ダイニングです（18:00〜翌1:00営業・月曜定休、はむ家からはタクシー利用も便利）。広々とした店内で音楽の迫力を間近に味わえ、フードメニューも充実！英語曲などのリクエスト対応もあり、非日常の夜を過ごしたいときにぴったりです。",
-      "zh": "可一邊聆聽現場演唱與點歌、一邊暢飲啤酒與調酒的音樂餐酒館（18:00～凌晨1:00營業、週一公休，從哈木家搭計程車前往很方便）。空間寬敞且能近距離感受Live演出魅力，餐點選擇也豐富；想聽現場演奏或換換夜生活氣氛時很值得一去。",
-      "en": "A live music bar and dining spot where you can enjoy beer and cocktails alongside live performances and song requests (open 6:00 PM–1:00 AM, closed Mondays; easy by taxi from Hamuya). Spatious with an up-close stage vibe and food options on the menu—great for a lively night out.",
-      "ko": "라이브 연주와 신청곡을 즐기며 맥주와 칵테일을 마실 수 있는 라이브 바 & 다이닝입니다 (18:00~새벽 1:00 영업·월요일 휴무, 하무야에서 택시 이동 편리). 넓은 공간에서 현장 음악의 열기를 가까이 느낄 수 있으며 식사 메뉴도 갖추어져 있습니다."
+      "ja": "生演奏やリクエスト曲とともにビールやカクテルを楽しめるライブバー＆ダイニングです（18:00〜翌2:00営業・月曜定休、はむ家からはタクシー利用も便利）。広々とした店内で音楽の迫力を間近に味わえ、フードメニューも充実！英語曲などのリクエスト対応もあり、非日常の夜を過ごしたいときにぴったりです。",
+      "zh": "可一邊聆聽現場演唱與點歌、一邊暢飲啤酒與調酒的音樂餐酒館（18:00～凌晨2:00營業、週一公休，從哈木家搭計程車前往很方便）。空間寬敞且能近距離感受Live演出魅力，餐點選擇也豐富；想聽現場演奏或換換夜生活氣氛時很值得一去。",
+      "en": "A live music bar and dining spot where you can enjoy beer and cocktails alongside live performances and song requests (open 6:00 PM–2:00 AM, closed Mondays; easy by taxi from Hamuya). Spatious with an up-close stage vibe and food options on the menu—great for a lively night out.",
+      "ko": "라이브 연주와 신청곡을 즐기며 맥주와 칵테일을 마실 수 있는 라이브 바 & 다이닝입니다 (18:00~새벽 2:00 영업·월요일 휴무, 하무야에서 택시 이동 편리). 넓은 공간에서 현장 음악의 열기를 가까이 느낄 수 있으며 식사 메뉴도 갖추어져 있습니다."
     },
     "point_and_order": {
       "zh": "你好，請問有位置嗎？我們想先點兩杯生啤酒，謝謝！",
@@ -1777,6 +1664,7 @@
     "id": "giddy-tcrc-taihu-tainan",
     "category": "bar",
     "time_slots": [
+      "lunch",
       "dinner",
       "late_night"
     ],
@@ -1793,10 +1681,10 @@
       "ko": "기디 (GiDDY / T.C.R.C.×臺虎精釀)"
     },
     "owner_note": {
-      "ja": "台湾のクラフトビール「臺虎精釀」と台南の名店バー「T.C.R.C.」のコラボバーです（はむ家からは徒歩約30分のエリアのためタクシーやバスも便利）。サーバーから注ぐドラフトカクテルやクラフトビール、チリチーズポテトなどのおつまみが充実し、サイズアップでたっぷり楽しめるのも魅力！",
-      "zh": "由台灣精釀品牌「臺虎精釀」與台南傳奇酒吧「T.C.R.C.」聯名打造的特色酒吧（從哈木家步行約30分鐘，建議搭計程車或公車）。主打現拉汲飲式調酒與精釀啤酒，搭配起司辣椒薯條等下酒菜超對味，飲品也可加價升級大份量！",
-      "en": "A collaboration bar between Taiwanese craft brewer Taihu Brewing and legendary Tainan bar T.C.R.C. (about a 30-minute walk from Hamuya, so taxi or bus is handy). Highlights include tap-poured draft cocktails, craft beers, and loaded fries like chili-cheese, with large-size upgrades available.",
-      "ko": "대만 크래프트 맥주 '타이후 브루잉'과 타이난 명물 바 'T.C.R.C.'가 협업한 바입니다 (하무야에서 도보 약 30분 거리로 택시나 버스 추천). 탭으로 즐기는 드래프트 칵테일과 크래프트 맥주, 칠리치즈 감자튀김 등 안주가 매력적이며 사이즈 업도 가능합니다."
+      "ja": "台湾のクラフトビール「臺虎精釀」と台南の名店バー「T.C.R.C.」のコラボバーです（はむ家からは徒歩約30分のエリアのためタクシーやバスも便利）。サーバーから注ぐドラフトカクテルやクラフトビール、チリチーズポテトなどのおつまみが充実し、サイズアップでたっぷり楽しめるのも魅力です（月〜木16:00〜23:30、金・土12:00〜翌1:00、日12:00〜23:30営業）。",
+      "zh": "由台灣精釀品牌「臺虎精釀」與台南傳奇酒吧「T.C.R.C.」聯名打造的特色酒吧（從哈木家步行約30分鐘，建議搭計程車或公車）。主打現拉汲飲式調酒與精釀啤酒，搭配起司辣椒薯條等下酒菜超對味，飲品也可加價升級大份量（週一至四16:00～23:30、週五及週六12:00～01:00、週日12:00～23:30營業）！",
+      "en": "A collaboration bar between Taiwanese craft brewer Taihu Brewing and legendary Tainan bar T.C.R.C. (about a 30-minute walk from Hamuya, so taxi or bus is handy). Highlights include tap-poured draft cocktails, craft beers, and loaded fries like chili-cheese, with large-size upgrades available (open Mon–Thu 4:00 PM–11:30 PM, Fri–Sat 12:00 PM–1:00 AM, Sun 12:00 PM–11:30 PM).",
+      "ko": "대만 크래프트 맥주 '타이후 브루잉'과 타이난 명물 바 'T.C.R.C.'가 협업한 바입니다 (하무야에서 도보 약 30분 거리로 택시나 버스 추천). 탭으로 즐기는 드래프트 칵테일과 크래프트 맥주, 칠리치즈 감자튀김 등 안주가 매력적이며 사이즈 업도 가능합니다 (월~목 16:00~23:30, 금·토 12:00~01:00, 일 12:00~23:30 영업)."
     },
     "point_and_order": {
       "zh": "你好，我要一杯IPA精釀啤酒和一份起司辣椒薯條，謝謝！",
@@ -1807,45 +1695,6 @@
     "google_maps_url": "https://www.google.com/maps/search/?api=1&query=GiDDY+%E5%8F%B0%E5%8D%97",
     "blog_url": {
       "ja": "https://hamuguesthouse.com/staff-diary/7487/",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
-    "id": "xin-zao-yue-shi-ka-fei-ting-cat-cafe",
-    "category": "cafe_sweets",
-    "time_slots": [
-      "lunch",
-      "dinner"
-    ],
-    "distance": "walk_15",
-    "walk_minutes": 6,
-    "tags": [
-      "animal_cafe"
-    ],
-    "name": {
-      "zh": "心早越式咖啡廳 貓咪咖啡廳",
-      "ja": "心早越式咖啡廳 貓咪咖啡廳",
-      "en": "Xin Zao Vietnamese & Cat Cafe",
-      "ko": "신자오 베트남 & 고양이 카페 (心早越式咖啡廳)"
-    },
-    "owner_note": {
-      "ja": "はむ家から徒歩約6分・赤崁樓すぐそばにある、猫ちゃんたちとリラックスできるカフェです。猫とふれあいながら過ごせる心地よい空間で、お手頃で美味しいバインミーなどのメニューも人気（1人最低100元注文制）。街歩き中の癒やしタイムにぜひ立ち寄ってみてください！",
-      "zh": "距離哈木家步行約6分鐘、就在赤崁樓旁，能一邊與貓咪互動一邊放鬆的咖啡廳。店內氣氛自在溫馨，除了可愛貓咪，平價又美味的越式法國麵包等餐點也很受歡迎（每人低消100元），很適合逛街中途來療癒一下！",
-      "en": "A laid-back cat cafe right by Chihkan Tower, about a 6-minute walk from Hamuya. Enjoy time with resident cats alongside affordable, tasty banh mi and cafe drinks (NT$100 minimum per person)—a cozy pause during sightseeing.",
-      "ko": "하무야에서 도보 약 6분·적감루 바로 옆에 있는 고양이 카페입니다. 고양이들과 함께 여유로운 시간을 보낼 수 있으며 가성비 좋고 맛있는 반미 등의 메뉴도 인기입니다 (1인 최소 NT$100 주문). 산책 중 힐링 타임으로 들르기 좋습니다."
-    },
-    "point_and_order": {
-      "zh": "你好，我們想內用，請問有越式法國麵包嗎？謝謝！",
-      "ja": "こんにちは。店内で利用したいです、バインミーはありますか？ありがとうございます！",
-      "en": "Hello, we'd like to dine in—do you have banh mi available? Thank you!",
-      "ko": "안녕하세요, 매장에서 이용할게요. 반미 주문 가능한가요? 감사합니다!"
-    },
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E6%97%A9%E8%B6%8A%E5%BC%8F%E5%92%96%E5%95%A1%E5%BB%B3+%E5%8F%B0%E5%8D%97",
-    "blog_url": {
-      "ja": "https://hamuguesthouse.com/staff-diary/7051/",
       "zh": "",
       "en": "",
       "ko": ""
@@ -1896,7 +1745,6 @@
     "id": "kissa-maze-tainan",
     "category": "cafe_sweets",
     "time_slots": [
-      "lunch",
       "dinner",
       "late_night"
     ],
@@ -1954,10 +1802,10 @@
       "ko": "우방투 서점 환허점 (烏邦圖書店 環河店)"
     },
     "owner_note": {
-      "ja": "安平運河沿い・神農街から徒歩約12分（はむ家からは徒歩約30分のエリアのため自転車やタクシー・バスも便利）にある、静かで開放的なブックカフェです（9:00〜21:00営業・火曜定休）。本や雑貨、カフェメニューやお酒も楽しめ、運河を望むテラス席で読書や休憩にぴったり！",
-      "zh": "位於安平運河畔、距神農街步行約12分鐘（從哈木家步行約30分鐘，建議騎車、搭計程車或公車）的靜謐書店咖啡館（9:00～21:00營業、週二公休）。結合選書、文創小物、咖啡飲品與酒類，很適合坐在能望向運河的露台放空、看書或歇腳。",
-      "en": "A calm, airy book cafe along Anping Canal—about a 12-minute walk from Shennong Street (~30 minutes on foot from Hamuya, so bike, taxi, or bus is handy; open 9:00 AM–9:00 PM, closed Tuesdays). Browse books and gifts or unwind on the canal-view terrace with coffee or drinks.",
-      "ko": "안핑 운하변·선농제에서 도보 약 12분(하무야에서 도보 약 30분 거리로 자전거나 택시·버스 추천) 거리에 있는 조용하고 개방적인 북카페입니다 (9:00~21:00 영업·화요일 휴무). 책과 소품, 커피·주류 메뉴가 있어 운하가 보이는 테라스에서 독서나 휴식을 즐기기 좋습니다."
+      "ja": "安平運河沿い・神農街から徒歩約12分（はむ家からは徒歩約30分のエリアのため自転車やタクシー・バスも便利）にある、静かで開放的なブックカフェです（月・水・木・日8:30〜20:30、金・土8:30〜22:00営業・火曜定休）。本や雑貨、カフェメニューやお酒も楽しめ、運河を望むテラス席で読書や休憩にぴったり！",
+      "zh": "位於安平運河畔、距神農街步行約12分鐘（從哈木家步行約30分鐘，建議騎車、搭計程車或公車）的靜謐書店咖啡館（週一、三、四、日8:30～20:30，週五、六8:30～22:00營業、週二公休）。結合選書、文創小物、咖啡飲品與酒類，很適合坐在能望向運河的露台放空、看書或歇腳。",
+      "en": "A calm, airy book cafe along Anping Canal—about a 12-minute walk from Shennong Street (~30 minutes on foot from Hamuya, so bike, taxi, or bus is handy; open Mon/Wed/Thu/Sun 8:30 AM–8:30 PM & Fri–Sat 8:30 AM–10:00 PM, closed Tuesdays). Browse books and gifts or unwind on the canal-view terrace with coffee or drinks.",
+      "ko": "안핑 운하변·선농제에서 도보 약 12분(하무야에서 도보 약 30분 거리로 자전거나 택시·버스 추천) 거리에 있는 조용하고 개방적인 북카페입니다 (월·수·목·일 08:30~20:30, 금·토 08:30~22:00 영업·화요일 휴무). 책과 소품, 커피·주류 메뉴가 있어 운하가 보이는 테라스에서 독서나 휴식을 즐기기 좋습니다."
     },
     "point_and_order": {
       "zh": "你好，我要一杯拿鐵，內用，謝謝！",
@@ -2018,8 +1866,7 @@
     "id": "paripari-apt-tainan",
     "category": "cafe_sweets",
     "time_slots": [
-      "lunch",
-      "dinner"
+      "lunch"
     ],
     "distance": "walk_5",
     "walk_minutes": 3,
@@ -2097,90 +1944,10 @@
     "is_active": true
   },
   {
-    "id": "tai-gou-lang-bar",
-    "category": "bar",
-    "time_slots": [
-      "dinner",
-      "late_night"
-    ],
-    "distance": "walk_15",
-    "tags": [
-      "drinks",
-      "late_night"
-    ],
-    "name": {
-      "zh": "泰勾狼",
-      "ja": "泰勾狼（タイゴウラン）",
-      "en": "Tai Gou Lang",
-      "ko": "타이거우랑 (泰勾狼)"
-    },
-    "owner_note": {
-      "ja": "地下にある広々としたカラオケバーで、曲名を書いてリクエストしながらお酒や軽食を楽しめる一軒です。飲み放題や単品メニューがあり比較的リーズナブルに過ごせます（1人あたり最低消費500元のルールあり）。気楽にお酒とカラオケを楽しみたい夜にどうぞ。",
-      "zh": "位於地下室、空間寬敞的卡拉OK酒吧，可在桌上寫歌單點歌並搭配酒水與餐食。提供暢飲或單點選擇、價格相對平易近人（每人低消500元），適合想輕鬆喝一杯、唱唱歌的夜晚。",
-      "en": "A spacious basement karaoke bar where you can write down song requests while enjoying drinks and bites. Both all-you-can-drink and a la carte options keep things relatively budget-friendly (NT$500 minimum spend per person)—good for a casual, lively night out.",
-      "ko": "지하에 자리한 넓은 공간의 노래방 바(가라오케 바)로, 신청곡을 적으며 주류와 메뉴를 즐길 수 있습니다. 무제한 또는 단품 메뉴가 있어 비교적 부담이 덜하며(1인 최소 소비 NT$500), 가볍게 술과 노래를 즐기고 싶은 밤에 어울립니다."
-    },
-    "point_and_order": {
-      "zh": "你好，請問有位置嗎？我們想先點兩杯啤酒，謝謝！",
-      "ja": "こんにちは。席は空いていますか？まずビールを2杯お願いします。ありがとうございます！",
-      "en": "Hello, do you have seats available? We'd like two beers to start, please. Thank you!",
-      "ko": "안녕하세요, 자리 있나요? 우선 맥주 두 잔 먼저 주세요. 감사합니다!"
-    },
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E6%B3%B0%E5%8B%BE%E7%8B%BC+%E5%8F%B0%E5%8D%97",
-    "blog_url": {
-      "ja": "https://hamuguesthouse.com/staff-diary/5781/",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
-    "id": "pa-chong-ka-fei-reptile-cafe",
-    "category": "cafe_sweets",
-    "time_slots": [
-      "lunch",
-      "dinner"
-    ],
-    "distance": "bike_far",
-    "walk_minutes": 25,
-    "tags": [
-      "animal_cafe",
-      "reservation"
-    ],
-    "name": {
-      "zh": "爬寵咖啡",
-      "ja": "爬寵咖啡（パーチョン・カーフェイ / 爬虫類カフェ）",
-      "en": "Reptile Cafe (Pa Chong Cafe)",
-      "ko": "파충류 카페 (爬寵咖啡)"
-    },
-    "owner_note": {
-      "ja": "新光三越 西門新天地近く・はむ家から徒歩約25分（自転車約10分）にある珍しい爬虫類カフェです。スタッフの案内に沿って1匹ずつ触れ合いを楽しめるスタイルで、席時間は平日90分・土日祝60分制（1ドリンク注文制）。予約優先なのでInstagramや電話での事前確認がおすすめです。",
-      "zh": "位在新光三越西門新天地附近、從哈木家步行約25分鐘（騎車約10分鐘）的特色爬蟲類咖啡廳。採依指示一次與一隻互動的方式體驗，內用限時平日90分鐘、假日60分鐘並需點一杯飲品；建議出發前先透過IG或電話預約確認。",
-      "en": "A unique reptile cafe near Shin Kong Mitsukoshi Ximen, about a 25-minute walk (~10 minutes by bike) from Hamuya. Guests interact with one animal at a time under guidance, with a 1-drink minimum and time limits of 90 minutes on weekdays or 60 minutes on weekends—booking via IG or phone is recommended.",
-      "ko": "신광미쓰코시 시먼신텐티 인근·하무야에서 도보 약 25분(자전거 약 10분) 거리에 있는 이색 파충류 카페입니다. 직원의 안내에 따라 한 마리씩 교감하는 방식이며 1인 1음료 주문 및 평일 90분·주말 60분 시간 제한이 있습니다. 인스타나 전화로 미리 확인해 보세요."
-    },
-    "point_and_order": {
-      "zh": "你好，請問今天有位置可以內用嗎？我們想先點一杯飲料，謝謝！",
-      "ja": "こんにちは。今日、店内で利用できますか？まずドリンクを1杯お願いします。ありがとうございます！",
-      "en": "Hello, do you have seating available today? We'd like one drink to start, please. Thank you!",
-      "ko": "안녕하세요, 오늘 매장 이용 가능한가요? 우선 음료 한 잔 먼저 주세요. 감사합니다!"
-    },
-    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E7%88%AC%E5%AF%B5%E5%92%96%E5%95%A1+%E5%8F%B0%E5%8D%97",
-    "blog_url": {
-      "ja": "https://hamuguesthouse.com/staff-diary/5161/",
-      "zh": "",
-      "en": "",
-      "ko": ""
-    },
-    "is_active": true
-  },
-  {
     "id": "shou-cao-hand-haabu",
     "category": "cafe_sweets",
     "time_slots": [
-      "lunch",
-      "dinner"
+      "lunch"
     ],
     "distance": "walk_15",
     "tags": [
@@ -2194,10 +1961,10 @@
       "ko": "손차오 한방 카페 (手艸 Hand Haabu)"
     },
     "owner_note": {
-      "ja": "鴨母寮市場の奥にある古民家リノベの漢方茶カフェです（12:00〜18:30営業）。香ばしい「四神ミルク擂茶（230元）」や、金木犀シロップ・チーズ・卵を合わせた台南名物アレンジ「花烘蛋（180元）」が人気で、看板猫ちゃんにも出会えます！漢方茶の茶葉購入も可能です。",
-      "zh": "藏在鴨母寮市場深處、由老屋改造的漢方茶咖啡館（12:00～18:30營業）。香氣迷人的「四神牛奶擂茶（230元）」與結合桂花蜜、起司、蛋的創意椪餅料理「花烘蛋（180元）」很有特色，店內還有可愛店貓，也可選購漢方茶包。",
-      "en": "A renovated traditional-house herbal tea cafe tucked past Yaomuliao Market (open 12:00 PM–6:30 PM). Try the nutty Four-Herbs Milk Lei Cha (NT$230) and sweet-savory Flower Baked Egg in a pengbing (NT$180), with a resident cat and herbal teas available to buy.",
-      "ko": "야오무리야오 시장 안쪽 옛집을 개조한 한방차 카페입니다 (12:00~18:30 영업). 고소한 '사신 밀크 레이차(NT$230)'와 계화 시럽·치즈·계란이 어우러진 '화홍단(NT$180)'이 독특하며, 마스코트 고양이도 있고 한방차 제품 구매도 가능합니다."
+      "ja": "鴨母寮市場の奥にある古民家リノベの漢方茶カフェです（12:00〜18:30営業・不定休のため事前にSNS確認推奨）。香ばしい「四神ミルク擂茶（230元）」や、金木犀シロップ・チーズ・卵を合わせた台南名物アレンジ「花烘蛋（180元）」が人気で、看板猫ちゃんにも出会えます！漢方茶の茶葉購入も可能です。",
+      "zh": "藏在鴨母寮市場深處、由老屋改造的漢方茶咖啡館（12:00～18:30營業、不定期公休建議出發前先看粉專）。香氣迷人的「四神牛奶擂茶（230元）」與結合桂花蜜、起司、蛋的創意椪餅料理「花烘蛋（180元）」很有特色，店內還有可愛店貓，也可選購漢方茶包。",
+      "en": "A renovated traditional-house herbal tea cafe tucked past Yaomuliao Market (open 12:00 PM–6:30 PM, irregular days off—check social media before visiting). Try the nutty Four-Herbs Milk Lei Cha (NT$230) and sweet-savory Flower Baked Egg in a pengbing (NT$180), with a resident cat and herbal teas available to buy.",
+      "ko": "야오무리야오 시장 안쪽 옛집을 개조한 한방차 카페입니다 (12:00~18:30 영업·비정기 휴무이므로 방문 전 SNS 확인 추천). 고소한 '사신 밀크 레이차(NT$230)'와 계화 시럽·치즈·계란이 어우러진 '화홍단(NT$180)'이 독특하며, 마스코트 고양이도 있고 한방차 제품 구매도 가능합니다."
     },
     "point_and_order": {
       "zh": "你好，我要一壺四神牛奶擂茶和一份花烘蛋，內用，謝謝！",
@@ -2219,8 +1986,7 @@
     "category": "sightseeing",
     "time_slots": [
       "morning",
-      "lunch",
-      "dinner"
+      "lunch"
     ],
     "distance": "bike_far",
     "tags": [
@@ -2234,10 +2000,10 @@
       "ko": "치메이 박물관 (奇美博物館)"
     },
     "owner_note": {
-      "ja": "台湾最大級の私立博物館で、西洋美術・楽器・自然史・武器など多彩なコレクションと美しい宮殿風建築・庭園が魅力です（はむ家からは電車・バス・タクシー利用が便利）。広大な敷地なので時間に余裕を持って巡るのがおすすめで、事前予約が必要な展示や時間帯もあるためご注意ください。",
-      "zh": "台灣規模最大的私立博物館之一，擁有西洋藝術、樂器、自然史與兵器等豐富館藏，搭配歐式宮殿建築與廣闊公園景觀超好拍（從哈木家建議搭台鐵、公車或計程車前往）。展區豐富建議預留充裕時間逛逛，部分票券或時段需提前預約。",
-      "en": "One of Taiwan's largest private museums, famous for European art, musical instruments, natural history, and arms collections set in a grand neoclassical building and park (best reached by train, bus, or taxi from Hamuya). Plan plenty of time to explore and check advance ticket booking requirements before visiting.",
-      "ko": "대만 최대 규모의 사립 박물관으로 서양 미술·악기·자연사·무기 컬렉션과 유럽풍 궁전 건축·정원이 인상적입니다 (하무야에서 기차·버스·택시 추천). 규모가 크니 넉넉한 일정을 잡는 것이 좋고 일부 입장권이나 회차는 사전 예약이 필요합니다."
+      "ja": "台湾最大級の私立博物館で、西洋美術・楽器・自然史・武器など多彩なコレクションと美しい宮殿風建築・庭園が魅力です（はむ家からは電車・バス・タクシー利用が便利）。広大な敷地なので時間に余裕を持って巡るのがおすすめで、事前予約が必要な展示や時間帯もあるためご注意ください（9:30〜17:30・水曜休館）。",
+      "zh": "台灣規模最大的私立博物館之一，擁有西洋藝術、樂器、自然史與兵器等豐富館藏，搭配歐式宮殿建築與廣闊公園景觀超好拍（從哈木家建議搭台鐵、公車或計程車前往）。展區豐富建議預留充裕時間逛逛，部分票券或時段需提前預約（9:30～17:30、週三休館）。",
+      "en": "One of Taiwan's largest private museums, famous for European art, musical instruments, natural history, and arms collections set in a grand neoclassical building and park (best reached by train, bus, or taxi from Hamuya). Plan plenty of time to explore and check advance ticket booking requirements before visiting (open 9:30 AM–5:30 PM, closed Wednesdays).",
+      "ko": "대만 최대 규모의 사립 박물관으로 서양 미술·악기·자연사·무기 컬렉션과 유럽풍 궁전 건축·정원이 인상적입니다 (하무야에서 기차·버스·택시 추천). 규모가 크니 넉넉한 일정을 잡는 것이 좋고 일부 입장권이나 회차는 사전 예약이 필요합니다 (09:30~17:30·수요일 휴관)."
     },
     "point_and_order": {
       "zh": "你好，請問今天有當日票可以買嗎？謝謝！",
@@ -2412,7 +2178,6 @@
     "id": "wenting-phonograph-museum",
     "category": "sightseeing",
     "time_slots": [
-      "morning",
       "lunch"
     ],
     "distance": "walk_15",
@@ -2488,7 +2253,6 @@
     "id": "hayashi-department-store-tainan",
     "category": "sightseeing",
     "time_slots": [
-      "morning",
       "lunch",
       "dinner"
     ],
@@ -2580,10 +2344,10 @@
       "ko": "타이난 쭤전 화석원구 (臺南左鎮化石園區)"
     },
     "owner_note": {
-      "ja": "台湾で唯一の化石をテーマにした博物館で、自然史・生命進化・化石・物語・探索などのエリアに分かれて充実の展示を楽しめます（9:00〜17:00営業・一般100元、はむ家からは郊外のため車やツアー・乗り継ぎの計画がおすすめ）。恐竜や古代生物の化石が見応え抜群です！",
-      "zh": "台灣少見以化石為主題的特色博物館，涵蓋自然史、生命演化、化石、故事館與探索館等豐富展區（9:00～17:00營業、全票100元，位於左鎮山區建議提前規劃交通前往）。古生物與化石展示很有看頭，適合安排半日知性之旅。",
-      "en": "Taiwan's dedicated fossil museum featuring zones on natural history, evolution, fossils, local stories, and hands-on exploration (open 9:00 AM–5:00 PM, general admission NT$100; located in Zuozhen so plan transport ahead from Hamuya). Great prehistoric and fossil displays for a curious day out.",
-      "ko": "대만의 대표적인 화석 테마 박물관으로 자연사·생명진화·화석·스토리·탐험관 등 다양한 전시를 갖추고 있습니다 (9:00~17:00 영업·일반 NT$100, 쭤전 지역으로 교통편을 미리 확인해 이동하세요)."
+      "ja": "台湾で唯一の化石をテーマにした博物館で、自然史・生命進化・化石・物語・探索などのエリアに分かれて充実の展示を楽しめます（9:00〜17:00営業・水曜休館・一般100元、はむ家からは郊外のため車やツアー・乗り継ぎの計画がおすすめ）。恐竜や古代生物の化石が見応え抜群です！",
+      "zh": "台灣少見以化石為主題的特色博物館，涵蓋自然史、生命演化、化石、故事館與探索館等豐富展區（9:00～17:00營業、週三休館、全票100元，位於左鎮山區建議提前規劃交通前往）。古生物與化石展示很有看頭，適合安排半日知性之旅。",
+      "en": "Taiwan's dedicated fossil museum featuring zones on natural history, evolution, fossils, local stories, and hands-on exploration (open 9:00 AM–5:00 PM, closed Wednesdays, general admission NT$100; located in Zuozhen so plan transport ahead from Hamuya). Great prehistoric and fossil displays for a curious day out.",
+      "ko": "대만의 대표적인 화석 테마 박물관으로 자연사·생명진화·화석·스토리·탐험관 등 다양한 전시를 갖추고 있습니다 (09:00~17:00 영업·수요일 휴관·일반 NT$100, 쭤전 지역으로 교통편을 미리 확인해 이동하세요)."
     },
     "point_and_order": {
       "zh": "你好，請問要買全票，謝謝！",
@@ -2738,10 +2502,10 @@
       "ko": "야오무리야오 시장 탄훠몐 (鴨母寮市場 炭火麵)"
     },
     "owner_note": {
-      "ja": "鴨母寮市場（台南市北區成功路148號・7:00〜13:30）の奥にある、看板もメニュー表もないディープなローカル麺のお店です。炭火で一気に茹で上げるもちもちの「陽春麵（50元）」や湯引きイカが絶品！口頭注文＆着席スタイルで、台南通なら一度は体験したい市場グルメです。",
-      "zh": "藏在鴨母寮市場內（台南市北區成功路148號、營業時間7:00～13:30）的人氣炭火麵攤，沒有招牌也沒有菜單！用傳統炭火爐現煮的Q彈「陽春麵（50元）」與川燙小卷非常道地，採直接口頭點餐、自行入座的市場美食體驗。",
-      "en": "A legendary no-sign, no-menu noodle stall tucked inside Yamuliao Market (No. 148, Chenggong Rd., North Dist., Tainan; open 7:00 AM–1:30 PM). Chewy Yangchun Noodles (NT$50) and blanched squid cooked over traditional charcoal fires deliver an unforgettable local market experience—order verbally and grab a seat.",
-      "ko": "야오무리야오 시장 안쪽(타이난시 북구 성공로 148호, 07:00~13:30 영업)에 있는 간판도 메뉴판도 없는 현지 인기 국수집입니다. 전통 숯불 화덕에서 삶아낸 쫄깃한 '양춘면(NT$50)'과 데친 오징어가 일품이며, 구두로 주문하고 자리에 앉아 즐기는 시장 명소입니다."
+      "ja": "鴨母寮市場（台南市北區成功路148號・7:00〜13:30・月曜定休）の奥にある、看板もメニュー表もないディープなローカル麺のお店です。炭火で一気に茹で上げるもちもちの「陽春麵（50元）」や湯引きイカが絶品！口頭注文＆着席スタイルで、台南通なら一度は体験したい市場グルメです。",
+      "zh": "藏在鴨母寮市場內（台南市北區成功路148號、營業時間7:00～13:30、週一公休）的人氣炭火麵攤，沒有招牌也沒有菜單！用傳統炭火爐現煮的Q彈「陽春麵（50元）」與川燙小卷非常道地，採直接口頭點餐、自行入座的市場美食體驗。",
+      "en": "A legendary no-sign, no-menu noodle stall tucked inside Yamuliao Market (No. 148, Chenggong Rd., North Dist., Tainan; open 7:00 AM–1:30 PM, closed Mondays). Chewy Yangchun Noodles (NT$50) and blanched squid cooked over traditional charcoal fires deliver an unforgettable local market experience—order verbally and grab a seat.",
+      "ko": "야오무리야오 시장 안쪽(타이난시 북구 성공로 148호, 07:00~13:30 영업·월요일 휴무)에 있는 간판도 메뉴판도 없는 현지 인기 국수집입니다. 전통 숯불 화덕에서 삶아낸 쫄깃한 '양춘면(NT$50)'과 데친 오징어가 일품이며, 구두로 주문하고 자리에 앉아 즐기는 시장 명소입니다."
     },
     "point_and_order": {
       "zh": "你好，我要一碗陽春麵，內用，謝謝！",
@@ -2763,8 +2527,7 @@
     "category": "local_food",
     "time_slots": [
       "lunch",
-      "dinner",
-      "late_night"
+      "dinner"
     ],
     "distance": "walk_5",
     "walk_minutes": 1,
@@ -2778,10 +2541,10 @@
       "ko": "칭장 샨위이면 (清江鱔魚意麵)"
     },
     "owner_note": {
-      "ja": "はむ家から徒歩約1分（台南市忠義路二段120號）にある、台南名物「鱔魚意麵（タウナギ×意麵）」を楽しめるローカル食堂です。とろみのあるあんかけタイプや汁なし炒めタイプをはじめ、チャーハンや豬肝湯（豚レバースープ）なども味わえ、はむ家滞在中に気軽に挑戦できます！",
-      "zh": "距離哈木家步行約1分鐘（台南市忠義路二段120號）的在地小吃店，可以品嚐台南代表美食「鱔魚意麵」！無論是羹麵或乾炒意麵，搭配炒飯與豬肝湯都很夠味，住在哈木家時隨時都能輕鬆去吃吃看。",
-      "en": "A local spot about a 1-minute walk from Hamuya (No. 120, Sec. 2, Zhongyi Rd., Tainan) serving Tainan's signature swamp-eel yimian noodles. Try gravy or dry-tossed yimian alongside fried rice and pork liver soup for an easy neighborhood meal.",
-      "ko": "하무야에서 도보 약 1분(타이난시 충이로 2단 120호) 거리에 있는 타이난 명물 '장어(타우나기) 이면' 로컬 맛집입니다. 걸쭉한 국물(갱) 스타일과 볶음 스타일을 비롯해 볶음밥, 돼지간 수프 등도 즐길 수 있어 하무야 머무는 동안 가볍게 들르기 좋습니다."
+      "ja": "はむ家から徒歩約1分（台南市忠義路二段120號）にある、台南名物「鱔魚意麵（タウナギ×意麵）」を楽しめるローカル食堂です。とろみのあるあんかけタイプや汁なし炒めタイプをはじめ、チャーハンや豬肝湯（豚レバースープ）なども味わえ、はむ家滞在中に気軽に挑戦できます（11:00〜14:00・17:00〜21:00営業、土・日曜定休）！",
+      "zh": "距離哈木家步行約1分鐘（台南市忠義路二段120號）的在地小吃店，可以品嚐台南代表美食「鱔魚意麵」！無論是羹麵或乾炒意麵，搭配炒飯與豬肝湯都很夠味，住在哈木家時很方便去吃吃看（11:00～14:00、17:00～21:00營業，週六、週日公休）。",
+      "en": "A local spot about a 1-minute walk from Hamuya (No. 120, Sec. 2, Zhongyi Rd., Tainan) serving Tainan's signature swamp-eel yimian noodles. Try gravy or dry-tossed yimian alongside fried rice and pork liver soup for an easy neighborhood meal (open 11:00 AM–2:00 PM & 5:00 PM–9:00 PM, closed Saturdays and Sundays).",
+      "ko": "하무야에서 도보 약 1분(타이난시 충이로 2단 120호) 거리에 있는 타이난 명물 '장어(타우나기) 이면' 로컬 맛집입니다. 걸쭉한 국물(갱) 스타일과 볶음 스타일을 비롯해 볶음밥, 돼지간 수프 등도 즐길 수 있어 하무야 머무는 동안 가볍게 들르기 좋습니다 (11:00~14:00·17:00~21:00 영업, 토·일요일 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一份鱔魚意麵，內用，謝謝！",
@@ -2895,10 +2658,10 @@
       "ko": "화위안 야시장 (花園夜市)"
     },
     "owner_note": {
-      "ja": "台南最大規模を誇る超定番の夜市です（主な開催曜日は木・土・日、はむ家からはYouBikeやタクシーで10〜15分・徒歩30〜40分目安）。屋台グルメからゲーム屋台、ショッピングまで圧倒的な賑わいを楽しめるので、開催曜日を確認してから向かうのがおすすめです！",
-      "zh": "台南規模最大的經典夜市，攤位數與人潮都很壯觀（主要營業日為週四、週六、週日；從哈木家騎YouBike或搭計程車約10～15分鐘、步行約30～40分鐘）。小吃、遊戲攤與逛街選擇超豐富，出發前務必先確認當天是否有營業！",
-      "en": "Tainan's largest and liveliest night market (typically open Thu, Sat, and Sun; about 10–15 minutes by YouBike or taxi, or 30–40 minutes on foot from Hamuya). Packed with street food, game stalls, and shopping—always check the day's schedule before heading out.",
-      "ko": "타이난 최대 규모를 자랑하는 대표 야시장입니다 (주요 개장 요일 목·토·일; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 먹거리와 게임 부스, 쇼핑까지 활기가 넘치니 개장 요일을 꼭 확인하고 방문해 보세요."
+      "ja": "台南最大規模を誇る超定番の夜市です（主な開催曜日は木・金・土・日、はむ家からはYouBikeやタクシーで10〜15分・徒歩30〜40分目安）。屋台グルメからゲーム屋台、ショッピングまで圧倒的な賑わいを楽しめるので、開催曜日を確認してから向かうのがおすすめです！",
+      "zh": "台南規模最大的經典夜市，攤位數與人潮都很壯觀（主要營業日為週四、週五、週六、週日；從哈木家騎YouBike或搭計程車約10～15分鐘、步行約30～40分鐘）。小吃、遊戲攤與逛街選擇超豐富，出發前務必先確認當天是否有營業！",
+      "en": "Tainan's largest and liveliest night market (typically open Thu, Fri, Sat, and Sun; about 10–15 minutes by YouBike or taxi, or 30–40 minutes on foot from Hamuya). Packed with street food, game stalls, and shopping—always check the day's schedule before heading out.",
+      "ko": "타이난 최대 규모를 자랑하는 대표 야시장입니다 (주요 개장 요일 목·금·토·일; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 먹거리와 게임 부스, 쇼핑까지 활기가 넘치니 개장 요일을 꼭 확인하고 방문해 보세요."
     },
     "point_and_order": {
       "zh": "你好，我要一份地瓜球，謝謝！",
@@ -2973,10 +2736,10 @@
       "ko": "우성 야시장 (武聖夜市)"
     },
     "owner_note": {
-      "ja": "台南最古の歴史を持つ夜市で、屋台グルメに加えてゲーム屋台なども楽しめる定番スポットです（主な開催曜日は水・土、はむ家からはYouBikeやタクシーで10〜15分・徒歩30〜40分目安）。水曜夜に夜市へ行きたいときの心強い選択肢です！",
-      "zh": "台南歷史最悠久的夜市，除了各式小吃攤外，也有不少遊戲攤位增添熱鬧感（主要營業日為週三、週六；從哈木家騎YouBike或搭計程車約10～15分鐘、步行約30～40分鐘）。週三晚上想逛夜市時很推薦來這裡！",
-      "en": "Tainan's oldest night market, offering classic street food alongside lively game stalls (typically open Wed and Sat; about 10–15 minutes by YouBike or taxi, or 30–40 minutes on foot from Hamuya). A go-to pick if you're looking for a night market on a Wednesday evening.",
-      "ko": "타이난에서 가장 오래된 역사를 지닌 야시장으로 먹거리와 함께 게임 부스 등 즐길 거리가 있습니다 (주요 개장 요일 수·토; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 수요일 저녁 야시장을 찾을 때 특히 좋습니다."
+      "ja": "台南最古の歴史を持つ夜市で、屋台グルメに加えてゲーム屋台なども楽しめる定番スポットです（主な開催曜日は水・金・土、はむ家からはYouBikeやタクシーで10〜15分・徒歩30〜40分目安）。水曜夜に夜市へ行きたいときの心強い選択肢です！",
+      "zh": "台南歷史最悠久的夜市，除了各式小吃攤外，也有不少遊戲攤位增添熱鬧感（主要營業日為週三、週五、週六；從哈木家騎YouBike或搭計程車約10～15分鐘、步行約30～40分鐘）。週三晚上想逛夜市時很推薦來這裡！",
+      "en": "Tainan's oldest night market, offering classic street food alongside lively game stalls (typically open Wed, Fri, and Sat; about 10–15 minutes by YouBike or taxi, or 30–40 minutes on foot from Hamuya). A go-to pick if you're looking for a night market on a Wednesday evening.",
+      "ko": "타이난에서 가장 오래된 역사를 지닌 야시장으로 먹거리와 함께 게임 부스 등 즐길 거리가 있습니다 (주요 개장 요일 수·금·토; 하무야에서 유바이크·택시 10~15분, 도보 30~40분 거리). 수요일 저녁 야시장을 찾을 때 특히 좋습니다."
     },
     "point_and_order": {
       "zh": "你好，我要一份虱目魚酥，謝謝！",
@@ -2997,8 +2760,7 @@
     "id": "wu-ming-dou-hua-beizhong",
     "category": "cafe_sweets",
     "time_slots": [
-      "lunch",
-      "dinner"
+      "lunch"
     ],
     "distance": "walk_15",
     "tags": [
@@ -3012,10 +2774,10 @@
       "ko": "우밍 두화 (無名豆花)"
     },
     "owner_note": {
-      "ja": "台南公園近く（台南市北區北忠街176號）にある、昔ながらの豆花屋さんです。定番の豆花に加えて、金桔豆花や草莓豆花（イチゴジャム風）など個性的なフレーバーも楽しめ、食べ歩きや甘味休憩にぴったり！",
-      "zh": "位在台南公園附近（台南市北區北忠街176號）的傳統豆花店！除了經典豆花，也能吃到金桔豆花、草莓豆花等風味選擇，很適合作為小吃巡禮後的甜點收尾。",
-      "en": "A traditional douhua stall near Tainan Park (No. 176, Beizhong St., North Dist., Tainan) serving classic tofu pudding alongside flavors like calamansi (jinju) and strawberry—great for a sweet stop after exploring the area.",
-      "ko": "타이난 공원 인근(타이난시 북구 베이중제 176호)에 있는 전통 두화(연두부 디저트) 가게입니다. 기본 두화는 물론 금귤 두화, 딸기 두화 등 메뉴를 즐길 수 있어 산책 후 달콤한 휴식에 어울립니다."
+      "ja": "台南公園近く（台南市北區北忠街176號）にある、昔ながらの豆花屋さんです。定番の豆花に加えて、金桔豆花や草莓豆花（イチゴジャム風）など個性的なフレーバーも楽しめ、食べ歩きや甘味休憩にぴったりです（9:30〜17:30営業・火・水曜定休）。",
+      "zh": "位在台南公園附近（台南市北區北忠街176號）的傳統豆花店！除了經典豆花，也能吃到金桔豆花、草莓豆花等風味選擇，很適合作為小吃巡禮後的甜點收尾（9:30～17:30營業、週二及週三公休）。",
+      "en": "A traditional douhua stall near Tainan Park (No. 176, Beizhong St., North Dist., Tainan) serving classic tofu pudding alongside flavors like calamansi (jinju) and strawberry—great for a sweet stop after exploring the area (open 9:30 AM–5:30 PM, closed Tue & Wed).",
+      "ko": "타이난 공원 인근(타이난시 북구 베이중제 176호)에 있는 전통 두화(연두부 디저트) 가게입니다. 기본 두화는 물론 금귤 두화, 딸기 두화 등 메뉴를 즐길 수 있어 산책 후 달콤한 휴식에 어울립니다 (09:30~17:30 영업·화·수요일 휴무)."
     },
     "point_and_order": {
       "zh": "你好，我要一碗金桔豆花，內用，謝謝！",
@@ -3259,10 +3021,10 @@
       "ko": "웨스 꼬치구이 (岄食串焼)"
     },
     "owner_note": {
-      "ja": "中西區忠誠路56號にある、少し日式テイストが入ったはむ家行きつけの串焼き屋です！個人的にはここの串焼きが一番美味しいと思っていて、特につくねと豚たんがイチオシ。17:30〜23:30（月・火曜定休）で夜から遅めの時間まで営業しているので、夜ごはんや一杯飲みたい夜にぜひ！",
-      "zh": "位在中西區忠誠路56號、帶有一點日式居酒屋氛圍的哈木家口袋串燒店！哈木家老闆覺得這裡的串燒最好吃，特別大推雞肉丸子（つくね）與豬舌（豚たん）。營業時間為17:30～23:30（週一、週二公休），很適合作為晚餐或晚上小酌的好去處。",
-      "en": "A Hamuya regular on Zhongcheng Rd. (No. 56, Zhongcheng Rd., West Central Dist., Tainan) with a subtle Japanese-style touch—one of Hamuya's favorite skewer spots in town, with chicken tsukune and pork tongue as top picks. Open 5:30 PM–11:30 PM (closed Mon & Tue), great for dinner or late-night drinks.",
-      "ko": "중서구 충청로 56호에 자리한 살짝 일식 감성이 더해진 하무야 단골 꼬치구이집입니다! 하무야 사장님이 가장 맛있다고 생각하는 꼬치구이집으로, 특히 츠쿠네와 돼지혀(돈설)를 추천해요. 17:30~23:30 영업(월·화요일 휴무)으로 저녁 식사나 야식 한잔에 딱입니다."
+      "ja": "中西區中成路56號にある、少し日式テイストが入ったはむ家行きつけの串焼き屋です！個人的にはここの串焼きが一番美味しいと思っていて、特につくねと豚たんがイチオシ。17:30〜23:30（月・火曜定休）で夜から遅めの時間まで営業しているので、夜ごはんや一杯飲みたい夜にぜひ！",
+      "zh": "位在中西區中成路56號、帶有一點日式居酒屋氛圍的哈木家口袋串燒店！哈木家老闆覺得這裡的串燒最好吃，特別大推雞肉丸子（つくね）與豬舌（豚たん）。營業時間為17:30～23:30（週一、週二公休），很適合作為晚餐或晚上小酌的好去處。",
+      "en": "A Hamuya regular on Zhongcheng Rd. (No. 56, Zhongcheng Rd. (中成路56號), West Central Dist., Tainan) with a subtle Japanese-style touch—one of Hamuya's favorite skewer spots in town, with chicken tsukune and pork tongue as top picks. Open 5:30 PM–11:30 PM (closed Mon & Tue), great for dinner or late-night drinks.",
+      "ko": "중서구 중청로 56호(中成路56號)에 자리한 살짝 일식 감성이 더해진 하무야 단골 꼬치구이집입니다! 하무야 사장님이 가장 맛있다고 생각하는 꼬치구이집으로, 특히 츠쿠네와 돼지혀(돈설)를 추천해요. 17:30~23:30 영업(월·화요일 휴무)으로 저녁 식사나 야식 한잔에 딱입니다."
     },
     "point_and_order": {
       "zh": "你好，我們想點一份雞肉丸子和一份豬舌，內用，謝謝！",
