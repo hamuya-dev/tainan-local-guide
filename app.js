@@ -91,9 +91,6 @@
       authDesc: "はむ家にご宿泊のゲスト専用ページです。館内に掲示されているQRコードをスキャンしてご利用ください。",
       authPromoExpiredDesc: "3日間のお試し期間が終了しました。はむ家にご宿泊の際は、館内QRコードから引き続きご利用いただけます。",
       authValidity: "※ QRコードをスキャンすると、そのまま3日間（72時間）ご利用いただけます",
-      authBooking: "はむ家 公式サイト・宿泊予約",
-      promoBanner: "🎁 3日間限定お試し中｜台南ゲストハウス「はむ家」の空室・予約はこちら →",
-      footerBooking: "台南ゲストハウス はむ家｜公式サイト・宿泊予約はこちら",
     },
     "zh-TW": {
       pageTitle: "哈木家 台南在地散步指南",
@@ -161,9 +158,6 @@
       authDesc: "此頁面為哈木家住客專屬指南。請掃描館內張貼的 QR Code 即可開啟使用。",
       authPromoExpiredDesc: "3天免費體驗已結束。入住哈木家時，掃描館內QR Code即可繼續使用。",
       authValidity: "※ 掃描後即可直接使用 3 天（72 小時）",
-      authBooking: "哈木家 官方網站・線上訂房",
-      promoBanner: "🎁 3天免費體驗中｜台南民宿「哈木家」空房查詢與訂房 →",
-      footerBooking: "台南民宿 哈木家｜官方網站・線上訂房",
     },
     en: {
       pageTitle: "Hamuya Tainan Local Guide",
@@ -231,9 +225,6 @@
       authDesc: "This guide is exclusively for Hamuya Guesthouse guests. Please scan the QR code posted inside the guesthouse to unlock.",
       authPromoExpiredDesc: "Your 3-day free trial has ended. When you stay at Hamu Guesthouse, scan the in-house QR code to continue using the guide.",
       authValidity: "Once scanned, access stays unlocked for 3 days (72 hours).",
-      authBooking: "Hamu Guesthouse Official Site & Booking",
-      promoBanner: "🎁 3-Day Free Trial | Check Availability & Book Hamu Guesthouse →",
-      footerBooking: "Hamu Guesthouse Tainan | Official Website & Booking",
     },
     ko: {
       pageTitle: "하무야 타이난 로컬 가이드",
@@ -301,9 +292,6 @@
       authDesc: "하무야 투숙객 전용 안내 페이지입니다. 숙소 내부에 게시된 QR 코드를 스캔하여 이용해 주세요.",
       authPromoExpiredDesc: "3일 무료 체험이 종료되었습니다. 하무야에 숙박하시면 관내 QR 코드를 스캔해 계속 이용하실 수 있습니다.",
       authValidity: "※ QR 코드를 스캔하면 3일간(72시간) 바로 이용하실 수 있습니다.",
-      authBooking: "하무야 공식 홈페이지 · 숙박 예약",
-      promoBanner: "🎁 3일 무료 체험 중 | 타이난 숙소 '하무야' 빈방 확인 및 예약 →",
-      footerBooking: "타이난 게스트하우스 하무야 | 공식 홈페이지 · 숙박 예약",
     },
   };
 
@@ -339,9 +327,7 @@
     authTitle: document.getElementById("auth-title"),
     authDesc: document.getElementById("auth-desc"),
     authValidity: document.getElementById("auth-validity"),
-    authBookingBtn: document.getElementById("auth-booking-btn"),
     appProtected: document.getElementById("app-protected"),
-    promoBanner: document.getElementById("promo-banner"),
     searchInput: document.getElementById("search-input"),
     searchClear: document.getElementById("search-clear"),
     labelTime: document.getElementById("label-time"),
@@ -366,7 +352,6 @@
     errorTitle: document.getElementById("error-title"),
     errorDesc: document.getElementById("error-desc"),
     retryLoadBtn: document.getElementById("retry-load-btn"),
-    footerBookingText: document.getElementById("footer-booking-text"),
     footerNote: document.getElementById("footer-note"),
     pointModal: document.getElementById("point-modal"),
     pointModalBadge: document.getElementById("point-modal-badge"),
@@ -929,18 +914,6 @@
     dom.authDesc.textContent = state.promoExpired ? t.authPromoExpiredDesc : t.authDesc;
     dom.authValidity.textContent = t.authValidity;
     dom.authValidity.hidden = state.promoExpired;
-    if (dom.authBookingBtn) {
-      dom.authBookingBtn.textContent = t.authBooking;
-    }
-
-    // Promo top banner & common footer booking CTA
-    if (dom.promoBanner) {
-      dom.promoBanner.textContent = t.promoBanner;
-      dom.promoBanner.hidden = !(state.isAuthenticated && state.authType === "promo");
-    }
-    if (dom.footerBookingText) {
-      dom.footerBookingText.textContent = t.footerBooking;
-    }
 
     if (!state.isAuthenticated) {
       dom.authGate.hidden = false;
