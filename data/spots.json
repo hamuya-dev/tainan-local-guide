@@ -3089,7 +3089,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "image": "images/spots/cun-yi-cafe-bar-tainan.webp"
   },
   {
     "id": "yoshida-yorozuya-tainan",
@@ -3597,6 +3598,7 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "image": "images/spots/shibaji-xiaojuchang-tainan.webp"
   }
 ]
