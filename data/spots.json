@@ -417,7 +417,8 @@
       "ko": ""
     },
     "is_active": true,
-    "hamu_pick": false
+    "hamu_pick": false,
+    "image": "images/spots/red-sun-tea-minzu.webp"
   },
   {
     "id": "macu-tea-chihkan",
@@ -457,7 +458,8 @@
       "ko": ""
     },
     "is_active": true,
-    "hamu_pick": false
+    "hamu_pick": false,
+    "image": "images/spots/macu-tea-chihkan.webp"
   },
   {
     "id": "serving-tea-tainan",
