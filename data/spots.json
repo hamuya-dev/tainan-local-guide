@@ -3563,5 +3563,40 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "shibaji-xiaojuchang-tainan",
+    "category": "bar",
+    "time_slots": [
+      "dinner",
+      "late_night"
+    ],
+    "distance": "walk_15",
+    "name": {
+      "zh": "拾捌樓的小酒場",
+      "ja": "拾捌楼的小酒場（スパロウブリューイング）",
+      "en": "Sparrow Brewing",
+      "ko": "스패로우 브루잉 (拾捌樓的小酒場)"
+    },
+    "owner_note": {
+      "ja": "IPAをはじめとするクラフトビールや地ビール系が楽しめるバーです。はむさん自身の好みとは少し違いますが、クラフトビール好きのゲストや外国人旅行者によく選ばれています。フード持ち込み可・現金払いなので、旅のスタイルに合わせてどうぞ。",
+      "zh": "這裡是可以暢飲 IPA 等精釀啤酒與在地生啤的酒吧。雖然不一定符合哈木桑個人的喜好，但很受喜歡精釀啤酒的住客與外國旅客歡迎。店內可攜帶外食、僅收現金，歡迎依自己的旅遊步調前往。",
+      "en": "A craft beer bar featuring IPA and local taps that draws guests and international travelers who enjoy craft beers. While it may not match Hamu-san's personal taste, it's a popular choice for beer lovers—outside food is allowed and payment is cash-only.",
+      "ko": "IPA를 비롯한 크래프트 맥주와 로컬 생맥주를 즐길 수 있는 바입니다. 하무상 개인 취향과는 조금 다를 수 있지만, 수제 맥주를 좋아하는 게스트나 외국인 여행객들이 즐겨 찾는 곳입니다. 외부 음식 반입이 가능하며 현금 결제만 됩니다."
+    },
+    "point_and_order": {
+      "zh": "老闆，請問今天有哪些精釀啤酒或生啤？可以幫我推薦嗎？",
+      "ja": "今日のクラフトビールや生ビールは何がありますか？おすすめを教えてください。",
+      "en": "What craft beers or draft beers do you have on tap today? Any recommendations?",
+      "ko": "오늘 어떤 크래프트 맥주나 생맥주가 있나요? 추천해 주실 수 있나요?"
+    },
+    "google_maps_url": "https://maps.app.goo.gl/Ehjzo7UBQFA1hnTW7",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
