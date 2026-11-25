@@ -2635,7 +2635,8 @@
       "ko": ""
     },
     "is_active": true,
-    "hamu_pick": true
+    "hamu_pick": true,
+    "youtube_url": "https://www.youtube.com/watch?v=YAPfZVB-0sI"
   },
   {
     "id": "qing-jiang-shan-yu-yi-mian-tainan",
@@ -2675,7 +2676,8 @@
       "ko": ""
     },
     "is_active": true,
-    "hamu_pick": true
+    "hamu_pick": true,
+    "youtube_url": "https://www.youtube.com/watch?v=qrhnGBcm0Qg"
   },
   {
     "id": "jia-cuo-wei-tainan",
@@ -2715,7 +2717,8 @@
       "ko": ""
     },
     "is_active": true,
-    "hamu_pick": false
+    "hamu_pick": false,
+    "youtube_url": "https://www.youtube.com/watch?v=WBCE5ll85xU"
   },
   {
     "id": "xiao-jin-mian-dian-tainan",
@@ -2755,7 +2758,8 @@
       "ko": ""
     },
     "is_active": true,
-    "hamu_pick": false
+    "hamu_pick": false,
+    "youtube_url": "https://www.youtube.com/watch?v=IZIQyE5XxqA"
   },
   {
     "id": "garden-night-market-tainan",
@@ -2914,7 +2918,8 @@
       "ko": ""
     },
     "is_active": true,
-    "hamu_pick": false
+    "hamu_pick": false,
+    "youtube_url": "https://www.youtube.com/watch?v=z01PoZ1jqT0"
   },
   {
     "id": "xi-luo-dian-beef-soup-tainan",
