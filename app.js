@@ -92,7 +92,10 @@
       scrollToTop: "トップへ戻る",
       authTitle: "はむ家 宿泊ゲスト専用ガイド",
       authDesc: "はむ家にご宿泊のゲスト専用ページです。館内に掲示されているQRコードをスキャンしてご利用ください。",
-      authPromoExpiredDesc: "3日間のお試し期間が終了しました。はむ家にご宿泊の際は、館内QRコードから引き続きご利用いただけます。",
+      authPromoExpiredTitle: "72時間のお試し期間が終了しました。",
+      authPromoExpiredDesc: "はむ家の台南ローカルガイドはいかがでしたか？\nこちらは、はむ家にご宿泊のゲスト向けのガイドです。\n台南に遊びに来るときは、ぜひはむ家にも泊まりに来てくださいね！",
+      authPromoSiteBtn: "はむ家公式サイト ↗",
+      authPromoBookingBtn: "空室・料金を見る ↗",
       authValidity: "※ QRコードをスキャンすると、そのまま3日間（72時間）ご利用いただけます",
     },
     "zh-TW": {
@@ -162,7 +165,10 @@
       scrollToTop: "回到頂部",
       authTitle: "哈木家 住客專屬指南",
       authDesc: "此頁面為哈木家住客專屬指南。請掃描館內張貼的 QR Code 即可開啟使用。",
-      authPromoExpiredDesc: "3天免費體驗已結束。入住哈木家時，掃描館內QR Code即可繼續使用。",
+      authPromoExpiredTitle: "72小時體驗時間已結束。",
+      authPromoExpiredDesc: "喜歡哈木家的台南在地指南嗎？\n這是專為入住哈木家的房客準備的在地指南。\n下次來台南玩的時候，歡迎也來哈木家住一晚喔！",
+      authPromoSiteBtn: "哈木家官方網站 ↗",
+      authPromoBookingBtn: "查看空房與房價 ↗",
       authValidity: "※ 掃描後即可直接使用 3 天（72 小時）",
     },
     en: {
@@ -232,7 +238,10 @@
       scrollToTop: "Back to top",
       authTitle: "Hamuya Guests Only",
       authDesc: "This guide is exclusively for Hamuya Guesthouse guests. Please scan the QR code posted inside the guesthouse to unlock.",
-      authPromoExpiredDesc: "Your 3-day free trial has ended. When you stay at Hamu Guesthouse, scan the in-house QR code to continue using the guide.",
+      authPromoExpiredTitle: "Your 72-Hour Free Trial Has Ended.",
+      authPromoExpiredDesc: "Hope you enjoyed Hamuya’s Tainan Local Guide!\nThis guide is exclusively for guests staying at Hamuya.\nNext time you visit Tainan, we’d love to welcome you at Hamuya!",
+      authPromoSiteBtn: "Hamuya Official Website ↗",
+      authPromoBookingBtn: "Check Availability & Rates ↗",
       authValidity: "Once scanned, access stays unlocked for 3 days (72 hours).",
     },
     ko: {
@@ -302,7 +311,10 @@
       scrollToTop: "맨 위로",
       authTitle: "하무야 투숙객 전용 가이드",
       authDesc: "하무야 투숙객 전용 안내 페이지입니다. 숙소 내부에 게시된 QR 코드를 스캔하여 이용해 주세요.",
-      authPromoExpiredDesc: "3일 무료 체험이 종료되었습니다. 하무야에 숙박하시면 관내 QR 코드를 스캔해 계속 이용하실 수 있습니다.",
+      authPromoExpiredTitle: "72시간 무료 체험 기간이 종료되었습니다.",
+      authPromoExpiredDesc: "하무야의 타이난 로컬 가이드는 어떠셨나요?\n이 가이드는 하무야에 숙박하시는 게스트를 위한 안내입니다.\n타이난에 놀러 오실 때 꼭 하무야에도 머물러 주세요!",
+      authPromoSiteBtn: "하무야 공식 웹사이트 ↗",
+      authPromoBookingBtn: "빈방 및 요금 보기 ↗",
       authValidity: "※ QR 코드를 스캔하면 3일간(72시간) 바로 이용하실 수 있습니다.",
     },
   };
@@ -342,6 +354,9 @@
     authTitle: document.getElementById("auth-title"),
     authDesc: document.getElementById("auth-desc"),
     authValidity: document.getElementById("auth-validity"),
+    authPromoActions: document.getElementById("auth-promo-actions"),
+    authSiteBtn: document.getElementById("auth-site-btn"),
+    authBookingBtn: document.getElementById("auth-booking-btn"),
     appProtected: document.getElementById("app-protected"),
     searchInput: document.getElementById("search-input"),
     searchClear: document.getElementById("search-clear"),
@@ -499,10 +514,11 @@
     const storedAt = getValidStoredAuthAt(now);
     const activeAt = storedAt !== null ? storedAt : state.authAt;
     if (!isValidAuthTimestamp(activeAt, now)) {
+      const wasPromo = state.authType === "promo";
       state.isAuthenticated = false;
       state.authAt = null;
       state.authType = null;
-      state.promoExpired = hasPromoUsed();
+      state.promoExpired = wasPromo || hasPromoUsed();
       if (state.modalSpotId && !dom.pointModal.hidden) {
         closePointModal();
       }
@@ -1000,11 +1016,21 @@
       btn.setAttribute("aria-selected", String(isSelected));
     });
 
-    // Lock screen localization & visibility
-    dom.authTitle.textContent = t.authTitle;
-    dom.authDesc.textContent = state.promoExpired ? t.authPromoExpiredDesc : t.authDesc;
-    dom.authValidity.textContent = t.authValidity;
-    dom.authValidity.hidden = state.promoExpired;
+    // Lock screen localization & visibility (Pattern A: promo expired / Pattern B: unauthenticated)
+    if (state.promoExpired) {
+      dom.authTitle.textContent = t.authPromoExpiredTitle;
+      dom.authDesc.textContent = t.authPromoExpiredDesc;
+      dom.authValidity.hidden = true;
+      if (dom.authPromoActions) dom.authPromoActions.hidden = false;
+      if (dom.authSiteBtn) dom.authSiteBtn.textContent = t.authPromoSiteBtn;
+      if (dom.authBookingBtn) dom.authBookingBtn.textContent = t.authPromoBookingBtn;
+    } else {
+      dom.authTitle.textContent = t.authTitle;
+      dom.authDesc.textContent = t.authDesc;
+      dom.authValidity.textContent = t.authValidity;
+      dom.authValidity.hidden = false;
+      if (dom.authPromoActions) dom.authPromoActions.hidden = true;
+    }
 
     if (!state.isAuthenticated) {
       dom.authGate.hidden = false;

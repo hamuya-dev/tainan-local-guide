@@ -994,7 +994,8 @@ a {
   margin: 12px 0 0;
   font-size: 0.9rem;
   color: var(--text-secondary);
-  line-height: 1.7;
+  line-height: 1.75;
+  white-space: pre-line;
 }
 
 .auth-validity {
@@ -1006,6 +1007,24 @@ a {
   font-size: 0.78rem;
   color: var(--text-muted);
   line-height: 1.5;
+}
+
+.auth-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 22px;
+}
+
+.btn-outline-primary {
+  background: var(--surface-warm);
+  color: var(--primary-dark);
+  border: 1.5px solid #E2A898;
+}
+
+.btn-outline-primary:hover {
+  background: var(--primary-soft);
+  border-color: var(--primary);
 }
 
 /* Floating Scroll-to-Top Button */
