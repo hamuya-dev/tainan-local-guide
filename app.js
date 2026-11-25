@@ -89,6 +89,7 @@
       errorDesc: "通信状況を確認して、もう一度お試しください。",
       retryLoad: "再読み込み",
       footerNote: "台南ゲストハウス はむ家（Hamuya / 哈木家）ローカルガイド v1.1",
+      scrollToTop: "トップへ戻る",
       authTitle: "はむ家 宿泊ゲスト専用ガイド",
       authDesc: "はむ家にご宿泊のゲスト専用ページです。館内に掲示されているQRコードをスキャンしてご利用ください。",
       authPromoExpiredDesc: "3日間のお試し期間が終了しました。はむ家にご宿泊の際は、館内QRコードから引き続きご利用いただけます。",
@@ -158,6 +159,7 @@
       errorDesc: "請確認網路連線後再試一次。",
       retryLoad: "重新載入",
       footerNote: "台南旅宿 哈木家（Hamuya / はむ家）在地指南 v1.1",
+      scrollToTop: "回到頂部",
       authTitle: "哈木家 住客專屬指南",
       authDesc: "此頁面為哈木家住客專屬指南。請掃描館內張貼的 QR Code 即可開啟使用。",
       authPromoExpiredDesc: "3天免費體驗已結束。入住哈木家時，掃描館內QR Code即可繼續使用。",
@@ -227,6 +229,7 @@
       errorDesc: "Please check your connection and try again.",
       retryLoad: "Retry",
       footerNote: "Hamuya Guesthouse (はむ家 / 哈木家) Tainan Local Guide v1.1",
+      scrollToTop: "Back to top",
       authTitle: "Hamuya Guests Only",
       authDesc: "This guide is exclusively for Hamuya Guesthouse guests. Please scan the QR code posted inside the guesthouse to unlock.",
       authPromoExpiredDesc: "Your 3-day free trial has ended. When you stay at Hamu Guesthouse, scan the in-house QR code to continue using the guide.",
@@ -296,6 +299,7 @@
       errorDesc: "네트워크 연결을 확인한 뒤 다시 시도해 주세요.",
       retryLoad: "다시 불러오기",
       footerNote: "타이난 게스트하우스 하무야(Hamuya / はむ家 / 哈木家) 로컬 가이드 v1.1",
+      scrollToTop: "맨 위로",
       authTitle: "하무야 투숙객 전용 가이드",
       authDesc: "하무야 투숙객 전용 안내 페이지입니다. 숙소 내부에 게시된 QR 코드를 스캔하여 이용해 주세요.",
       authPromoExpiredDesc: "3일 무료 체험이 종료되었습니다. 하무야에 숙박하시면 관내 QR 코드를 스캔해 계속 이용하실 수 있습니다.",
@@ -330,7 +334,9 @@
   const dom = {
     appTitle: document.getElementById("app-title"),
     appSubtitle: document.getElementById("app-subtitle"),
+    promoBetaBadge: document.getElementById("promo-beta-badge"),
     headerBookingBtn: document.getElementById("header-booking-btn"),
+    scrollToTopBtn: document.getElementById("scroll-to-top-btn"),
     langButtons: Array.from(document.querySelectorAll(".lang-btn")),
     authGate: document.getElementById("auth-gate"),
     authTitle: document.getElementById("auth-title"),
@@ -960,6 +966,12 @@
     render();
   }
 
+  function updateScrollTopButton() {
+    if (!dom.scrollToTopBtn) return;
+    const shouldShow = state.isAuthenticated && window.scrollY >= 400;
+    dom.scrollToTopBtn.hidden = !shouldShow;
+  }
+
   function render() {
     const t = I18N[state.lang];
 
@@ -968,9 +980,17 @@
     document.title = t.pageTitle;
     dom.appTitle.textContent = t.appTitle;
     dom.appSubtitle.textContent = t.appSubtitle;
+    const isPromoMode = state.isAuthenticated && state.authType === "promo";
+    if (dom.promoBetaBadge) {
+      dom.promoBetaBadge.textContent = "BETA";
+      dom.promoBetaBadge.hidden = !isPromoMode;
+    }
     if (dom.headerBookingBtn) {
       dom.headerBookingBtn.textContent = t.headerBooking;
-      dom.headerBookingBtn.hidden = !(state.isAuthenticated && state.authType === "promo");
+      dom.headerBookingBtn.hidden = !isPromoMode;
+    }
+    if (dom.scrollToTopBtn) {
+      dom.scrollToTopBtn.setAttribute("aria-label", t.scrollToTop);
     }
     dom.footerNote.textContent = t.footerNote;
 
@@ -990,11 +1010,13 @@
       dom.authGate.hidden = false;
       dom.appProtected.hidden = true;
       dom.spotsContainer.innerHTML = "";
+      updateScrollTopButton();
       return;
     }
 
     dom.authGate.hidden = true;
     dom.appProtected.hidden = false;
+    updateScrollTopButton();
 
     // Search input labels & clear button state
     dom.searchInput.placeholder = t.searchPlaceholder;
@@ -1124,6 +1146,13 @@
     dom.resetInline.addEventListener("click", resetFilters);
     dom.resetEmpty.addEventListener("click", resetFilters);
     dom.retryLoadBtn.addEventListener("click", loadSpots);
+
+    window.addEventListener("scroll", updateScrollTopButton, { passive: true });
+    if (dom.scrollToTopBtn) {
+      dom.scrollToTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    }
 
     dom.pointModalClose.addEventListener("click", closePointModal);
     dom.pointModal.addEventListener("click", (e) => {

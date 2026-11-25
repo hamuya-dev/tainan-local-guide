@@ -120,11 +120,41 @@ a {
   color: var(--text);
 }
 
+.brand-subtitle-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+  min-width: 0;
+}
+
 .brand-subtitle {
-  margin: 2px 0 0;
+  margin: 0;
   font-size: 0.72rem;
   color: var(--text-muted);
   line-height: 1.2;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.beta-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  background: var(--amber-bg);
+  border: 1px solid #E8C794;
+  color: var(--amber-text);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1.35;
+  user-select: none;
+  pointer-events: none;
 }
 
 .header-booking-btn {
@@ -978,7 +1008,53 @@ a {
   line-height: 1.5;
 }
 
+/* Floating Scroll-to-Top Button */
+.scroll-to-top-btn {
+  position: fixed;
+  right: 16px;
+  bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #E9B8AA;
+  background: rgba(255, 253, 249, 0.94);
+  color: var(--primary-dark);
+  box-shadow: var(--shadow-md);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.scroll-to-top-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.scroll-to-top-btn:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #FFFFFF;
+}
+
+.scroll-to-top-btn:active {
+  transform: scale(0.94);
+}
+
+.scroll-to-top-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
 @media (min-width: 540px) {
+  .scroll-to-top-btn {
+    right: max(16px, calc((100vw - 520px) / 2 + 16px));
+  }
+
   .app-shell {
     margin-top: 16px;
     margin-bottom: 16px;

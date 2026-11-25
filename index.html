@@ -29,7 +29,10 @@
           <img class="brand-icon" src="./icons/logo.png" alt="はむ家 ロゴ" width="40" height="40">
           <div class="brand-text">
             <h1 id="app-title" class="brand-title">はむ家 台南ローカルガイド</h1>
-            <p id="app-subtitle" class="brand-subtitle">はむ家のリアルなおすすめ案内</p>
+            <div class="brand-subtitle-row">
+              <p id="app-subtitle" class="brand-subtitle">はむ家のリアルなおすすめ案内</p>
+              <span id="promo-beta-badge" class="beta-badge" hidden>BETA</span>
+            </div>
           </div>
         </div>
         <a
@@ -142,6 +145,20 @@
     </footer>
     </div>
   </div>
+
+  <!-- Floating Scroll-to-Top Button -->
+  <button
+    type="button"
+    id="scroll-to-top-btn"
+    class="scroll-to-top-btn"
+    aria-label="トップへ戻る"
+    hidden
+  >
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5"></path>
+      <path d="M5 12l7-7 7 7"></path>
+    </svg>
+  </button>
 
   <!-- Full-Screen Point & Order Display Modal -->
   <div id="point-modal" class="point-modal" role="dialog" aria-modal="true" aria-labelledby="point-modal-shop" hidden>
