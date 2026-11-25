@@ -5,8 +5,17 @@
   const STORAGE_AUTH_KEY = "hamuya_guide_auth_at";
   const STORAGE_AUTH_TYPE_KEY = "hamuya_auth_type";
   const STORAGE_PROMO_USED_KEY = "hamuya_promo_used";
+  const STORAGE_PROMO_SOURCE_KEY = "hamuya_promo_source";
   const STORAGE_PROMO_TRACKED_KEY = "hamuya_ga_promo_start_sent";
   const SESSION_GUEST_TRACKED_KEY = "hamuya_ga_guest_start_sent";
+  const SESSION_SPOT_VIEWED_KEY = "hamuya_ga_spot_viewed_ids";
+  const PROMO_SOURCE_EVENTS = new Set([
+    "promo_start",
+    "click_official_site",
+    "click_booking",
+    "spot_action",
+    "spot_view",
+  ]);
   const AUTH_TTL_MS = 72 * 60 * 60 * 1000; // 72 hours (3 days)
   const GUEST_PARAM_KEY = "guest";
   const GUEST_PARAM_VALUE = "hamuya";
@@ -328,6 +337,7 @@
     isAuthenticated: initialAuth.authenticated,
     authAt: initialAuth.authAt,
     authType: initialAuth.authType,
+    promoSource: initialAuth.promoSource || getStoredPromoSource(),
     promoExpired: initialAuth.promoExpired,
     spotsLoaded: false,
     spots: [],
@@ -343,6 +353,7 @@
   };
 
   const searchIndexCache = new WeakMap();
+  const viewedSpotsInSession = loadViewedSpotsSet();
 
   // DOM References
   const dom = {
@@ -430,12 +441,65 @@
     }
   }
 
-  function saveAuthSession(authType, now = Date.now()) {
+  function sanitizePromoSource(raw) {
+    if (typeof raw !== "string") return "";
+    return raw
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9_-]/g, "")
+      .slice(0, 40);
+  }
+
+  function detectPromoSource(params) {
+    const explicit = sanitizePromoSource(
+      (params && (params.get("src") || params.get("utm_source"))) || ""
+    );
+    if (explicit) return explicit;
+    try {
+      const ref = document.referrer || "";
+      if (ref) {
+        const host = new URL(ref).hostname.toLowerCase();
+        if (host.includes("instagram.com")) return "instagram";
+        if (host.includes("threads.net") || host.includes("threads.com")) return "threads";
+        if (host.includes("hamuguesthouse.com")) return "blog";
+        if (host.includes("line.me")) return "line";
+        if (host.includes("x.com") || host.includes("twitter.com") || host === "t.co") return "x";
+        if (host.includes("facebook.com") || host.includes("fb.com")) return "facebook";
+      }
+    } catch {
+      // Ignore referrer parse errors
+    }
+    return "qr_direct";
+  }
+
+  function getStoredPromoSource() {
+    try {
+      const saved = sanitizePromoSource(localStorage.getItem(STORAGE_PROMO_SOURCE_KEY) || "");
+      return saved || null;
+    } catch {
+      return null;
+    }
+  }
+
+  function savePromoSource(source) {
+    const clean = sanitizePromoSource(source) || "qr_direct";
+    try {
+      localStorage.setItem(STORAGE_PROMO_SOURCE_KEY, clean);
+    } catch {
+      // Ignore storage errors
+    }
+    return clean;
+  }
+
+  function saveAuthSession(authType, now = Date.now(), promoSource = null) {
     try {
       localStorage.setItem(STORAGE_AUTH_KEY, String(now));
       localStorage.setItem(STORAGE_AUTH_TYPE_KEY, authType);
       if (authType === "promo") {
         localStorage.setItem(STORAGE_PROMO_USED_KEY, "true");
+        if (promoSource) {
+          savePromoSource(promoSource);
+        }
       }
     } catch {
       // Ignore storage errors in private mode; session stays active in memory
@@ -446,13 +510,11 @@
     try {
       const url = new URL(window.location.href);
       let changed = false;
-      if (url.searchParams.has(GUEST_PARAM_KEY)) {
-        url.searchParams.delete(GUEST_PARAM_KEY);
-        changed = true;
-      }
-      if (url.searchParams.has(PROMO_PARAM_KEY)) {
-        url.searchParams.delete(PROMO_PARAM_KEY);
-        changed = true;
+      for (const key of [GUEST_PARAM_KEY, PROMO_PARAM_KEY, "src", "utm_source"]) {
+        if (url.searchParams.has(key)) {
+          url.searchParams.delete(key);
+          changed = true;
+        }
       }
       if (!changed) return;
       const cleanUrl = url.pathname + (url.search ? url.search : "") + (url.hash || "");
@@ -473,6 +535,7 @@
           authenticated: true,
           authAt: now,
           authType: "guest",
+          promoSource: null,
           promoExpired: false,
           justStartedGuest: true,
           justStartedPromo: false,
@@ -480,13 +543,15 @@
       }
       // 2. Promo link (?promo=tainan2026) unlocks once per device for 72h
       if (params.get(PROMO_PARAM_KEY) === PROMO_PARAM_VALUE) {
+        const detectedSource = detectPromoSource(params);
         stripAuthParamsFromUrl();
         if (!hasPromoUsed()) {
-          saveAuthSession("promo", now);
+          saveAuthSession("promo", now, detectedSource);
           return {
             authenticated: true,
             authAt: now,
             authType: "promo",
+            promoSource: detectedSource,
             promoExpired: false,
             justStartedGuest: false,
             justStartedPromo: true,
@@ -494,25 +559,36 @@
         }
         // Promo already used: allow only if an existing valid session is still active (no extension)
         const existingAt = getValidStoredAuthAt(now);
+        const storedSource = getStoredPromoSource() || detectedSource;
         if (existingAt !== null) {
           return {
             authenticated: true,
             authAt: existingAt,
             authType: getStoredAuthType(),
+            promoSource: storedSource,
             promoExpired: false,
           };
         }
-        return { authenticated: false, authAt: null, authType: null, promoExpired: true };
+        return {
+          authenticated: false,
+          authAt: null,
+          authType: null,
+          promoSource: storedSource,
+          promoExpired: true,
+        };
       }
     } catch {
       // Fall through to stored session check
     }
     const storedAt = getValidStoredAuthAt(now);
+    const storedSource = getStoredPromoSource();
     if (storedAt !== null) {
+      const storedType = getStoredAuthType();
       return {
         authenticated: true,
         authAt: storedAt,
-        authType: getStoredAuthType(),
+        authType: storedType,
+        promoSource: storedType === "promo" ? (storedSource || "qr_direct") : null,
         promoExpired: false,
       };
     }
@@ -520,6 +596,7 @@
       authenticated: false,
       authAt: null,
       authType: null,
+      promoSource: storedSource,
       promoExpired: hasPromoUsed(),
     };
   }
@@ -558,18 +635,62 @@
     return "ja";
   }
 
+  function loadViewedSpotsSet() {
+    try {
+      const raw = sessionStorage.getItem(SESSION_SPOT_VIEWED_KEY);
+      if (!raw) return new Set();
+      const parsed = JSON.parse(raw);
+      return Array.isArray(parsed) ? new Set(parsed) : new Set();
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveViewedSpotsSet() {
+    try {
+      sessionStorage.setItem(SESSION_SPOT_VIEWED_KEY, JSON.stringify([...viewedSpotsInSession]));
+    } catch {
+      // Ignore storage errors
+    }
+  }
+
   function trackEvent(eventName, params = {}) {
     try {
-      if (typeof window.gtag === "function") {
-        window.gtag("event", eventName, params);
+      if (typeof window.gtag !== "function") return;
+      const payload = { ...params };
+      const shouldAttachPromoSource =
+        PROMO_SOURCE_EVENTS.has(eventName) &&
+        (state.authType === "promo" || state.promoExpired) &&
+        payload.promo_source === undefined;
+      if (shouldAttachPromoSource) {
+        payload.promo_source = state.promoSource || getStoredPromoSource() || "qr_direct";
       }
+      window.gtag("event", eventName, payload);
     } catch {
       // Ignore analytics errors
     }
   }
 
+  function trackSpotView(spot) {
+    if (!spot || !spot.id) return;
+    if (viewedSpotsInSession.has(spot.id)) return;
+    viewedSpotsInSession.add(spot.id);
+    saveViewedSpotsSet();
+    const categoryVal = Array.isArray(spot.category)
+      ? spot.category.join(",")
+      : (spot.category || "");
+    trackEvent("spot_view", {
+      spot_id: spot.id,
+      spot_name: (spot.name && spot.name.ja) || "",
+      category: categoryVal,
+      auth_type: state.authType || "none",
+      lang: state.lang,
+    });
+  }
+
   function trackSpotAction(spot, actionType) {
     if (!spot) return;
+    trackSpotView(spot);
     trackEvent("spot_action", {
       spot_id: spot.id || "",
       spot_name: (spot.name && spot.name.ja) || "",
@@ -590,6 +711,7 @@
       if (!alreadySent) {
         trackEvent("promo_start", {
           promo_code: PROMO_PARAM_VALUE,
+          promo_source: state.promoSource || getStoredPromoSource() || "qr_direct",
           lang: state.lang,
         });
         try {
@@ -1015,6 +1137,7 @@
   }
 
   function openPointModal(spot) {
+    trackSpotView(spot);
     state.modalSpotId = spot.id;
     renderPointModal(spot);
     dom.pointModal.hidden = false;
