@@ -3459,5 +3459,74 @@
     },
     "youtube_url": "https://www.youtube.com/watch?v=RJdnztaRJ3Q",
     "is_active": true
+  },
+  {
+    "id": "shanghai-huadu-xiaochi-tainan",
+    "category": "local_food",
+    "time_slots": [
+      "lunch",
+      "dinner"
+    ],
+    "distance": "walk_5",
+    "name": {
+      "zh": "上海華都小吃",
+      "ja": "上海華都小吃（シャンハイファードゥシャオチー）",
+      "en": "Shanghai Huadu Xiaochi",
+      "ko": "상하이 화두 샤오츠 (上海華都小吃)"
+    },
+    "owner_note": {
+      "ja": "はむ家のすぐ近所で小籠包を食べるならここ！小籠包はもちろん、揚げ春巻き（炸春捲）や五目炒飯（什錦炒飯）も絶品です。メニューが豊富でビールも置いてあるので、しっかり食事をしたい時にもぴったりの一軒です。",
+      "zh": "哈木家附近想吃小籠包就來這間！除了招牌小籠包，炸春捲和什錦炒飯也非常推薦。菜色選擇豐富且有提供啤酒，非常適合想好好吃頓飯或小酌的時候。",
+      "en": "The go-to spot right near Hamuya for xiaolongbao! Besides the soup dumplings, the fried spring rolls and assorted fried rice are must-orders. With a wide variety of dishes and cold beer available, it's great for a hearty meal.",
+      "ko": "하무야 바로 근처에서 샤오롱바오를 먹고 싶다면 이곳! 샤오롱바오는 물론 튀김 춘권(炸春捲)과 삼선볶음밥(什錦炒飯)도 강력 추천합니다. 메뉴가 다양하고 맥주도 있어서 든든하게 식사하기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "我要一份小籠包、一份炸春捲，還有一份什錦炒飯。另外請給我一瓶啤酒。",
+      "ja": "小籠包1つ、揚げ春巻き1つ、五目炒飯を1つください。それとビールを1本お願いします。",
+      "en": "I'd like one order of xiaolongbao, one order of fried spring rolls, and one assorted fried rice. Also, one bottle of beer, please.",
+      "ko": "샤오롱바오 하나, 튀김 춘권 하나, 삼선볶음밥 하나 주세요. 그리고 맥주 한 병도 부탁합니다."
+    },
+    "google_maps_url": "https://maps.app.goo.gl/YXFxWeYbCTvn5gr36",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
+  },
+  {
+    "id": "tainan-xiandoujiang-spot",
+    "category": "cafe_sweets",
+    "time_slots": [
+      "morning"
+    ],
+    "distance": "walk_15",
+    "name": {
+      "zh": "鹹豆漿專賣店",
+      "ja": "鹹豆漿のお店（シェンドウジャンノオミセ）",
+      "en": "Xiandoujiang Spot",
+      "ko": "시엔더우장 전문점 (鹹豆漿)"
+    },
+    "owner_note": {
+      "ja": "温かい鹹豆漿（シェンドウジャン・塩味の豆乳スープ）が食べたくなったらぜひここへ。おぼろ豆腐のようにふんわり固まったやさしい味わいで、朝ごはんや小腹が空いた時にもほっと落ち着く一品です。",
+      "zh": "想吃一碗熱呼呼的鹹豆漿就來這裡！滑嫩豆花般的口感搭配溫潤調味，無論當作早餐或想吃點暖胃小食都很舒服。",
+      "en": "The spot to head to whenever you're craving warm xiandoujiang (savory soy milk soup). With its soft, tofu-like curds and comforting seasoning, it's ideal for breakfast or a light bite.",
+      "ko": "따뜻한 시엔더우장(짭짤한 두유 스프)이 당길 때 꼭 들러보세요. 부드러운 순두부처럼 몽글몽글한 식감과 담백한 맛 덕분에 아침 식사나 가벼운 한 끼로 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "老闆，我要一碗鹹豆漿。",
+      "ja": "鹹豆漿（シェンドウジャン）を1杯ください。",
+      "en": "One bowl of xiandoujiang (savory soy milk soup), please.",
+      "ko": "시엔더우장 한 그릇 주세요."
+    },
+    "google_maps_url": "https://maps.app.goo.gl/nKwx9FZG82bbJz1EA",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
