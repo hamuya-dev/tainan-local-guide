@@ -5,6 +5,8 @@
   const STORAGE_AUTH_KEY = "hamuya_guide_auth_at";
   const STORAGE_AUTH_TYPE_KEY = "hamuya_auth_type";
   const STORAGE_PROMO_USED_KEY = "hamuya_promo_used";
+  const STORAGE_PROMO_TRACKED_KEY = "hamuya_ga_promo_start_sent";
+  const SESSION_GUEST_TRACKED_KEY = "hamuya_ga_guest_start_sent";
   const AUTH_TTL_MS = 72 * 60 * 60 * 1000; // 72 hours (3 days)
   const GUEST_PARAM_KEY = "guest";
   const GUEST_PARAM_VALUE = "hamuya";
@@ -467,14 +469,28 @@
       if (params.get(GUEST_PARAM_KEY) === GUEST_PARAM_VALUE) {
         saveAuthSession("guest", now);
         stripAuthParamsFromUrl();
-        return { authenticated: true, authAt: now, authType: "guest", promoExpired: false };
+        return {
+          authenticated: true,
+          authAt: now,
+          authType: "guest",
+          promoExpired: false,
+          justStartedGuest: true,
+          justStartedPromo: false,
+        };
       }
       // 2. Promo link (?promo=tainan2026) unlocks once per device for 72h
       if (params.get(PROMO_PARAM_KEY) === PROMO_PARAM_VALUE) {
         stripAuthParamsFromUrl();
         if (!hasPromoUsed()) {
           saveAuthSession("promo", now);
-          return { authenticated: true, authAt: now, authType: "promo", promoExpired: false };
+          return {
+            authenticated: true,
+            authAt: now,
+            authType: "promo",
+            promoExpired: false,
+            justStartedGuest: false,
+            justStartedPromo: true,
+          };
         }
         // Promo already used: allow only if an existing valid session is still active (no extension)
         const existingAt = getValidStoredAuthAt(now);
@@ -540,6 +556,66 @@
     if (browserLang.startsWith("ko")) return "ko";
     if (browserLang.startsWith("en")) return "en";
     return "ja";
+  }
+
+  function trackEvent(eventName, params = {}) {
+    try {
+      if (typeof window.gtag === "function") {
+        window.gtag("event", eventName, params);
+      }
+    } catch {
+      // Ignore analytics errors
+    }
+  }
+
+  function trackSpotAction(spot, actionType) {
+    if (!spot) return;
+    trackEvent("spot_action", {
+      spot_id: spot.id || "",
+      spot_name: (spot.name && spot.name.ja) || "",
+      action_type: actionType,
+      auth_type: state.authType || "none",
+      lang: state.lang,
+    });
+  }
+
+  function trackInitialAuthEvent(authResult) {
+    if (authResult.justStartedPromo) {
+      let alreadySent = false;
+      try {
+        alreadySent = localStorage.getItem(STORAGE_PROMO_TRACKED_KEY) === "true";
+      } catch {
+        alreadySent = false;
+      }
+      if (!alreadySent) {
+        trackEvent("promo_start", {
+          promo_code: PROMO_PARAM_VALUE,
+          lang: state.lang,
+        });
+        try {
+          localStorage.setItem(STORAGE_PROMO_TRACKED_KEY, "true");
+        } catch {
+          // Ignore storage errors
+        }
+      }
+    } else if (authResult.justStartedGuest) {
+      let alreadySent = false;
+      try {
+        alreadySent = sessionStorage.getItem(SESSION_GUEST_TRACKED_KEY) === "true";
+      } catch {
+        alreadySent = false;
+      }
+      if (!alreadySent) {
+        trackEvent("guest_start", {
+          lang: state.lang,
+        });
+        try {
+          sessionStorage.setItem(SESSION_GUEST_TRACKED_KEY, "true");
+        } catch {
+          // Ignore storage errors
+        }
+      }
+    }
   }
 
   function isSafeExternalUrl(url) {
@@ -851,7 +927,10 @@
       expandBtn.type = "button";
       expandBtn.className = "point-expand-btn";
       expandBtn.textContent = `⛶ ${t.pointExpand}`;
-      expandBtn.addEventListener("click", () => openPointModal(spot));
+      expandBtn.addEventListener("click", () => {
+        trackSpotAction(spot, "point_card");
+        openPointModal(spot);
+      });
       pointHead.appendChild(expandBtn);
 
       pointBox.appendChild(pointHead);
@@ -882,6 +961,7 @@
       mapsLink.href = spot.google_maps_url.trim();
       mapsLink.target = "_blank";
       mapsLink.rel = "noopener noreferrer";
+      mapsLink.addEventListener("click", () => trackSpotAction(spot, "map"));
       mapsLink.appendChild(
         createSvgIcon("M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10z M12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4z")
       );
@@ -905,6 +985,7 @@
       youtubeLink.href = youtubeUrl;
       youtubeLink.target = "_blank";
       youtubeLink.rel = "noopener noreferrer";
+      youtubeLink.addEventListener("click", () => trackSpotAction(spot, "youtube"));
       youtubeLink.appendChild(createYoutubeIcon());
       const youtubeText = document.createElement("span");
       youtubeText.textContent = t.watchYoutube;
@@ -916,6 +997,7 @@
       blogLink.href = blogUrl;
       blogLink.target = "_blank";
       blogLink.rel = "noopener noreferrer";
+      blogLink.addEventListener("click", () => trackSpotAction(spot, "blog"));
       blogLink.appendChild(
         createSvgIcon("M4 19.5A2.5 2.5 0 0 1 6.5 17H20 M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z")
       );
@@ -1191,6 +1273,36 @@
       });
     }
 
+    if (dom.headerBookingBtn) {
+      dom.headerBookingBtn.addEventListener("click", () => {
+        trackEvent("click_booking", {
+          source_screen: "header",
+          auth_type: state.authType || "none",
+          lang: state.lang,
+        });
+      });
+    }
+
+    if (dom.authSiteBtn) {
+      dom.authSiteBtn.addEventListener("click", () => {
+        trackEvent("click_official_site", {
+          source_screen: state.promoExpired ? "promo_expired" : "auth_gate",
+          auth_type: state.authType || "none",
+          lang: state.lang,
+        });
+      });
+    }
+
+    if (dom.authBookingBtn) {
+      dom.authBookingBtn.addEventListener("click", () => {
+        trackEvent("click_booking", {
+          source_screen: state.promoExpired ? "promo_expired" : "auth_gate",
+          auth_type: state.authType || "none",
+          lang: state.lang,
+        });
+      });
+    }
+
     dom.pointModalClose.addEventListener("click", closePointModal);
     dom.pointModal.addEventListener("click", (e) => {
       if (e.target && e.target.hasAttribute("data-close-modal")) {
@@ -1222,6 +1334,7 @@
 
   bindEvents();
   registerServiceWorker();
+  trackInitialAuthEvent(initialAuth);
   render();
   if (state.isAuthenticated) {
     loadSpots();
