@@ -3528,5 +3528,40 @@
       "ko": ""
     },
     "is_active": true
+  },
+  {
+    "id": "xiao-hao-zhou-shacha-hotpot-zhongshan",
+    "category": "local_food",
+    "time_slots": [
+      "lunch",
+      "dinner"
+    ],
+    "distance": "walk_15",
+    "name": {
+      "zh": "小濠州沙茶爐旗艦店",
+      "ja": "小濠州沙茶爐旗艦店（シャオハオジョウシャーチャーフー）",
+      "en": "Xiao Hao Zhou Shacha Hotpot Flagship",
+      "ko": "샤오하오저우 사차훠궈 플래그십 (小濠州沙茶爐旗艦店)"
+    },
+    "owner_note": {
+      "ja": "はむ家行きつけの沙茶火鍋店です。60年以上続く有名老舗の支店ですが、味に間違いなく、自慢の自家製沙茶タレがとにかく絶品！ビールもあるので、しっかり食べたい夜や仲間との食事にもぴったりです。",
+      "zh": "哈木家常去的沙茶火鍋店！雖然是知名老店的旗艦分店，但味道完全不打折，招牌自家製沙茶醬非常好吃。店內也有提供啤酒，無論想好好吃一頓或小酌都很推薦。",
+      "en": "A regular hotpot spot for Hamuya! Even as a branch of a well-known longtime favorite, the flavor never misses, and the house-made shacha sauce is delicious. Beer is also available, making it great for a hearty meal or drinks.",
+      "ko": "하무야 단골 사차 훠궈 맛집입니다! 유명 노포의 분점이지만 맛이 변함없고, 직접 만드는 특제 사차 소스가 정말 맛있습니다. 맥주도 준비되어 있어 든든한 식사나 가벼운 한잔에 잘 어울립니다."
+    },
+    "point_and_order": {
+      "zh": "老闆，我們要開鍋，還要拿一些火鍋料，另外請幫我們拿啤酒。",
+      "ja": "鍋をお願いします。具材もいくつか取りますし、ビールもお願いします。",
+      "en": "We'd like to start a hotpot, grab some ingredients, and order beer as well, please.",
+      "ko": "냄비 시작해 주세요. 재료도 좀 고르고 맥주도 부탁드립니다."
+    },
+    "google_maps_url": "https://maps.app.goo.gl/qaEu18Vu3Mjd7bY9A",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "is_active": true
   }
 ]
