@@ -1,4 +1,4 @@
-const CACHE_NAME = "hamuya-tainan-guide-v34";
+const CACHE_NAME = "hamuya-tainan-guide-v37";
 // Note: images/spots/*.webp are intentionally NOT precached to keep initial load fast.
 const STATIC_ASSETS = [
   "./",
