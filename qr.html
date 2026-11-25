@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#FAF6F0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="台南ゲストハウス「はむ家」宿泊ゲスト専用・受付提示用QRコード">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="はむ家QR">
+
+  <title>はむ家 台南ローカルガイド QR | Hamuya Tainan Local Guide</title>
+
+  <link rel="manifest" href="./manifest-qr.json">
+  <link rel="icon" type="image/png" sizes="64x64" href="./icons/favicon-64.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192.png">
+
+  <style>
+    :root {
+      --bg: #FAF6F0;
+      --surface: #FFFFFF;
+      --border: #E8DDD0;
+      --text: #231C18;
+      --text-secondary: #5F534A;
+      --text-muted: #7C6D61;
+      --primary: #C84B31;
+      --primary-soft: #FDEEE9;
+      --font-sans: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "PingFang TC", "Noto Sans TC", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100dvh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: calc(20px + env(safe-area-inset-top, 0px)) 20px calc(24px + env(safe-area-inset-bottom, 0px));
+    }
+
+    .qr-card {
+      width: 100%;
+      max-width: 560px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: 0 10px 32px rgba(45, 28, 16, 0.08);
+      padding: clamp(24px, 4.5vh, 40px) clamp(20px, 4vw, 40px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .qr-frame {
+      position: relative;
+      width: min(78vw, 46dvh, 380px);
+      height: min(78vw, 46dvh, 380px);
+      background: #FFFFFF;
+      border-radius: 20px;
+      border: 1px solid #EFE7DC;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .qr-svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+      shape-rendering: crispEdges;
+    }
+
+    .qr-logo-wrap {
+      position: absolute;
+      inset: 0;
+      margin: auto;
+      width: 18.5%;
+      height: 18.5%;
+      background: #FFFFFF;
+      border-radius: 14px;
+      padding: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+      pointer-events: none;
+    }
+
+    .qr-logo {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .titles {
+      margin: clamp(18px, 3vh, 28px) 0 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: clamp(6px, 1.1vh, 10px);
+      width: 100%;
+    }
+
+    .title-ja {
+      font-size: clamp(1.3rem, 3.2vw, 1.65rem);
+      font-weight: 800;
+      line-height: 1.25;
+      color: var(--text);
+      letter-spacing: 0.01em;
+    }
+
+    .title-zh {
+      font-size: clamp(1.12rem, 2.7vw, 1.38rem);
+      font-weight: 700;
+      line-height: 1.28;
+      color: #3A302A;
+    }
+
+    .title-en {
+      font-size: clamp(1.02rem, 2.4vw, 1.22rem);
+      font-weight: 700;
+      line-height: 1.28;
+      color: var(--text-secondary);
+      letter-spacing: 0.01em;
+    }
+
+    .title-ko {
+      font-size: clamp(1rem, 2.3vw, 1.18rem);
+      font-weight: 700;
+      line-height: 1.28;
+      color: var(--text-secondary);
+    }
+
+    .scan-hint {
+      margin: clamp(16px, 2.6vh, 24px) 0 0;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      border: 1px solid #F2C9BC;
+      color: #9A331D;
+      font-size: clamp(0.8rem, 1.9vw, 0.94rem);
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    @media (max-height: 700px) {
+      .qr-card {
+        padding: 18px 22px;
+      }
+
+      .qr-frame {
+        width: min(72vw, 42dvh, 300px);
+        height: min(72vw, 42dvh, 300px);
+        padding: 8px;
+      }
+
+      .titles {
+        margin-top: 14px;
+        gap: 4px;
+      }
+
+      .scan-hint {
+        margin-top: 12px;
+        padding: 8px 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="qr-card" aria-label="はむ家 台南ローカルガイド QRコード">
+    <div class="qr-frame" role="img" aria-label="QR code for Hamuya Tainan Local Guide">
+      <svg class="qr-svg" viewBox="0 0 49 49" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="49" height="49" fill="#FFFFFF"/>
+        <path d="M4,4h7v1h-7zM18,4h1v1h-1zM21,4h1v1h-1zM23,4h1v1h-1zM26,4h1v1h-1zM29,4h1v1h-1zM31,4h3v1h-3zM38,4h7v1h-7zM4,5h1v1h-1zM10,5h1v1h-1zM12,5h6v1h-6zM19,5h3v1h-3zM25,5h1v1h-1zM27,5h4v1h-4zM32,5h2v1h-2zM35,5h1v1h-1zM38,5h1v1h-1zM44,5h1v1h-1zM4,6h1v1h-1zM6,6h3v1h-3zM10,6h1v1h-1zM16,6h1v1h-1zM19,6h1v1h-1zM25,6h2v1h-2zM30,6h2v1h-2zM35,6h1v1h-1zM38,6h1v1h-1zM40,6h3v1h-3zM44,6h1v1h-1zM4,7h1v1h-1zM6,7h3v1h-3zM10,7h1v1h-1zM15,7h2v1h-2zM18,7h1v1h-1zM20,7h6v1h-6zM27,7h2v1h-2zM32,7h3v1h-3zM38,7h1v1h-1zM40,7h3v1h-3zM44,7h1v1h-1zM4,8h1v1h-1zM6,8h3v1h-3zM10,8h1v1h-1zM13,8h1v1h-1zM15,8h8v1h-8zM24,8h1v1h-1zM29,8h1v1h-1zM31,8h1v1h-1zM34,8h1v1h-1zM38,8h1v1h-1zM40,8h3v1h-3zM44,8h1v1h-1zM4,9h1v1h-1zM10,9h1v1h-1zM12,9h1v1h-1zM15,9h1v1h-1zM18,9h4v1h-4zM25,9h1v1h-1zM27,9h2v1h-2zM32,9h2v1h-2zM35,9h2v1h-2zM38,9h1v1h-1zM44,9h1v1h-1zM4,10h7v1h-7zM12,10h1v1h-1zM14,10h1v1h-1zM16,10h1v1h-1zM18,10h1v1h-1zM20,10h1v1h-1zM22,10h1v1h-1zM24,10h1v1h-1zM26,10h1v1h-1zM28,10h1v1h-1zM30,10h1v1h-1zM32,10h1v1h-1zM34,10h1v1h-1zM36,10h1v1h-1zM38,10h7v1h-7zM12,11h1v1h-1zM14,11h1v1h-1zM17,11h1v1h-1zM19,11h2v1h-2zM23,11h2v1h-2zM26,11h1v1h-1zM29,11h3v1h-3zM33,11h2v1h-2zM36,11h1v1h-1zM8,12h4v1h-4zM13,12h2v1h-2zM17,12h2v1h-2zM20,12h5v1h-5zM27,12h4v1h-4zM33,12h1v1h-1zM35,12h2v1h-2zM38,12h2v1h-2zM43,12h1v1h-1zM14,13h2v1h-2zM17,13h1v1h-1zM20,13h2v1h-2zM23,13h1v1h-1zM25,13h7v1h-7zM33,13h1v1h-1zM38,13h4v1h-4zM44,13h1v1h-1zM4,14h1v1h-1zM6,14h1v1h-1zM8,14h4v1h-4zM13,14h1v1h-1zM16,14h3v1h-3zM22,14h1v1h-1zM24,14h2v1h-2zM28,14h4v1h-4zM33,14h1v1h-1zM36,14h1v1h-1zM40,14h1v1h-1zM44,14h1v1h-1zM4,15h1v1h-1zM8,15h2v1h-2zM11,15h1v1h-1zM14,15h1v1h-1zM19,15h1v1h-1zM21,15h2v1h-2zM24,15h2v1h-2zM27,15h1v1h-1zM29,15h3v1h-3zM33,15h1v1h-1zM35,15h3v1h-3zM40,15h2v1h-2zM44,15h1v1h-1zM4,16h1v1h-1zM6,16h1v1h-1zM8,16h3v1h-3zM12,16h5v1h-5zM19,16h1v1h-1zM25,16h3v1h-3zM29,16h1v1h-1zM33,16h1v1h-1zM37,16h3v1h-3zM44,16h1v1h-1zM5,17h2v1h-2zM9,17h1v1h-1zM11,17h3v1h-3zM15,17h1v1h-1zM17,17h2v1h-2zM20,17h1v1h-1zM23,17h2v1h-2zM29,17h1v1h-1zM32,17h1v1h-1zM34,17h3v1h-3zM39,17h4v1h-4zM44,17h1v1h-1zM4,18h1v1h-1zM9,18h6v1h-6zM17,18h5v1h-5zM23,18h3v1h-3zM27,18h4v1h-4zM32,18h3v1h-3zM36,18h3v1h-3zM40,18h2v1h-2zM44,18h1v1h-1zM4,19h1v1h-1zM6,19h1v1h-1zM8,19h1v1h-1zM13,19h1v1h-1zM15,19h1v1h-1zM18,19h1v1h-1zM20,19h3v1h-3zM25,19h2v1h-2zM28,19h2v1h-2zM33,19h1v1h-1zM41,19h1v1h-1zM4,20h1v1h-1zM6,20h6v1h-6zM14,20h2v1h-2zM17,20h1v1h-1zM19,20h1v1h-1zM31,20h1v1h-1zM33,20h3v1h-3zM39,20h1v1h-1zM41,20h1v1h-1zM4,21h2v1h-2zM7,21h1v1h-1zM11,21h1v1h-1zM13,21h2v1h-2zM16,21h4v1h-4zM30,21h3v1h-3zM37,21h4v1h-4zM44,21h1v1h-1zM4,22h4v1h-4zM9,22h2v1h-2zM12,22h5v1h-5zM19,22h1v1h-1zM29,22h3v1h-3zM33,22h1v1h-1zM36,22h1v1h-1zM38,22h2v1h-2zM41,22h2v1h-2zM44,22h1v1h-1zM4,23h1v1h-1zM7,23h1v1h-1zM12,23h1v1h-1zM15,23h2v1h-2zM18,23h2v1h-2zM29,23h6v1h-6zM36,23h1v1h-1zM38,23h2v1h-2zM41,23h1v1h-1zM43,23h2v1h-2zM8,24h1v1h-1zM10,24h1v1h-1zM12,24h1v1h-1zM16,24h3v1h-3zM34,24h2v1h-2zM37,24h1v1h-1zM39,24h3v1h-3zM44,24h1v1h-1zM4,25h1v1h-1zM7,25h1v1h-1zM11,25h4v1h-4zM17,25h2v1h-2zM29,25h4v1h-4zM38,25h1v1h-1zM40,25h3v1h-3zM44,25h1v1h-1zM5,26h1v1h-1zM7,26h11v1h-11zM19,26h1v1h-1zM30,26h2v1h-2zM33,26h2v1h-2zM36,26h1v1h-1zM38,26h1v1h-1zM41,26h1v1h-1zM44,26h1v1h-1zM4,27h1v1h-1zM7,27h1v1h-1zM11,27h4v1h-4zM17,27h3v1h-3zM29,27h1v1h-1zM32,27h4v1h-4zM39,27h1v1h-1zM43,27h1v1h-1zM6,28h3v1h-3zM10,28h1v1h-1zM12,28h1v1h-1zM14,28h2v1h-2zM17,28h1v1h-1zM19,28h1v1h-1zM29,28h2v1h-2zM33,28h1v1h-1zM35,28h3v1h-3zM39,28h1v1h-1zM41,28h4v1h-4zM5,29h1v1h-1zM9,29h1v1h-1zM18,29h1v1h-1zM20,29h2v1h-2zM23,29h3v1h-3zM27,29h8v1h-8zM36,29h3v1h-3zM40,29h1v1h-1zM42,29h3v1h-3zM4,30h1v1h-1zM6,30h1v1h-1zM8,30h1v1h-1zM10,30h2v1h-2zM14,30h1v1h-1zM16,30h2v1h-2zM19,30h2v1h-2zM22,30h2v1h-2zM25,30h2v1h-2zM29,30h4v1h-4zM34,30h1v1h-1zM36,30h3v1h-3zM40,30h1v1h-1zM44,30h1v1h-1zM4,31h2v1h-2zM7,31h1v1h-1zM11,31h1v1h-1zM13,31h4v1h-4zM19,31h1v1h-1zM22,31h1v1h-1zM24,31h1v1h-1zM27,31h3v1h-3zM31,31h1v1h-1zM33,31h4v1h-4zM38,31h1v1h-1zM40,31h2v1h-2zM44,31h1v1h-1zM4,32h1v1h-1zM6,32h5v1h-5zM12,32h4v1h-4zM17,32h1v1h-1zM20,32h1v1h-1zM22,32h1v1h-1zM24,32h1v1h-1zM26,32h2v1h-2zM29,32h2v1h-2zM32,32h2v1h-2zM36,32h1v1h-1zM43,32h1v1h-1zM4,33h1v1h-1zM6,33h1v1h-1zM11,33h2v1h-2zM17,33h3v1h-3zM22,33h1v1h-1zM24,33h1v1h-1zM30,33h1v1h-1zM33,33h1v1h-1zM35,33h1v1h-1zM37,33h1v1h-1zM39,33h2v1h-2zM44,33h1v1h-1zM7,34h6v1h-6zM14,34h2v1h-2zM20,34h2v1h-2zM23,34h3v1h-3zM29,34h1v1h-1zM31,34h1v1h-1zM33,34h3v1h-3zM37,34h1v1h-1zM41,34h1v1h-1zM44,34h1v1h-1zM6,35h4v1h-4zM13,35h1v1h-1zM15,35h1v1h-1zM17,35h1v1h-1zM19,35h1v1h-1zM21,35h1v1h-1zM23,35h1v1h-1zM28,35h1v1h-1zM31,35h7v1h-7zM41,35h1v1h-1zM43,35h1v1h-1zM4,36h2v1h-2zM9,36h5v1h-5zM16,36h2v1h-2zM24,36h3v1h-3zM28,36h1v1h-1zM33,36h1v1h-1zM36,36h5v1h-5zM43,36h2v1h-2zM12,37h1v1h-1zM15,37h3v1h-3zM21,37h4v1h-4zM28,37h1v1h-1zM31,37h6v1h-6zM40,37h1v1h-1zM44,37h1v1h-1zM4,38h7v1h-7zM12,38h1v1h-1zM16,38h1v1h-1zM20,38h2v1h-2zM24,38h1v1h-1zM26,38h2v1h-2zM29,38h1v1h-1zM31,38h2v1h-2zM34,38h3v1h-3zM38,38h1v1h-1zM40,38h2v1h-2zM44,38h1v1h-1zM4,39h1v1h-1zM10,39h1v1h-1zM12,39h6v1h-6zM19,39h4v1h-4zM24,39h1v1h-1zM26,39h2v1h-2zM29,39h4v1h-4zM35,39h2v1h-2zM40,39h1v1h-1zM43,39h1v1h-1zM4,40h1v1h-1zM6,40h3v1h-3zM10,40h1v1h-1zM12,40h1v1h-1zM14,40h3v1h-3zM18,40h1v1h-1zM22,40h1v1h-1zM25,40h1v1h-1zM27,40h1v1h-1zM29,40h4v1h-4zM35,40h7v1h-7zM43,40h2v1h-2zM4,41h1v1h-1zM6,41h3v1h-3zM10,41h1v1h-1zM14,41h1v1h-1zM17,41h5v1h-5zM23,41h1v1h-1zM25,41h1v1h-1zM27,41h8v1h-8zM36,41h1v1h-1zM39,41h1v1h-1zM44,41h1v1h-1zM4,42h1v1h-1zM6,42h3v1h-3zM10,42h1v1h-1zM15,42h3v1h-3zM20,42h2v1h-2zM24,42h2v1h-2zM28,42h1v1h-1zM30,42h2v1h-2zM33,42h1v1h-1zM35,42h1v1h-1zM37,42h1v1h-1zM42,42h3v1h-3zM4,43h1v1h-1zM10,43h1v1h-1zM16,43h4v1h-4zM22,43h5v1h-5zM28,43h4v1h-4zM33,43h4v1h-4zM38,43h2v1h-2zM41,43h4v1h-4zM4,44h7v1h-7zM13,44h3v1h-3zM17,44h3v1h-3zM24,44h1v1h-1zM26,44h3v1h-3zM30,44h1v1h-1zM33,44h1v1h-1zM36,44h2v1h-2zM39,44h5v1h-5z" fill="#000000"/>
+      </svg>
+      <div class="qr-logo-wrap" aria-hidden="true">
+        <img class="qr-logo" src="./icons/logo.png" alt="">
+      </div>
+    </div>
+
+    <div class="qr-info">
+      <ul class="titles">
+        <li class="title-ja" lang="ja">はむ家 台南ローカルガイド</li>
+        <li class="title-zh" lang="zh-Hant">哈木家 台南在地指南</li>
+        <li class="title-en" lang="en">Hamuya Tainan Local Guide</li>
+        <li class="title-ko" lang="ko">하무야 타이난 로컬 가이드</li>
+      </ul>
+
+      <p class="scan-hint">Scan with your phone camera / スマホのカメラで読み取ってください</p>
+    </div>
+  </main>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./sw.js").catch(function () {});
+      });
+    }
+  </script>
+</body>
+</html>

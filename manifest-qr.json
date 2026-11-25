@@ -1,0 +1,26 @@
+{
+  "name": "はむ家 受付用QRコード | Hamuya Guest QR",
+  "short_name": "はむ家QR",
+  "description": "台南ゲストハウス「はむ家」宿泊ゲスト用ローカルガイドの受付提示用QRコード画面",
+  "start_url": "./qr.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FAF6F0",
+  "theme_color": "#FAF6F0",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
