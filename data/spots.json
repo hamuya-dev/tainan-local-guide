@@ -3291,7 +3291,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "youtube_url": "https://www.youtube.com/watch?v=RJdnztaRJ3Q"
   },
   {
     "id": "mega-pxmart-tainan",
@@ -3332,6 +3333,131 @@
       "en": "",
       "ko": ""
     },
+    "is_active": true
+  },
+  {
+    "id": "anping-fort-tainan",
+    "category": "sightseeing",
+    "time_slots": [
+      "morning",
+      "lunch"
+    ],
+    "distance": "bike_far",
+    "tags": [
+      "first_tainan",
+      "retro"
+    ],
+    "hamu_pick": false,
+    "name": {
+      "zh": "安平古堡",
+      "ja": "安平古堡（アンピングーバオ）",
+      "en": "Anping Fort",
+      "ko": "안핑구바오 (安平古堡)"
+    },
+    "owner_note": {
+      "ja": "17世紀のオランダ統治時代に築かれた「ゼーランディア城（熱蘭遮城）」の遺跡が残る、台湾最古の城跡スポットです。赤いレンガの城壁や展望台から安平の街並みを一望でき、安平老街・安平樹屋と合わせて半日散歩にぴったり（8:30〜17:30・入場料70元）。はむ家からはバスやタクシー、自転車でのアクセスが便利です。",
+      "zh": "源自17世紀荷蘭時期「熱蘭遮城」遺址的台灣最古老城堡古蹟！紅磚城牆與瞭望台能俯瞰安平街景，非常適合與附近的安平老街、安平樹屋安排成安平半日散步路線（每日08:30～17:30開放、全票70元）。從哈木家建議搭公車、計程車或騎車前往。",
+      "en": "Taiwan's oldest fortress site, originally built as Fort Zeelandia during the 17th-century Dutch era. Climb the lookout tower for views over Anping and pair it with nearby Anping Old Street and Anping Tree House for a classic half-day stroll (open daily 8:30 AM–5:30 PM, NT$70 admission; best reached by bus, taxi, or bike from Hamuya).",
+      "ko": "17세기 네덜란드 통치 시절 지어진 질란디아 요새(열란차성) 유적이 남아 있는 대만에서 가장 오래된 고성입니다. 붉은 벽돌 성벽과 전망대에서 안핑 시내를 조망할 수 있으며, 안핑 라오제·안핑 트리하우스와 함께 반나절 산책 코스로 딱 좋습니다(매일 08:30~17:30, 입장료 NT$70, 하무야에서 버스·택시·자전거 추천)."
+    },
+    "point_and_order": {
+      "zh": "請問要買安平古堡全票，謝謝！",
+      "ja": "安平古堡の一般チケット（全票）を購入したいです。ありがとうございます！",
+      "en": "I'd like to buy a regular admission ticket for Anping Fort, please. Thank you!",
+      "ko": "안핑구바오 일반 입장권 구매할게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%B9%B3%E5%8F%A4%E5%A0%A1+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "youtube_url": "https://www.youtube.com/watch?v=RJdnztaRJ3Q",
+    "is_active": true
+  },
+  {
+    "id": "anping-old-street-tainan",
+    "category": "sightseeing",
+    "time_slots": [
+      "morning",
+      "lunch",
+      "dinner"
+    ],
+    "distance": "bike_far",
+    "tags": [
+      "first_tainan",
+      "retro",
+      "solo_ok"
+    ],
+    "hamu_pick": false,
+    "name": {
+      "zh": "安平老街",
+      "ja": "安平老街（アンピンラオジエ・延平街）",
+      "en": "Anping Old Street",
+      "ko": "안핑 라오제 (安平老街)"
+    },
+    "owner_note": {
+      "ja": "「台湾第一街」とも呼ばれる安平エリアの賑やかなレトロ商店街です！名物の蜜餞（ドライフルーツ）やえびせん、安平豆花などの食べ歩き・お土産探しに最適で、少し路地へ入ると昔ながらの赤レンガの街並みや劍獅（魔除けの獅子）探しも楽しめます（店舗は主に9:00〜19:00頃営業・入場無料）。",
+      "zh": "有「台灣第一街」之稱的安平熱鬧老街（延平街）！沿途集結蜜餞、蝦餅與各式台南古早味小吃，非常適合邊逛邊吃兼買伴手禮；轉進巷弄還能欣賞紅磚老屋並尋找安平特色劍獅（街道全天開放免門票，店家約09:00～19:00營業）。",
+      "en": "Known as Taiwan's oldest street (Yanping St.), this lively historic lane in Anping is packed with traditional snacks like candied fruit, shrimp crackers, and souvenirs. Duck into the side alleys to spot old red-brick houses and traditional sword-lion guardians (street open 24/7, free entry; most shops open roughly 9:00 AM–7:00 PM).",
+      "ko": "대만 최초의 거리로 불리는 안핑의 활기찬 옛 거리(옌핑제)입니다! 말린 과일, 새우칩 등 먹거리와 기념품 쇼핑에 좋으며, 골목 안쪽으로 들어가면 붉은 벽돌 옛집과 안핑 특유의 검 사자(젠스) 장식을 찾는 재미도 쏠쏠합니다(거리 상시 개방·무료, 상점은 주로 09:00~19:00 영업)."
+    },
+    "point_and_order": {
+      "zh": "請問安平老街往這邊走嗎？謝謝！",
+      "ja": "安平老街はこちらの方向で合っていますか？ありがとうございます！",
+      "en": "Is this the right way to Anping Old Street? Thank you!",
+      "ko": "안핑 라오제로 가는 길이 이쪽이 맞나요? 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%B9%B3%E8%80%81%E8%A1%97+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "youtube_url": "https://www.youtube.com/watch?v=RJdnztaRJ3Q",
+    "is_active": true
+  },
+  {
+    "id": "anping-tree-house-tainan",
+    "category": "sightseeing",
+    "time_slots": [
+      "morning",
+      "lunch"
+    ],
+    "distance": "bike_far",
+    "tags": [
+      "first_tainan",
+      "retro"
+    ],
+    "hamu_pick": false,
+    "name": {
+      "zh": "安平樹屋",
+      "ja": "安平樹屋（アンピンシューウー）",
+      "en": "Anping Tree House",
+      "ko": "안핑 트리하우스 (安平樹屋)"
+    },
+    "owner_note": {
+      "ja": "古い洋行倉庫を巨大なガジュマルの気根が覆い尽くした、まるでジブリの世界のような幻想的な人気スポットです！敷地内には真っ白な洋館「英商德記洋行」や「朱玖瑩故居」もあり、共通チケット（70元）で一緒に見学できます（8:30〜17:30）。安平古堡や安平老街から徒歩すぐなのでセット観光がおすすめです。",
+      "zh": "由老倉庫與巨大榕樹氣根共生交織而成的夢幻打卡景點！園區內還包含純白洋樓「英商德記洋行」與「朱玖瑩故居」，一張門票（全票70元）就能一次參觀三處（每日08:30～17:30開放）。距離安平古堡與安平老街步行即可到達，非常推薦順遊。",
+      "en": "A surreal, atmospheric historic warehouse completely enveloped by sprawling banyan tree roots! Admission (NT$70) also includes the adjacent white colonial Former Tait & Co. Merchant House and Zhu Jiuying Residence (open daily 8:30 AM–5:30 PM). Just a short walk from Anping Fort and Anping Old Street.",
+      "ko": "오래된 창고를 거대한 반얀나무(용수나무) 뿌리가 뒤덮어 신비로운 분위기를 자아내는 인기 명소입니다! 같은 구역 안의 하얀 양관 '덕기양행'과 '주구영 고택'까지 티켓 한 장(일반 NT$70)으로 함께 둘러볼 수 있습니다(매일 08:30~17:30). 안핑구바오·안핑 라오제에서 도보로 가까워 함께 방문하기 좋습니다."
+    },
+    "point_and_order": {
+      "zh": "請問要買安平樹屋全票，謝謝！",
+      "ja": "安平樹屋の一般チケット（全票）を購入したいです。ありがとうございます！",
+      "en": "I'd like to buy a regular admission ticket for Anping Tree House, please. Thank you!",
+      "ko": "안핑 트리하우스 일반 입장권 구매할게요. 감사합니다!"
+    },
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%B9%B3%E6%A8%B9%E5%B1%8B+%E5%8F%B0%E5%8D%97",
+    "blog_url": {
+      "ja": "",
+      "zh": "",
+      "en": "",
+      "ko": ""
+    },
+    "youtube_url": "https://www.youtube.com/watch?v=RJdnztaRJ3Q",
     "is_active": true
   }
 ]
