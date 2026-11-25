@@ -1103,6 +1103,17 @@
     }
   }
 
+  function shuffleSpots(list) {
+    const arr = list.slice();
+    for (let i = arr.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = tmp;
+    }
+    return arr;
+  }
+
   async function loadSpots() {
     if (!state.isAuthenticated) return;
     state.loadError = false;
@@ -1111,7 +1122,7 @@
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       if (!Array.isArray(data)) throw new Error("Invalid spots data");
-      state.spots = data;
+      state.spots = shuffleSpots(data);
       state.spotsLoaded = true;
     } catch (err) {
       console.error("Failed to load spots.json:", err);
