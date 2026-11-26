@@ -159,10 +159,6 @@
       resultsCount: (n) => `共 ${n} 個推薦地點`,
       resetInline: "清除篩選",
       ownerNoteLabel: "哈木家私房筆記",
-      pointOrderLabel: "點餐小卡",
-      pointExpand: "放大顯示",
-      pointModalBadge: "可直接給店員看",
-      pointModalClose: "關閉",
       openMaps: "開啟 Google 地圖",
       readBlog: "閱讀部落格介紹",
       watchYoutube: "看 YouTube 影片",
@@ -1029,11 +1025,11 @@
       card.appendChild(noteBox);
     }
 
-    // Point & Order Card
+    // Point & Order Card (for non-zh-TW languages only; zh-TW users do not need point-and-order)
     const zhPhrase = (spot.point_and_order && spot.point_and_order.zh ? spot.point_and_order.zh : "").trim();
     const translatedPhrase = (spot.point_and_order && spot.point_and_order[dataKey] ? spot.point_and_order[dataKey] : "").trim();
 
-    if (zhPhrase) {
+    if (state.lang !== "zh-TW" && zhPhrase) {
       const pointBox = document.createElement("div");
       pointBox.className = "point-order-box";
 
@@ -1137,6 +1133,7 @@
   }
 
   function openPointModal(spot) {
+    if (state.lang === "zh-TW") return;
     trackSpotView(spot);
     state.modalSpotId = spot.id;
     renderPointModal(spot);
@@ -1327,10 +1324,14 @@
       dom.spotsContainer.appendChild(frag);
     }
 
-    // Update open modal if language changed
+    // Update or close open modal if language changed
     if (state.modalSpotId && !dom.pointModal.hidden) {
-      const activeSpot = state.spots.find((s) => s.id === state.modalSpotId);
-      if (activeSpot) renderPointModal(activeSpot);
+      if (state.lang === "zh-TW") {
+        closePointModal();
+      } else {
+        const activeSpot = state.spots.find((s) => s.id === state.modalSpotId);
+        if (activeSpot) renderPointModal(activeSpot);
+      }
     }
   }
 
