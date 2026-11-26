@@ -355,7 +355,6 @@
   const dom = {
     appTitle: document.getElementById("app-title"),
     appSubtitle: document.getElementById("app-subtitle"),
-    promoBetaBadge: document.getElementById("promo-beta-badge"),
     headerBookingBtn: document.getElementById("header-booking-btn"),
     scrollToTopBtn: document.getElementById("scroll-to-top-btn"),
     langButtons: Array.from(document.querySelectorAll(".lang-btn")),
@@ -1199,10 +1198,6 @@
     dom.appTitle.textContent = t.appTitle;
     dom.appSubtitle.textContent = t.appSubtitle;
     const isPromoMode = state.isAuthenticated && state.authType === "promo";
-    if (dom.promoBetaBadge) {
-      dom.promoBetaBadge.textContent = "BETA";
-      dom.promoBetaBadge.hidden = !isPromoMode;
-    }
     if (dom.headerBookingBtn) {
       dom.headerBookingBtn.textContent = t.headerBooking;
       dom.headerBookingBtn.hidden = !isPromoMode;
