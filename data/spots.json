@@ -3494,7 +3494,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "tainan-xiandoujiang-spot",
@@ -3563,7 +3564,8 @@
       "en": "",
       "ko": ""
     },
-    "is_active": true
+    "is_active": true,
+    "hamu_pick": true
   },
   {
     "id": "shibaji-xiaojuchang-tainan",
